@@ -1,0 +1,23 @@
+Code;Description;Color
+ALA;Alanine;#FFE4C4
+ARG;Arginine;#0000FF
+ASN;Asparagine;#DEB887
+ASP;Aspartate;#7FFF00
+ASX;Aspartate or Asparagine;#D2691E
+CYS;Cysteine;#008B8B
+GLU;Glutamate;#8FBC8F
+GLN;Glutamine;#00CED1
+GLX;Glutamate or Glutamine;#B22222
+GLY;Glycine;#228B22
+HIS;Histidine;#FF00FF
+ILE;Isoleucine;#ADD8E6
+LEU;Leucine;#00FF00
+LYS;Lysine;#7B68EE
+MET;Methionine;#00FA9A
+PHE;Phenylalanine;#C71585
+PRO;Proline;#191970
+SER;Serine;#DA70D6
+THR;Threonine;#FA8072
+TRP;Tryptophan;#708090
+TYR;Tyrosine;#F5F5F5
+VAL;Valine;#FFFF00

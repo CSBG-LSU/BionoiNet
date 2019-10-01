@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -q k40
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=72:00:00
+#PBS -N bionoi_heme_nucleotide_cv
+#PBS -A loni_bionoi01
+#PBS -j oe
+
+module purge
+source activate pytorch
+cd /work/wshi6/deeplearning-data/bionoi_prj/bionois_transfer_learning/
+python transfer_learning_cnn_cv.py > ./log/heme_vs_nucleotide_cv.log 2>&1
+
+
+

@@ -1,0 +1,54 @@
+# adapted from http://chemyang.ccnu.edu.cn/ccb/server/AIMMS/mol2.pdf
+Code;Definition;Color
+Al;aluminum;#F4A460
+Any;any atom;#00000
+Br;bromine;#966FD6
+C.1;carbon sp;#91BF91
+C.2;carbon sp2;#00CC00
+C.3;carbon sp3;#006600
+C.ar;carbon aromatic LP lone pair;#009900
+C.cat;carbocation (C+) used only in a guadinium group;#00FF00
+Ca;calcium;#F4A460
+Cl;chlorine;#966FD6
+Co.oh;cobalt (octahedral);#F4A460
+Cr.oh;chromium (octahedral);#F4A460
+Cr.th;chromium (tetrahedral);#F4A460
+Cu;copper;#F4A460
+Du;dummy atom;ASSIGN A COLOR
+Du.C;dummy carbon;ASSIGN A COLOR
+F;fluorine;#966FD6
+Fe;iron;#F4A460
+H;hydrogen;#FFFFF
+H.spc;hydrogen in Single Point Charge (SPC) water model;#FFFFF
+H.t3p;hydrogen in Transferable intermolecular Potential(TIP3P) water model;#FFFFF
+Hal;halogen;#00FFEF
+Het;heteroatom = N, O, S, P;ASSIGN A COLOR
+Hev;heavy atom (non hydrogen);ASSIGN A COLOR
+I;iodine;#966FD6
+K;potassium;#F4A460
+Li;lithium;#F4A460
+Mg;magnesium;#F4A460
+Mn;manganese;#F4A460
+Mo;molybdenum;#F4A460
+N.1;nitrogen sp; #0000CC
+N.2;nitrogen sp2;#0000CC
+N.3;nitrogen sp3;#000066
+N.4;nitrogen sp3 positively charged; #0000CC
+N.am;nitrogen amide;#3333FF
+N.ar;nitrogen aromatic;#000099
+N.pl3;nitrogen trigonal planar;#6666FF
+Na;sodium;#F4A460
+O.2;oxygen sp2;#C00000
+O.3;oxygen sp3;#660000
+O.co2;oxygen in carboxylate and phosphate groups;#FF9999
+O.spc;oxygen in Single Point Charge (SPC) water model;#660000
+O.t3p;oxygen in Transferable Intermolecular Potential (TIP3P) water model;#660000
+P.3;phosphorous sp3;#FF6FFF
+S.2;sulfur sp2;#666600
+S.3;sulfur sp3;#666600
+S.O;sulfoxide sulfur;#666600
+S.O2;sulfone sulfur;#666600
+Se;selenium;#F4A460
+Si;silicon;ASSIGN A COLOR
+Sn;tin;#F4A460
+Zn;zinc;#F4A460
