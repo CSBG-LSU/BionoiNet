@@ -64,7 +64,7 @@ python inference.py -op control_vs_nucleotide -data_dir_control_vs_nucleotide
 ### Generating saliency maps and heatmaps 
 A pipepline which contains code from two repos is used to generated the significance scores for atoms. The pipeline is illustrated in the following figure. Note that the red letter "Bionoi" indicates that the corresponding code is from [Bionoi](https://github.com/CSBG-LSU/bionoi).   
 
-![](https://github.com/wentaoveggiebird/bionoi_transfer_learning/blob/master/images/atom-score-pipeline.png)
+![](https://github.com/CSBG-LSU/BionoiNet/blob/master/bionoi_cnn/images/atom-score-pipeline.png)
 
 * saliency_visual.py: generate a saliency map for an image to find the "implicit attention" that the neural networks are paying to, and visualize it. We use this module to see which part of the protein is important to the neural network to distinguish them. The input of the program should contain the classification task, index of the target image, and the directories of data and trained model.
 Usage:
