@@ -89,5 +89,3 @@ Usage:
 ```
 python saliency_combine.py -op control_vs_nucleotide
 ```
-
-## Cite our work
