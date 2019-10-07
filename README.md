@@ -1,5 +1,5 @@
 # BionoiNet
-A deep learning-based framework for ligand-binding site classification.
+A deep learning-based framework for ligand-binding sites classification.
 
 ## Folders
 * bionoi: a software that converts ligand-binding sites (.mol2 files) into Voronoi diagrams.
