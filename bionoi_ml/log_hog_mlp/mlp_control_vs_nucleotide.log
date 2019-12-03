@@ -1,0 +1,931 @@
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+----------------------------------------------
+1th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv1/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv1/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv1/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv1/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.69846924
+Iteration 2, loss = 0.68319959
+Iteration 3, loss = 0.68092561
+Iteration 4, loss = 0.67991845
+Iteration 5, loss = 0.67935642
+Iteration 6, loss = 0.67836342
+Iteration 7, loss = 0.67778637
+Iteration 8, loss = 0.67717919
+Iteration 9, loss = 0.67705012
+Iteration 10, loss = 0.67679083
+Iteration 11, loss = 0.67602110
+Iteration 12, loss = 0.67445242
+Iteration 13, loss = 0.67431746
+Iteration 14, loss = 0.67354407
+Iteration 15, loss = 0.67349170
+Iteration 16, loss = 0.67203600
+Iteration 17, loss = 0.67139699
+Iteration 18, loss = 0.67079781
+Iteration 19, loss = 0.67059214
+Iteration 20, loss = 0.66943609
+Iteration 21, loss = 0.66990338
+Iteration 22, loss = 0.66876122
+Iteration 23, loss = 0.66838969
+Iteration 24, loss = 0.66833795
+Iteration 25, loss = 0.66776078
+Iteration 26, loss = 0.66736510
+Iteration 27, loss = 0.66713801
+Iteration 28, loss = 0.66671082
+Iteration 29, loss = 0.66668546
+Iteration 30, loss = 0.66601005
+Iteration 31, loss = 0.66612584
+Iteration 32, loss = 0.66682679
+Iteration 33, loss = 0.66538337
+Iteration 34, loss = 0.66576201
+Iteration 35, loss = 0.66521835
+Iteration 36, loss = 0.66468819
+Iteration 37, loss = 0.66516117
+Iteration 38, loss = 0.66456015
+Iteration 39, loss = 0.66476272
+Iteration 40, loss = 0.66434530
+Iteration 41, loss = 0.66422791
+Iteration 42, loss = 0.66455944
+Iteration 43, loss = 0.66429314
+Iteration 44, loss = 0.66378009
+Iteration 45, loss = 0.66365098
+Iteration 46, loss = 0.66457601
+Iteration 47, loss = 0.66313942
+Iteration 48, loss = 0.66360246
+Iteration 49, loss = 0.66338218
+Iteration 50, loss = 0.66220490
+Iteration 51, loss = 0.66342685
+Iteration 52, loss = 0.66333007
+Iteration 53, loss = 0.66233406
+Iteration 54, loss = 0.66360228
+Iteration 55, loss = 0.66243542
+Iteration 56, loss = 0.66231867
+Iteration 57, loss = 0.66199608
+Iteration 58, loss = 0.66267616
+Iteration 59, loss = 0.66239163
+Iteration 60, loss = 0.66282291
+Iteration 61, loss = 0.66306789
+Iteration 62, loss = 0.66265492
+Iteration 63, loss = 0.66242925
+Iteration 64, loss = 0.66301155
+Iteration 65, loss = 0.66215466
+Iteration 66, loss = 0.66270467
+Iteration 67, loss = 0.66212123
+Iteration 68, loss = 0.66192906
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]
+----------------------------------------------
+2th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv2/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv2/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv2/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv2/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.70192098
+Iteration 2, loss = 0.68730206
+Iteration 3, loss = 0.68716776
+Iteration 4, loss = 0.68713436
+Iteration 5, loss = 0.68708352
+Iteration 6, loss = 0.68700883
+Iteration 7, loss = 0.68703531
+Iteration 8, loss = 0.68697573
+Iteration 9, loss = 0.68697029
+Iteration 10, loss = 0.68691517
+Iteration 11, loss = 0.68693252
+Iteration 12, loss = 0.68696465
+Iteration 13, loss = 0.68692558
+Iteration 14, loss = 0.68719323
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]
+----------------------------------------------
+3th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv3/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv3/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv3/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv3/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.70068260
+Iteration 2, loss = 0.68733119
+Iteration 3, loss = 0.68722118
+Iteration 4, loss = 0.68715718
+Iteration 5, loss = 0.68704424
+Iteration 6, loss = 0.68705634
+Iteration 7, loss = 0.68698996
+Iteration 8, loss = 0.68694702
+Iteration 9, loss = 0.68693792
+Iteration 10, loss = 0.68695457
+Iteration 11, loss = 0.68691114
+Iteration 12, loss = 0.68690849
+Iteration 13, loss = 0.68691322
+Iteration 14, loss = 0.68694247
+Iteration 15, loss = 0.68693834
+Iteration 16, loss = 0.68693857
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]
+----------------------------------------------
+4th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv4/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv4/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv4/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv4/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.69993050
+Iteration 2, loss = 0.68728644
+Iteration 3, loss = 0.68716810
+Iteration 4, loss = 0.68706235
+Iteration 5, loss = 0.68705309
+Iteration 6, loss = 0.68701489
+Iteration 7, loss = 0.68698503
+Iteration 8, loss = 0.68696013
+Iteration 9, loss = 0.68693480
+Iteration 10, loss = 0.68696567
+Iteration 11, loss = 0.68690455
+Iteration 12, loss = 0.68694452
+Iteration 13, loss = 0.68692677
+Iteration 14, loss = 0.68687907
+Iteration 15, loss = 0.68689522
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]
+----------------------------------------------
+5th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv5/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv5/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv5/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv5/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.70098681
+Iteration 2, loss = 0.68390696
+Iteration 3, loss = 0.68139044
+Iteration 4, loss = 0.68067271
+Iteration 5, loss = 0.67944315
+Iteration 6, loss = 0.67901244
+Iteration 7, loss = 0.67830283
+Iteration 8, loss = 0.67787358
+Iteration 9, loss = 0.67756155
+Iteration 10, loss = 0.67727700
+Iteration 11, loss = 0.67696439
+Iteration 12, loss = 0.67676552
+Iteration 13, loss = 0.67659771
+Iteration 14, loss = 0.67706136
+Iteration 15, loss = 0.67616109
+Iteration 16, loss = 0.67613456
+Iteration 17, loss = 0.67592456
+Iteration 18, loss = 0.67571713
+Iteration 19, loss = 0.67590426
+Iteration 20, loss = 0.67597519
+Iteration 21, loss = 0.67539563
+Iteration 22, loss = 0.67511961
+Iteration 23, loss = 0.67509805
+Iteration 24, loss = 0.67505685
+Iteration 25, loss = 0.67497549
+Iteration 26, loss = 0.67484091
+Iteration 27, loss = 0.67486754
+Iteration 28, loss = 0.67453628
+Iteration 29, loss = 0.67470186
+Iteration 30, loss = 0.67451766
+Iteration 31, loss = 0.67439275
+Iteration 32, loss = 0.67465658
+Iteration 33, loss = 0.67443973
+Iteration 34, loss = 0.67420351
+Iteration 35, loss = 0.67421154
+Iteration 36, loss = 0.67376427
+Iteration 37, loss = 0.67425186
+Iteration 38, loss = 0.67386464
+Iteration 39, loss = 0.67358116
+Iteration 40, loss = 0.67415398
+Iteration 41, loss = 0.67368459
+Iteration 42, loss = 0.67406030
+Iteration 43, loss = 0.67370729
+Iteration 44, loss = 0.67374112
+Iteration 45, loss = 0.67346702
+Iteration 46, loss = 0.67361722
+Iteration 47, loss = 0.67347486
+Iteration 48, loss = 0.67343750
+Iteration 49, loss = 0.67376155
+Iteration 50, loss = 0.67342005
+Iteration 51, loss = 0.67337145
+Iteration 52, loss = 0.67350391
+Iteration 53, loss = 0.67347964
+Iteration 54, loss = 0.67339587
+Iteration 55, loss = 0.67296351
+Iteration 56, loss = 0.67368327
+Iteration 57, loss = 0.67329649
+Iteration 58, loss = 0.67322302
+Iteration 59, loss = 0.67324096
+Iteration 60, loss = 0.67335480
+Iteration 61, loss = 0.67311040
+Iteration 62, loss = 0.67307197
+Iteration 63, loss = 0.67304690
+Iteration 64, loss = 0.67281291
+Iteration 65, loss = 0.67273566
+Iteration 66, loss = 0.67289235
+Iteration 67, loss = 0.67272980
+Iteration 68, loss = 0.67269272
+Iteration 69, loss = 0.67268707
+Iteration 70, loss = 0.67264728
+Iteration 71, loss = 0.67275463
+Iteration 72, loss = 0.67281548
+Iteration 73, loss = 0.67270001
+Iteration 74, loss = 0.67252131
+Iteration 75, loss = 0.67257718
+Iteration 76, loss = 0.67267644
+Iteration 77, loss = 0.67251602
+Iteration 78, loss = 0.67283145
+Iteration 79, loss = 0.67260859
+Iteration 80, loss = 0.67254323
+Iteration 81, loss = 0.67225897
+Iteration 82, loss = 0.67232932
+Iteration 83, loss = 0.67253751
+Iteration 84, loss = 0.67245184
+Iteration 85, loss = 0.67278030
+Iteration 86, loss = 0.67265868
+Iteration 87, loss = 0.67246498
+Iteration 88, loss = 0.67224813
+Iteration 89, loss = 0.67218417
+Iteration 90, loss = 0.67277013
+Iteration 91, loss = 0.67221069
+Iteration 92, loss = 0.67228828
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]
+----------------------------------------------
+6th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv6/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv6/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv6/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv6/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.71529943
+Iteration 2, loss = 0.68744103
+Iteration 3, loss = 0.68725470
+Iteration 4, loss = 0.68715539
+Iteration 5, loss = 0.68715491
+Iteration 6, loss = 0.68709422
+Iteration 7, loss = 0.68705467
+Iteration 8, loss = 0.68702511
+Iteration 9, loss = 0.68693437
+Iteration 10, loss = 0.68693950
+Iteration 11, loss = 0.68693263
+Iteration 12, loss = 0.68701035
+Iteration 13, loss = 0.68694089
+Iteration 14, loss = 0.68688865
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]
+----------------------------------------------
+7th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv7/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv7/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv7/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv7/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.70109224
+Iteration 2, loss = 0.68731813
+Iteration 3, loss = 0.68720099
+Iteration 4, loss = 0.68711029
+Iteration 5, loss = 0.68707223
+Iteration 6, loss = 0.68704089
+Iteration 7, loss = 0.68699923
+Iteration 8, loss = 0.68697102
+Iteration 9, loss = 0.68696980
+Iteration 10, loss = 0.68692561
+Iteration 11, loss = 0.68691948
+Iteration 12, loss = 0.68690722
+Iteration 13, loss = 0.68690467
+Iteration 14, loss = 0.68692451
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]
+----------------------------------------------
+8th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv8/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv8/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv8/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv8/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.70094541
+Iteration 2, loss = 0.68710705
+Iteration 3, loss = 0.68697182
+Iteration 4, loss = 0.68719329
+Iteration 5, loss = 0.68711744
+Iteration 6, loss = 0.68704794
+Iteration 7, loss = 0.68699954
+Iteration 8, loss = 0.68695484
+Iteration 9, loss = 0.68694667
+Iteration 10, loss = 0.68693311
+Iteration 11, loss = 0.68696016
+Iteration 12, loss = 0.68701750
+Iteration 13, loss = 0.68699377
+Iteration 14, loss = 0.68692036
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]
+----------------------------------------------
+9th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv9/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv9/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv9/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv9/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.70225648
+Iteration 2, loss = 0.68515699
+Iteration 3, loss = 0.68212291
+Iteration 4, loss = 0.68044797
+Iteration 5, loss = 0.68004665
+Iteration 6, loss = 0.67897504
+Iteration 7, loss = 0.67806966
+Iteration 8, loss = 0.67825536
+Iteration 9, loss = 0.67730075
+Iteration 10, loss = 0.67724447
+Iteration 11, loss = 0.67695601
+Iteration 12, loss = 0.67659636
+Iteration 13, loss = 0.67617159
+Iteration 14, loss = 0.67640394
+Iteration 15, loss = 0.67602797
+Iteration 16, loss = 0.67601338
+Iteration 17, loss = 0.67536941
+Iteration 18, loss = 0.67559063
+Iteration 19, loss = 0.67523606
+Iteration 20, loss = 0.67527065
+Iteration 21, loss = 0.67516494
+Iteration 22, loss = 0.67479503
+Iteration 23, loss = 0.67474759
+Iteration 24, loss = 0.67477588
+Iteration 25, loss = 0.67464601
+Iteration 26, loss = 0.67457445
+Iteration 27, loss = 0.67433541
+Iteration 28, loss = 0.67411804
+Iteration 29, loss = 0.67397408
+Iteration 30, loss = 0.67415142
+Iteration 31, loss = 0.67402787
+Iteration 32, loss = 0.67388988
+Iteration 33, loss = 0.67431530
+Iteration 34, loss = 0.67401292
+Iteration 35, loss = 0.67393801
+Iteration 36, loss = 0.67368403
+Iteration 37, loss = 0.67361441
+Iteration 38, loss = 0.67354841
+Iteration 39, loss = 0.67350562
+Iteration 40, loss = 0.67340175
+Iteration 41, loss = 0.67368826
+Iteration 42, loss = 0.67323699
+Iteration 43, loss = 0.67337115
+Iteration 44, loss = 0.67355591
+Iteration 45, loss = 0.67361421
+Iteration 46, loss = 0.67312388
+Iteration 47, loss = 0.67329808
+Iteration 48, loss = 0.67300306
+Iteration 49, loss = 0.67319557
+Iteration 50, loss = 0.67326053
+Iteration 51, loss = 0.67278955
+Iteration 52, loss = 0.67294423
+Iteration 53, loss = 0.67273960
+Iteration 54, loss = 0.67301607
+Iteration 55, loss = 0.67287395
+Iteration 56, loss = 0.67311245
+Iteration 57, loss = 0.67283724
+Iteration 58, loss = 0.67238260
+Iteration 59, loss = 0.67261571
+Iteration 60, loss = 0.67252043
+Iteration 61, loss = 0.67232549
+Iteration 62, loss = 0.67241929
+Iteration 63, loss = 0.67254760
+Iteration 64, loss = 0.67220646
+Iteration 65, loss = 0.67207869
+Iteration 66, loss = 0.67273808
+Iteration 67, loss = 0.67224640
+Iteration 68, loss = 0.67223977
+Iteration 69, loss = 0.67203342
+Iteration 70, loss = 0.67206100
+Iteration 71, loss = 0.67206817
+Iteration 72, loss = 0.67176753
+Iteration 73, loss = 0.67237242
+Iteration 74, loss = 0.67215466
+Iteration 75, loss = 0.67163790
+Iteration 76, loss = 0.67178182
+Iteration 77, loss = 0.67199121
+Iteration 78, loss = 0.67180170
+Iteration 79, loss = 0.67203129
+Iteration 80, loss = 0.67174880
+Iteration 81, loss = 0.67161251
+Iteration 82, loss = 0.67162721
+Iteration 83, loss = 0.67186361
+Iteration 84, loss = 0.67117112
+Iteration 85, loss = 0.67154001
+Iteration 86, loss = 0.67154589
+Iteration 87, loss = 0.67181868
+Iteration 88, loss = 0.67175879
+Iteration 89, loss = 0.67135621
+Iteration 90, loss = 0.67149961
+Iteration 91, loss = 0.67128245
+Iteration 92, loss = 0.67135095
+Iteration 93, loss = 0.67157955
+Iteration 94, loss = 0.67139170
+Iteration 95, loss = 0.67148303
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]
+----------------------------------------------
+10th fold cross-validation
+integrating files of  ../control_vs_nucleotide_ft_cv/cv10/train/control/
+number of files: 84096
+size of feature vector: 2048
+size of feature matrix: (84096, 2048)
+size of label vector: (84096,)
+size of training data of control class:(84096, 2048)
+number of training data points of control:84096
+integrating files of  ../control_vs_nucleotide_ft_cv/cv10/train/nucleotide/
+number of files: 67104
+size of feature vector: 2048
+size of feature matrix: (67104, 2048)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 2048)
+number of training data points of nucleotide:67104
+integrating files of  ../control_vs_nucleotide_ft_cv/cv10/val/control/
+number of files: 9312
+size of feature vector: 2048
+size of feature matrix: (9312, 2048)
+size of label vector: (9312,)
+size of val data of control class:(9312, 2048)
+number of val data points of control:9312
+integrating files of  ../control_vs_nucleotide_ft_cv/cv10/val/nucleotide/
+number of files: 7440
+size of feature vector: 2048
+size of feature matrix: (7440, 2048)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 2048)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 2048)
+shape of y_train: (151200,)
+shape of X_val: (16752, 2048)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.70296774
+Iteration 2, loss = 0.68625217
+Iteration 3, loss = 0.68374094
+Iteration 4, loss = 0.68109361
+Iteration 5, loss = 0.68021848
+Iteration 6, loss = 0.67899794
+Iteration 7, loss = 0.67787082
+Iteration 8, loss = 0.67767981
+Iteration 9, loss = 0.67723830
+Iteration 10, loss = 0.67646791
+Iteration 11, loss = 0.67596494
+Iteration 12, loss = 0.67594586
+Iteration 13, loss = 0.67571780
+Iteration 14, loss = 0.67582312
+Iteration 15, loss = 0.67597881
+Iteration 16, loss = 0.67529344
+Iteration 17, loss = 0.67515016
+Iteration 18, loss = 0.67488494
+Iteration 19, loss = 0.67470785
+Iteration 20, loss = 0.67458447
+Iteration 21, loss = 0.67481883
+Iteration 22, loss = 0.67446921
+Iteration 23, loss = 0.67422505
+Iteration 24, loss = 0.67403325
+Iteration 25, loss = 0.67398405
+Iteration 26, loss = 0.67404442
+Iteration 27, loss = 0.67389274
+Iteration 28, loss = 0.67382019
+Iteration 29, loss = 0.67383797
+Iteration 30, loss = 0.67381221
+Iteration 31, loss = 0.67366416
+Iteration 32, loss = 0.67352822
+Iteration 33, loss = 0.67350606
+Iteration 34, loss = 0.67353318
+Iteration 35, loss = 0.67331671
+Iteration 36, loss = 0.67365347
+Iteration 37, loss = 0.67341540
+Iteration 38, loss = 0.67356773
+Iteration 39, loss = 0.67311008
+Iteration 40, loss = 0.67316408
+Iteration 41, loss = 0.67328226
+Iteration 42, loss = 0.67307797
+Iteration 43, loss = 0.67299766
+Iteration 44, loss = 0.67304902
+Iteration 45, loss = 0.67299300
+Iteration 46, loss = 0.67327206
+Iteration 47, loss = 0.67274668
+Iteration 48, loss = 0.67282038
+Iteration 49, loss = 0.67257356
+Iteration 50, loss = 0.67275223
+Iteration 51, loss = 0.67259294
+Iteration 52, loss = 0.67279984
+Iteration 53, loss = 0.67259936
+Iteration 54, loss = 0.67243377
+Iteration 55, loss = 0.67285373
+Iteration 56, loss = 0.67247088
+Iteration 57, loss = 0.67257360
+Iteration 58, loss = 0.67227546
+Iteration 59, loss = 0.67253351
+Iteration 60, loss = 0.67257232
+Iteration 61, loss = 0.67260743
+Iteration 62, loss = 0.67239052
+Iteration 63, loss = 0.67235727
+Iteration 64, loss = 0.67230479
+Iteration 65, loss = 0.67228734
+Iteration 66, loss = 0.67223995
+Iteration 67, loss = 0.67216295
+Iteration 68, loss = 0.67208430
+Iteration 69, loss = 0.67236158
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.5561904761904762
+number of correct predictions: 9312
+validation accuracy: 0.5558739255014327
+validation precision: 0.0
+validation recall: 0.0
+validation mcc: 0.0
+validation f1: 0.0
+validation confusion matrix: [[9312    0]
+ [7440    0]]

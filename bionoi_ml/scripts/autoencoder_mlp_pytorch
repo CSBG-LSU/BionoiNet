@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=72:00:00
+#PBS -q k40
+#PBS -N mlp_img
+#PBS -A loni_bionoi01
+#PBS -j oe
+
+source activate pytorch
+cd /work/wshi6/deeplearning-data/bionoi_ml_prj/bionoi_ml/
+python mlp_pytorch.py -op control_vs_heme > ./log_autoencoder_mlp_pytorch/pytorch_autoencoder_mlp_control_vs_heme.log 2>&1
+python mlp_pytorch.py -op control_vs_nucleotide > ./log_autoencoder_mlp_pytorch/pytorch_autoencoder_mlp_control_vs_nucleotide.log 2>&1
+
+
+
+
+
+

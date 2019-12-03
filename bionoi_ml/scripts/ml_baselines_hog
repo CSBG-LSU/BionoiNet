@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=72:00:00
+#PBS -q workq
+#PBS -N ml_baselines_hog
+#PBS -A loni_bionoi01
+#PBS -j oe
+
+module purge
+source activate pytorch
+cd ~
+cd /work/wshi6/deeplearning-data/bionoi_ml_prj/bionoi_ml/
+python logistic_regression.py -op control_vs_heme -log_dir ./log_hog_logistic_regression/ > ./log_hog_logistic_regression/lr_control_vs_heme.log 2>&1
+python logistic_regression.py -op control_vs_nucleotide -log_dir ./log_hog_logistic_regression/ > ./log_hog_logistic_regression/lr_control_vs_nucleotide.log 2>&1
+python mlp.py -op control_vs_heme -log_dir ./log_hog_mlp/ > ./log_hog_mlp/mlp_control_vs_heme.log 2>&1
+python mlp.py -op control_vs_nucleotide -log_dir ./log_hog_mlp/ > ./log_hog_mlp/mlp_control_vs_nucleotide.log 2>&1
+
+
+
+
+
+
+
+

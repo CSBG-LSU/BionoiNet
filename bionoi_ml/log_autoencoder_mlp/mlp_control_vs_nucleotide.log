@@ -1,0 +1,1807 @@
+----------------------------------------------
+1th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv1/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv1/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv1/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv1/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.62032203
+Iteration 2, loss = 0.56745800
+Iteration 3, loss = 0.54107907
+Iteration 4, loss = 0.51947899
+Iteration 5, loss = 0.49971613
+Iteration 6, loss = 0.47817629
+Iteration 7, loss = 0.46157908
+Iteration 8, loss = 0.44202770
+Iteration 9, loss = 0.42431493
+Iteration 10, loss = 0.40858927
+Iteration 11, loss = 0.39538637
+Iteration 12, loss = 0.38242003
+Iteration 13, loss = 0.37035475
+Iteration 14, loss = 0.35780297
+Iteration 15, loss = 0.34831804
+Iteration 16, loss = 0.33949063
+Iteration 17, loss = 0.33271348
+Iteration 18, loss = 0.32569331
+Iteration 19, loss = 0.31721023
+Iteration 20, loss = 0.31011944
+Iteration 21, loss = 0.30580421
+Iteration 22, loss = 0.29732493
+Iteration 23, loss = 0.29413201
+Iteration 24, loss = 0.28907128
+Iteration 25, loss = 0.28626248
+Iteration 26, loss = 0.28036915
+Iteration 27, loss = 0.27785886
+Iteration 28, loss = 0.27310047
+Iteration 29, loss = 0.27043338
+Iteration 30, loss = 0.27015344
+Iteration 31, loss = 0.26181134
+Iteration 32, loss = 0.25929806
+Iteration 33, loss = 0.25805978
+Iteration 34, loss = 0.25519344
+Iteration 35, loss = 0.25211728
+Iteration 36, loss = 0.25516143
+Iteration 37, loss = 0.25131310
+Iteration 38, loss = 0.24862272
+Iteration 39, loss = 0.24709603
+Iteration 40, loss = 0.24558846
+Iteration 41, loss = 0.24205934
+Iteration 42, loss = 0.24116127
+Iteration 43, loss = 0.23799453
+Iteration 44, loss = 0.23727190
+Iteration 45, loss = 0.23838320
+Iteration 46, loss = 0.23916406
+Iteration 47, loss = 0.23854017
+Iteration 48, loss = 0.23371966
+Iteration 49, loss = 0.23593678
+Iteration 50, loss = 0.23452777
+Iteration 51, loss = 0.23292150
+Iteration 52, loss = 0.23285207
+Iteration 53, loss = 0.23188264
+Iteration 54, loss = 0.22839232
+Iteration 55, loss = 0.22888329
+Iteration 56, loss = 0.22874775
+Iteration 57, loss = 0.22534090
+Iteration 58, loss = 0.22672060
+Iteration 59, loss = 0.22588070
+Iteration 60, loss = 0.22936772
+Iteration 61, loss = 0.22685347
+Iteration 62, loss = 0.22394548
+Iteration 63, loss = 0.22772228
+Iteration 64, loss = 0.22724270
+Iteration 65, loss = 0.22260030
+Iteration 66, loss = 0.22093542
+Iteration 67, loss = 0.22286252
+Iteration 68, loss = 0.22421963
+Iteration 69, loss = 0.22305126
+Iteration 70, loss = 0.21949815
+Iteration 71, loss = 0.22134014
+Iteration 72, loss = 0.22017014
+Iteration 73, loss = 0.22006679
+Iteration 74, loss = 0.22035241
+Iteration 75, loss = 0.22094564
+Iteration 76, loss = 0.21733973
+Iteration 77, loss = 0.22006130
+Iteration 78, loss = 0.21853647
+Iteration 79, loss = 0.22166153
+Iteration 80, loss = 0.21545533
+Iteration 81, loss = 0.21776878
+Iteration 82, loss = 0.21486429
+Iteration 83, loss = 0.21922488
+Iteration 84, loss = 0.21303969
+Iteration 85, loss = 0.21646724
+Iteration 86, loss = 0.21650126
+Iteration 87, loss = 0.21464684
+Iteration 88, loss = 0.21438139
+Iteration 89, loss = 0.21423307
+Iteration 90, loss = 0.21547275
+Iteration 91, loss = 0.21822437
+Iteration 92, loss = 0.21345161
+Iteration 93, loss = 0.21307393
+Iteration 94, loss = 0.22014380
+Iteration 95, loss = 0.21215202
+Iteration 96, loss = 0.21291790
+Iteration 97, loss = 0.21263672
+Iteration 98, loss = 0.21237622
+Iteration 99, loss = 0.21443317
+Iteration 100, loss = 0.21098375
+Iteration 101, loss = 0.21413663
+Iteration 102, loss = 0.21375053
+Iteration 103, loss = 0.21407679
+Iteration 104, loss = 0.21508497
+Iteration 105, loss = 0.21197714
+Iteration 106, loss = 0.20785018
+Iteration 107, loss = 0.21456616
+Iteration 108, loss = 0.21331825
+Iteration 109, loss = 0.21136121
+Iteration 110, loss = 0.21136386
+Iteration 111, loss = 0.21269313
+Iteration 112, loss = 0.21152250
+Iteration 113, loss = 0.21307959
+Iteration 114, loss = 0.20973412
+Iteration 115, loss = 0.20851127
+Iteration 116, loss = 0.20878506
+Iteration 117, loss = 0.20986850
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.9577777777777777
+number of correct predictions: 11533
+validation accuracy: 0.6884551098376314
+validation precision: 0.6617625637290605
+validation recall: 0.6106182795698925
+validation mcc: 0.3649878673034338
+validation f1: 0.635162530583712
+validation confusion matrix: [[6990 2322]
+ [2897 4543]]
+----------------------------------------------
+2th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv2/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv2/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv2/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv2/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.61497563
+Iteration 2, loss = 0.56198191
+Iteration 3, loss = 0.53536792
+Iteration 4, loss = 0.51409546
+Iteration 5, loss = 0.49256200
+Iteration 6, loss = 0.47394149
+Iteration 7, loss = 0.45461929
+Iteration 8, loss = 0.43815031
+Iteration 9, loss = 0.41845447
+Iteration 10, loss = 0.40089542
+Iteration 11, loss = 0.38798626
+Iteration 12, loss = 0.37510166
+Iteration 13, loss = 0.36324038
+Iteration 14, loss = 0.35094587
+Iteration 15, loss = 0.34107475
+Iteration 16, loss = 0.33456495
+Iteration 17, loss = 0.32353501
+Iteration 18, loss = 0.31491195
+Iteration 19, loss = 0.31127191
+Iteration 20, loss = 0.30242551
+Iteration 21, loss = 0.29938219
+Iteration 22, loss = 0.29308883
+Iteration 23, loss = 0.28604178
+Iteration 24, loss = 0.28573110
+Iteration 25, loss = 0.27708273
+Iteration 26, loss = 0.27800081
+Iteration 27, loss = 0.26911621
+Iteration 28, loss = 0.27060578
+Iteration 29, loss = 0.26724602
+Iteration 30, loss = 0.26170866
+Iteration 31, loss = 0.26260974
+Iteration 32, loss = 0.25714876
+Iteration 33, loss = 0.25472260
+Iteration 34, loss = 0.25542339
+Iteration 35, loss = 0.25044925
+Iteration 36, loss = 0.24819728
+Iteration 37, loss = 0.24838748
+Iteration 38, loss = 0.24567829
+Iteration 39, loss = 0.24340967
+Iteration 40, loss = 0.24386069
+Iteration 41, loss = 0.24246602
+Iteration 42, loss = 0.24013647
+Iteration 43, loss = 0.23726833
+Iteration 44, loss = 0.23936863
+Iteration 45, loss = 0.24000061
+Iteration 46, loss = 0.23565087
+Iteration 47, loss = 0.23520202
+Iteration 48, loss = 0.23499204
+Iteration 49, loss = 0.23298891
+Iteration 50, loss = 0.23368654
+Iteration 51, loss = 0.23093230
+Iteration 52, loss = 0.22856537
+Iteration 53, loss = 0.23008000
+Iteration 54, loss = 0.22745250
+Iteration 55, loss = 0.22709040
+Iteration 56, loss = 0.22695887
+Iteration 57, loss = 0.22643631
+Iteration 58, loss = 0.22756346
+Iteration 59, loss = 0.22768200
+Iteration 60, loss = 0.22363226
+Iteration 61, loss = 0.22406081
+Iteration 62, loss = 0.22548173
+Iteration 63, loss = 0.22187573
+Iteration 64, loss = 0.22264243
+Iteration 65, loss = 0.22235698
+Iteration 66, loss = 0.22109599
+Iteration 67, loss = 0.22063877
+Iteration 68, loss = 0.22425526
+Iteration 69, loss = 0.21791350
+Iteration 70, loss = 0.22030670
+Iteration 71, loss = 0.22021496
+Iteration 72, loss = 0.21928429
+Iteration 73, loss = 0.21722528
+Iteration 74, loss = 0.21854322
+Iteration 75, loss = 0.21958560
+Iteration 76, loss = 0.21545775
+Iteration 77, loss = 0.21735917
+Iteration 78, loss = 0.22082971
+Iteration 79, loss = 0.21656373
+Iteration 80, loss = 0.21552940
+Iteration 81, loss = 0.21919494
+Iteration 82, loss = 0.21596049
+Iteration 83, loss = 0.21688543
+Iteration 84, loss = 0.21615839
+Iteration 85, loss = 0.21351862
+Iteration 86, loss = 0.21501050
+Iteration 87, loss = 0.21512066
+Iteration 88, loss = 0.21540972
+Iteration 89, loss = 0.21605745
+Iteration 90, loss = 0.21727199
+Iteration 91, loss = 0.21440689
+Iteration 92, loss = 0.21315200
+Iteration 93, loss = 0.21265972
+Iteration 94, loss = 0.21707583
+Iteration 95, loss = 0.21312285
+Iteration 96, loss = 0.21199682
+Iteration 97, loss = 0.21618733
+Iteration 98, loss = 0.21045591
+Iteration 99, loss = 0.21542930
+Iteration 100, loss = 0.21608004
+Iteration 101, loss = 0.21085473
+Iteration 102, loss = 0.21187491
+Iteration 103, loss = 0.21262539
+Iteration 104, loss = 0.21319024
+Iteration 105, loss = 0.21115709
+Iteration 106, loss = 0.20926398
+Iteration 107, loss = 0.21448515
+Iteration 108, loss = 0.21039199
+Iteration 109, loss = 0.21138657
+Iteration 110, loss = 0.21397719
+Iteration 111, loss = 0.20848618
+Iteration 112, loss = 0.21218998
+Iteration 113, loss = 0.20998980
+Iteration 114, loss = 0.21221647
+Iteration 115, loss = 0.20975911
+Iteration 116, loss = 0.21149462
+Iteration 117, loss = 0.20925467
+Iteration 118, loss = 0.21188705
+Iteration 119, loss = 0.21171049
+Iteration 120, loss = 0.21000408
+Iteration 121, loss = 0.21213340
+Iteration 122, loss = 0.20681588
+Iteration 123, loss = 0.20988587
+Iteration 124, loss = 0.20960796
+Iteration 125, loss = 0.21123567
+Iteration 126, loss = 0.20622081
+Iteration 127, loss = 0.20761110
+Iteration 128, loss = 0.21020831
+Iteration 129, loss = 0.21005417
+Iteration 130, loss = 0.20910852
+Iteration 131, loss = 0.20897354
+Iteration 132, loss = 0.20391738
+Iteration 133, loss = 0.21186820
+Iteration 134, loss = 0.20667225
+Iteration 135, loss = 0.20775754
+Iteration 136, loss = 0.20592063
+Iteration 137, loss = 0.20757968
+Iteration 138, loss = 0.20779576
+Iteration 139, loss = 0.20651767
+Iteration 140, loss = 0.20898994
+Iteration 141, loss = 0.20322797
+Iteration 142, loss = 0.20748112
+Iteration 143, loss = 0.20444337
+Iteration 144, loss = 0.20858087
+Iteration 145, loss = 0.20759795
+Iteration 146, loss = 0.20615939
+Iteration 147, loss = 0.20470203
+Iteration 148, loss = 0.20187758
+Iteration 149, loss = 0.20756812
+Iteration 150, loss = 0.20923345
+Iteration 151, loss = 0.20431388
+Iteration 152, loss = 0.20307479
+Iteration 153, loss = 0.20556737
+Iteration 154, loss = 0.20472316
+Iteration 155, loss = 0.20453853
+Iteration 156, loss = 0.20707066
+Iteration 157, loss = 0.20074333
+Iteration 158, loss = 0.20128995
+Iteration 159, loss = 0.20402778
+Iteration 160, loss = 0.20429192
+Iteration 161, loss = 0.20766113
+Iteration 162, loss = 0.20829498
+Iteration 163, loss = 0.20116310
+Iteration 164, loss = 0.19982130
+Iteration 165, loss = 0.20550936
+Iteration 166, loss = 0.20390798
+Iteration 167, loss = 0.20160070
+Iteration 168, loss = 0.20547140
+Iteration 169, loss = 0.20050550
+Iteration 170, loss = 0.20113408
+Iteration 171, loss = 0.20355155
+Iteration 172, loss = 0.20591345
+Iteration 173, loss = 0.20465266
+Iteration 174, loss = 0.19688636
+Iteration 175, loss = 0.20663449
+Iteration 176, loss = 0.20139832
+Iteration 177, loss = 0.20388605
+Iteration 178, loss = 0.20140991
+Iteration 179, loss = 0.20441380
+Iteration 180, loss = 0.20074984
+Iteration 181, loss = 0.20259942
+Iteration 182, loss = 0.20266741
+Iteration 183, loss = 0.20010593
+Iteration 184, loss = 0.20197758
+Iteration 185, loss = 0.20066254
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.963584656084656
+number of correct predictions: 11322
+validation accuracy: 0.6758595988538681
+validation precision: 0.6217886572952012
+validation recall: 0.6896505376344086
+validation mcc: 0.35230988702202437
+validation f1: 0.6539638032118277
+validation confusion matrix: [[6191 3121]
+ [2309 5131]]
+----------------------------------------------
+3th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv3/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv3/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv3/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv3/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.61291452
+Iteration 2, loss = 0.55770788
+Iteration 3, loss = 0.52792941
+Iteration 4, loss = 0.50354361
+Iteration 5, loss = 0.48155781
+Iteration 6, loss = 0.45971976
+Iteration 7, loss = 0.44000808
+Iteration 8, loss = 0.42280737
+Iteration 9, loss = 0.40630460
+Iteration 10, loss = 0.39091411
+Iteration 11, loss = 0.37587025
+Iteration 12, loss = 0.36365564
+Iteration 13, loss = 0.35216328
+Iteration 14, loss = 0.34022351
+Iteration 15, loss = 0.33177285
+Iteration 16, loss = 0.32184741
+Iteration 17, loss = 0.31423884
+Iteration 18, loss = 0.30974302
+Iteration 19, loss = 0.30106559
+Iteration 20, loss = 0.29399381
+Iteration 21, loss = 0.29200378
+Iteration 22, loss = 0.28327583
+Iteration 23, loss = 0.28130375
+Iteration 24, loss = 0.27730033
+Iteration 25, loss = 0.27439819
+Iteration 26, loss = 0.26811975
+Iteration 27, loss = 0.26917379
+Iteration 28, loss = 0.26497441
+Iteration 29, loss = 0.25833226
+Iteration 30, loss = 0.25859180
+Iteration 31, loss = 0.25177068
+Iteration 32, loss = 0.25111140
+Iteration 33, loss = 0.25075195
+Iteration 34, loss = 0.24885616
+Iteration 35, loss = 0.24699951
+Iteration 36, loss = 0.24563844
+Iteration 37, loss = 0.24329021
+Iteration 38, loss = 0.23993879
+Iteration 39, loss = 0.24006382
+Iteration 40, loss = 0.23880428
+Iteration 41, loss = 0.23914570
+Iteration 42, loss = 0.23498685
+Iteration 43, loss = 0.23212351
+Iteration 44, loss = 0.23636807
+Iteration 45, loss = 0.23389536
+Iteration 46, loss = 0.23259831
+Iteration 47, loss = 0.22999445
+Iteration 48, loss = 0.22877341
+Iteration 49, loss = 0.22877570
+Iteration 50, loss = 0.22918172
+Iteration 51, loss = 0.22462085
+Iteration 52, loss = 0.22435411
+Iteration 53, loss = 0.22521011
+Iteration 54, loss = 0.22358919
+Iteration 55, loss = 0.22499691
+Iteration 56, loss = 0.22561066
+Iteration 57, loss = 0.22369375
+Iteration 58, loss = 0.22394848
+Iteration 59, loss = 0.22632609
+Iteration 60, loss = 0.22270616
+Iteration 61, loss = 0.22002179
+Iteration 62, loss = 0.22011522
+Iteration 63, loss = 0.22034226
+Iteration 64, loss = 0.21981333
+Iteration 65, loss = 0.21924219
+Iteration 66, loss = 0.22182664
+Iteration 67, loss = 0.21465799
+Iteration 68, loss = 0.22031097
+Iteration 69, loss = 0.21908228
+Iteration 70, loss = 0.21622521
+Iteration 71, loss = 0.22274646
+Iteration 72, loss = 0.21706215
+Iteration 73, loss = 0.21701240
+Iteration 74, loss = 0.21681795
+Iteration 75, loss = 0.21762806
+Iteration 76, loss = 0.21581215
+Iteration 77, loss = 0.21262775
+Iteration 78, loss = 0.21672109
+Iteration 79, loss = 0.21646331
+Iteration 80, loss = 0.21606563
+Iteration 81, loss = 0.21113330
+Iteration 82, loss = 0.21832590
+Iteration 83, loss = 0.21515059
+Iteration 84, loss = 0.21697098
+Iteration 85, loss = 0.21697270
+Iteration 86, loss = 0.21595100
+Iteration 87, loss = 0.21630814
+Iteration 88, loss = 0.21681700
+Iteration 89, loss = 0.21080806
+Iteration 90, loss = 0.21700816
+Iteration 91, loss = 0.21094421
+Iteration 92, loss = 0.21102901
+Iteration 93, loss = 0.21473007
+Iteration 94, loss = 0.21473345
+Iteration 95, loss = 0.21030182
+Iteration 96, loss = 0.21269713
+Iteration 97, loss = 0.20931741
+Iteration 98, loss = 0.21043340
+Iteration 99, loss = 0.21342729
+Iteration 100, loss = 0.21271032
+Iteration 101, loss = 0.21225463
+Iteration 102, loss = 0.21024020
+Iteration 103, loss = 0.21327804
+Iteration 104, loss = 0.21065048
+Iteration 105, loss = 0.21411357
+Iteration 106, loss = 0.20876406
+Iteration 107, loss = 0.20885849
+Iteration 108, loss = 0.21213216
+Iteration 109, loss = 0.20891899
+Iteration 110, loss = 0.21150417
+Iteration 111, loss = 0.21363970
+Iteration 112, loss = 0.21107952
+Iteration 113, loss = 0.21151504
+Iteration 114, loss = 0.20802884
+Iteration 115, loss = 0.20961460
+Iteration 116, loss = 0.21071891
+Iteration 117, loss = 0.20768266
+Iteration 118, loss = 0.20857738
+Iteration 119, loss = 0.21015818
+Iteration 120, loss = 0.20991701
+Iteration 121, loss = 0.20881649
+Iteration 122, loss = 0.20886106
+Iteration 123, loss = 0.20717811
+Iteration 124, loss = 0.20892871
+Iteration 125, loss = 0.21361092
+Iteration 126, loss = 0.20694743
+Iteration 127, loss = 0.20728318
+Iteration 128, loss = 0.20884749
+Iteration 129, loss = 0.20590546
+Iteration 130, loss = 0.20762881
+Iteration 131, loss = 0.20563980
+Iteration 132, loss = 0.21337264
+Iteration 133, loss = 0.20657957
+Iteration 134, loss = 0.20644343
+Iteration 135, loss = 0.20705958
+Iteration 136, loss = 0.20863775
+Iteration 137, loss = 0.20629489
+Iteration 138, loss = 0.20819275
+Iteration 139, loss = 0.20433584
+Iteration 140, loss = 0.20917728
+Iteration 141, loss = 0.20356555
+Iteration 142, loss = 0.20715447
+Iteration 143, loss = 0.21188477
+Iteration 144, loss = 0.20491648
+Iteration 145, loss = 0.20449359
+Iteration 146, loss = 0.20267494
+Iteration 147, loss = 0.20715285
+Iteration 148, loss = 0.20170487
+Iteration 149, loss = 0.20603258
+Iteration 150, loss = 0.20428430
+Iteration 151, loss = 0.20740752
+Iteration 152, loss = 0.20447358
+Iteration 153, loss = 0.20424874
+Iteration 154, loss = 0.20344922
+Iteration 155, loss = 0.20311718
+Iteration 156, loss = 0.20382849
+Iteration 157, loss = 0.20388367
+Iteration 158, loss = 0.20492689
+Iteration 159, loss = 0.20354524
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.9602579365079366
+number of correct predictions: 10812
+validation accuracy: 0.6454154727793696
+validation precision: 0.6009693053311793
+validation recall: 0.6
+validation mcc: 0.28174700478985976
+validation f1: 0.6004842615012107
+validation confusion matrix: [[6348 2964]
+ [2976 4464]]
+----------------------------------------------
+4th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv4/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv4/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv4/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv4/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.62213189
+Iteration 2, loss = 0.56735896
+Iteration 3, loss = 0.54030934
+Iteration 4, loss = 0.52054173
+Iteration 5, loss = 0.49833764
+Iteration 6, loss = 0.47897598
+Iteration 7, loss = 0.45837345
+Iteration 8, loss = 0.44013914
+Iteration 9, loss = 0.42272516
+Iteration 10, loss = 0.40637784
+Iteration 11, loss = 0.39205865
+Iteration 12, loss = 0.37599827
+Iteration 13, loss = 0.36470796
+Iteration 14, loss = 0.35469135
+Iteration 15, loss = 0.34133118
+Iteration 16, loss = 0.33195038
+Iteration 17, loss = 0.32362323
+Iteration 18, loss = 0.31510053
+Iteration 19, loss = 0.30690782
+Iteration 20, loss = 0.30442067
+Iteration 21, loss = 0.29594321
+Iteration 22, loss = 0.29071909
+Iteration 23, loss = 0.28575991
+Iteration 24, loss = 0.27994568
+Iteration 25, loss = 0.27768786
+Iteration 26, loss = 0.27341002
+Iteration 27, loss = 0.26902850
+Iteration 28, loss = 0.26379265
+Iteration 29, loss = 0.26255126
+Iteration 30, loss = 0.25759959
+Iteration 31, loss = 0.25719688
+Iteration 32, loss = 0.25659165
+Iteration 33, loss = 0.25533189
+Iteration 34, loss = 0.24913295
+Iteration 35, loss = 0.24630911
+Iteration 36, loss = 0.24591167
+Iteration 37, loss = 0.24445707
+Iteration 38, loss = 0.24275927
+Iteration 39, loss = 0.23883238
+Iteration 40, loss = 0.24001488
+Iteration 41, loss = 0.23819703
+Iteration 42, loss = 0.23897040
+Iteration 43, loss = 0.23266911
+Iteration 44, loss = 0.23525948
+Iteration 45, loss = 0.23307280
+Iteration 46, loss = 0.23142656
+Iteration 47, loss = 0.22868084
+Iteration 48, loss = 0.22867315
+Iteration 49, loss = 0.22843886
+Iteration 50, loss = 0.22552009
+Iteration 51, loss = 0.22770068
+Iteration 52, loss = 0.22787422
+Iteration 53, loss = 0.22553050
+Iteration 54, loss = 0.22465304
+Iteration 55, loss = 0.22233586
+Iteration 56, loss = 0.22430072
+Iteration 57, loss = 0.22220507
+Iteration 58, loss = 0.22322159
+Iteration 59, loss = 0.22078525
+Iteration 60, loss = 0.21928973
+Iteration 61, loss = 0.21806874
+Iteration 62, loss = 0.22422533
+Iteration 63, loss = 0.21990091
+Iteration 64, loss = 0.21715621
+Iteration 65, loss = 0.22019434
+Iteration 66, loss = 0.21755197
+Iteration 67, loss = 0.21671283
+Iteration 68, loss = 0.21366667
+Iteration 69, loss = 0.21856404
+Iteration 70, loss = 0.21452362
+Iteration 71, loss = 0.21782283
+Iteration 72, loss = 0.21462805
+Iteration 73, loss = 0.21683105
+Iteration 74, loss = 0.21317273
+Iteration 75, loss = 0.21554790
+Iteration 76, loss = 0.21520423
+Iteration 77, loss = 0.20938219
+Iteration 78, loss = 0.21398411
+Iteration 79, loss = 0.21370678
+Iteration 80, loss = 0.21430225
+Iteration 81, loss = 0.20998069
+Iteration 82, loss = 0.21055534
+Iteration 83, loss = 0.21289223
+Iteration 84, loss = 0.21138143
+Iteration 85, loss = 0.21399165
+Iteration 86, loss = 0.21138450
+Iteration 87, loss = 0.21315842
+Iteration 88, loss = 0.20894952
+Iteration 89, loss = 0.20906938
+Iteration 90, loss = 0.21433592
+Iteration 91, loss = 0.21055612
+Iteration 92, loss = 0.21231090
+Iteration 93, loss = 0.20744947
+Iteration 94, loss = 0.20735557
+Iteration 95, loss = 0.21082231
+Iteration 96, loss = 0.21053260
+Iteration 97, loss = 0.20749044
+Iteration 98, loss = 0.21307464
+Iteration 99, loss = 0.20693172
+Iteration 100, loss = 0.20823724
+Iteration 101, loss = 0.20829419
+Iteration 102, loss = 0.21034362
+Iteration 103, loss = 0.21100728
+Iteration 104, loss = 0.20417967
+Iteration 105, loss = 0.20809440
+Iteration 106, loss = 0.20702704
+Iteration 107, loss = 0.20691618
+Iteration 108, loss = 0.20762090
+Iteration 109, loss = 0.20979921
+Iteration 110, loss = 0.20584228
+Iteration 111, loss = 0.20674143
+Iteration 112, loss = 0.20744493
+Iteration 113, loss = 0.20841074
+Iteration 114, loss = 0.20626510
+Iteration 115, loss = 0.20474630
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.9646693121693122
+number of correct predictions: 11426
+validation accuracy: 0.6820678127984718
+validation precision: 0.6292808219178082
+validation recall: 0.6915322580645161
+validation mcc: 0.36384936397295364
+validation f1: 0.6589395491803279
+validation confusion matrix: [[6281 3031]
+ [2295 5145]]
+----------------------------------------------
+5th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv5/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv5/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv5/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv5/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.61758048
+Iteration 2, loss = 0.56710883
+Iteration 3, loss = 0.54081501
+Iteration 4, loss = 0.51717569
+Iteration 5, loss = 0.49602929
+Iteration 6, loss = 0.47760430
+Iteration 7, loss = 0.45951164
+Iteration 8, loss = 0.44125494
+Iteration 9, loss = 0.42252403
+Iteration 10, loss = 0.40733231
+Iteration 11, loss = 0.39471579
+Iteration 12, loss = 0.38049775
+Iteration 13, loss = 0.37164090
+Iteration 14, loss = 0.35704902
+Iteration 15, loss = 0.34735168
+Iteration 16, loss = 0.33646050
+Iteration 17, loss = 0.33156963
+Iteration 18, loss = 0.32349916
+Iteration 19, loss = 0.31577355
+Iteration 20, loss = 0.30780652
+Iteration 21, loss = 0.30298023
+Iteration 22, loss = 0.29879475
+Iteration 23, loss = 0.29376418
+Iteration 24, loss = 0.28690613
+Iteration 25, loss = 0.28391981
+Iteration 26, loss = 0.27890700
+Iteration 27, loss = 0.27728138
+Iteration 28, loss = 0.27036464
+Iteration 29, loss = 0.27025289
+Iteration 30, loss = 0.26780328
+Iteration 31, loss = 0.26397291
+Iteration 32, loss = 0.26126742
+Iteration 33, loss = 0.25766062
+Iteration 34, loss = 0.26033152
+Iteration 35, loss = 0.25327837
+Iteration 36, loss = 0.25261625
+Iteration 37, loss = 0.25055689
+Iteration 38, loss = 0.25169580
+Iteration 39, loss = 0.24723493
+Iteration 40, loss = 0.24961265
+Iteration 41, loss = 0.24565588
+Iteration 42, loss = 0.24532831
+Iteration 43, loss = 0.23930254
+Iteration 44, loss = 0.24135203
+Iteration 45, loss = 0.23964530
+Iteration 46, loss = 0.23820244
+Iteration 47, loss = 0.23938779
+Iteration 48, loss = 0.23565069
+Iteration 49, loss = 0.23518868
+Iteration 50, loss = 0.23497487
+Iteration 51, loss = 0.23194778
+Iteration 52, loss = 0.22938752
+Iteration 53, loss = 0.23103495
+Iteration 54, loss = 0.23292733
+Iteration 55, loss = 0.22862050
+Iteration 56, loss = 0.23043134
+Iteration 57, loss = 0.22870140
+Iteration 58, loss = 0.23015655
+Iteration 59, loss = 0.22693787
+Iteration 60, loss = 0.22516562
+Iteration 61, loss = 0.22709746
+Iteration 62, loss = 0.22849496
+Iteration 63, loss = 0.22599956
+Iteration 64, loss = 0.22602340
+Iteration 65, loss = 0.22383642
+Iteration 66, loss = 0.22459148
+Iteration 67, loss = 0.22527281
+Iteration 68, loss = 0.22517868
+Iteration 69, loss = 0.22363670
+Iteration 70, loss = 0.21959324
+Iteration 71, loss = 0.22215262
+Iteration 72, loss = 0.22257189
+Iteration 73, loss = 0.22058854
+Iteration 74, loss = 0.22175797
+Iteration 75, loss = 0.21958528
+Iteration 76, loss = 0.22416328
+Iteration 77, loss = 0.21621785
+Iteration 78, loss = 0.21985470
+Iteration 79, loss = 0.21771614
+Iteration 80, loss = 0.22237048
+Iteration 81, loss = 0.21482597
+Iteration 82, loss = 0.21728856
+Iteration 83, loss = 0.22239253
+Iteration 84, loss = 0.21509053
+Iteration 85, loss = 0.21741394
+Iteration 86, loss = 0.21806293
+Iteration 87, loss = 0.21791217
+Iteration 88, loss = 0.21611961
+Iteration 89, loss = 0.21580195
+Iteration 90, loss = 0.21555790
+Iteration 91, loss = 0.21674501
+Iteration 92, loss = 0.21332799
+Iteration 93, loss = 0.21261774
+Iteration 94, loss = 0.21710880
+Iteration 95, loss = 0.21383985
+Iteration 96, loss = 0.21633709
+Iteration 97, loss = 0.21380351
+Iteration 98, loss = 0.21772553
+Iteration 99, loss = 0.21301500
+Iteration 100, loss = 0.21221656
+Iteration 101, loss = 0.21271007
+Iteration 102, loss = 0.21539968
+Iteration 103, loss = 0.21126300
+Iteration 104, loss = 0.21653123
+Iteration 105, loss = 0.21129007
+Iteration 106, loss = 0.21017005
+Iteration 107, loss = 0.21467858
+Iteration 108, loss = 0.21686904
+Iteration 109, loss = 0.21269059
+Iteration 110, loss = 0.21371012
+Iteration 111, loss = 0.20950899
+Iteration 112, loss = 0.21275738
+Iteration 113, loss = 0.20979326
+Iteration 114, loss = 0.21242629
+Iteration 115, loss = 0.20924559
+Iteration 116, loss = 0.21269394
+Iteration 117, loss = 0.20875274
+Iteration 118, loss = 0.21092637
+Iteration 119, loss = 0.21074126
+Iteration 120, loss = 0.21290678
+Iteration 121, loss = 0.20976671
+Iteration 122, loss = 0.21640686
+Iteration 123, loss = 0.21135503
+Iteration 124, loss = 0.20871822
+Iteration 125, loss = 0.20905883
+Iteration 126, loss = 0.20766573
+Iteration 127, loss = 0.20862061
+Iteration 128, loss = 0.21582740
+Iteration 129, loss = 0.20741680
+Iteration 130, loss = 0.20718126
+Iteration 131, loss = 0.20654809
+Iteration 132, loss = 0.20993872
+Iteration 133, loss = 0.21133855
+Iteration 134, loss = 0.20563100
+Iteration 135, loss = 0.20847436
+Iteration 136, loss = 0.21138569
+Iteration 137, loss = 0.20433667
+Iteration 138, loss = 0.20896131
+Iteration 139, loss = 0.20708346
+Iteration 140, loss = 0.20760661
+Iteration 141, loss = 0.20655279
+Iteration 142, loss = 0.20695891
+Iteration 143, loss = 0.20666301
+Iteration 144, loss = 0.20485127
+Iteration 145, loss = 0.20783273
+Iteration 146, loss = 0.21240473
+Iteration 147, loss = 0.20747869
+Iteration 148, loss = 0.20604483
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.9690873015873016
+number of correct predictions: 11336
+validation accuracy: 0.6766953199617957
+validation precision: 0.6383647798742138
+validation recall: 0.6275537634408602
+validation mcc: 0.344137483957123
+validation f1: 0.632913108309611
+validation confusion matrix: [[6667 2645]
+ [2771 4669]]
+----------------------------------------------
+6th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv6/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv6/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv6/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv6/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.61690990
+Iteration 2, loss = 0.56226786
+Iteration 3, loss = 0.53451913
+Iteration 4, loss = 0.51115164
+Iteration 5, loss = 0.49046685
+Iteration 6, loss = 0.46907396
+Iteration 7, loss = 0.45110610
+Iteration 8, loss = 0.43045630
+Iteration 9, loss = 0.41394095
+Iteration 10, loss = 0.39731615
+Iteration 11, loss = 0.38454849
+Iteration 12, loss = 0.37055732
+Iteration 13, loss = 0.35813039
+Iteration 14, loss = 0.34833118
+Iteration 15, loss = 0.33793778
+Iteration 16, loss = 0.32895483
+Iteration 17, loss = 0.32077043
+Iteration 18, loss = 0.31236464
+Iteration 19, loss = 0.30935838
+Iteration 20, loss = 0.29892427
+Iteration 21, loss = 0.29390742
+Iteration 22, loss = 0.29048812
+Iteration 23, loss = 0.28766478
+Iteration 24, loss = 0.27952325
+Iteration 25, loss = 0.27852921
+Iteration 26, loss = 0.27027019
+Iteration 27, loss = 0.26876295
+Iteration 28, loss = 0.26428721
+Iteration 29, loss = 0.26370412
+Iteration 30, loss = 0.25817538
+Iteration 31, loss = 0.25700415
+Iteration 32, loss = 0.25521844
+Iteration 33, loss = 0.25388282
+Iteration 34, loss = 0.25315279
+Iteration 35, loss = 0.24758372
+Iteration 36, loss = 0.24648331
+Iteration 37, loss = 0.24644109
+Iteration 38, loss = 0.24452557
+Iteration 39, loss = 0.24042173
+Iteration 40, loss = 0.23674768
+Iteration 41, loss = 0.24002932
+Iteration 42, loss = 0.23929633
+Iteration 43, loss = 0.23612720
+Iteration 44, loss = 0.23490142
+Iteration 45, loss = 0.23483867
+Iteration 46, loss = 0.23412816
+Iteration 47, loss = 0.23344398
+Iteration 48, loss = 0.23010262
+Iteration 49, loss = 0.23356550
+Iteration 50, loss = 0.22947432
+Iteration 51, loss = 0.23301636
+Iteration 52, loss = 0.22729418
+Iteration 53, loss = 0.22903779
+Iteration 54, loss = 0.22726290
+Iteration 55, loss = 0.22507403
+Iteration 56, loss = 0.22606115
+Iteration 57, loss = 0.22500760
+Iteration 58, loss = 0.22241621
+Iteration 59, loss = 0.22785121
+Iteration 60, loss = 0.22616558
+Iteration 61, loss = 0.22302661
+Iteration 62, loss = 0.22389102
+Iteration 63, loss = 0.22090540
+Iteration 64, loss = 0.22323029
+Iteration 65, loss = 0.22420169
+Iteration 66, loss = 0.22253584
+Iteration 67, loss = 0.22056596
+Iteration 68, loss = 0.21987152
+Iteration 69, loss = 0.22246306
+Iteration 70, loss = 0.22149391
+Iteration 71, loss = 0.22131090
+Iteration 72, loss = 0.21957612
+Iteration 73, loss = 0.21903178
+Iteration 74, loss = 0.22067591
+Iteration 75, loss = 0.21907643
+Iteration 76, loss = 0.21873006
+Iteration 77, loss = 0.21613461
+Iteration 78, loss = 0.21718619
+Iteration 79, loss = 0.21718182
+Iteration 80, loss = 0.21933165
+Iteration 81, loss = 0.21885420
+Iteration 82, loss = 0.21400524
+Iteration 83, loss = 0.21640934
+Iteration 84, loss = 0.21699720
+Iteration 85, loss = 0.21499750
+Iteration 86, loss = 0.21969891
+Iteration 87, loss = 0.21414900
+Iteration 88, loss = 0.21706386
+Iteration 89, loss = 0.21725548
+Iteration 90, loss = 0.21512149
+Iteration 91, loss = 0.21417896
+Iteration 92, loss = 0.21537092
+Iteration 93, loss = 0.21571112
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.9498743386243387
+number of correct predictions: 11643
+validation accuracy: 0.6950214899713467
+validation precision: 0.6560449859418932
+validation recall: 0.6586021505376344
+validation mcc: 0.38257402654817235
+validation f1: 0.657321081226105
+validation confusion matrix: [[6743 2569]
+ [2540 4900]]
+----------------------------------------------
+7th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv7/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv7/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv7/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv7/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.61683489
+Iteration 2, loss = 0.56460726
+Iteration 3, loss = 0.53685127
+Iteration 4, loss = 0.51379535
+Iteration 5, loss = 0.49189295
+Iteration 6, loss = 0.47114859
+Iteration 7, loss = 0.45032515
+Iteration 8, loss = 0.43160350
+Iteration 9, loss = 0.41643725
+Iteration 10, loss = 0.39860854
+Iteration 11, loss = 0.38529891
+Iteration 12, loss = 0.37182166
+Iteration 13, loss = 0.36054844
+Iteration 14, loss = 0.34922367
+Iteration 15, loss = 0.33946356
+Iteration 16, loss = 0.32892802
+Iteration 17, loss = 0.32152427
+Iteration 18, loss = 0.31237469
+Iteration 19, loss = 0.30797730
+Iteration 20, loss = 0.29999678
+Iteration 21, loss = 0.29206690
+Iteration 22, loss = 0.28907066
+Iteration 23, loss = 0.28378805
+Iteration 24, loss = 0.28091999
+Iteration 25, loss = 0.27418030
+Iteration 26, loss = 0.27212392
+Iteration 27, loss = 0.26985693
+Iteration 28, loss = 0.26422881
+Iteration 29, loss = 0.26293288
+Iteration 30, loss = 0.25698783
+Iteration 31, loss = 0.25654030
+Iteration 32, loss = 0.25437541
+Iteration 33, loss = 0.25031025
+Iteration 34, loss = 0.25080958
+Iteration 35, loss = 0.24557202
+Iteration 36, loss = 0.24689114
+Iteration 37, loss = 0.24265674
+Iteration 38, loss = 0.24156002
+Iteration 39, loss = 0.23699094
+Iteration 40, loss = 0.23516244
+Iteration 41, loss = 0.23642224
+Iteration 42, loss = 0.23585297
+Iteration 43, loss = 0.23085255
+Iteration 44, loss = 0.23127766
+Iteration 45, loss = 0.23197098
+Iteration 46, loss = 0.23014169
+Iteration 47, loss = 0.23129572
+Iteration 48, loss = 0.22851109
+Iteration 49, loss = 0.22883167
+Iteration 50, loss = 0.22852756
+Iteration 51, loss = 0.22687933
+Iteration 52, loss = 0.22783558
+Iteration 53, loss = 0.22536883
+Iteration 54, loss = 0.22554347
+Iteration 55, loss = 0.22570459
+Iteration 56, loss = 0.22271930
+Iteration 57, loss = 0.22342998
+Iteration 58, loss = 0.21896059
+Iteration 59, loss = 0.22208318
+Iteration 60, loss = 0.22175826
+Iteration 61, loss = 0.22111264
+Iteration 62, loss = 0.22013581
+Iteration 63, loss = 0.21984726
+Iteration 64, loss = 0.21727775
+Iteration 65, loss = 0.21891054
+Iteration 66, loss = 0.21741384
+Iteration 67, loss = 0.21701208
+Iteration 68, loss = 0.21835783
+Iteration 69, loss = 0.21677446
+Iteration 70, loss = 0.21233745
+Iteration 71, loss = 0.21920395
+Iteration 72, loss = 0.21532216
+Iteration 73, loss = 0.21473412
+Iteration 74, loss = 0.21482171
+Iteration 75, loss = 0.21832440
+Iteration 76, loss = 0.21294706
+Iteration 77, loss = 0.20994276
+Iteration 78, loss = 0.21442024
+Iteration 79, loss = 0.21810987
+Iteration 80, loss = 0.21439291
+Iteration 81, loss = 0.21422500
+Iteration 82, loss = 0.20989488
+Iteration 83, loss = 0.20971058
+Iteration 84, loss = 0.21581892
+Iteration 85, loss = 0.21502230
+Iteration 86, loss = 0.21026331
+Iteration 87, loss = 0.21181707
+Iteration 88, loss = 0.21268315
+Iteration 89, loss = 0.21246921
+Iteration 90, loss = 0.21156277
+Iteration 91, loss = 0.21139885
+Iteration 92, loss = 0.20885215
+Iteration 93, loss = 0.21651783
+Iteration 94, loss = 0.21112441
+Iteration 95, loss = 0.20964088
+Iteration 96, loss = 0.20969493
+Iteration 97, loss = 0.20793118
+Iteration 98, loss = 0.20872506
+Iteration 99, loss = 0.21032730
+Iteration 100, loss = 0.21023139
+Iteration 101, loss = 0.21108228
+Iteration 102, loss = 0.20900355
+Iteration 103, loss = 0.21042690
+Iteration 104, loss = 0.20876393
+Iteration 105, loss = 0.21072452
+Iteration 106, loss = 0.21143665
+Iteration 107, loss = 0.20705183
+Iteration 108, loss = 0.21030531
+Iteration 109, loss = 0.20914625
+Iteration 110, loss = 0.21004838
+Iteration 111, loss = 0.20452925
+Iteration 112, loss = 0.20607951
+Iteration 113, loss = 0.21193943
+Iteration 114, loss = 0.20671965
+Iteration 115, loss = 0.21073425
+Iteration 116, loss = 0.20866842
+Iteration 117, loss = 0.20712878
+Iteration 118, loss = 0.20771061
+Iteration 119, loss = 0.20867190
+Iteration 120, loss = 0.21061941
+Iteration 121, loss = 0.20811444
+Iteration 122, loss = 0.20427648
+Iteration 123, loss = 0.20922519
+Iteration 124, loss = 0.20792515
+Iteration 125, loss = 0.20517330
+Iteration 126, loss = 0.20645653
+Iteration 127, loss = 0.20916996
+Iteration 128, loss = 0.20604795
+Iteration 129, loss = 0.20515052
+Iteration 130, loss = 0.20351164
+Iteration 131, loss = 0.20796080
+Iteration 132, loss = 0.20523817
+Iteration 133, loss = 0.20593133
+Iteration 134, loss = 0.20358274
+Iteration 135, loss = 0.20560076
+Iteration 136, loss = 0.20342759
+Iteration 137, loss = 0.20509736
+Iteration 138, loss = 0.20273990
+Iteration 139, loss = 0.20612199
+Iteration 140, loss = 0.20458901
+Iteration 141, loss = 0.20672656
+Iteration 142, loss = 0.20644317
+Iteration 143, loss = 0.20422953
+Iteration 144, loss = 0.20898901
+Iteration 145, loss = 0.20234101
+Iteration 146, loss = 0.20408830
+Iteration 147, loss = 0.20639857
+Iteration 148, loss = 0.20324442
+Iteration 149, loss = 0.20288679
+Iteration 150, loss = 0.20630852
+Iteration 151, loss = 0.20458833
+Iteration 152, loss = 0.20382979
+Iteration 153, loss = 0.20300401
+Iteration 154, loss = 0.20895094
+Iteration 155, loss = 0.20145165
+Iteration 156, loss = 0.20436533
+Iteration 157, loss = 0.20289075
+Iteration 158, loss = 0.20253774
+Iteration 159, loss = 0.20925480
+Iteration 160, loss = 0.20189059
+Iteration 161, loss = 0.20464286
+Iteration 162, loss = 0.20075394
+Iteration 163, loss = 0.20621088
+Iteration 164, loss = 0.20100778
+Iteration 165, loss = 0.20042946
+Iteration 166, loss = 0.20416720
+Iteration 167, loss = 0.19859562
+Iteration 168, loss = 0.20379482
+Iteration 169, loss = 0.19952174
+Iteration 170, loss = 0.20030891
+Iteration 171, loss = 0.20600445
+Iteration 172, loss = 0.19837472
+Iteration 173, loss = 0.20075893
+Iteration 174, loss = 0.20231209
+Iteration 175, loss = 0.19827693
+Iteration 176, loss = 0.20104679
+Iteration 177, loss = 0.20144825
+Iteration 178, loss = 0.19983591
+Iteration 179, loss = 0.20047728
+Iteration 180, loss = 0.20082498
+Iteration 181, loss = 0.20139137
+Iteration 182, loss = 0.20085936
+Iteration 183, loss = 0.20247315
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.9658002645502646
+number of correct predictions: 11311
+validation accuracy: 0.6752029608404967
+validation precision: 0.6264069811559377
+validation recall: 0.665725806451613
+validation mcc: 0.3468620957317306
+validation f1: 0.645468169674855
+validation confusion matrix: [[6358 2954]
+ [2487 4953]]
+----------------------------------------------
+8th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv8/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv8/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv8/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv8/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.61481158
+Iteration 2, loss = 0.56002210
+Iteration 3, loss = 0.53208724
+Iteration 4, loss = 0.51075282
+Iteration 5, loss = 0.49098987
+Iteration 6, loss = 0.47135929
+Iteration 7, loss = 0.45239964
+Iteration 8, loss = 0.43373460
+Iteration 9, loss = 0.41963143
+Iteration 10, loss = 0.40276449
+Iteration 11, loss = 0.39004428
+Iteration 12, loss = 0.37523277
+Iteration 13, loss = 0.36460235
+Iteration 14, loss = 0.35329855
+Iteration 15, loss = 0.34395121
+Iteration 16, loss = 0.33444211
+Iteration 17, loss = 0.32693187
+Iteration 18, loss = 0.31732850
+Iteration 19, loss = 0.30858072
+Iteration 20, loss = 0.30423510
+Iteration 21, loss = 0.30280292
+Iteration 22, loss = 0.29384194
+Iteration 23, loss = 0.29099441
+Iteration 24, loss = 0.28369560
+Iteration 25, loss = 0.28144285
+Iteration 26, loss = 0.27605518
+Iteration 27, loss = 0.27269169
+Iteration 28, loss = 0.27011060
+Iteration 29, loss = 0.26418260
+Iteration 30, loss = 0.26452740
+Iteration 31, loss = 0.26157329
+Iteration 32, loss = 0.25801765
+Iteration 33, loss = 0.25500429
+Iteration 34, loss = 0.25282157
+Iteration 35, loss = 0.24792614
+Iteration 36, loss = 0.24719631
+Iteration 37, loss = 0.25058683
+Iteration 38, loss = 0.24662405
+Iteration 39, loss = 0.24620958
+Iteration 40, loss = 0.24431400
+Iteration 41, loss = 0.23971241
+Iteration 42, loss = 0.24079738
+Iteration 43, loss = 0.23853674
+Iteration 44, loss = 0.23893799
+Iteration 45, loss = 0.23562816
+Iteration 46, loss = 0.23602065
+Iteration 47, loss = 0.23501642
+Iteration 48, loss = 0.23275209
+Iteration 49, loss = 0.23086676
+Iteration 50, loss = 0.23414542
+Iteration 51, loss = 0.23003405
+Iteration 52, loss = 0.22993992
+Iteration 53, loss = 0.22539809
+Iteration 54, loss = 0.23043423
+Iteration 55, loss = 0.22627745
+Iteration 56, loss = 0.22824255
+Iteration 57, loss = 0.22333935
+Iteration 58, loss = 0.22519489
+Iteration 59, loss = 0.22295364
+Iteration 60, loss = 0.22553530
+Iteration 61, loss = 0.22308294
+Iteration 62, loss = 0.22367440
+Iteration 63, loss = 0.22176976
+Iteration 64, loss = 0.22380813
+Iteration 65, loss = 0.22342183
+Iteration 66, loss = 0.22205798
+Iteration 67, loss = 0.22189880
+Iteration 68, loss = 0.22261964
+Iteration 69, loss = 0.22055109
+Iteration 70, loss = 0.22014226
+Iteration 71, loss = 0.21741318
+Iteration 72, loss = 0.21995731
+Iteration 73, loss = 0.22050956
+Iteration 74, loss = 0.21929284
+Iteration 75, loss = 0.21693129
+Iteration 76, loss = 0.21687723
+Iteration 77, loss = 0.21935749
+Iteration 78, loss = 0.21908266
+Iteration 79, loss = 0.21632911
+Iteration 80, loss = 0.21530362
+Iteration 81, loss = 0.21830433
+Iteration 82, loss = 0.21436742
+Iteration 83, loss = 0.21634264
+Iteration 84, loss = 0.21520212
+Iteration 85, loss = 0.21728824
+Iteration 86, loss = 0.21558142
+Iteration 87, loss = 0.21741734
+Iteration 88, loss = 0.21592420
+Iteration 89, loss = 0.21312922
+Iteration 90, loss = 0.21522296
+Iteration 91, loss = 0.21284364
+Iteration 92, loss = 0.21387353
+Iteration 93, loss = 0.21736669
+Iteration 94, loss = 0.21422999
+Iteration 95, loss = 0.21354871
+Iteration 96, loss = 0.21581265
+Iteration 97, loss = 0.21279900
+Iteration 98, loss = 0.21601246
+Iteration 99, loss = 0.21401962
+Iteration 100, loss = 0.21409501
+Iteration 101, loss = 0.21513984
+Iteration 102, loss = 0.21081630
+Iteration 103, loss = 0.21691169
+Iteration 104, loss = 0.21548409
+Iteration 105, loss = 0.21222967
+Iteration 106, loss = 0.20911153
+Iteration 107, loss = 0.21056603
+Iteration 108, loss = 0.21272331
+Iteration 109, loss = 0.21506896
+Iteration 110, loss = 0.21171268
+Iteration 111, loss = 0.20709689
+Iteration 112, loss = 0.21036151
+Iteration 113, loss = 0.20956563
+Iteration 114, loss = 0.20885796
+Iteration 115, loss = 0.20956138
+Iteration 116, loss = 0.21185830
+Iteration 117, loss = 0.20962214
+Iteration 118, loss = 0.20995166
+Iteration 119, loss = 0.21109861
+Iteration 120, loss = 0.20813241
+Iteration 121, loss = 0.21334590
+Iteration 122, loss = 0.20867016
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.9654166666666667
+number of correct predictions: 10715
+validation accuracy: 0.6396251193887297
+validation precision: 0.591400651465798
+validation recall: 0.6100806451612903
+validation mcc: 0.27255523073943144
+validation f1: 0.6005954349983459
+validation confusion matrix: [[6176 3136]
+ [2901 4539]]
+----------------------------------------------
+9th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv9/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv9/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv9/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv9/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.61759766
+Iteration 2, loss = 0.56184048
+Iteration 3, loss = 0.53395587
+Iteration 4, loss = 0.51309020
+Iteration 5, loss = 0.49184788
+Iteration 6, loss = 0.47358695
+Iteration 7, loss = 0.45723996
+Iteration 8, loss = 0.43915138
+Iteration 9, loss = 0.42352786
+Iteration 10, loss = 0.40817475
+Iteration 11, loss = 0.39297684
+Iteration 12, loss = 0.37993435
+Iteration 13, loss = 0.36556376
+Iteration 14, loss = 0.35657613
+Iteration 15, loss = 0.34610612
+Iteration 16, loss = 0.33367083
+Iteration 17, loss = 0.32813990
+Iteration 18, loss = 0.31973551
+Iteration 19, loss = 0.31138024
+Iteration 20, loss = 0.30351591
+Iteration 21, loss = 0.30011619
+Iteration 22, loss = 0.29080672
+Iteration 23, loss = 0.28708195
+Iteration 24, loss = 0.27955109
+Iteration 25, loss = 0.27825180
+Iteration 26, loss = 0.27182628
+Iteration 27, loss = 0.27082150
+Iteration 28, loss = 0.26579888
+Iteration 29, loss = 0.26077091
+Iteration 30, loss = 0.25856823
+Iteration 31, loss = 0.25551404
+Iteration 32, loss = 0.25185098
+Iteration 33, loss = 0.25175608
+Iteration 34, loss = 0.25027589
+Iteration 35, loss = 0.24493357
+Iteration 36, loss = 0.24256299
+Iteration 37, loss = 0.24302687
+Iteration 38, loss = 0.24081835
+Iteration 39, loss = 0.23661482
+Iteration 40, loss = 0.23702061
+Iteration 41, loss = 0.23441550
+Iteration 42, loss = 0.23235314
+Iteration 43, loss = 0.23715925
+Iteration 44, loss = 0.23133606
+Iteration 45, loss = 0.22927124
+Iteration 46, loss = 0.22933868
+Iteration 47, loss = 0.22750867
+Iteration 48, loss = 0.22590909
+Iteration 49, loss = 0.22561534
+Iteration 50, loss = 0.22539314
+Iteration 51, loss = 0.22312742
+Iteration 52, loss = 0.22197615
+Iteration 53, loss = 0.22241108
+Iteration 54, loss = 0.21944642
+Iteration 55, loss = 0.22136503
+Iteration 56, loss = 0.22162519
+Iteration 57, loss = 0.21583018
+Iteration 58, loss = 0.22002302
+Iteration 59, loss = 0.21944967
+Iteration 60, loss = 0.21623764
+Iteration 61, loss = 0.21776708
+Iteration 62, loss = 0.21463734
+Iteration 63, loss = 0.21451545
+Iteration 64, loss = 0.22058252
+Iteration 65, loss = 0.21535811
+Iteration 66, loss = 0.21578187
+Iteration 67, loss = 0.21399116
+Iteration 68, loss = 0.21403171
+Iteration 69, loss = 0.21297255
+Iteration 70, loss = 0.21201437
+Iteration 71, loss = 0.21263050
+Iteration 72, loss = 0.21205300
+Iteration 73, loss = 0.21055864
+Iteration 74, loss = 0.21221461
+Iteration 75, loss = 0.21117615
+Iteration 76, loss = 0.21140067
+Iteration 77, loss = 0.20947819
+Iteration 78, loss = 0.21319675
+Iteration 79, loss = 0.21300471
+Iteration 80, loss = 0.20905605
+Iteration 81, loss = 0.21164810
+Iteration 82, loss = 0.20954684
+Iteration 83, loss = 0.20883557
+Iteration 84, loss = 0.20835220
+Iteration 85, loss = 0.20667764
+Iteration 86, loss = 0.21145222
+Iteration 87, loss = 0.20586725
+Iteration 88, loss = 0.20566553
+Iteration 89, loss = 0.20727895
+Iteration 90, loss = 0.20747760
+Iteration 91, loss = 0.20646572
+Iteration 92, loss = 0.20826326
+Iteration 93, loss = 0.20463682
+Iteration 94, loss = 0.20357770
+Iteration 95, loss = 0.20875804
+Iteration 96, loss = 0.20593544
+Iteration 97, loss = 0.20500914
+Iteration 98, loss = 0.20876244
+Iteration 99, loss = 0.20810840
+Iteration 100, loss = 0.20459388
+Iteration 101, loss = 0.20646664
+Iteration 102, loss = 0.20742635
+Iteration 103, loss = 0.20273773
+Iteration 104, loss = 0.20248558
+Iteration 105, loss = 0.20546560
+Iteration 106, loss = 0.20376103
+Iteration 107, loss = 0.20906949
+Iteration 108, loss = 0.20461086
+Iteration 109, loss = 0.20441025
+Iteration 110, loss = 0.20308170
+Iteration 111, loss = 0.20518962
+Iteration 112, loss = 0.20557598
+Iteration 113, loss = 0.20106595
+Iteration 114, loss = 0.20564772
+Iteration 115, loss = 0.20805910
+Iteration 116, loss = 0.20315396
+Iteration 117, loss = 0.19866631
+Iteration 118, loss = 0.20118998
+Iteration 119, loss = 0.20384255
+Iteration 120, loss = 0.20004231
+Iteration 121, loss = 0.20188611
+Iteration 122, loss = 0.20291687
+Iteration 123, loss = 0.20246212
+Iteration 124, loss = 0.20077631
+Iteration 125, loss = 0.20042092
+Iteration 126, loss = 0.20125881
+Iteration 127, loss = 0.20264066
+Iteration 128, loss = 0.20002049
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.9654497354497354
+number of correct predictions: 11002
+validation accuracy: 0.6567574021012417
+validation precision: 0.6130586031576131
+validation recall: 0.6158602150537634
+validation mcc: 0.30515560995654445
+validation f1: 0.6144562156363148
+validation confusion matrix: [[6420 2892]
+ [2858 4582]]
+----------------------------------------------
+10th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv10/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv10/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv10/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv10/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the MLP...
+Iteration 1, loss = 0.61313914
+Iteration 2, loss = 0.55991167
+Iteration 3, loss = 0.52846218
+Iteration 4, loss = 0.50479878
+Iteration 5, loss = 0.48053438
+Iteration 6, loss = 0.46199723
+Iteration 7, loss = 0.44254778
+Iteration 8, loss = 0.42183551
+Iteration 9, loss = 0.40601851
+Iteration 10, loss = 0.39069480
+Iteration 11, loss = 0.37734191
+Iteration 12, loss = 0.36076298
+Iteration 13, loss = 0.34936164
+Iteration 14, loss = 0.34026498
+Iteration 15, loss = 0.32947721
+Iteration 16, loss = 0.32002228
+Iteration 17, loss = 0.31296127
+Iteration 18, loss = 0.30514265
+Iteration 19, loss = 0.29752210
+Iteration 20, loss = 0.29197090
+Iteration 21, loss = 0.28595752
+Iteration 22, loss = 0.28112727
+Iteration 23, loss = 0.27822005
+Iteration 24, loss = 0.26908828
+Iteration 25, loss = 0.26865413
+Iteration 26, loss = 0.26465685
+Iteration 27, loss = 0.25994071
+Iteration 28, loss = 0.25631963
+Iteration 29, loss = 0.25091788
+Iteration 30, loss = 0.24969969
+Iteration 31, loss = 0.24705462
+Iteration 32, loss = 0.24784573
+Iteration 33, loss = 0.24360289
+Iteration 34, loss = 0.24172145
+Iteration 35, loss = 0.23817516
+Iteration 36, loss = 0.23609853
+Iteration 37, loss = 0.23572546
+Iteration 38, loss = 0.23243801
+Iteration 39, loss = 0.23165289
+Iteration 40, loss = 0.23112266
+Iteration 41, loss = 0.22789451
+Iteration 42, loss = 0.22661937
+Iteration 43, loss = 0.22335570
+Iteration 44, loss = 0.22518725
+Iteration 45, loss = 0.22405003
+Iteration 46, loss = 0.22377652
+Iteration 47, loss = 0.22484298
+Iteration 48, loss = 0.22246624
+Iteration 49, loss = 0.21906126
+Iteration 50, loss = 0.21896925
+Iteration 51, loss = 0.21982995
+Iteration 52, loss = 0.21858136
+Iteration 53, loss = 0.21442823
+Iteration 54, loss = 0.21731531
+Iteration 55, loss = 0.21506571
+Iteration 56, loss = 0.21477730
+Iteration 57, loss = 0.21386208
+Iteration 58, loss = 0.21223464
+Iteration 59, loss = 0.21339366
+Iteration 60, loss = 0.20929836
+Iteration 61, loss = 0.21256187
+Iteration 62, loss = 0.21183548
+Iteration 63, loss = 0.21336751
+Iteration 64, loss = 0.21053965
+Iteration 65, loss = 0.21511029
+Iteration 66, loss = 0.20751307
+Iteration 67, loss = 0.20922633
+Iteration 68, loss = 0.20927981
+Iteration 69, loss = 0.20967253
+Iteration 70, loss = 0.20900149
+Iteration 71, loss = 0.20741234
+Iteration 72, loss = 0.20852047
+Iteration 73, loss = 0.21024805
+Iteration 74, loss = 0.20963548
+Iteration 75, loss = 0.20794548
+Iteration 76, loss = 0.20491368
+Iteration 77, loss = 0.20484632
+Iteration 78, loss = 0.20549002
+Iteration 79, loss = 0.20938396
+Iteration 80, loss = 0.20711319
+Iteration 81, loss = 0.20307083
+Iteration 82, loss = 0.20559882
+Iteration 83, loss = 0.20613344
+Iteration 84, loss = 0.20533955
+Iteration 85, loss = 0.20509126
+Iteration 86, loss = 0.20134247
+Iteration 87, loss = 0.20862079
+Iteration 88, loss = 0.20246270
+Iteration 89, loss = 0.20397408
+Iteration 90, loss = 0.20393212
+Iteration 91, loss = 0.20619721
+Iteration 92, loss = 0.20346918
+Iteration 93, loss = 0.20250369
+Iteration 94, loss = 0.20544203
+Iteration 95, loss = 0.20190300
+Iteration 96, loss = 0.20237217
+Iteration 97, loss = 0.20468443
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+training finished.
+training accuracy: 0.9597023809523809
+number of correct predictions: 10749
+validation accuracy: 0.6416547277936963
+validation precision: 0.5932511356262168
+validation recall: 0.6143817204301075
+validation mcc: 0.2769767876011539
+validation f1: 0.6036315615714757
+validation confusion matrix: [[6178 3134]
+ [2869 4571]]

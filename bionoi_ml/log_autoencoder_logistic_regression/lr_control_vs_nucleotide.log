@@ -1,0 +1,470 @@
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/wshi6/.conda/envs/pytorch/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+----------------------------------------------
+1th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv1/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv1/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv1/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv1/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.503723544973545
+number of correct predictions: 8344
+validation accuracy: 0.49808978032473733
+validation precision: 0.4420636820684702
+validation recall: 0.4963709677419355
+validation mcc: -0.00413989493244948
+validation f1: 0.46764594149677097
+validation confusion matrix: [[4651 4661]
+ [3747 3693]]
+----------------------------------------------
+2th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv2/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv2/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv2/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv2/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.5083531746031746
+number of correct predictions: 8521
+validation accuracy: 0.5086556829035339
+validation precision: 0.4512390580692886
+validation recall: 0.49193548387096775
+validation mcc: 0.013869656860358551
+validation f1: 0.4707092791460356
+validation confusion matrix: [[4861 4451]
+ [3780 3660]]
+----------------------------------------------
+3th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv3/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv3/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv3/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv3/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.5023346560846561
+number of correct predictions: 8068
+validation accuracy: 0.48161413562559696
+validation precision: 0.4308120133481646
+validation recall: 0.5205645161290322
+validation mcc: -0.02883781071384397
+validation f1: 0.4714546561168594
+validation confusion matrix: [[4195 5117]
+ [3567 3873]]
+----------------------------------------------
+4th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv4/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv4/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv4/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv4/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.48123015873015873
+number of correct predictions: 7904
+validation accuracy: 0.47182425978987586
+validation precision: 0.4418758256274769
+validation recall: 0.7193548387096774
+validation mcc: -0.007317086787530783
+validation f1: 0.5474631751227496
+validation confusion matrix: [[2552 6760]
+ [2088 5352]]
+----------------------------------------------
+5th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv5/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv5/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv5/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv5/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.5139087301587302
+number of correct predictions: 8599
+validation accuracy: 0.5133118433619867
+validation precision: 0.44865331989053725
+validation recall: 0.41868279569892475
+validation mcc: 0.007665737855209214
+validation f1: 0.4331502468191615
+validation confusion matrix: [[5484 3828]
+ [4325 3115]]
+----------------------------------------------
+6th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv6/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv6/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv6/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv6/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.49205026455026457
+number of correct predictions: 8301
+validation accuracy: 0.49552292263610315
+validation precision: 0.4482440872325177
+validation recall: 0.5884408602150538
+validation mcc: 0.009800399664687286
+validation f1: 0.5088626721683036
+validation confusion matrix: [[3923 5389]
+ [3062 4378]]
+----------------------------------------------
+7th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv7/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv7/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv7/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv7/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.4788756613756614
+number of correct predictions: 7869
+validation accuracy: 0.4697349570200573
+validation precision: 0.4424962142344784
+validation recall: 0.7462365591397849
+validation mcc: -0.005666253934677215
+validation f1: 0.555561114724571
+validation confusion matrix: [[2317 6995]
+ [1888 5552]]
+----------------------------------------------
+8th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv8/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv8/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv8/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv8/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.4850925925925926
+number of correct predictions: 8089
+validation accuracy: 0.48286771728748806
+validation precision: 0.4433848717711323
+validation recall: 0.6436827956989247
+validation mcc: -0.0020097069276003745
+validation f1: 0.5250808617948578
+validation confusion matrix: [[3300 6012]
+ [2651 4789]]
+----------------------------------------------
+9th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv9/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv9/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv9/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv9/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.5085714285714286
+number of correct predictions: 8349
+validation accuracy: 0.4983882521489971
+validation precision: 0.43775048480930834
+validation recall: 0.4551075268817204
+validation mcc: -0.011884425614149288
+validation f1: 0.4462602965403624
+validation confusion matrix: [[4963 4349]
+ [4054 3386]]
+----------------------------------------------
+10th fold cross-validation
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv10/train/control/
+number of files: 84096
+size of feature vector: 512
+size of feature matrix: (84096, 512)
+size of label vector: (84096,)
+size of training data of control class:(84096, 512)
+number of training data points of control:84096
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv10/train/nucleotide/
+number of files: 67104
+size of feature vector: 512
+size of feature matrix: (67104, 512)
+size of label vector: (67104,)
+size of training data of nucleotide class:(67104, 512)
+number of training data points of nucleotide:67104
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv10/val/control/
+number of files: 9312
+size of feature vector: 512
+size of feature matrix: (9312, 512)
+size of label vector: (9312,)
+size of val data of control class:(9312, 512)
+number of val data points of control:9312
+integrating files of  ../../bionoi_autoencoder_prj/ft_vec_control_vs_nucleotide_cv/cv10/val/nucleotide/
+number of files: 7440
+size of feature vector: 512
+size of feature matrix: (7440, 512)
+size of label vector: (7440,)
+size of val data of nucleotide class:(7440, 512)
+number of val data points of nucleotide:7440
+shape of X_train: (151200, 512)
+shape of y_train: (151200,)
+shape of X_val: (16752, 512)
+shape of y_val: (16752,)
+training the Logistic Regressor...
+training finished.
+training accuracy: 0.5133002645502646
+number of correct predictions: 8496
+validation accuracy: 0.5071633237822349
+validation precision: 0.4413624604771486
+validation recall: 0.4127688172043011
+validation mcc: -0.004688115067843832
+validation f1: 0.42658702597583
+validation confusion matrix: [[5425 3887]
+ [4369 3071]]

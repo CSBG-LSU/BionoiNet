@@ -1,0 +1,3669 @@
+data directory: ../../bionoi_prj/control_vs_nucleotide_cv/
+batch size: 256
+performing control_vs_nucleotide cross-validation task.
+Current device: cuda:0
+MLP(
+  (fc1): Linear(in_features=12288, out_features=1024, bias=True)
+  (fc2): Linear(in_features=1024, out_features=1024, bias=True)
+  (fc3): Linear(in_features=1024, out_features=1024, bias=True)
+  (fc4): Linear(in_features=1024, out_features=1024, bias=True)
+  (fc5): Linear(in_features=1024, out_features=1, bias=True)
+  (relu): LeakyReLU(negative_slope=0.1)
+  (sigmoid): Sigmoid()
+  (dropout): Dropout(p=0.5)
+)
+Using 2 GPUs...
+*********************************************************************
+starting 1th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.7700
+train Accuracy:0.522 Precision:0.461 Recall:0.461 F1:0.461 MCC:0.031.
+(tn, fp, fn, tp):  (47976, 36120, 36182, 30922)
+val Loss: 0.7670
+val Accuracy:0.514 Precision:0.470 Recall:0.720 F1:0.568 MCC:0.075.
+(tn, fp, fn, tp):  (3257, 6055, 2081, 5359)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.7582
+train Accuracy:0.529 Precision:0.478 Recall:0.679 F1:0.561 MCC:0.090.
+(tn, fp, fn, tp):  (34371, 49725, 21529, 45575)
+val Loss: 0.7552
+val Accuracy:0.522 Precision:0.479 Recall:0.873 F1:0.618 MCC:0.144.
+(tn, fp, fn, tp):  (2246, 7066, 946, 6494)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.7444
+train Accuracy:0.561 Precision:0.504 Recall:0.712 F1:0.590 MCC:0.156.
+(tn, fp, fn, tp):  (36983, 47113, 19306, 47798)
+val Loss: 0.7471
+val Accuracy:0.527 Precision:0.483 Recall:0.922 F1:0.634 MCC:0.185.
+(tn, fp, fn, tp):  (1970, 7342, 579, 6861)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.7312
+train Accuracy:0.595 Precision:0.534 Recall:0.677 F1:0.597 MCC:0.207.
+(tn, fp, fn, tp):  (44543, 39553, 21689, 45415)
+val Loss: 0.7284
+val Accuracy:0.565 Precision:0.506 Recall:0.896 F1:0.647 MCC:0.239.
+(tn, fp, fn, tp):  (2808, 6504, 776, 6664)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.7262
+train Accuracy:0.599 Precision:0.538 Recall:0.684 F1:0.602 MCC:0.216.
+(tn, fp, fn, tp):  (44758, 39338, 21220, 45884)
+val Loss: 0.7092
+val Accuracy:0.618 Precision:0.549 Recall:0.783 F1:0.645 MCC:0.277.
+(tn, fp, fn, tp):  (4523, 4789, 1613, 5827)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.7225
+train Accuracy:0.605 Precision:0.544 Recall:0.683 F1:0.606 MCC:0.226.
+(tn, fp, fn, tp):  (45723, 38373, 21303, 45801)
+val Loss: 0.7141
+val Accuracy:0.608 Precision:0.539 Recall:0.803 F1:0.645 MCC:0.267.
+(tn, fp, fn, tp):  (4204, 5108, 1467, 5973)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.7193
+train Accuracy:0.611 Precision:0.549 Recall:0.685 F1:0.610 MCC:0.236.
+(tn, fp, fn, tp):  (46355, 37741, 21137, 45967)
+val Loss: 0.6936
+val Accuracy:0.660 Precision:0.608 Recall:0.664 F1:0.635 MCC:0.320.
+(tn, fp, fn, tp):  (6124, 3188, 2501, 4939)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.7139
+train Accuracy:0.618 Precision:0.557 Recall:0.688 F1:0.615 MCC:0.250.
+(tn, fp, fn, tp):  (47345, 36751, 20969, 46135)
+val Loss: 0.6937
+val Accuracy:0.668 Precision:0.622 Recall:0.643 F1:0.632 MCC:0.329.
+(tn, fp, fn, tp):  (6400, 2912, 2658, 4782)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.7103
+train Accuracy:0.624 Precision:0.562 Recall:0.690 F1:0.620 MCC:0.261.
+(tn, fp, fn, tp):  (48054, 36042, 20795, 46309)
+val Loss: 0.7120
+val Accuracy:0.589 Precision:0.522 Recall:0.895 F1:0.659 MCC:0.279.
+(tn, fp, fn, tp):  (3208, 6104, 781, 6659)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.7063
+train Accuracy:0.631 Precision:0.568 Recall:0.696 F1:0.626 MCC:0.274.
+(tn, fp, fn, tp):  (48661, 35435, 20423, 46681)
+val Loss: 0.8011
+val Accuracy:0.507 Precision:0.473 Recall:0.973 F1:0.637 MCC:0.190.
+(tn, fp, fn, tp):  (1255, 8057, 201, 7239)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.7013
+train Accuracy:0.635 Precision:0.572 Recall:0.702 F1:0.631 MCC:0.283.
+(tn, fp, fn, tp):  (48924, 35172, 20015, 47089)
+val Loss: 0.6917
+val Accuracy:0.633 Precision:0.561 Recall:0.798 F1:0.659 MCC:0.309.
+(tn, fp, fn, tp):  (4672, 4640, 1504, 5936)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.6979
+train Accuracy:0.637 Precision:0.574 Recall:0.708 F1:0.634 MCC:0.288.
+(tn, fp, fn, tp):  (48843, 35253, 19613, 47491)
+val Loss: 0.7021
+val Accuracy:0.600 Precision:0.529 Recall:0.907 F1:0.668 MCC:0.306.
+(tn, fp, fn, tp):  (3304, 6008, 689, 6751)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.6923
+train Accuracy:0.645 Precision:0.581 Recall:0.712 F1:0.640 MCC:0.302.
+(tn, fp, fn, tp):  (49664, 34432, 19317, 47787)
+val Loss: 0.6962
+val Accuracy:0.607 Precision:0.534 Recall:0.916 F1:0.674 MCC:0.323.
+(tn, fp, fn, tp):  (3363, 5949, 627, 6813)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.6864
+train Accuracy:0.651 Precision:0.587 Recall:0.717 F1:0.646 MCC:0.314.
+(tn, fp, fn, tp):  (50237, 33859, 18979, 48125)
+val Loss: 0.6657
+val Accuracy:0.680 Precision:0.608 Recall:0.784 F1:0.685 MCC:0.382.
+(tn, fp, fn, tp):  (5553, 3759, 1604, 5836)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.6850
+train Accuracy:0.652 Precision:0.588 Recall:0.720 F1:0.647 MCC:0.317.
+(tn, fp, fn, tp):  (50298, 33798, 18815, 48289)
+val Loss: 0.6631
+val Accuracy:0.672 Precision:0.595 Recall:0.818 F1:0.689 MCC:0.380.
+(tn, fp, fn, tp):  (5167, 4145, 1354, 6086)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.6812
+train Accuracy:0.657 Precision:0.593 Recall:0.725 F1:0.652 MCC:0.326.
+(tn, fp, fn, tp):  (50688, 33408, 18479, 48625)
+val Loss: 0.6505
+val Accuracy:0.703 Precision:0.651 Recall:0.716 F1:0.682 MCC:0.407.
+(tn, fp, fn, tp):  (6457, 2855, 2113, 5327)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.6745
+train Accuracy:0.663 Precision:0.599 Recall:0.729 F1:0.658 MCC:0.339.
+(tn, fp, fn, tp):  (51411, 32685, 18214, 48890)
+val Loss: 0.6746
+val Accuracy:0.643 Precision:0.561 Recall:0.897 F1:0.690 MCC:0.369.
+(tn, fp, fn, tp):  (4089, 5223, 763, 6677)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.6723
+train Accuracy:0.666 Precision:0.601 Recall:0.734 F1:0.661 MCC:0.344.
+(tn, fp, fn, tp):  (51403, 32693, 17847, 49257)
+val Loss: 0.6642
+val Accuracy:0.665 Precision:0.582 Recall:0.870 F1:0.698 MCC:0.391.
+(tn, fp, fn, tp):  (4668, 4644, 964, 6476)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.6647
+train Accuracy:0.672 Precision:0.607 Recall:0.739 F1:0.666 MCC:0.356.
+(tn, fp, fn, tp):  (51916, 32180, 17487, 49617)
+val Loss: 0.6614
+val Accuracy:0.666 Precision:0.584 Recall:0.866 F1:0.697 MCC:0.390.
+(tn, fp, fn, tp):  (4717, 4595, 997, 6443)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.6650
+train Accuracy:0.672 Precision:0.606 Recall:0.743 F1:0.667 MCC:0.357.
+(tn, fp, fn, tp):  (51707, 32389, 17275, 49829)
+val Loss: 0.6467
+val Accuracy:0.684 Precision:0.605 Recall:0.835 F1:0.701 MCC:0.407.
+(tn, fp, fn, tp):  (5256, 4056, 1231, 6209)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.6613
+train Accuracy:0.675 Precision:0.609 Recall:0.745 F1:0.670 MCC:0.362.
+(tn, fp, fn, tp):  (52030, 32066, 17129, 49975)
+val Loss: 0.6394
+val Accuracy:0.700 Precision:0.651 Recall:0.700 F1:0.675 MCC:0.399.
+(tn, fp, fn, tp):  (6525, 2787, 2232, 5208)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.6563
+train Accuracy:0.679 Precision:0.614 Recall:0.748 F1:0.674 MCC:0.371.
+(tn, fp, fn, tp):  (52509, 31587, 16937, 50167)
+val Loss: 0.6461
+val Accuracy:0.683 Precision:0.602 Recall:0.842 F1:0.702 MCC:0.407.
+(tn, fp, fn, tp):  (5173, 4139, 1176, 6264)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.6533
+train Accuracy:0.680 Precision:0.614 Recall:0.752 F1:0.676 MCC:0.374.
+(tn, fp, fn, tp):  (52393, 31703, 16665, 50439)
+val Loss: 0.6546
+val Accuracy:0.676 Precision:0.592 Recall:0.865 F1:0.703 MCC:0.405.
+(tn, fp, fn, tp):  (4878, 4434, 1001, 6439)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.6511
+train Accuracy:0.682 Precision:0.616 Recall:0.755 F1:0.678 MCC:0.378.
+(tn, fp, fn, tp):  (52495, 31601, 16469, 50635)
+val Loss: 0.6615
+val Accuracy:0.663 Precision:0.578 Recall:0.886 F1:0.700 MCC:0.394.
+(tn, fp, fn, tp):  (4508, 4804, 847, 6593)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.6469
+train Accuracy:0.687 Precision:0.620 Recall:0.758 F1:0.682 MCC:0.387.
+(tn, fp, fn, tp):  (52958, 31138, 16233, 50871)
+val Loss: 0.6614
+val Accuracy:0.662 Precision:0.576 Recall:0.905 F1:0.704 MCC:0.404.
+(tn, fp, fn, tp):  (4357, 4955, 704, 6736)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.6467
+train Accuracy:0.686 Precision:0.619 Recall:0.758 F1:0.682 MCC:0.386.
+(tn, fp, fn, tp):  (52838, 31258, 16222, 50882)
+val Loss: 0.6804
+val Accuracy:0.632 Precision:0.551 Recall:0.922 F1:0.690 MCC:0.366.
+(tn, fp, fn, tp):  (3720, 5592, 579, 6861)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.6416
+train Accuracy:0.693 Precision:0.627 Recall:0.761 F1:0.687 MCC:0.398.
+(tn, fp, fn, tp):  (53654, 30442, 16011, 51093)
+val Loss: 0.6504
+val Accuracy:0.677 Precision:0.591 Recall:0.880 F1:0.707 MCC:0.414.
+(tn, fp, fn, tp):  (4790, 4522, 894, 6546)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.6375
+train Accuracy:0.694 Precision:0.628 Recall:0.762 F1:0.689 MCC:0.401.
+(tn, fp, fn, tp):  (53825, 30271, 15982, 51122)
+val Loss: 0.6379
+val Accuracy:0.688 Precision:0.604 Recall:0.861 F1:0.710 MCC:0.423.
+(tn, fp, fn, tp):  (5113, 4199, 1034, 6406)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.6320
+train Accuracy:0.700 Precision:0.634 Recall:0.768 F1:0.694 MCC:0.412.
+(tn, fp, fn, tp):  (54313, 29783, 15588, 51516)
+val Loss: 0.6583
+val Accuracy:0.671 Precision:0.584 Recall:0.901 F1:0.709 MCC:0.415.
+(tn, fp, fn, tp):  (4539, 4773, 739, 6701)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.6322
+train Accuracy:0.698 Precision:0.632 Recall:0.766 F1:0.693 MCC:0.409.
+(tn, fp, fn, tp):  (54159, 29937, 15673, 51431)
+val Loss: 0.7243
+val Accuracy:0.600 Precision:0.527 Recall:0.960 F1:0.680 MCC:0.343.
+(tn, fp, fn, tp):  (2900, 6412, 297, 7143)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.6289
+train Accuracy:0.702 Precision:0.636 Recall:0.769 F1:0.696 MCC:0.416.
+(tn, fp, fn, tp):  (54524, 29572, 15507, 51597)
+val Loss: 0.6364
+val Accuracy:0.696 Precision:0.624 Recall:0.793 F1:0.699 MCC:0.412.
+(tn, fp, fn, tp):  (5758, 3554, 1538, 5902)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.6264
+train Accuracy:0.704 Precision:0.638 Recall:0.770 F1:0.697 MCC:0.419.
+(tn, fp, fn, tp):  (54727, 29369, 15446, 51658)
+val Loss: 0.7313
+val Accuracy:0.596 Precision:0.525 Recall:0.954 F1:0.677 MCC:0.333.
+(tn, fp, fn, tp):  (2897, 6415, 345, 7095)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.6223
+train Accuracy:0.708 Precision:0.642 Recall:0.773 F1:0.701 MCC:0.427.
+(tn, fp, fn, tp):  (55173, 28923, 15253, 51851)
+val Loss: 0.6859
+val Accuracy:0.636 Precision:0.553 Recall:0.928 F1:0.693 MCC:0.376.
+(tn, fp, fn, tp):  (3745, 5567, 539, 6901)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.6168
+train Accuracy:0.712 Precision:0.646 Recall:0.774 F1:0.704 MCC:0.434.
+(tn, fp, fn, tp):  (55663, 28433, 15182, 51922)
+val Loss: 0.6357
+val Accuracy:0.690 Precision:0.610 Recall:0.840 F1:0.707 MCC:0.419.
+(tn, fp, fn, tp):  (5320, 3992, 1193, 6247)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.6178
+train Accuracy:0.710 Precision:0.644 Recall:0.773 F1:0.703 MCC:0.431.
+(tn, fp, fn, tp):  (55482, 28614, 15248, 51856)
+val Loss: 0.6508
+val Accuracy:0.673 Precision:0.587 Recall:0.890 F1:0.707 MCC:0.413.
+(tn, fp, fn, tp):  (4661, 4651, 822, 6618)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.6147
+train Accuracy:0.712 Precision:0.647 Recall:0.773 F1:0.704 MCC:0.434.
+(tn, fp, fn, tp):  (55756, 28340, 15213, 51891)
+val Loss: 0.6319
+val Accuracy:0.700 Precision:0.631 Recall:0.779 F1:0.698 MCC:0.415.
+(tn, fp, fn, tp):  (5925, 3387, 1642, 5798)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.6104
+train Accuracy:0.716 Precision:0.651 Recall:0.774 F1:0.707 MCC:0.441.
+(tn, fp, fn, tp):  (56278, 27818, 15165, 51939)
+val Loss: 0.6326
+val Accuracy:0.690 Precision:0.610 Recall:0.840 F1:0.707 MCC:0.419.
+(tn, fp, fn, tp):  (5312, 4000, 1190, 6250)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.6113
+train Accuracy:0.716 Precision:0.652 Recall:0.773 F1:0.707 MCC:0.441.
+(tn, fp, fn, tp):  (56352, 27744, 15234, 51870)
+val Loss: 0.6984
+val Accuracy:0.624 Precision:0.545 Recall:0.936 F1:0.689 MCC:0.364.
+(tn, fp, fn, tp):  (3493, 5819, 476, 6964)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.6089
+train Accuracy:0.718 Precision:0.653 Recall:0.776 F1:0.709 MCC:0.445.
+(tn, fp, fn, tp):  (56463, 27633, 15051, 52053)
+val Loss: 0.6355
+val Accuracy:0.685 Precision:0.607 Recall:0.824 F1:0.699 MCC:0.403.
+(tn, fp, fn, tp):  (5340, 3972, 1313, 6127)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.6013
+train Accuracy:0.723 Precision:0.659 Recall:0.779 F1:0.714 MCC:0.455.
+(tn, fp, fn, tp):  (57096, 27000, 14836, 52268)
+val Loss: 0.6498
+val Accuracy:0.678 Precision:0.594 Recall:0.869 F1:0.706 MCC:0.411.
+(tn, fp, fn, tp):  (4887, 4425, 972, 6468)
+Training complete in 38m 11s
+Best val MCC: 0.422774
+*********************************************************************
+starting 2th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.6365
+train Accuracy:0.696 Precision:0.630 Recall:0.764 F1:0.690 MCC:0.404.
+(tn, fp, fn, tp):  (53973, 30123, 15837, 51267)
+val Loss: 0.6198
+val Accuracy:0.694 Precision:0.608 Recall:0.872 F1:0.717 MCC:0.438.
+(tn, fp, fn, tp):  (5134, 4178, 949, 6491)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.6327
+train Accuracy:0.698 Precision:0.632 Recall:0.765 F1:0.692 MCC:0.409.
+(tn, fp, fn, tp):  (54264, 29832, 15783, 51321)
+val Loss: 0.6031
+val Accuracy:0.715 Precision:0.637 Recall:0.831 F1:0.722 MCC:0.456.
+(tn, fp, fn, tp):  (5792, 3520, 1254, 6186)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.6307
+train Accuracy:0.700 Precision:0.634 Recall:0.767 F1:0.694 MCC:0.412.
+(tn, fp, fn, tp):  (54361, 29735, 15615, 51489)
+val Loss: 0.6049
+val Accuracy:0.727 Precision:0.670 Recall:0.762 F1:0.713 MCC:0.459.
+(tn, fp, fn, tp):  (6513, 2799, 1767, 5673)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.6275
+train Accuracy:0.703 Precision:0.637 Recall:0.767 F1:0.696 MCC:0.416.
+(tn, fp, fn, tp):  (54771, 29325, 15645, 51459)
+val Loss: 0.6397
+val Accuracy:0.672 Precision:0.585 Recall:0.903 F1:0.710 MCC:0.417.
+(tn, fp, fn, tp):  (4539, 4773, 725, 6715)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.6211
+train Accuracy:0.708 Precision:0.642 Recall:0.772 F1:0.701 MCC:0.426.
+(tn, fp, fn, tp):  (55186, 28910, 15300, 51804)
+val Loss: 0.6165
+val Accuracy:0.700 Precision:0.620 Recall:0.840 F1:0.713 MCC:0.435.
+(tn, fp, fn, tp):  (5482, 3830, 1191, 6249)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.6191
+train Accuracy:0.710 Precision:0.645 Recall:0.771 F1:0.702 MCC:0.430.
+(tn, fp, fn, tp):  (55612, 28484, 15391, 51713)
+val Loss: 0.6105
+val Accuracy:0.706 Precision:0.627 Recall:0.837 F1:0.717 MCC:0.444.
+(tn, fp, fn, tp):  (5602, 3710, 1212, 6228)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.6174
+train Accuracy:0.711 Precision:0.646 Recall:0.771 F1:0.703 MCC:0.432.
+(tn, fp, fn, tp):  (55727, 28369, 15341, 51763)
+val Loss: 0.6051
+val Accuracy:0.715 Precision:0.643 Recall:0.803 F1:0.714 MCC:0.447.
+(tn, fp, fn, tp):  (5993, 3319, 1462, 5978)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.6122
+train Accuracy:0.714 Precision:0.649 Recall:0.774 F1:0.706 MCC:0.438.
+(tn, fp, fn, tp):  (56065, 28031, 15186, 51918)
+val Loss: 0.6241
+val Accuracy:0.722 Precision:0.695 Recall:0.665 F1:0.680 MCC:0.434.
+(tn, fp, fn, tp):  (7140, 2172, 2493, 4947)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.6113
+train Accuracy:0.715 Precision:0.651 Recall:0.772 F1:0.706 MCC:0.440.
+(tn, fp, fn, tp):  (56357, 27739, 15309, 51795)
+val Loss: 0.6269
+val Accuracy:0.687 Precision:0.601 Recall:0.875 F1:0.713 MCC:0.428.
+(tn, fp, fn, tp):  (4998, 4314, 931, 6509)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.6059
+train Accuracy:0.720 Precision:0.656 Recall:0.777 F1:0.711 MCC:0.449.
+(tn, fp, fn, tp):  (56737, 27359, 14993, 52111)
+val Loss: 0.6120
+val Accuracy:0.706 Precision:0.626 Recall:0.842 F1:0.718 MCC:0.446.
+(tn, fp, fn, tp):  (5571, 3741, 1179, 6261)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.6006
+train Accuracy:0.723 Precision:0.659 Recall:0.778 F1:0.714 MCC:0.454.
+(tn, fp, fn, tp):  (57034, 27062, 14866, 52238)
+val Loss: 0.6151
+val Accuracy:0.710 Precision:0.639 Recall:0.798 F1:0.710 MCC:0.438.
+(tn, fp, fn, tp):  (5963, 3349, 1504, 5936)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.6064
+train Accuracy:0.718 Precision:0.654 Recall:0.775 F1:0.709 MCC:0.445.
+(tn, fp, fn, tp):  (56545, 27551, 15103, 52001)
+val Loss: 0.6031
+val Accuracy:0.732 Precision:0.679 Recall:0.751 F1:0.713 MCC:0.464.
+(tn, fp, fn, tp):  (6672, 2640, 1854, 5586)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.5985
+train Accuracy:0.725 Precision:0.661 Recall:0.780 F1:0.715 MCC:0.458.
+(tn, fp, fn, tp):  (57235, 26861, 14783, 52321)
+val Loss: 0.6157
+val Accuracy:0.702 Precision:0.621 Recall:0.847 F1:0.716 MCC:0.441.
+(tn, fp, fn, tp):  (5466, 3846, 1141, 6299)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.5960
+train Accuracy:0.725 Precision:0.662 Recall:0.780 F1:0.716 MCC:0.459.
+(tn, fp, fn, tp):  (57355, 26741, 14789, 52315)
+val Loss: 0.6095
+val Accuracy:0.718 Precision:0.658 Recall:0.758 F1:0.705 MCC:0.441.
+(tn, fp, fn, tp):  (6383, 2929, 1800, 5640)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.5941
+train Accuracy:0.728 Precision:0.665 Recall:0.777 F1:0.717 MCC:0.462.
+(tn, fp, fn, tp):  (57865, 26231, 14963, 52141)
+val Loss: 0.6119
+val Accuracy:0.710 Precision:0.646 Recall:0.769 F1:0.702 MCC:0.430.
+(tn, fp, fn, tp):  (6175, 3137, 1722, 5718)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.5912
+train Accuracy:0.731 Precision:0.668 Recall:0.781 F1:0.720 MCC:0.469.
+(tn, fp, fn, tp):  (58076, 26020, 14673, 52431)
+val Loss: 0.6032
+val Accuracy:0.724 Precision:0.669 Recall:0.751 F1:0.707 MCC:0.451.
+(tn, fp, fn, tp):  (6546, 2766, 1856, 5584)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.5863
+train Accuracy:0.734 Precision:0.671 Recall:0.783 F1:0.723 MCC:0.474.
+(tn, fp, fn, tp):  (58392, 25704, 14581, 52523)
+val Loss: 0.6723
+val Accuracy:0.654 Precision:0.569 Recall:0.911 F1:0.700 MCC:0.394.
+(tn, fp, fn, tp):  (4169, 5143, 661, 6779)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.5849
+train Accuracy:0.733 Precision:0.671 Recall:0.781 F1:0.722 MCC:0.473.
+(tn, fp, fn, tp):  (58418, 25678, 14672, 52432)
+val Loss: 0.6160
+val Accuracy:0.709 Precision:0.641 Recall:0.786 F1:0.706 MCC:0.433.
+(tn, fp, fn, tp):  (6037, 3275, 1593, 5847)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.5788
+train Accuracy:0.740 Precision:0.678 Recall:0.786 F1:0.728 MCC:0.486.
+(tn, fp, fn, tp):  (59084, 25012, 14360, 52744)
+val Loss: 0.6698
+val Accuracy:0.657 Precision:0.572 Recall:0.906 F1:0.701 MCC:0.396.
+(tn, fp, fn, tp):  (4265, 5047, 697, 6743)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.5770
+train Accuracy:0.740 Precision:0.679 Recall:0.786 F1:0.729 MCC:0.487.
+(tn, fp, fn, tp):  (59224, 24872, 14379, 52725)
+val Loss: 0.6561
+val Accuracy:0.670 Precision:0.590 Recall:0.845 F1:0.695 MCC:0.387.
+(tn, fp, fn, tp):  (4938, 4374, 1155, 6285)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.5728
+train Accuracy:0.742 Precision:0.682 Recall:0.788 F1:0.731 MCC:0.491.
+(tn, fp, fn, tp):  (59392, 24704, 14232, 52872)
+val Loss: 0.6064
+val Accuracy:0.721 Precision:0.657 Recall:0.779 F1:0.713 MCC:0.452.
+(tn, fp, fn, tp):  (6291, 3021, 1645, 5795)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.5694
+train Accuracy:0.745 Precision:0.685 Recall:0.791 F1:0.734 MCC:0.497.
+(tn, fp, fn, tp):  (59638, 24458, 14038, 53066)
+val Loss: 0.6145
+val Accuracy:0.713 Precision:0.646 Recall:0.782 F1:0.708 MCC:0.438.
+(tn, fp, fn, tp):  (6123, 3189, 1619, 5821)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.5664
+train Accuracy:0.747 Precision:0.687 Recall:0.791 F1:0.735 MCC:0.500.
+(tn, fp, fn, tp):  (59881, 24215, 14004, 53100)
+val Loss: 0.6180
+val Accuracy:0.719 Precision:0.666 Recall:0.736 F1:0.699 MCC:0.438.
+(tn, fp, fn, tp):  (6568, 2744, 1966, 5474)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.5674
+train Accuracy:0.746 Precision:0.686 Recall:0.788 F1:0.734 MCC:0.498.
+(tn, fp, fn, tp):  (59957, 24139, 14249, 52855)
+val Loss: 0.6709
+val Accuracy:0.669 Precision:0.585 Recall:0.880 F1:0.703 MCC:0.402.
+(tn, fp, fn, tp):  (4668, 4644, 896, 6544)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.5619
+train Accuracy:0.750 Precision:0.691 Recall:0.791 F1:0.738 MCC:0.506.
+(tn, fp, fn, tp):  (60333, 23763, 14008, 53096)
+val Loss: 0.6822
+val Accuracy:0.654 Precision:0.570 Recall:0.899 F1:0.698 MCC:0.388.
+(tn, fp, fn, tp):  (4278, 5034, 755, 6685)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.5617
+train Accuracy:0.751 Precision:0.692 Recall:0.792 F1:0.738 MCC:0.507.
+(tn, fp, fn, tp):  (60386, 23710, 13949, 53155)
+val Loss: 0.6234
+val Accuracy:0.711 Precision:0.641 Recall:0.793 F1:0.709 MCC:0.437.
+(tn, fp, fn, tp):  (6002, 3310, 1537, 5903)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.5547
+train Accuracy:0.756 Precision:0.697 Recall:0.794 F1:0.743 MCC:0.516.
+(tn, fp, fn, tp):  (60979, 23117, 13824, 53280)
+val Loss: 0.6434
+val Accuracy:0.695 Precision:0.619 Recall:0.816 F1:0.704 MCC:0.418.
+(tn, fp, fn, tp):  (5567, 3745, 1367, 6073)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.5502
+train Accuracy:0.758 Precision:0.700 Recall:0.796 F1:0.745 MCC:0.521.
+(tn, fp, fn, tp):  (61242, 22854, 13670, 53434)
+val Loss: 0.6416
+val Accuracy:0.699 Precision:0.624 Recall:0.808 F1:0.704 MCC:0.421.
+(tn, fp, fn, tp):  (5692, 3620, 1428, 6012)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.5463
+train Accuracy:0.761 Precision:0.703 Recall:0.799 F1:0.748 MCC:0.527.
+(tn, fp, fn, tp):  (61505, 22591, 13520, 53584)
+val Loss: 0.6347
+val Accuracy:0.692 Precision:0.612 Recall:0.839 F1:0.708 MCC:0.421.
+(tn, fp, fn, tp):  (5351, 3961, 1199, 6241)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.5453
+train Accuracy:0.761 Precision:0.703 Recall:0.796 F1:0.747 MCC:0.525.
+(tn, fp, fn, tp):  (61550, 22546, 13661, 53443)
+val Loss: 0.6778
+val Accuracy:0.662 Precision:0.578 Recall:0.887 F1:0.700 MCC:0.394.
+(tn, fp, fn, tp):  (4487, 4825, 837, 6603)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.5429
+train Accuracy:0.762 Precision:0.704 Recall:0.800 F1:0.749 MCC:0.529.
+(tn, fp, fn, tp):  (61574, 22522, 13421, 53683)
+val Loss: 0.6371
+val Accuracy:0.696 Precision:0.621 Recall:0.811 F1:0.703 MCC:0.419.
+(tn, fp, fn, tp):  (5633, 3679, 1407, 6033)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.5391
+train Accuracy:0.765 Precision:0.708 Recall:0.800 F1:0.751 MCC:0.533.
+(tn, fp, fn, tp):  (61933, 22163, 13431, 53673)
+val Loss: 0.6690
+val Accuracy:0.675 Precision:0.591 Recall:0.870 F1:0.704 MCC:0.407.
+(tn, fp, fn, tp):  (4837, 4475, 967, 6473)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.5382
+train Accuracy:0.766 Precision:0.710 Recall:0.800 F1:0.753 MCC:0.536.
+(tn, fp, fn, tp):  (62209, 21887, 13421, 53683)
+val Loss: 0.6599
+val Accuracy:0.681 Precision:0.600 Recall:0.849 F1:0.703 MCC:0.408.
+(tn, fp, fn, tp):  (5097, 4215, 1122, 6318)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.5356
+train Accuracy:0.767 Precision:0.711 Recall:0.800 F1:0.753 MCC:0.537.
+(tn, fp, fn, tp):  (62294, 21802, 13448, 53656)
+val Loss: 0.6335
+val Accuracy:0.706 Precision:0.632 Recall:0.811 F1:0.710 MCC:0.435.
+(tn, fp, fn, tp):  (5794, 3518, 1407, 6033)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.5327
+train Accuracy:0.769 Precision:0.713 Recall:0.802 F1:0.755 MCC:0.540.
+(tn, fp, fn, tp):  (62388, 21708, 13289, 53815)
+val Loss: 0.6280
+val Accuracy:0.697 Precision:0.628 Recall:0.781 F1:0.696 MCC:0.411.
+(tn, fp, fn, tp):  (5868, 3444, 1630, 5810)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.5240
+train Accuracy:0.774 Precision:0.719 Recall:0.807 F1:0.761 MCC:0.552.
+(tn, fp, fn, tp):  (62917, 21179, 12935, 54169)
+val Loss: 0.6350
+val Accuracy:0.702 Precision:0.625 Recall:0.821 F1:0.710 MCC:0.431.
+(tn, fp, fn, tp):  (5654, 3658, 1335, 6105)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.5191
+train Accuracy:0.778 Precision:0.723 Recall:0.809 F1:0.764 MCC:0.558.
+(tn, fp, fn, tp):  (63270, 20826, 12805, 54299)
+val Loss: 0.6726
+val Accuracy:0.682 Precision:0.600 Recall:0.854 F1:0.704 MCC:0.410.
+(tn, fp, fn, tp):  (5071, 4241, 1089, 6351)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.5198
+train Accuracy:0.777 Precision:0.723 Recall:0.808 F1:0.763 MCC:0.557.
+(tn, fp, fn, tp):  (63277, 20819, 12876, 54228)
+val Loss: 0.7085
+val Accuracy:0.655 Precision:0.573 Recall:0.872 F1:0.692 MCC:0.375.
+(tn, fp, fn, tp):  (4486, 4826, 953, 6487)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.5195
+train Accuracy:0.777 Precision:0.722 Recall:0.808 F1:0.763 MCC:0.557.
+(tn, fp, fn, tp):  (63235, 20861, 12876, 54228)
+val Loss: 0.6732
+val Accuracy:0.683 Precision:0.603 Recall:0.836 F1:0.701 MCC:0.405.
+(tn, fp, fn, tp):  (5221, 4091, 1221, 6219)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.5141
+train Accuracy:0.781 Precision:0.727 Recall:0.810 F1:0.767 MCC:0.564.
+(tn, fp, fn, tp):  (63711, 20385, 12726, 54378)
+val Loss: 0.6555
+val Accuracy:0.695 Precision:0.622 Recall:0.798 F1:0.699 MCC:0.412.
+(tn, fp, fn, tp):  (5696, 3616, 1500, 5940)
+Training complete in 33m 36s
+Best val MCC: 0.464449
+*********************************************************************
+starting 3th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.6022
+train Accuracy:0.724 Precision:0.661 Recall:0.775 F1:0.713 MCC:0.455.
+(tn, fp, fn, tp):  (57392, 26704, 15093, 52011)
+val Loss: 0.6742
+val Accuracy:0.652 Precision:0.568 Recall:0.906 F1:0.698 MCC:0.388.
+(tn, fp, fn, tp):  (4176, 5136, 700, 6740)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.5940
+train Accuracy:0.728 Precision:0.665 Recall:0.780 F1:0.718 MCC:0.464.
+(tn, fp, fn, tp):  (57770, 26326, 14775, 52329)
+val Loss: 0.6467
+val Accuracy:0.672 Precision:0.590 Recall:0.863 F1:0.700 MCC:0.399.
+(tn, fp, fn, tp):  (4846, 4466, 1023, 6417)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.5922
+train Accuracy:0.730 Precision:0.668 Recall:0.779 F1:0.719 MCC:0.467.
+(tn, fp, fn, tp):  (58138, 25958, 14851, 52253)
+val Loss: 0.6234
+val Accuracy:0.710 Precision:0.662 Recall:0.711 F1:0.686 MCC:0.419.
+(tn, fp, fn, tp):  (6614, 2698, 2153, 5287)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.5900
+train Accuracy:0.732 Precision:0.670 Recall:0.780 F1:0.721 MCC:0.471.
+(tn, fp, fn, tp):  (58369, 25727, 14785, 52319)
+val Loss: 0.6642
+val Accuracy:0.668 Precision:0.580 Recall:0.915 F1:0.710 MCC:0.418.
+(tn, fp, fn, tp):  (4371, 4941, 629, 6811)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.5822
+train Accuracy:0.737 Precision:0.676 Recall:0.784 F1:0.726 MCC:0.481.
+(tn, fp, fn, tp):  (58825, 25271, 14480, 52624)
+val Loss: 0.6377
+val Accuracy:0.690 Precision:0.608 Recall:0.850 F1:0.709 MCC:0.422.
+(tn, fp, fn, tp):  (5243, 4069, 1119, 6321)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.5795
+train Accuracy:0.739 Precision:0.678 Recall:0.786 F1:0.728 MCC:0.485.
+(tn, fp, fn, tp):  (59027, 25069, 14340, 52764)
+val Loss: 0.6378
+val Accuracy:0.694 Precision:0.621 Recall:0.798 F1:0.698 MCC:0.410.
+(tn, fp, fn, tp):  (5685, 3627, 1506, 5934)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.5784
+train Accuracy:0.740 Precision:0.679 Recall:0.784 F1:0.728 MCC:0.485.
+(tn, fp, fn, tp):  (59200, 24896, 14471, 52633)
+val Loss: 0.6332
+val Accuracy:0.698 Precision:0.623 Recall:0.813 F1:0.705 MCC:0.422.
+(tn, fp, fn, tp):  (5651, 3661, 1393, 6047)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.5742
+train Accuracy:0.742 Precision:0.681 Recall:0.786 F1:0.730 MCC:0.490.
+(tn, fp, fn, tp):  (59448, 24648, 14373, 52731)
+val Loss: 0.6292
+val Accuracy:0.711 Precision:0.661 Recall:0.716 F1:0.688 MCC:0.421.
+(tn, fp, fn, tp):  (6579, 2733, 2110, 5330)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.5714
+train Accuracy:0.743 Precision:0.683 Recall:0.786 F1:0.731 MCC:0.492.
+(tn, fp, fn, tp):  (59627, 24469, 14334, 52770)
+val Loss: 0.6470
+val Accuracy:0.683 Precision:0.598 Recall:0.871 F1:0.709 MCC:0.419.
+(tn, fp, fn, tp):  (4958, 4354, 959, 6481)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.5676
+train Accuracy:0.747 Precision:0.687 Recall:0.790 F1:0.735 MCC:0.499.
+(tn, fp, fn, tp):  (59902, 24194, 14090, 53014)
+val Loss: 0.6315
+val Accuracy:0.698 Precision:0.620 Recall:0.828 F1:0.709 MCC:0.427.
+(tn, fp, fn, tp):  (5531, 3781, 1281, 6159)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.5649
+train Accuracy:0.748 Precision:0.688 Recall:0.790 F1:0.735 MCC:0.501.
+(tn, fp, fn, tp):  (59998, 24098, 14071, 53033)
+val Loss: 0.6312
+val Accuracy:0.706 Precision:0.650 Recall:0.734 F1:0.689 MCC:0.415.
+(tn, fp, fn, tp):  (6366, 2946, 1977, 5463)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.5642
+train Accuracy:0.749 Precision:0.689 Recall:0.790 F1:0.736 MCC:0.502.
+(tn, fp, fn, tp):  (60176, 23920, 14098, 53006)
+val Loss: 0.6380
+val Accuracy:0.700 Precision:0.627 Recall:0.801 F1:0.703 MCC:0.422.
+(tn, fp, fn, tp):  (5771, 3541, 1482, 5958)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.5589
+train Accuracy:0.753 Precision:0.694 Recall:0.793 F1:0.740 MCC:0.511.
+(tn, fp, fn, tp):  (60654, 23442, 13876, 53228)
+val Loss: 0.6391
+val Accuracy:0.693 Precision:0.613 Recall:0.836 F1:0.707 MCC:0.421.
+(tn, fp, fn, tp):  (5387, 3925, 1222, 6218)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.5554
+train Accuracy:0.755 Precision:0.696 Recall:0.794 F1:0.742 MCC:0.514.
+(tn, fp, fn, tp):  (60808, 23288, 13825, 53279)
+val Loss: 0.6434
+val Accuracy:0.699 Precision:0.657 Recall:0.676 F1:0.666 MCC:0.393.
+(tn, fp, fn, tp):  (6684, 2628, 2409, 5031)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.5539
+train Accuracy:0.756 Precision:0.697 Recall:0.795 F1:0.743 MCC:0.516.
+(tn, fp, fn, tp):  (60896, 23200, 13767, 53337)
+val Loss: 0.6409
+val Accuracy:0.699 Precision:0.636 Recall:0.751 F1:0.689 MCC:0.406.
+(tn, fp, fn, tp):  (6114, 3198, 1851, 5589)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.5538
+train Accuracy:0.756 Precision:0.698 Recall:0.793 F1:0.742 MCC:0.515.
+(tn, fp, fn, tp):  (61049, 23047, 13904, 53200)
+val Loss: 0.6464
+val Accuracy:0.683 Precision:0.604 Recall:0.831 F1:0.700 MCC:0.404.
+(tn, fp, fn, tp):  (5264, 4048, 1256, 6184)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.5447
+train Accuracy:0.762 Precision:0.704 Recall:0.799 F1:0.749 MCC:0.528.
+(tn, fp, fn, tp):  (61573, 22523, 13481, 53623)
+val Loss: 0.6652
+val Accuracy:0.680 Precision:0.597 Recall:0.861 F1:0.705 MCC:0.410.
+(tn, fp, fn, tp):  (4983, 4329, 1033, 6407)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.5443
+train Accuracy:0.762 Precision:0.705 Recall:0.798 F1:0.748 MCC:0.528.
+(tn, fp, fn, tp):  (61667, 22429, 13583, 53521)
+val Loss: 0.6559
+val Accuracy:0.691 Precision:0.614 Recall:0.820 F1:0.702 MCC:0.412.
+(tn, fp, fn, tp):  (5470, 3842, 1340, 6100)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.5392
+train Accuracy:0.765 Precision:0.709 Recall:0.799 F1:0.751 MCC:0.534.
+(tn, fp, fn, tp):  (62050, 22046, 13474, 53630)
+val Loss: 0.6634
+val Accuracy:0.668 Precision:0.587 Recall:0.849 F1:0.694 MCC:0.386.
+(tn, fp, fn, tp):  (4875, 4437, 1126, 6314)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.5367
+train Accuracy:0.766 Precision:0.710 Recall:0.801 F1:0.753 MCC:0.537.
+(tn, fp, fn, tp):  (62109, 21987, 13328, 53776)
+val Loss: 0.6762
+val Accuracy:0.676 Precision:0.592 Recall:0.864 F1:0.703 MCC:0.405.
+(tn, fp, fn, tp):  (4891, 4421, 1012, 6428)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.5321
+train Accuracy:0.770 Precision:0.713 Recall:0.804 F1:0.756 MCC:0.543.
+(tn, fp, fn, tp):  (62414, 21682, 13137, 53967)
+val Loss: 0.6487
+val Accuracy:0.700 Precision:0.636 Recall:0.758 F1:0.692 MCC:0.410.
+(tn, fp, fn, tp):  (6088, 3224, 1798, 5642)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.5333
+train Accuracy:0.768 Precision:0.712 Recall:0.802 F1:0.754 MCC:0.540.
+(tn, fp, fn, tp):  (62387, 21709, 13313, 53791)
+val Loss: 0.6429
+val Accuracy:0.697 Precision:0.634 Recall:0.749 F1:0.687 MCC:0.401.
+(tn, fp, fn, tp):  (6098, 3214, 1870, 5570)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.5283
+train Accuracy:0.772 Precision:0.717 Recall:0.804 F1:0.758 MCC:0.547.
+(tn, fp, fn, tp):  (62796, 21300, 13179, 53925)
+val Loss: 0.6658
+val Accuracy:0.685 Precision:0.610 Recall:0.809 F1:0.695 MCC:0.399.
+(tn, fp, fn, tp):  (5461, 3851, 1423, 6017)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.5237
+train Accuracy:0.774 Precision:0.719 Recall:0.806 F1:0.760 MCC:0.550.
+(tn, fp, fn, tp):  (62935, 21161, 13046, 54058)
+val Loss: 0.6544
+val Accuracy:0.698 Precision:0.633 Recall:0.761 F1:0.691 MCC:0.408.
+(tn, fp, fn, tp):  (6034, 3278, 1776, 5664)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.5191
+train Accuracy:0.777 Precision:0.723 Recall:0.808 F1:0.763 MCC:0.557.
+(tn, fp, fn, tp):  (63271, 20825, 12852, 54252)
+val Loss: 0.7667
+val Accuracy:0.631 Precision:0.552 Recall:0.896 F1:0.683 MCC:0.350.
+(tn, fp, fn, tp):  (3914, 5398, 777, 6663)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.5168
+train Accuracy:0.777 Precision:0.722 Recall:0.810 F1:0.764 MCC:0.558.
+(tn, fp, fn, tp):  (63210, 20886, 12769, 54335)
+val Loss: 0.6625
+val Accuracy:0.691 Precision:0.625 Recall:0.764 F1:0.687 MCC:0.396.
+(tn, fp, fn, tp):  (5899, 3413, 1756, 5684)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.5152
+train Accuracy:0.780 Precision:0.726 Recall:0.810 F1:0.766 MCC:0.563.
+(tn, fp, fn, tp):  (63593, 20503, 12741, 54363)
+val Loss: 0.6728
+val Accuracy:0.687 Precision:0.620 Recall:0.765 F1:0.685 MCC:0.389.
+(tn, fp, fn, tp):  (5821, 3491, 1751, 5689)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.5145
+train Accuracy:0.780 Precision:0.726 Recall:0.810 F1:0.766 MCC:0.563.
+(tn, fp, fn, tp):  (63617, 20479, 12771, 54333)
+val Loss: 0.6646
+val Accuracy:0.690 Precision:0.615 Recall:0.806 F1:0.698 MCC:0.406.
+(tn, fp, fn, tp):  (5556, 3756, 1442, 5998)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.5077
+train Accuracy:0.784 Precision:0.732 Recall:0.812 F1:0.770 MCC:0.571.
+(tn, fp, fn, tp):  (64120, 19976, 12636, 54468)
+val Loss: 0.6688
+val Accuracy:0.698 Precision:0.630 Recall:0.774 F1:0.695 MCC:0.410.
+(tn, fp, fn, tp):  (5933, 3379, 1681, 5759)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.5057
+train Accuracy:0.785 Precision:0.732 Recall:0.812 F1:0.770 MCC:0.572.
+(tn, fp, fn, tp):  (64181, 19915, 12593, 54511)
+val Loss: 0.7840
+val Accuracy:0.628 Precision:0.550 Recall:0.891 F1:0.680 MCC:0.342.
+(tn, fp, fn, tp):  (3898, 5414, 814, 6626)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.5033
+train Accuracy:0.787 Precision:0.734 Recall:0.814 F1:0.772 MCC:0.575.
+(tn, fp, fn, tp):  (64303, 19793, 12476, 54628)
+val Loss: 0.7419
+val Accuracy:0.651 Precision:0.569 Recall:0.880 F1:0.691 MCC:0.372.
+(tn, fp, fn, tp):  (4352, 4960, 893, 6547)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.4963
+train Accuracy:0.791 Precision:0.738 Recall:0.818 F1:0.776 MCC:0.583.
+(tn, fp, fn, tp):  (64665, 19431, 12242, 54862)
+val Loss: 0.7120
+val Accuracy:0.676 Precision:0.598 Recall:0.828 F1:0.694 MCC:0.391.
+(tn, fp, fn, tp):  (5165, 4147, 1278, 6162)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.4941
+train Accuracy:0.791 Precision:0.740 Recall:0.815 F1:0.776 MCC:0.583.
+(tn, fp, fn, tp):  (64862, 19234, 12398, 54706)
+val Loss: 0.7273
+val Accuracy:0.670 Precision:0.598 Recall:0.784 F1:0.678 MCC:0.365.
+(tn, fp, fn, tp):  (5389, 3923, 1610, 5830)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.4905
+train Accuracy:0.794 Precision:0.742 Recall:0.819 F1:0.779 MCC:0.589.
+(tn, fp, fn, tp):  (65028, 19068, 12140, 54964)
+val Loss: 0.7169
+val Accuracy:0.680 Precision:0.613 Recall:0.759 F1:0.678 MCC:0.375.
+(tn, fp, fn, tp):  (5744, 3568, 1794, 5646)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.4924
+train Accuracy:0.792 Precision:0.740 Recall:0.819 F1:0.778 MCC:0.586.
+(tn, fp, fn, tp):  (64811, 19285, 12136, 54968)
+val Loss: 0.7037
+val Accuracy:0.694 Precision:0.643 Recall:0.697 F1:0.669 MCC:0.386.
+(tn, fp, fn, tp):  (6434, 2878, 2254, 5186)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.4862
+train Accuracy:0.797 Precision:0.746 Recall:0.822 F1:0.782 MCC:0.595.
+(tn, fp, fn, tp):  (65325, 18771, 11953, 55151)
+val Loss: 0.6967
+val Accuracy:0.682 Precision:0.607 Recall:0.810 F1:0.694 MCC:0.395.
+(tn, fp, fn, tp):  (5405, 3907, 1414, 6026)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.4793
+train Accuracy:0.799 Precision:0.749 Recall:0.824 F1:0.785 MCC:0.600.
+(tn, fp, fn, tp):  (65555, 18541, 11785, 55319)
+val Loss: 0.7326
+val Accuracy:0.669 Precision:0.595 Recall:0.797 F1:0.681 MCC:0.368.
+(tn, fp, fn, tp):  (5282, 4030, 1513, 5927)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.4778
+train Accuracy:0.800 Precision:0.750 Recall:0.824 F1:0.785 MCC:0.601.
+(tn, fp, fn, tp):  (65690, 18406, 11822, 55282)
+val Loss: 0.7896
+val Accuracy:0.628 Precision:0.549 Recall:0.905 F1:0.684 MCC:0.350.
+(tn, fp, fn, tp):  (3785, 5527, 705, 6735)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.4777
+train Accuracy:0.800 Precision:0.750 Recall:0.825 F1:0.786 MCC:0.602.
+(tn, fp, fn, tp):  (65670, 18426, 11773, 55331)
+val Loss: 0.7390
+val Accuracy:0.659 Precision:0.581 Recall:0.828 F1:0.683 MCC:0.362.
+(tn, fp, fn, tp):  (4876, 4436, 1279, 6161)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.4775
+train Accuracy:0.801 Precision:0.751 Recall:0.823 F1:0.786 MCC:0.602.
+(tn, fp, fn, tp):  (65834, 18262, 11887, 55217)
+val Loss: 0.7373
+val Accuracy:0.659 Precision:0.590 Recall:0.764 F1:0.665 MCC:0.341.
+(tn, fp, fn, tp):  (5355, 3957, 1757, 5683)
+Training complete in 33m 33s
+Best val MCC: 0.426649
+*********************************************************************
+starting 4th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.5801
+train Accuracy:0.738 Precision:0.679 Recall:0.780 F1:0.726 MCC:0.482.
+(tn, fp, fn, tp):  (59312, 24784, 14778, 52326)
+val Loss: 0.5748
+val Accuracy:0.726 Precision:0.628 Recall:0.940 F1:0.753 MCC:0.521.
+(tn, fp, fn, tp):  (5169, 4143, 445, 6995)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.5738
+train Accuracy:0.744 Precision:0.684 Recall:0.785 F1:0.731 MCC:0.493.
+(tn, fp, fn, tp):  (59776, 24320, 14408, 52696)
+val Loss: 0.5513
+val Accuracy:0.749 Precision:0.653 Recall:0.927 F1:0.766 MCC:0.549.
+(tn, fp, fn, tp):  (5649, 3663, 543, 6897)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.5699
+train Accuracy:0.746 Precision:0.687 Recall:0.787 F1:0.733 MCC:0.497.
+(tn, fp, fn, tp):  (60020, 24076, 14324, 52780)
+val Loss: 0.5598
+val Accuracy:0.764 Precision:0.740 Recall:0.723 F1:0.731 MCC:0.521.
+(tn, fp, fn, tp):  (7424, 1888, 2063, 5377)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.5705
+train Accuracy:0.745 Precision:0.686 Recall:0.783 F1:0.732 MCC:0.494.
+(tn, fp, fn, tp):  (60063, 24033, 14544, 52560)
+val Loss: 0.5659
+val Accuracy:0.739 Precision:0.643 Recall:0.923 F1:0.758 MCC:0.531.
+(tn, fp, fn, tp):  (5507, 3805, 574, 6866)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.5617
+train Accuracy:0.751 Precision:0.693 Recall:0.788 F1:0.737 MCC:0.506.
+(tn, fp, fn, tp):  (60635, 23461, 14212, 52892)
+val Loss: 0.5374
+val Accuracy:0.763 Precision:0.683 Recall:0.873 F1:0.766 MCC:0.550.
+(tn, fp, fn, tp):  (6291, 3021, 946, 6494)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.5614
+train Accuracy:0.750 Precision:0.692 Recall:0.786 F1:0.736 MCC:0.504.
+(tn, fp, fn, tp):  (60648, 23448, 14368, 52736)
+val Loss: 0.5532
+val Accuracy:0.753 Precision:0.671 Recall:0.874 F1:0.759 MCC:0.535.
+(tn, fp, fn, tp):  (6119, 3193, 937, 6503)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.5568
+train Accuracy:0.754 Precision:0.696 Recall:0.791 F1:0.740 MCC:0.512.
+(tn, fp, fn, tp):  (60954, 23142, 14056, 53048)
+val Loss: 0.5367
+val Accuracy:0.767 Precision:0.710 Recall:0.805 F1:0.755 MCC:0.539.
+(tn, fp, fn, tp):  (6862, 2450, 1448, 5992)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.5546
+train Accuracy:0.755 Precision:0.698 Recall:0.790 F1:0.741 MCC:0.513.
+(tn, fp, fn, tp):  (61134, 22962, 14124, 52980)
+val Loss: 0.5536
+val Accuracy:0.755 Precision:0.683 Recall:0.836 F1:0.752 MCC:0.525.
+(tn, fp, fn, tp):  (6428, 2884, 1218, 6222)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.5515
+train Accuracy:0.757 Precision:0.700 Recall:0.791 F1:0.743 MCC:0.517.
+(tn, fp, fn, tp):  (61288, 22808, 13999, 53105)
+val Loss: 0.5503
+val Accuracy:0.750 Precision:0.661 Recall:0.898 F1:0.762 MCC:0.539.
+(tn, fp, fn, tp):  (5886, 3426, 758, 6682)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.5459
+train Accuracy:0.761 Precision:0.704 Recall:0.794 F1:0.747 MCC:0.525.
+(tn, fp, fn, tp):  (61714, 22382, 13810, 53294)
+val Loss: 0.6017
+val Accuracy:0.719 Precision:0.623 Recall:0.931 F1:0.746 MCC:0.505.
+(tn, fp, fn, tp):  (5124, 4188, 517, 6923)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.5445
+train Accuracy:0.761 Precision:0.705 Recall:0.795 F1:0.747 MCC:0.526.
+(tn, fp, fn, tp):  (61718, 22378, 13728, 53376)
+val Loss: 0.5517
+val Accuracy:0.755 Precision:0.676 Recall:0.859 F1:0.757 MCC:0.531.
+(tn, fp, fn, tp):  (6256, 3056, 1052, 6388)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.5419
+train Accuracy:0.763 Precision:0.707 Recall:0.796 F1:0.749 MCC:0.529.
+(tn, fp, fn, tp):  (61969, 22127, 13718, 53386)
+val Loss: 0.5443
+val Accuracy:0.761 Precision:0.698 Recall:0.815 F1:0.752 MCC:0.531.
+(tn, fp, fn, tp):  (6692, 2620, 1376, 6064)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.5375
+train Accuracy:0.766 Precision:0.711 Recall:0.797 F1:0.751 MCC:0.535.
+(tn, fp, fn, tp):  (62334, 21762, 13625, 53479)
+val Loss: 0.5505
+val Accuracy:0.759 Precision:0.693 Recall:0.822 F1:0.752 MCC:0.529.
+(tn, fp, fn, tp):  (6607, 2705, 1325, 6115)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.5378
+train Accuracy:0.766 Precision:0.711 Recall:0.797 F1:0.751 MCC:0.535.
+(tn, fp, fn, tp):  (62337, 21759, 13634, 53470)
+val Loss: 0.5596
+val Accuracy:0.752 Precision:0.672 Recall:0.861 F1:0.755 MCC:0.527.
+(tn, fp, fn, tp):  (6186, 3126, 1032, 6408)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.5335
+train Accuracy:0.767 Precision:0.712 Recall:0.797 F1:0.752 MCC:0.537.
+(tn, fp, fn, tp):  (62493, 21603, 13608, 53496)
+val Loss: 0.5553
+val Accuracy:0.746 Precision:0.663 Recall:0.869 F1:0.752 MCC:0.520.
+(tn, fp, fn, tp):  (6027, 3285, 974, 6466)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.5293
+train Accuracy:0.771 Precision:0.716 Recall:0.802 F1:0.756 MCC:0.544.
+(tn, fp, fn, tp):  (62764, 21332, 13319, 53785)
+val Loss: 0.5481
+val Accuracy:0.756 Precision:0.682 Recall:0.847 F1:0.755 MCC:0.531.
+(tn, fp, fn, tp):  (6367, 2945, 1136, 6304)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.5255
+train Accuracy:0.773 Precision:0.720 Recall:0.802 F1:0.758 MCC:0.549.
+(tn, fp, fn, tp):  (63141, 20955, 13304, 53800)
+val Loss: 0.6442
+val Accuracy:0.689 Precision:0.594 Recall:0.950 F1:0.731 MCC:0.471.
+(tn, fp, fn, tp):  (4473, 4839, 373, 7067)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.5216
+train Accuracy:0.775 Precision:0.721 Recall:0.804 F1:0.760 MCC:0.552.
+(tn, fp, fn, tp):  (63206, 20890, 13158, 53946)
+val Loss: 0.5829
+val Accuracy:0.735 Precision:0.644 Recall:0.900 F1:0.751 MCC:0.515.
+(tn, fp, fn, tp):  (5616, 3696, 742, 6698)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.5166
+train Accuracy:0.777 Precision:0.725 Recall:0.803 F1:0.762 MCC:0.556.
+(tn, fp, fn, tp):  (63626, 20470, 13194, 53910)
+val Loss: 0.5996
+val Accuracy:0.721 Precision:0.627 Recall:0.916 F1:0.744 MCC:0.500.
+(tn, fp, fn, tp):  (5257, 4055, 626, 6814)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.5156
+train Accuracy:0.778 Precision:0.725 Recall:0.804 F1:0.763 MCC:0.557.
+(tn, fp, fn, tp):  (63620, 20476, 13131, 53973)
+val Loss: 0.6067
+val Accuracy:0.722 Precision:0.632 Recall:0.898 F1:0.741 MCC:0.493.
+(tn, fp, fn, tp):  (5416, 3896, 762, 6678)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.5073
+train Accuracy:0.783 Precision:0.731 Recall:0.808 F1:0.768 MCC:0.567.
+(tn, fp, fn, tp):  (64120, 19976, 12863, 54241)
+val Loss: 0.5849
+val Accuracy:0.734 Precision:0.645 Recall:0.892 F1:0.748 MCC:0.510.
+(tn, fp, fn, tp):  (5656, 3656, 804, 6636)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.5112
+train Accuracy:0.781 Precision:0.729 Recall:0.806 F1:0.766 MCC:0.564.
+(tn, fp, fn, tp):  (64002, 20094, 13014, 54090)
+val Loss: 0.6255
+val Accuracy:0.699 Precision:0.604 Recall:0.936 F1:0.734 MCC:0.478.
+(tn, fp, fn, tp):  (4741, 4571, 474, 6966)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.5075
+train Accuracy:0.783 Precision:0.732 Recall:0.807 F1:0.768 MCC:0.567.
+(tn, fp, fn, tp):  (64261, 19835, 12962, 54142)
+val Loss: 0.5643
+val Accuracy:0.751 Precision:0.678 Recall:0.835 F1:0.749 MCC:0.518.
+(tn, fp, fn, tp):  (6363, 2949, 1226, 6214)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.5084
+train Accuracy:0.782 Precision:0.731 Recall:0.808 F1:0.767 MCC:0.566.
+(tn, fp, fn, tp):  (64106, 19990, 12916, 54188)
+val Loss: 0.5725
+val Accuracy:0.754 Precision:0.701 Recall:0.776 F1:0.737 MCC:0.509.
+(tn, fp, fn, tp):  (6853, 2459, 1664, 5776)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.4968
+train Accuracy:0.789 Precision:0.739 Recall:0.813 F1:0.774 MCC:0.580.
+(tn, fp, fn, tp):  (64778, 19318, 12536, 54568)
+val Loss: 0.6067
+val Accuracy:0.727 Precision:0.634 Recall:0.910 F1:0.747 MCC:0.507.
+(tn, fp, fn, tp):  (5408, 3904, 670, 6770)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.4947
+train Accuracy:0.790 Precision:0.740 Recall:0.814 F1:0.775 MCC:0.582.
+(tn, fp, fn, tp):  (64913, 19183, 12500, 54604)
+val Loss: 0.6296
+val Accuracy:0.707 Precision:0.614 Recall:0.919 F1:0.736 MCC:0.481.
+(tn, fp, fn, tp):  (5007, 4305, 603, 6837)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.4980
+train Accuracy:0.788 Precision:0.737 Recall:0.811 F1:0.772 MCC:0.577.
+(tn, fp, fn, tp):  (64727, 19369, 12709, 54395)
+val Loss: 0.5892
+val Accuracy:0.742 Precision:0.686 Recall:0.773 F1:0.726 MCC:0.486.
+(tn, fp, fn, tp):  (6675, 2637, 1692, 5748)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.4879
+train Accuracy:0.794 Precision:0.745 Recall:0.817 F1:0.779 MCC:0.590.
+(tn, fp, fn, tp):  (65300, 18796, 12308, 54796)
+val Loss: 0.6329
+val Accuracy:0.712 Precision:0.619 Recall:0.909 F1:0.737 MCC:0.483.
+(tn, fp, fn, tp):  (5157, 4155, 677, 6763)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.4899
+train Accuracy:0.792 Precision:0.741 Recall:0.817 F1:0.777 MCC:0.586.
+(tn, fp, fn, tp):  (64966, 19130, 12295, 54809)
+val Loss: 0.6307
+val Accuracy:0.716 Precision:0.626 Recall:0.895 F1:0.737 MCC:0.483.
+(tn, fp, fn, tp):  (5333, 3979, 779, 6661)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.4817
+train Accuracy:0.797 Precision:0.748 Recall:0.820 F1:0.782 MCC:0.596.
+(tn, fp, fn, tp):  (65545, 18551, 12091, 55013)
+val Loss: 0.6461
+val Accuracy:0.702 Precision:0.609 Recall:0.920 F1:0.733 MCC:0.474.
+(tn, fp, fn, tp):  (4917, 4395, 592, 6848)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.4777
+train Accuracy:0.799 Precision:0.751 Recall:0.819 F1:0.783 MCC:0.598.
+(tn, fp, fn, tp):  (65874, 18222, 12170, 54934)
+val Loss: 0.6207
+val Accuracy:0.712 Precision:0.623 Recall:0.892 F1:0.733 MCC:0.475.
+(tn, fp, fn, tp):  (5287, 4025, 802, 6638)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.4709
+train Accuracy:0.804 Precision:0.757 Recall:0.824 F1:0.789 MCC:0.609.
+(tn, fp, fn, tp):  (66315, 17781, 11812, 55292)
+val Loss: 0.6849
+val Accuracy:0.676 Precision:0.584 Recall:0.932 F1:0.718 MCC:0.440.
+(tn, fp, fn, tp):  (4385, 4927, 509, 6931)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.4696
+train Accuracy:0.804 Precision:0.756 Recall:0.823 F1:0.788 MCC:0.608.
+(tn, fp, fn, tp):  (66287, 17809, 11866, 55238)
+val Loss: 0.6644
+val Accuracy:0.695 Precision:0.602 Recall:0.925 F1:0.729 MCC:0.466.
+(tn, fp, fn, tp):  (4754, 4558, 555, 6885)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.4659
+train Accuracy:0.806 Precision:0.759 Recall:0.826 F1:0.791 MCC:0.613.
+(tn, fp, fn, tp):  (66478, 17618, 11686, 55418)
+val Loss: 0.6201
+val Accuracy:0.721 Precision:0.637 Recall:0.866 F1:0.734 MCC:0.479.
+(tn, fp, fn, tp):  (5635, 3677, 998, 6442)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.4663
+train Accuracy:0.805 Precision:0.758 Recall:0.823 F1:0.790 MCC:0.611.
+(tn, fp, fn, tp):  (66501, 17595, 11845, 55259)
+val Loss: 0.6280
+val Accuracy:0.721 Precision:0.641 Recall:0.848 F1:0.730 MCC:0.472.
+(tn, fp, fn, tp):  (5774, 3538, 1131, 6309)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.4660
+train Accuracy:0.806 Precision:0.759 Recall:0.826 F1:0.791 MCC:0.613.
+(tn, fp, fn, tp):  (66486, 17610, 11684, 55420)
+val Loss: 0.6433
+val Accuracy:0.715 Precision:0.625 Recall:0.893 F1:0.736 MCC:0.480.
+(tn, fp, fn, tp):  (5335, 3977, 798, 6642)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.4591
+train Accuracy:0.810 Precision:0.763 Recall:0.830 F1:0.795 MCC:0.621.
+(tn, fp, fn, tp):  (66845, 17251, 11420, 55684)
+val Loss: 0.6124
+val Accuracy:0.734 Precision:0.656 Recall:0.845 F1:0.738 MCC:0.492.
+(tn, fp, fn, tp):  (6011, 3301, 1155, 6285)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.4533
+train Accuracy:0.814 Precision:0.769 Recall:0.831 F1:0.799 MCC:0.628.
+(tn, fp, fn, tp):  (67340, 16756, 11352, 55752)
+val Loss: 0.6971
+val Accuracy:0.700 Precision:0.609 Recall:0.913 F1:0.730 MCC:0.467.
+(tn, fp, fn, tp):  (4944, 4368, 650, 6790)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.4576
+train Accuracy:0.810 Precision:0.764 Recall:0.828 F1:0.795 MCC:0.620.
+(tn, fp, fn, tp):  (66956, 17140, 11558, 55546)
+val Loss: 0.7554
+val Accuracy:0.655 Precision:0.566 Recall:0.957 F1:0.711 MCC:0.426.
+(tn, fp, fn, tp):  (3850, 5462, 319, 7121)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.4498
+train Accuracy:0.814 Precision:0.768 Recall:0.831 F1:0.798 MCC:0.627.
+(tn, fp, fn, tp):  (67233, 16863, 11309, 55795)
+val Loss: 0.6454
+val Accuracy:0.711 Precision:0.634 Recall:0.825 F1:0.717 MCC:0.448.
+(tn, fp, fn, tp):  (5774, 3538, 1299, 6141)
+Training complete in 33m 35s
+Best val MCC: 0.550104
+*********************************************************************
+starting 5th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.5646
+train Accuracy:0.748 Precision:0.690 Recall:0.786 F1:0.735 MCC:0.501.
+(tn, fp, fn, tp):  (60437, 23659, 14376, 52728)
+val Loss: 0.5246
+val Accuracy:0.779 Precision:0.713 Recall:0.841 F1:0.772 MCC:0.567.
+(tn, fp, fn, tp):  (6788, 2524, 1182, 6258)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.5568
+train Accuracy:0.753 Precision:0.696 Recall:0.788 F1:0.739 MCC:0.510.
+(tn, fp, fn, tp):  (61023, 23073, 14241, 52863)
+val Loss: 0.5936
+val Accuracy:0.722 Precision:0.623 Recall:0.944 F1:0.751 MCC:0.517.
+(tn, fp, fn, tp):  (5070, 4242, 418, 7022)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.5526
+train Accuracy:0.756 Precision:0.699 Recall:0.790 F1:0.742 MCC:0.515.
+(tn, fp, fn, tp):  (61251, 22845, 14071, 53033)
+val Loss: 0.5367
+val Accuracy:0.767 Precision:0.739 Recall:0.734 F1:0.736 MCC:0.527.
+(tn, fp, fn, tp):  (7382, 1930, 1979, 5461)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.5557
+train Accuracy:0.755 Precision:0.698 Recall:0.788 F1:0.741 MCC:0.513.
+(tn, fp, fn, tp):  (61229, 22867, 14203, 52901)
+val Loss: 0.5723
+val Accuracy:0.736 Precision:0.643 Recall:0.915 F1:0.755 MCC:0.524.
+(tn, fp, fn, tp):  (5525, 3787, 629, 6811)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.5463
+train Accuracy:0.760 Precision:0.704 Recall:0.793 F1:0.745 MCC:0.523.
+(tn, fp, fn, tp):  (61706, 22390, 13924, 53180)
+val Loss: 0.5385
+val Accuracy:0.768 Precision:0.710 Recall:0.807 F1:0.755 MCC:0.540.
+(tn, fp, fn, tp):  (6863, 2449, 1437, 6003)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.5438
+train Accuracy:0.762 Precision:0.707 Recall:0.794 F1:0.748 MCC:0.527.
+(tn, fp, fn, tp):  (61995, 22101, 13853, 53251)
+val Loss: 0.5458
+val Accuracy:0.762 Precision:0.677 Recall:0.888 F1:0.768 MCC:0.554.
+(tn, fp, fn, tp):  (6163, 3149, 834, 6606)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.5390
+train Accuracy:0.765 Precision:0.710 Recall:0.795 F1:0.750 MCC:0.533.
+(tn, fp, fn, tp):  (62343, 21753, 13782, 53322)
+val Loss: 0.5330
+val Accuracy:0.772 Precision:0.729 Recall:0.774 F1:0.751 MCC:0.542.
+(tn, fp, fn, tp):  (7169, 2143, 1678, 5762)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.5370
+train Accuracy:0.767 Precision:0.712 Recall:0.796 F1:0.752 MCC:0.536.
+(tn, fp, fn, tp):  (62471, 21625, 13670, 53434)
+val Loss: 0.5451
+val Accuracy:0.763 Precision:0.719 Recall:0.767 F1:0.742 MCC:0.524.
+(tn, fp, fn, tp):  (7079, 2233, 1736, 5704)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.5339
+train Accuracy:0.768 Precision:0.714 Recall:0.797 F1:0.753 MCC:0.539.
+(tn, fp, fn, tp):  (62670, 21426, 13617, 53487)
+val Loss: 0.5617
+val Accuracy:0.748 Precision:0.658 Recall:0.897 F1:0.759 MCC:0.534.
+(tn, fp, fn, tp):  (5849, 3463, 765, 6675)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.5279
+train Accuracy:0.771 Precision:0.717 Recall:0.801 F1:0.756 MCC:0.545.
+(tn, fp, fn, tp):  (62852, 21244, 13375, 53729)
+val Loss: 0.5853
+val Accuracy:0.748 Precision:0.737 Recall:0.673 F1:0.703 MCC:0.487.
+(tn, fp, fn, tp):  (7525, 1787, 2434, 5006)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.5317
+train Accuracy:0.769 Precision:0.715 Recall:0.796 F1:0.754 MCC:0.540.
+(tn, fp, fn, tp):  (62829, 21267, 13679, 53425)
+val Loss: 0.5556
+val Accuracy:0.757 Precision:0.676 Recall:0.867 F1:0.760 MCC:0.537.
+(tn, fp, fn, tp):  (6226, 3086, 991, 6449)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.5264
+train Accuracy:0.771 Precision:0.717 Recall:0.800 F1:0.756 MCC:0.544.
+(tn, fp, fn, tp):  (62859, 21237, 13390, 53714)
+val Loss: 0.5498
+val Accuracy:0.759 Precision:0.718 Recall:0.753 F1:0.735 MCC:0.515.
+(tn, fp, fn, tp):  (7118, 2194, 1841, 5599)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.5201
+train Accuracy:0.777 Precision:0.724 Recall:0.803 F1:0.762 MCC:0.556.
+(tn, fp, fn, tp):  (63583, 20513, 13221, 53883)
+val Loss: 0.5778
+val Accuracy:0.743 Precision:0.661 Recall:0.866 F1:0.749 MCC:0.514.
+(tn, fp, fn, tp):  (6002, 3310, 999, 6441)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.5174
+train Accuracy:0.778 Precision:0.724 Recall:0.806 F1:0.763 MCC:0.557.
+(tn, fp, fn, tp):  (63473, 20623, 13013, 54091)
+val Loss: 0.5574
+val Accuracy:0.758 Precision:0.709 Recall:0.772 F1:0.739 MCC:0.515.
+(tn, fp, fn, tp):  (6948, 2364, 1694, 5746)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.5166
+train Accuracy:0.779 Precision:0.726 Recall:0.804 F1:0.763 MCC:0.559.
+(tn, fp, fn, tp):  (63767, 20329, 13157, 53947)
+val Loss: 0.5667
+val Accuracy:0.749 Precision:0.677 Recall:0.830 F1:0.746 MCC:0.513.
+(tn, fp, fn, tp):  (6366, 2946, 1263, 6177)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.5129
+train Accuracy:0.782 Precision:0.730 Recall:0.807 F1:0.766 MCC:0.565.
+(tn, fp, fn, tp):  (64035, 20061, 12965, 54139)
+val Loss: 0.5684
+val Accuracy:0.752 Precision:0.668 Recall:0.878 F1:0.759 MCC:0.534.
+(tn, fp, fn, tp):  (6068, 3244, 905, 6535)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.5067
+train Accuracy:0.784 Precision:0.733 Recall:0.807 F1:0.768 MCC:0.569.
+(tn, fp, fn, tp):  (64372, 19724, 12943, 54161)
+val Loss: 0.5723
+val Accuracy:0.745 Precision:0.666 Recall:0.855 F1:0.749 MCC:0.514.
+(tn, fp, fn, tp):  (6119, 3193, 1080, 6360)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.5040
+train Accuracy:0.785 Precision:0.734 Recall:0.808 F1:0.769 MCC:0.571.
+(tn, fp, fn, tp):  (64408, 19688, 12860, 54244)
+val Loss: 0.6088
+val Accuracy:0.729 Precision:0.639 Recall:0.895 F1:0.746 MCC:0.503.
+(tn, fp, fn, tp):  (5555, 3757, 784, 6656)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.5032
+train Accuracy:0.785 Precision:0.734 Recall:0.809 F1:0.770 MCC:0.572.
+(tn, fp, fn, tp):  (64457, 19639, 12802, 54302)
+val Loss: 0.6521
+val Accuracy:0.694 Precision:0.599 Recall:0.940 F1:0.732 MCC:0.473.
+(tn, fp, fn, tp):  (4633, 4679, 444, 6996)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.4966
+train Accuracy:0.789 Precision:0.738 Recall:0.813 F1:0.774 MCC:0.580.
+(tn, fp, fn, tp):  (64765, 19331, 12534, 54570)
+val Loss: 0.6152
+val Accuracy:0.724 Precision:0.632 Recall:0.909 F1:0.745 MCC:0.502.
+(tn, fp, fn, tp):  (5375, 3937, 680, 6760)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.4963
+train Accuracy:0.790 Precision:0.739 Recall:0.813 F1:0.774 MCC:0.580.
+(tn, fp, fn, tp):  (64860, 19236, 12564, 54540)
+val Loss: 0.6354
+val Accuracy:0.710 Precision:0.618 Recall:0.909 F1:0.736 MCC:0.480.
+(tn, fp, fn, tp):  (5131, 4181, 677, 6763)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.4938
+train Accuracy:0.791 Precision:0.742 Recall:0.812 F1:0.776 MCC:0.584.
+(tn, fp, fn, tp):  (65143, 18953, 12589, 54515)
+val Loss: 0.5966
+val Accuracy:0.732 Precision:0.650 Recall:0.859 F1:0.740 MCC:0.494.
+(tn, fp, fn, tp):  (5875, 3437, 1051, 6389)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.4897
+train Accuracy:0.794 Precision:0.745 Recall:0.816 F1:0.779 MCC:0.589.
+(tn, fp, fn, tp):  (65325, 18771, 12351, 54753)
+val Loss: 0.5779
+val Accuracy:0.747 Precision:0.681 Recall:0.812 F1:0.741 MCC:0.505.
+(tn, fp, fn, tp):  (6474, 2838, 1395, 6045)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.4875
+train Accuracy:0.794 Precision:0.745 Recall:0.815 F1:0.778 MCC:0.589.
+(tn, fp, fn, tp):  (65427, 18669, 12442, 54662)
+val Loss: 0.5931
+val Accuracy:0.742 Precision:0.673 Recall:0.815 F1:0.737 MCC:0.497.
+(tn, fp, fn, tp):  (6368, 2944, 1375, 6065)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.4770
+train Accuracy:0.800 Precision:0.752 Recall:0.819 F1:0.784 MCC:0.600.
+(tn, fp, fn, tp):  (65983, 18113, 12153, 54951)
+val Loss: 0.6844
+val Accuracy:0.689 Precision:0.597 Recall:0.922 F1:0.725 MCC:0.455.
+(tn, fp, fn, tp):  (4686, 4626, 579, 6861)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.4792
+train Accuracy:0.799 Precision:0.751 Recall:0.818 F1:0.783 MCC:0.598.
+(tn, fp, fn, tp):  (65893, 18203, 12208, 54896)
+val Loss: 0.5931
+val Accuracy:0.734 Precision:0.661 Recall:0.826 F1:0.734 MCC:0.487.
+(tn, fp, fn, tp):  (6159, 3153, 1296, 6144)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.4749
+train Accuracy:0.801 Precision:0.753 Recall:0.822 F1:0.786 MCC:0.603.
+(tn, fp, fn, tp):  (66046, 18050, 11968, 55136)
+val Loss: 0.6431
+val Accuracy:0.707 Precision:0.645 Recall:0.758 F1:0.697 MCC:0.422.
+(tn, fp, fn, tp):  (6205, 3107, 1804, 5636)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.4703
+train Accuracy:0.804 Precision:0.757 Recall:0.823 F1:0.789 MCC:0.609.
+(tn, fp, fn, tp):  (66391, 17705, 11899, 55205)
+val Loss: 0.5993
+val Accuracy:0.733 Precision:0.659 Recall:0.826 F1:0.733 MCC:0.485.
+(tn, fp, fn, tp):  (6134, 3178, 1296, 6144)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.4696
+train Accuracy:0.804 Precision:0.757 Recall:0.822 F1:0.788 MCC:0.608.
+(tn, fp, fn, tp):  (66417, 17679, 11972, 55132)
+val Loss: 0.6104
+val Accuracy:0.741 Precision:0.670 Recall:0.822 F1:0.738 MCC:0.497.
+(tn, fp, fn, tp):  (6296, 3016, 1323, 6117)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.4611
+train Accuracy:0.809 Precision:0.763 Recall:0.827 F1:0.794 MCC:0.618.
+(tn, fp, fn, tp):  (66827, 17269, 11609, 55495)
+val Loss: 0.6836
+val Accuracy:0.692 Precision:0.599 Recall:0.924 F1:0.727 MCC:0.460.
+(tn, fp, fn, tp):  (4717, 4595, 567, 6873)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.4649
+train Accuracy:0.806 Precision:0.760 Recall:0.823 F1:0.790 MCC:0.612.
+(tn, fp, fn, tp):  (66628, 17468, 11861, 55243)
+val Loss: 0.5969
+val Accuracy:0.740 Precision:0.680 Recall:0.782 F1:0.728 MCC:0.486.
+(tn, fp, fn, tp):  (6576, 2736, 1619, 5821)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.4563
+train Accuracy:0.811 Precision:0.765 Recall:0.828 F1:0.795 MCC:0.622.
+(tn, fp, fn, tp):  (67044, 17052, 11548, 55556)
+val Loss: 0.6368
+val Accuracy:0.724 Precision:0.637 Recall:0.881 F1:0.739 MCC:0.490.
+(tn, fp, fn, tp):  (5578, 3734, 885, 6555)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.4474
+train Accuracy:0.816 Precision:0.771 Recall:0.832 F1:0.800 MCC:0.632.
+(tn, fp, fn, tp):  (67520, 16576, 11268, 55836)
+val Loss: 0.6196
+val Accuracy:0.728 Precision:0.649 Recall:0.844 F1:0.734 MCC:0.483.
+(tn, fp, fn, tp):  (5919, 3393, 1160, 6280)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.4524
+train Accuracy:0.813 Precision:0.767 Recall:0.829 F1:0.797 MCC:0.625.
+(tn, fp, fn, tp):  (67228, 16868, 11446, 55658)
+val Loss: 0.6379
+val Accuracy:0.729 Precision:0.652 Recall:0.839 F1:0.734 MCC:0.483.
+(tn, fp, fn, tp):  (5981, 3331, 1201, 6239)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.4508
+train Accuracy:0.813 Precision:0.768 Recall:0.831 F1:0.798 MCC:0.627.
+(tn, fp, fn, tp):  (67197, 16899, 11319, 55785)
+val Loss: 0.6308
+val Accuracy:0.722 Precision:0.649 Recall:0.816 F1:0.723 MCC:0.463.
+(tn, fp, fn, tp):  (6025, 3287, 1371, 6069)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.4404
+train Accuracy:0.819 Precision:0.774 Recall:0.836 F1:0.804 MCC:0.638.
+(tn, fp, fn, tp):  (67736, 16360, 11005, 56099)
+val Loss: 0.6519
+val Accuracy:0.709 Precision:0.623 Recall:0.871 F1:0.727 MCC:0.461.
+(tn, fp, fn, tp):  (5397, 3915, 959, 6481)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.4389
+train Accuracy:0.820 Precision:0.775 Recall:0.836 F1:0.804 MCC:0.639.
+(tn, fp, fn, tp):  (67854, 16242, 11036, 56068)
+val Loss: 0.6161
+val Accuracy:0.741 Precision:0.665 Recall:0.840 F1:0.742 MCC:0.502.
+(tn, fp, fn, tp):  (6162, 3150, 1193, 6247)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.4320
+train Accuracy:0.824 Precision:0.780 Recall:0.839 F1:0.808 MCC:0.647.
+(tn, fp, fn, tp):  (68265, 15831, 10828, 56276)
+val Loss: 0.7299
+val Accuracy:0.689 Precision:0.597 Recall:0.917 F1:0.723 MCC:0.451.
+(tn, fp, fn, tp):  (4716, 4596, 620, 6820)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.4403
+train Accuracy:0.820 Precision:0.776 Recall:0.835 F1:0.804 MCC:0.639.
+(tn, fp, fn, tp):  (67917, 16179, 11077, 56027)
+val Loss: 0.6288
+val Accuracy:0.728 Precision:0.655 Recall:0.818 F1:0.727 MCC:0.473.
+(tn, fp, fn, tp):  (6104, 3208, 1354, 6086)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.4334
+train Accuracy:0.822 Precision:0.778 Recall:0.838 F1:0.807 MCC:0.644.
+(tn, fp, fn, tp):  (68087, 16009, 10870, 56234)
+val Loss: 0.6191
+val Accuracy:0.745 Precision:0.689 Recall:0.775 F1:0.730 MCC:0.493.
+(tn, fp, fn, tp):  (6714, 2598, 1673, 5767)
+Training complete in 33m 40s
+Best val MCC: 0.567177
+*********************************************************************
+starting 6th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.5543
+train Accuracy:0.754 Precision:0.697 Recall:0.791 F1:0.741 MCC:0.513.
+(tn, fp, fn, tp):  (60993, 23103, 14017, 53087)
+val Loss: 0.5838
+val Accuracy:0.718 Precision:0.622 Recall:0.926 F1:0.744 MCC:0.500.
+(tn, fp, fn, tp):  (5132, 4180, 552, 6888)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.5529
+train Accuracy:0.756 Precision:0.699 Recall:0.791 F1:0.742 MCC:0.516.
+(tn, fp, fn, tp):  (61261, 22835, 14025, 53079)
+val Loss: 0.5720
+val Accuracy:0.732 Precision:0.642 Recall:0.895 F1:0.748 MCC:0.508.
+(tn, fp, fn, tp):  (5602, 3710, 779, 6661)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.5473
+train Accuracy:0.761 Precision:0.704 Recall:0.796 F1:0.747 MCC:0.525.
+(tn, fp, fn, tp):  (61613, 22483, 13715, 53389)
+val Loss: 0.5396
+val Accuracy:0.766 Precision:0.727 Recall:0.757 F1:0.742 MCC:0.529.
+(tn, fp, fn, tp):  (7202, 2110, 1808, 5632)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.5462
+train Accuracy:0.760 Precision:0.703 Recall:0.794 F1:0.746 MCC:0.523.
+(tn, fp, fn, tp):  (61636, 22460, 13850, 53254)
+val Loss: 0.6315
+val Accuracy:0.690 Precision:0.598 Recall:0.926 F1:0.726 MCC:0.459.
+(tn, fp, fn, tp):  (4677, 4635, 554, 6886)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.5414
+train Accuracy:0.763 Precision:0.706 Recall:0.798 F1:0.750 MCC:0.530.
+(tn, fp, fn, tp):  (61807, 22289, 13524, 53580)
+val Loss: 0.5899
+val Accuracy:0.724 Precision:0.635 Recall:0.891 F1:0.742 MCC:0.494.
+(tn, fp, fn, tp):  (5505, 3807, 810, 6630)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.5382
+train Accuracy:0.765 Precision:0.710 Recall:0.798 F1:0.751 MCC:0.534.
+(tn, fp, fn, tp):  (62188, 21908, 13586, 53518)
+val Loss: 0.5519
+val Accuracy:0.759 Precision:0.706 Recall:0.783 F1:0.742 MCC:0.519.
+(tn, fp, fn, tp):  (6883, 2429, 1614, 5826)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.5322
+train Accuracy:0.768 Precision:0.713 Recall:0.800 F1:0.754 MCC:0.540.
+(tn, fp, fn, tp):  (62478, 21618, 13395, 53709)
+val Loss: 0.5463
+val Accuracy:0.755 Precision:0.693 Recall:0.806 F1:0.745 MCC:0.518.
+(tn, fp, fn, tp):  (6658, 2654, 1443, 5997)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.5329
+train Accuracy:0.768 Precision:0.713 Recall:0.800 F1:0.754 MCC:0.539.
+(tn, fp, fn, tp):  (62432, 21664, 13396, 53708)
+val Loss: 0.5644
+val Accuracy:0.760 Precision:0.730 Recall:0.730 F1:0.730 MCC:0.515.
+(tn, fp, fn, tp):  (7306, 2006, 2009, 5431)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.5304
+train Accuracy:0.769 Precision:0.714 Recall:0.800 F1:0.755 MCC:0.541.
+(tn, fp, fn, tp):  (62645, 21451, 13426, 53678)
+val Loss: 0.5579
+val Accuracy:0.749 Precision:0.676 Recall:0.837 F1:0.748 MCC:0.516.
+(tn, fp, fn, tp):  (6325, 2987, 1213, 6227)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.5224
+train Accuracy:0.774 Precision:0.720 Recall:0.805 F1:0.760 MCC:0.552.
+(tn, fp, fn, tp):  (63037, 21059, 13057, 54047)
+val Loss: 0.5925
+val Accuracy:0.724 Precision:0.636 Recall:0.885 F1:0.740 MCC:0.491.
+(tn, fp, fn, tp):  (5539, 3773, 855, 6585)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.5243
+train Accuracy:0.774 Precision:0.719 Recall:0.806 F1:0.760 MCC:0.551.
+(tn, fp, fn, tp):  (62988, 21108, 13027, 54077)
+val Loss: 0.5939
+val Accuracy:0.725 Precision:0.642 Recall:0.860 F1:0.736 MCC:0.484.
+(tn, fp, fn, tp):  (5750, 3562, 1039, 6401)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.5182
+train Accuracy:0.777 Precision:0.723 Recall:0.809 F1:0.763 MCC:0.557.
+(tn, fp, fn, tp):  (63274, 20822, 12842, 54262)
+val Loss: 0.5970
+val Accuracy:0.725 Precision:0.650 Recall:0.828 F1:0.728 MCC:0.472.
+(tn, fp, fn, tp):  (5992, 3320, 1282, 6158)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.5150
+train Accuracy:0.781 Precision:0.727 Recall:0.810 F1:0.766 MCC:0.564.
+(tn, fp, fn, tp):  (63698, 20398, 12763, 54341)
+val Loss: 0.6565
+val Accuracy:0.686 Precision:0.596 Recall:0.913 F1:0.721 MCC:0.446.
+(tn, fp, fn, tp):  (4701, 4611, 646, 6794)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.5139
+train Accuracy:0.779 Precision:0.725 Recall:0.809 F1:0.765 MCC:0.561.
+(tn, fp, fn, tp):  (63541, 20555, 12818, 54286)
+val Loss: 0.5824
+val Accuracy:0.737 Precision:0.663 Recall:0.829 F1:0.737 MCC:0.492.
+(tn, fp, fn, tp):  (6170, 3142, 1270, 6170)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.5105
+train Accuracy:0.782 Precision:0.728 Recall:0.811 F1:0.767 MCC:0.566.
+(tn, fp, fn, tp):  (63796, 20300, 12701, 54403)
+val Loss: 0.6019
+val Accuracy:0.732 Precision:0.672 Recall:0.775 F1:0.720 MCC:0.470.
+(tn, fp, fn, tp):  (6504, 2808, 1677, 5763)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.5040
+train Accuracy:0.785 Precision:0.733 Recall:0.812 F1:0.771 MCC:0.573.
+(tn, fp, fn, tp):  (64259, 19837, 12600, 54504)
+val Loss: 0.5782
+val Accuracy:0.743 Precision:0.677 Recall:0.805 F1:0.735 MCC:0.496.
+(tn, fp, fn, tp):  (6451, 2861, 1450, 5990)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.5055
+train Accuracy:0.784 Precision:0.732 Recall:0.811 F1:0.769 MCC:0.570.
+(tn, fp, fn, tp):  (64175, 19921, 12696, 54408)
+val Loss: 0.5853
+val Accuracy:0.743 Precision:0.699 Recall:0.739 F1:0.718 MCC:0.483.
+(tn, fp, fn, tp):  (6947, 2365, 1943, 5497)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.4988
+train Accuracy:0.788 Precision:0.735 Recall:0.815 F1:0.773 MCC:0.577.
+(tn, fp, fn, tp):  (64432, 19664, 12425, 54679)
+val Loss: 0.6037
+val Accuracy:0.722 Precision:0.639 Recall:0.861 F1:0.734 MCC:0.479.
+(tn, fp, fn, tp):  (5698, 3614, 1037, 6403)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.4978
+train Accuracy:0.789 Precision:0.737 Recall:0.815 F1:0.774 MCC:0.579.
+(tn, fp, fn, tp):  (64569, 19527, 12406, 54698)
+val Loss: 0.5973
+val Accuracy:0.727 Precision:0.647 Recall:0.848 F1:0.734 MCC:0.482.
+(tn, fp, fn, tp):  (5864, 3448, 1128, 6312)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.4908
+train Accuracy:0.792 Precision:0.740 Recall:0.818 F1:0.778 MCC:0.586.
+(tn, fp, fn, tp):  (64848, 19248, 12181, 54923)
+val Loss: 0.6233
+val Accuracy:0.715 Precision:0.630 Recall:0.866 F1:0.730 MCC:0.469.
+(tn, fp, fn, tp):  (5535, 3777, 996, 6444)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.4878
+train Accuracy:0.794 Precision:0.743 Recall:0.821 F1:0.780 MCC:0.591.
+(tn, fp, fn, tp):  (65064, 19032, 12043, 55061)
+val Loss: 0.5955
+val Accuracy:0.736 Precision:0.669 Recall:0.802 F1:0.730 MCC:0.483.
+(tn, fp, fn, tp):  (6361, 2951, 1471, 5969)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.4857
+train Accuracy:0.796 Precision:0.745 Recall:0.821 F1:0.781 MCC:0.594.
+(tn, fp, fn, tp):  (65274, 18822, 12010, 55094)
+val Loss: 0.6146
+val Accuracy:0.727 Precision:0.660 Recall:0.795 F1:0.722 MCC:0.467.
+(tn, fp, fn, tp):  (6269, 3043, 1523, 5917)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.4820
+train Accuracy:0.798 Precision:0.748 Recall:0.822 F1:0.783 MCC:0.597.
+(tn, fp, fn, tp):  (65498, 18598, 11963, 55141)
+val Loss: 0.6213
+val Accuracy:0.733 Precision:0.670 Recall:0.786 F1:0.724 MCC:0.475.
+(tn, fp, fn, tp):  (6434, 2878, 1591, 5849)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.4764
+train Accuracy:0.801 Precision:0.751 Recall:0.823 F1:0.786 MCC:0.602.
+(tn, fp, fn, tp):  (65817, 18279, 11848, 55256)
+val Loss: 0.6238
+val Accuracy:0.727 Precision:0.667 Recall:0.771 F1:0.715 MCC:0.460.
+(tn, fp, fn, tp):  (6444, 2868, 1703, 5737)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.4762
+train Accuracy:0.800 Precision:0.751 Recall:0.822 F1:0.785 MCC:0.601.
+(tn, fp, fn, tp):  (65837, 18259, 11955, 55149)
+val Loss: 0.6797
+val Accuracy:0.682 Precision:0.594 Recall:0.898 F1:0.715 MCC:0.432.
+(tn, fp, fn, tp):  (4747, 4565, 757, 6683)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.4745
+train Accuracy:0.801 Precision:0.752 Recall:0.823 F1:0.786 MCC:0.604.
+(tn, fp, fn, tp):  (65907, 18189, 11846, 55258)
+val Loss: 0.6438
+val Accuracy:0.720 Precision:0.658 Recall:0.770 F1:0.710 MCC:0.448.
+(tn, fp, fn, tp):  (6334, 2978, 1709, 5731)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.4675
+train Accuracy:0.804 Precision:0.755 Recall:0.827 F1:0.790 MCC:0.609.
+(tn, fp, fn, tp):  (66094, 18002, 11595, 55509)
+val Loss: 0.6285
+val Accuracy:0.716 Precision:0.636 Recall:0.843 F1:0.725 MCC:0.462.
+(tn, fp, fn, tp):  (5717, 3595, 1167, 6273)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.4639
+train Accuracy:0.809 Precision:0.760 Recall:0.830 F1:0.794 MCC:0.618.
+(tn, fp, fn, tp):  (66532, 17564, 11386, 55718)
+val Loss: 0.6191
+val Accuracy:0.725 Precision:0.652 Recall:0.817 F1:0.725 MCC:0.469.
+(tn, fp, fn, tp):  (6076, 3236, 1365, 6075)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.4599
+train Accuracy:0.809 Precision:0.761 Recall:0.831 F1:0.795 MCC:0.619.
+(tn, fp, fn, tp):  (66593, 17503, 11329, 55775)
+val Loss: 0.6218
+val Accuracy:0.720 Precision:0.640 Recall:0.843 F1:0.728 MCC:0.468.
+(tn, fp, fn, tp):  (5782, 3530, 1166, 6274)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.4579
+train Accuracy:0.810 Precision:0.763 Recall:0.830 F1:0.795 MCC:0.621.
+(tn, fp, fn, tp):  (66780, 17316, 11398, 55706)
+val Loss: 0.6900
+val Accuracy:0.681 Precision:0.594 Recall:0.888 F1:0.712 MCC:0.424.
+(tn, fp, fn, tp):  (4794, 4518, 832, 6608)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.4657
+train Accuracy:0.806 Precision:0.758 Recall:0.827 F1:0.791 MCC:0.613.
+(tn, fp, fn, tp):  (66363, 17733, 11579, 55525)
+val Loss: 0.6723
+val Accuracy:0.700 Precision:0.617 Recall:0.856 F1:0.717 MCC:0.441.
+(tn, fp, fn, tp):  (5359, 3953, 1068, 6372)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.4479
+train Accuracy:0.816 Precision:0.769 Recall:0.835 F1:0.801 MCC:0.632.
+(tn, fp, fn, tp):  (67301, 16795, 11080, 56024)
+val Loss: 0.6583
+val Accuracy:0.708 Precision:0.626 Recall:0.851 F1:0.721 MCC:0.452.
+(tn, fp, fn, tp):  (5532, 3780, 1110, 6330)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.4457
+train Accuracy:0.816 Precision:0.770 Recall:0.835 F1:0.801 MCC:0.632.
+(tn, fp, fn, tp):  (67360, 16736, 11093, 56011)
+val Loss: 0.6746
+val Accuracy:0.699 Precision:0.612 Recall:0.877 F1:0.721 MCC:0.448.
+(tn, fp, fn, tp):  (5184, 4128, 917, 6523)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.4473
+train Accuracy:0.816 Precision:0.770 Recall:0.834 F1:0.801 MCC:0.632.
+(tn, fp, fn, tp):  (67383, 16713, 11125, 55979)
+val Loss: 0.6524
+val Accuracy:0.720 Precision:0.657 Recall:0.775 F1:0.711 MCC:0.449.
+(tn, fp, fn, tp):  (6298, 3014, 1675, 5765)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.4383
+train Accuracy:0.821 Precision:0.776 Recall:0.840 F1:0.806 MCC:0.642.
+(tn, fp, fn, tp):  (67807, 16289, 10760, 56344)
+val Loss: 0.6811
+val Accuracy:0.710 Precision:0.646 Recall:0.770 F1:0.702 MCC:0.431.
+(tn, fp, fn, tp):  (6173, 3139, 1714, 5726)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.4370
+train Accuracy:0.821 Precision:0.775 Recall:0.839 F1:0.806 MCC:0.641.
+(tn, fp, fn, tp):  (67805, 16291, 10833, 56271)
+val Loss: 0.7036
+val Accuracy:0.691 Precision:0.605 Recall:0.873 F1:0.715 MCC:0.433.
+(tn, fp, fn, tp):  (5072, 4240, 943, 6497)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.4314
+train Accuracy:0.823 Precision:0.778 Recall:0.841 F1:0.808 MCC:0.646.
+(tn, fp, fn, tp):  (68013, 16083, 10680, 56424)
+val Loss: 0.6794
+val Accuracy:0.715 Precision:0.657 Recall:0.750 F1:0.700 MCC:0.434.
+(tn, fp, fn, tp):  (6392, 2920, 1858, 5582)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.4340
+train Accuracy:0.824 Precision:0.779 Recall:0.842 F1:0.809 MCC:0.648.
+(tn, fp, fn, tp):  (68084, 16012, 10605, 56499)
+val Loss: 0.7241
+val Accuracy:0.684 Precision:0.597 Recall:0.886 F1:0.713 MCC:0.428.
+(tn, fp, fn, tp):  (4862, 4450, 846, 6594)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.4294
+train Accuracy:0.825 Precision:0.780 Recall:0.842 F1:0.810 MCC:0.649.
+(tn, fp, fn, tp):  (68189, 15907, 10602, 56502)
+val Loss: 0.6796
+val Accuracy:0.710 Precision:0.632 Recall:0.832 F1:0.718 MCC:0.448.
+(tn, fp, fn, tp):  (5707, 3605, 1251, 6189)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.4261
+train Accuracy:0.827 Precision:0.783 Recall:0.844 F1:0.812 MCC:0.654.
+(tn, fp, fn, tp):  (68369, 15727, 10448, 56656)
+val Loss: 0.6637
+val Accuracy:0.713 Precision:0.643 Recall:0.792 F1:0.710 MCC:0.440.
+(tn, fp, fn, tp):  (6046, 3266, 1550, 5890)
+Training complete in 33m 40s
+Best val MCC: 0.528594
+*********************************************************************
+starting 7th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.5509
+train Accuracy:0.757 Precision:0.701 Recall:0.791 F1:0.743 MCC:0.518.
+(tn, fp, fn, tp):  (61430, 22666, 14045, 53059)
+val Loss: 0.5238
+val Accuracy:0.766 Precision:0.672 Recall:0.923 F1:0.778 MCC:0.574.
+(tn, fp, fn, tp):  (5967, 3345, 576, 6864)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.5433
+train Accuracy:0.762 Precision:0.705 Recall:0.796 F1:0.748 MCC:0.527.
+(tn, fp, fn, tp):  (61786, 22310, 13698, 53406)
+val Loss: 0.5620
+val Accuracy:0.735 Precision:0.634 Recall:0.950 F1:0.761 MCC:0.539.
+(tn, fp, fn, tp):  (5241, 4071, 374, 7066)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.5436
+train Accuracy:0.761 Precision:0.705 Recall:0.794 F1:0.747 MCC:0.526.
+(tn, fp, fn, tp):  (61811, 22285, 13803, 53301)
+val Loss: 0.5371
+val Accuracy:0.773 Precision:0.769 Recall:0.698 F1:0.732 MCC:0.537.
+(tn, fp, fn, tp):  (7747, 1565, 2244, 5196)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.5448
+train Accuracy:0.762 Precision:0.706 Recall:0.794 F1:0.747 MCC:0.526.
+(tn, fp, fn, tp):  (61888, 22208, 13839, 53265)
+val Loss: 0.5406
+val Accuracy:0.751 Precision:0.661 Recall:0.900 F1:0.762 MCC:0.540.
+(tn, fp, fn, tp):  (5881, 3431, 742, 6698)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.5327
+train Accuracy:0.769 Precision:0.714 Recall:0.799 F1:0.754 MCC:0.540.
+(tn, fp, fn, tp):  (62623, 21473, 13493, 53611)
+val Loss: 0.5429
+val Accuracy:0.757 Precision:0.667 Recall:0.903 F1:0.767 MCC:0.551.
+(tn, fp, fn, tp):  (5954, 3358, 720, 6720)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.5347
+train Accuracy:0.768 Precision:0.712 Recall:0.799 F1:0.753 MCC:0.538.
+(tn, fp, fn, tp):  (62431, 21665, 13458, 53646)
+val Loss: 0.5143
+val Accuracy:0.776 Precision:0.705 Recall:0.852 F1:0.772 MCC:0.565.
+(tn, fp, fn, tp):  (6662, 2650, 1103, 6337)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.5263
+train Accuracy:0.773 Precision:0.719 Recall:0.802 F1:0.758 MCC:0.548.
+(tn, fp, fn, tp):  (63043, 21053, 13287, 53817)
+val Loss: 0.5148
+val Accuracy:0.781 Precision:0.720 Recall:0.827 F1:0.770 MCC:0.567.
+(tn, fp, fn, tp):  (6924, 2388, 1287, 6153)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.5243
+train Accuracy:0.773 Precision:0.720 Recall:0.802 F1:0.759 MCC:0.549.
+(tn, fp, fn, tp):  (63110, 20986, 13270, 53834)
+val Loss: 0.5424
+val Accuracy:0.757 Precision:0.674 Recall:0.879 F1:0.763 MCC:0.543.
+(tn, fp, fn, tp):  (6149, 3163, 902, 6538)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.5239
+train Accuracy:0.773 Precision:0.719 Recall:0.803 F1:0.758 MCC:0.549.
+(tn, fp, fn, tp):  (63027, 21069, 13239, 53865)
+val Loss: 0.5606
+val Accuracy:0.745 Precision:0.658 Recall:0.887 F1:0.756 MCC:0.526.
+(tn, fp, fn, tp):  (5882, 3430, 840, 6600)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.5199
+train Accuracy:0.777 Precision:0.723 Recall:0.804 F1:0.762 MCC:0.555.
+(tn, fp, fn, tp):  (63434, 20662, 13126, 53978)
+val Loss: 0.5533
+val Accuracy:0.745 Precision:0.654 Recall:0.905 F1:0.759 MCC:0.533.
+(tn, fp, fn, tp):  (5747, 3565, 706, 6734)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.5149
+train Accuracy:0.779 Precision:0.726 Recall:0.807 F1:0.764 MCC:0.561.
+(tn, fp, fn, tp):  (63666, 20430, 12944, 54160)
+val Loss: 0.5682
+val Accuracy:0.739 Precision:0.650 Recall:0.896 F1:0.753 MCC:0.520.
+(tn, fp, fn, tp):  (5719, 3593, 776, 6664)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.5170
+train Accuracy:0.778 Precision:0.724 Recall:0.806 F1:0.763 MCC:0.558.
+(tn, fp, fn, tp):  (63500, 20596, 13019, 54085)
+val Loss: 0.5498
+val Accuracy:0.755 Precision:0.702 Recall:0.778 F1:0.738 MCC:0.511.
+(tn, fp, fn, tp):  (6853, 2459, 1650, 5790)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.5102
+train Accuracy:0.782 Precision:0.729 Recall:0.809 F1:0.767 MCC:0.566.
+(tn, fp, fn, tp):  (63926, 20170, 12791, 54313)
+val Loss: 0.5410
+val Accuracy:0.763 Precision:0.706 Recall:0.800 F1:0.750 MCC:0.530.
+(tn, fp, fn, tp):  (6834, 2478, 1490, 5950)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.5060
+train Accuracy:0.784 Precision:0.732 Recall:0.809 F1:0.768 MCC:0.569.
+(tn, fp, fn, tp):  (64161, 19935, 12790, 54314)
+val Loss: 0.5498
+val Accuracy:0.752 Precision:0.683 Recall:0.825 F1:0.747 MCC:0.517.
+(tn, fp, fn, tp):  (6460, 2852, 1299, 6141)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.5042
+train Accuracy:0.786 Precision:0.734 Recall:0.811 F1:0.770 MCC:0.573.
+(tn, fp, fn, tp):  (64365, 19731, 12693, 54411)
+val Loss: 0.5478
+val Accuracy:0.759 Precision:0.693 Recall:0.820 F1:0.751 MCC:0.527.
+(tn, fp, fn, tp):  (6605, 2707, 1336, 6104)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.5010
+train Accuracy:0.787 Precision:0.735 Recall:0.811 F1:0.771 MCC:0.575.
+(tn, fp, fn, tp):  (64525, 19571, 12687, 54417)
+val Loss: 0.5775
+val Accuracy:0.740 Precision:0.648 Recall:0.907 F1:0.756 MCC:0.526.
+(tn, fp, fn, tp):  (5642, 3670, 691, 6749)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.4987
+train Accuracy:0.788 Precision:0.737 Recall:0.814 F1:0.773 MCC:0.578.
+(tn, fp, fn, tp):  (64569, 19527, 12491, 54613)
+val Loss: 0.5710
+val Accuracy:0.741 Precision:0.656 Recall:0.878 F1:0.751 MCC:0.516.
+(tn, fp, fn, tp):  (5877, 3435, 904, 6536)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.4900
+train Accuracy:0.794 Precision:0.743 Recall:0.819 F1:0.779 MCC:0.589.
+(tn, fp, fn, tp):  (65064, 19032, 12119, 54985)
+val Loss: 0.5878
+val Accuracy:0.735 Precision:0.643 Recall:0.906 F1:0.752 MCC:0.517.
+(tn, fp, fn, tp):  (5571, 3741, 701, 6739)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.4927
+train Accuracy:0.790 Precision:0.740 Recall:0.812 F1:0.775 MCC:0.582.
+(tn, fp, fn, tp):  (64974, 19122, 12584, 54520)
+val Loss: 0.5651
+val Accuracy:0.749 Precision:0.667 Recall:0.868 F1:0.754 MCC:0.524.
+(tn, fp, fn, tp):  (6087, 3225, 985, 6455)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.4875
+train Accuracy:0.793 Precision:0.744 Recall:0.815 F1:0.778 MCC:0.588.
+(tn, fp, fn, tp):  (65317, 18779, 12446, 54658)
+val Loss: 0.5656
+val Accuracy:0.756 Precision:0.710 Recall:0.763 F1:0.735 MCC:0.511.
+(tn, fp, fn, tp):  (6989, 2323, 1765, 5675)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.4770
+train Accuracy:0.800 Precision:0.752 Recall:0.822 F1:0.785 MCC:0.602.
+(tn, fp, fn, tp):  (65868, 18228, 11944, 55160)
+val Loss: 0.5489
+val Accuracy:0.762 Precision:0.700 Recall:0.809 F1:0.751 MCC:0.530.
+(tn, fp, fn, tp):  (6737, 2575, 1419, 6021)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.4825
+train Accuracy:0.798 Precision:0.749 Recall:0.819 F1:0.782 MCC:0.596.
+(tn, fp, fn, tp):  (65651, 18445, 12133, 54971)
+val Loss: 0.5681
+val Accuracy:0.749 Precision:0.671 Recall:0.850 F1:0.750 MCC:0.518.
+(tn, fp, fn, tp):  (6218, 3094, 1117, 6323)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.4757
+train Accuracy:0.800 Precision:0.751 Recall:0.821 F1:0.784 MCC:0.600.
+(tn, fp, fn, tp):  (65876, 18220, 12044, 55060)
+val Loss: 0.6221
+val Accuracy:0.718 Precision:0.630 Recall:0.884 F1:0.736 MCC:0.481.
+(tn, fp, fn, tp):  (5454, 3858, 866, 6574)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.4713
+train Accuracy:0.804 Precision:0.756 Recall:0.824 F1:0.788 MCC:0.608.
+(tn, fp, fn, tp):  (66237, 17859, 11828, 55276)
+val Loss: 0.5751
+val Accuracy:0.749 Precision:0.682 Recall:0.814 F1:0.742 MCC:0.509.
+(tn, fp, fn, tp):  (6490, 2822, 1381, 6059)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.4686
+train Accuracy:0.806 Precision:0.759 Recall:0.825 F1:0.790 MCC:0.612.
+(tn, fp, fn, tp):  (66483, 17613, 11757, 55347)
+val Loss: 0.6105
+val Accuracy:0.729 Precision:0.656 Recall:0.819 F1:0.729 MCC:0.476.
+(tn, fp, fn, tp):  (6123, 3189, 1347, 6093)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.4602
+train Accuracy:0.809 Precision:0.762 Recall:0.828 F1:0.794 MCC:0.618.
+(tn, fp, fn, tp):  (66797, 17299, 11574, 55530)
+val Loss: 0.5931
+val Accuracy:0.735 Precision:0.657 Recall:0.843 F1:0.739 MCC:0.493.
+(tn, fp, fn, tp):  (6037, 3275, 1166, 6274)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.4663
+train Accuracy:0.806 Precision:0.758 Recall:0.827 F1:0.791 MCC:0.613.
+(tn, fp, fn, tp):  (66411, 17685, 11605, 55499)
+val Loss: 0.5995
+val Accuracy:0.732 Precision:0.648 Recall:0.865 F1:0.741 MCC:0.495.
+(tn, fp, fn, tp):  (5819, 3493, 1004, 6436)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.4596
+train Accuracy:0.809 Precision:0.762 Recall:0.829 F1:0.794 MCC:0.619.
+(tn, fp, fn, tp):  (66713, 17383, 11453, 55651)
+val Loss: 0.6033
+val Accuracy:0.738 Precision:0.659 Recall:0.848 F1:0.742 MCC:0.499.
+(tn, fp, fn, tp):  (6048, 3264, 1132, 6308)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.4563
+train Accuracy:0.811 Precision:0.764 Recall:0.830 F1:0.796 MCC:0.623.
+(tn, fp, fn, tp):  (66934, 17162, 11396, 55708)
+val Loss: 0.6934
+val Accuracy:0.687 Precision:0.595 Recall:0.926 F1:0.725 MCC:0.454.
+(tn, fp, fn, tp):  (4628, 4684, 553, 6887)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.4561
+train Accuracy:0.811 Precision:0.764 Recall:0.829 F1:0.795 MCC:0.621.
+(tn, fp, fn, tp):  (66911, 17185, 11450, 55654)
+val Loss: 0.7969
+val Accuracy:0.638 Precision:0.554 Recall:0.952 F1:0.700 MCC:0.396.
+(tn, fp, fn, tp):  (3597, 5715, 355, 7085)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.4474
+train Accuracy:0.816 Precision:0.771 Recall:0.832 F1:0.800 MCC:0.631.
+(tn, fp, fn, tp):  (67504, 16592, 11262, 55842)
+val Loss: 0.5984
+val Accuracy:0.739 Precision:0.671 Recall:0.808 F1:0.733 MCC:0.490.
+(tn, fp, fn, tp):  (6368, 2944, 1428, 6012)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.4457
+train Accuracy:0.816 Precision:0.771 Recall:0.833 F1:0.801 MCC:0.633.
+(tn, fp, fn, tp):  (67523, 16573, 11175, 55929)
+val Loss: 0.6482
+val Accuracy:0.714 Precision:0.626 Recall:0.887 F1:0.734 MCC:0.476.
+(tn, fp, fn, tp):  (5369, 3943, 844, 6596)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.4422
+train Accuracy:0.817 Precision:0.772 Recall:0.836 F1:0.803 MCC:0.635.
+(tn, fp, fn, tp):  (67515, 16581, 11014, 56090)
+val Loss: 0.6465
+val Accuracy:0.709 Precision:0.621 Recall:0.879 F1:0.728 MCC:0.464.
+(tn, fp, fn, tp):  (5326, 3986, 897, 6543)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.4414
+train Accuracy:0.819 Precision:0.774 Recall:0.837 F1:0.804 MCC:0.638.
+(tn, fp, fn, tp):  (67687, 16409, 10965, 56139)
+val Loss: 0.6516
+val Accuracy:0.719 Precision:0.651 Recall:0.792 F1:0.714 MCC:0.451.
+(tn, fp, fn, tp):  (6153, 3159, 1549, 5891)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.4377
+train Accuracy:0.820 Precision:0.774 Recall:0.838 F1:0.805 MCC:0.640.
+(tn, fp, fn, tp):  (67714, 16382, 10875, 56229)
+val Loss: 0.6110
+val Accuracy:0.743 Precision:0.680 Recall:0.793 F1:0.732 MCC:0.493.
+(tn, fp, fn, tp):  (6541, 2771, 1540, 5900)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.4341
+train Accuracy:0.823 Precision:0.779 Recall:0.840 F1:0.808 MCC:0.646.
+(tn, fp, fn, tp):  (68117, 15979, 10764, 56340)
+val Loss: 0.6550
+val Accuracy:0.712 Precision:0.621 Recall:0.902 F1:0.736 MCC:0.480.
+(tn, fp, fn, tp):  (5219, 4093, 728, 6712)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.4356
+train Accuracy:0.821 Precision:0.777 Recall:0.839 F1:0.806 MCC:0.642.
+(tn, fp, fn, tp):  (67905, 16191, 10833, 56271)
+val Loss: 0.6178
+val Accuracy:0.731 Precision:0.662 Recall:0.805 F1:0.727 MCC:0.476.
+(tn, fp, fn, tp):  (6258, 3054, 1448, 5992)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.4292
+train Accuracy:0.824 Precision:0.780 Recall:0.841 F1:0.809 MCC:0.648.
+(tn, fp, fn, tp):  (68213, 15883, 10682, 56422)
+val Loss: 0.8346
+val Accuracy:0.635 Precision:0.551 Recall:0.956 F1:0.699 MCC:0.394.
+(tn, fp, fn, tp):  (3522, 5790, 330, 7110)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.4243
+train Accuracy:0.827 Precision:0.784 Recall:0.842 F1:0.812 MCC:0.654.
+(tn, fp, fn, tp):  (68553, 15543, 10592, 56512)
+val Loss: 0.6545
+val Accuracy:0.710 Precision:0.626 Recall:0.862 F1:0.726 MCC:0.460.
+(tn, fp, fn, tp):  (5486, 3826, 1025, 6415)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.4226
+train Accuracy:0.829 Precision:0.785 Recall:0.846 F1:0.814 MCC:0.657.
+(tn, fp, fn, tp):  (68542, 15554, 10339, 56765)
+val Loss: 0.6416
+val Accuracy:0.737 Precision:0.685 Recall:0.756 F1:0.719 MCC:0.475.
+(tn, fp, fn, tp):  (6723, 2589, 1814, 5626)
+Training complete in 33m 40s
+Best val MCC: 0.573745
+*********************************************************************
+starting 8th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.5376
+train Accuracy:0.766 Precision:0.710 Recall:0.799 F1:0.752 MCC:0.535.
+(tn, fp, fn, tp):  (62155, 21941, 13458, 53646)
+val Loss: 0.5662
+val Accuracy:0.735 Precision:0.643 Recall:0.905 F1:0.752 MCC:0.517.
+(tn, fp, fn, tp):  (5576, 3736, 704, 6736)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.5398
+train Accuracy:0.765 Precision:0.709 Recall:0.797 F1:0.750 MCC:0.532.
+(tn, fp, fn, tp):  (62134, 21962, 13642, 53462)
+val Loss: 0.6576
+val Accuracy:0.658 Precision:0.569 Recall:0.954 F1:0.712 MCC:0.428.
+(tn, fp, fn, tp):  (3927, 5385, 344, 7096)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.5359
+train Accuracy:0.766 Precision:0.711 Recall:0.798 F1:0.752 MCC:0.536.
+(tn, fp, fn, tp):  (62349, 21747, 13564, 53540)
+val Loss: 0.5623
+val Accuracy:0.756 Precision:0.707 Recall:0.769 F1:0.737 MCC:0.511.
+(tn, fp, fn, tp):  (6939, 2373, 1718, 5722)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.5333
+train Accuracy:0.768 Precision:0.713 Recall:0.798 F1:0.753 MCC:0.538.
+(tn, fp, fn, tp):  (62550, 21546, 13562, 53542)
+val Loss: 0.6559
+val Accuracy:0.675 Precision:0.584 Recall:0.933 F1:0.719 MCC:0.440.
+(tn, fp, fn, tp):  (4373, 4939, 499, 6941)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.5243
+train Accuracy:0.775 Precision:0.720 Recall:0.805 F1:0.760 MCC:0.552.
+(tn, fp, fn, tp):  (63079, 21017, 13053, 54051)
+val Loss: 0.6190
+val Accuracy:0.704 Precision:0.615 Recall:0.890 F1:0.728 MCC:0.462.
+(tn, fp, fn, tp):  (5174, 4138, 818, 6622)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.5250
+train Accuracy:0.774 Precision:0.719 Recall:0.805 F1:0.760 MCC:0.550.
+(tn, fp, fn, tp):  (62981, 21115, 13083, 54021)
+val Loss: 0.5793
+val Accuracy:0.740 Precision:0.666 Recall:0.830 F1:0.739 MCC:0.497.
+(tn, fp, fn, tp):  (6219, 3093, 1266, 6174)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.5203
+train Accuracy:0.776 Precision:0.722 Recall:0.803 F1:0.761 MCC:0.553.
+(tn, fp, fn, tp):  (63357, 20739, 13205, 53899)
+val Loss: 0.5771
+val Accuracy:0.748 Precision:0.707 Recall:0.738 F1:0.722 MCC:0.492.
+(tn, fp, fn, tp):  (7033, 2279, 1947, 5493)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.5148
+train Accuracy:0.778 Precision:0.725 Recall:0.805 F1:0.763 MCC:0.558.
+(tn, fp, fn, tp):  (63637, 20459, 13072, 54032)
+val Loss: 0.6133
+val Accuracy:0.732 Precision:0.718 Recall:0.653 F1:0.684 MCC:0.454.
+(tn, fp, fn, tp):  (7405, 1907, 2583, 4857)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.5134
+train Accuracy:0.779 Precision:0.726 Recall:0.807 F1:0.765 MCC:0.561.
+(tn, fp, fn, tp):  (63704, 20392, 12948, 54156)
+val Loss: 0.6107
+val Accuracy:0.714 Precision:0.633 Recall:0.846 F1:0.724 MCC:0.460.
+(tn, fp, fn, tp):  (5667, 3645, 1146, 6294)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.5077
+train Accuracy:0.784 Precision:0.731 Recall:0.812 F1:0.769 MCC:0.570.
+(tn, fp, fn, tp):  (64058, 20038, 12639, 54465)
+val Loss: 0.6146
+val Accuracy:0.714 Precision:0.631 Recall:0.852 F1:0.726 MCC:0.461.
+(tn, fp, fn, tp):  (5611, 3701, 1098, 6342)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.5042
+train Accuracy:0.786 Precision:0.733 Recall:0.812 F1:0.771 MCC:0.573.
+(tn, fp, fn, tp):  (64256, 19840, 12590, 54514)
+val Loss: 0.5975
+val Accuracy:0.733 Precision:0.665 Recall:0.803 F1:0.727 MCC:0.478.
+(tn, fp, fn, tp):  (6300, 3012, 1466, 5974)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.5033
+train Accuracy:0.786 Precision:0.735 Recall:0.812 F1:0.771 MCC:0.574.
+(tn, fp, fn, tp):  (64406, 19690, 12610, 54494)
+val Loss: 0.5954
+val Accuracy:0.732 Precision:0.658 Recall:0.828 F1:0.733 MCC:0.484.
+(tn, fp, fn, tp):  (6107, 3205, 1283, 6157)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.4980
+train Accuracy:0.789 Precision:0.738 Recall:0.815 F1:0.774 MCC:0.580.
+(tn, fp, fn, tp):  (64632, 19464, 12402, 54702)
+val Loss: 0.6580
+val Accuracy:0.689 Precision:0.600 Recall:0.901 F1:0.720 MCC:0.444.
+(tn, fp, fn, tp):  (4839, 4473, 734, 6706)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.4983
+train Accuracy:0.789 Precision:0.739 Recall:0.813 F1:0.774 MCC:0.580.
+(tn, fp, fn, tp):  (64802, 19294, 12555, 54549)
+val Loss: 0.6156
+val Accuracy:0.722 Precision:0.672 Recall:0.728 F1:0.699 MCC:0.442.
+(tn, fp, fn, tp):  (6674, 2638, 2025, 5415)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.4954
+train Accuracy:0.790 Precision:0.740 Recall:0.812 F1:0.775 MCC:0.581.
+(tn, fp, fn, tp):  (64967, 19129, 12598, 54506)
+val Loss: 0.6153
+val Accuracy:0.720 Precision:0.648 Recall:0.810 F1:0.720 MCC:0.459.
+(tn, fp, fn, tp):  (6043, 3269, 1415, 6025)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.4933
+train Accuracy:0.792 Precision:0.741 Recall:0.816 F1:0.777 MCC:0.585.
+(tn, fp, fn, tp):  (64982, 19114, 12380, 54724)
+val Loss: 0.5963
+val Accuracy:0.735 Precision:0.672 Recall:0.787 F1:0.725 MCC:0.477.
+(tn, fp, fn, tp):  (6453, 2859, 1587, 5853)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.4896
+train Accuracy:0.794 Precision:0.745 Recall:0.816 F1:0.779 MCC:0.590.
+(tn, fp, fn, tp):  (65372, 18724, 12364, 54740)
+val Loss: 0.6626
+val Accuracy:0.699 Precision:0.618 Recall:0.840 F1:0.712 MCC:0.433.
+(tn, fp, fn, tp):  (5455, 3857, 1190, 6250)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.4856
+train Accuracy:0.795 Precision:0.746 Recall:0.815 F1:0.779 MCC:0.590.
+(tn, fp, fn, tp):  (65454, 18642, 12407, 54697)
+val Loss: 0.6381
+val Accuracy:0.713 Precision:0.658 Recall:0.737 F1:0.695 MCC:0.428.
+(tn, fp, fn, tp):  (6457, 2855, 1955, 5485)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.4802
+train Accuracy:0.799 Precision:0.750 Recall:0.820 F1:0.783 MCC:0.598.
+(tn, fp, fn, tp):  (65772, 18324, 12104, 55000)
+val Loss: 0.7043
+val Accuracy:0.664 Precision:0.577 Recall:0.914 F1:0.708 MCC:0.412.
+(tn, fp, fn, tp):  (4326, 4986, 637, 6803)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.4792
+train Accuracy:0.799 Precision:0.751 Recall:0.819 F1:0.784 MCC:0.599.
+(tn, fp, fn, tp):  (65839, 18257, 12119, 54985)
+val Loss: 0.7156
+val Accuracy:0.660 Precision:0.572 Recall:0.926 F1:0.707 MCC:0.412.
+(tn, fp, fn, tp):  (4164, 5148, 553, 6887)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.4717
+train Accuracy:0.804 Precision:0.756 Recall:0.823 F1:0.788 MCC:0.608.
+(tn, fp, fn, tp):  (66259, 17837, 11845, 55259)
+val Loss: 0.6705
+val Accuracy:0.702 Precision:0.635 Recall:0.774 F1:0.697 MCC:0.417.
+(tn, fp, fn, tp):  (6000, 3312, 1683, 5757)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.4706
+train Accuracy:0.804 Precision:0.757 Recall:0.824 F1:0.789 MCC:0.609.
+(tn, fp, fn, tp):  (66304, 17792, 11780, 55324)
+val Loss: 0.6562
+val Accuracy:0.703 Precision:0.620 Recall:0.853 F1:0.718 MCC:0.444.
+(tn, fp, fn, tp):  (5426, 3886, 1097, 6343)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.4642
+train Accuracy:0.807 Precision:0.761 Recall:0.826 F1:0.792 MCC:0.615.
+(tn, fp, fn, tp):  (66639, 17457, 11653, 55451)
+val Loss: 0.6373
+val Accuracy:0.712 Precision:0.635 Recall:0.828 F1:0.719 MCC:0.451.
+(tn, fp, fn, tp):  (5766, 3546, 1276, 6164)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.4638
+train Accuracy:0.808 Precision:0.761 Recall:0.826 F1:0.792 MCC:0.616.
+(tn, fp, fn, tp):  (66699, 17397, 11646, 55458)
+val Loss: 0.6742
+val Accuracy:0.687 Precision:0.602 Recall:0.869 F1:0.711 MCC:0.424.
+(tn, fp, fn, tp):  (5040, 4272, 978, 6462)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.4644
+train Accuracy:0.809 Precision:0.762 Recall:0.828 F1:0.793 MCC:0.617.
+(tn, fp, fn, tp):  (66714, 17382, 11569, 55535)
+val Loss: 0.6454
+val Accuracy:0.702 Precision:0.623 Recall:0.831 F1:0.712 MCC:0.435.
+(tn, fp, fn, tp):  (5573, 3739, 1254, 6186)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.4537
+train Accuracy:0.813 Precision:0.768 Recall:0.830 F1:0.798 MCC:0.626.
+(tn, fp, fn, tp):  (67232, 16864, 11381, 55723)
+val Loss: 0.6845
+val Accuracy:0.686 Precision:0.601 Recall:0.867 F1:0.710 MCC:0.422.
+(tn, fp, fn, tp):  (5033, 4279, 988, 6452)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.4507
+train Accuracy:0.815 Precision:0.769 Recall:0.832 F1:0.799 MCC:0.629.
+(tn, fp, fn, tp):  (67369, 16727, 11305, 55799)
+val Loss: 0.6514
+val Accuracy:0.710 Precision:0.645 Recall:0.772 F1:0.703 MCC:0.430.
+(tn, fp, fn, tp):  (6145, 3167, 1695, 5745)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.4469
+train Accuracy:0.816 Precision:0.771 Recall:0.833 F1:0.801 MCC:0.632.
+(tn, fp, fn, tp):  (67480, 16616, 11190, 55914)
+val Loss: 0.6941
+val Accuracy:0.693 Precision:0.621 Recall:0.792 F1:0.696 MCC:0.408.
+(tn, fp, fn, tp):  (5719, 3593, 1545, 5895)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.4472
+train Accuracy:0.817 Precision:0.772 Recall:0.834 F1:0.802 MCC:0.634.
+(tn, fp, fn, tp):  (67567, 16529, 11154, 55950)
+val Loss: 0.6981
+val Accuracy:0.681 Precision:0.598 Recall:0.861 F1:0.706 MCC:0.412.
+(tn, fp, fn, tp):  (5004, 4308, 1034, 6406)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.4417
+train Accuracy:0.819 Precision:0.774 Recall:0.836 F1:0.804 MCC:0.638.
+(tn, fp, fn, tp):  (67726, 16370, 10991, 56113)
+val Loss: 0.7344
+val Accuracy:0.669 Precision:0.583 Recall:0.891 F1:0.705 MCC:0.407.
+(tn, fp, fn, tp):  (4574, 4738, 808, 6632)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.4439
+train Accuracy:0.819 Precision:0.774 Recall:0.835 F1:0.803 MCC:0.637.
+(tn, fp, fn, tp):  (67761, 16335, 11085, 56019)
+val Loss: 0.6729
+val Accuracy:0.697 Precision:0.615 Recall:0.851 F1:0.714 MCC:0.434.
+(tn, fp, fn, tp):  (5352, 3960, 1110, 6330)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.4370
+train Accuracy:0.822 Precision:0.778 Recall:0.836 F1:0.806 MCC:0.643.
+(tn, fp, fn, tp):  (68105, 15991, 10975, 56129)
+val Loss: 0.7012
+val Accuracy:0.687 Precision:0.605 Recall:0.854 F1:0.708 MCC:0.419.
+(tn, fp, fn, tp):  (5158, 4154, 1086, 6354)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.4321
+train Accuracy:0.824 Precision:0.781 Recall:0.839 F1:0.809 MCC:0.647.
+(tn, fp, fn, tp):  (68281, 15815, 10831, 56273)
+val Loss: 0.7210
+val Accuracy:0.677 Precision:0.593 Recall:0.873 F1:0.706 MCC:0.412.
+(tn, fp, fn, tp):  (4854, 4458, 946, 6494)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.4287
+train Accuracy:0.826 Precision:0.783 Recall:0.842 F1:0.811 MCC:0.652.
+(tn, fp, fn, tp):  (68418, 15678, 10599, 56505)
+val Loss: 0.6826
+val Accuracy:0.704 Precision:0.630 Recall:0.807 F1:0.708 MCC:0.430.
+(tn, fp, fn, tp):  (5783, 3529, 1434, 6006)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.4296
+train Accuracy:0.825 Precision:0.782 Recall:0.840 F1:0.810 MCC:0.650.
+(tn, fp, fn, tp):  (68373, 15723, 10716, 56388)
+val Loss: 0.6781
+val Accuracy:0.705 Precision:0.633 Recall:0.801 F1:0.707 MCC:0.430.
+(tn, fp, fn, tp):  (5852, 3460, 1483, 5957)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.4262
+train Accuracy:0.828 Precision:0.786 Recall:0.841 F1:0.813 MCC:0.655.
+(tn, fp, fn, tp):  (68688, 15408, 10648, 56456)
+val Loss: 0.7720
+val Accuracy:0.657 Precision:0.573 Recall:0.897 F1:0.699 MCC:0.391.
+(tn, fp, fn, tp):  (4330, 4982, 766, 6674)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.4181
+train Accuracy:0.832 Precision:0.791 Recall:0.844 F1:0.816 MCC:0.662.
+(tn, fp, fn, tp):  (69133, 14963, 10496, 56608)
+val Loss: 0.7359
+val Accuracy:0.675 Precision:0.596 Recall:0.836 F1:0.696 MCC:0.393.
+(tn, fp, fn, tp):  (5087, 4225, 1217, 6223)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.4147
+train Accuracy:0.833 Precision:0.792 Recall:0.846 F1:0.818 MCC:0.665.
+(tn, fp, fn, tp):  (69145, 14951, 10321, 56783)
+val Loss: 0.9136
+val Accuracy:0.623 Precision:0.544 Recall:0.923 F1:0.685 MCC:0.352.
+(tn, fp, fn, tp):  (3563, 5749, 574, 6866)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.4145
+train Accuracy:0.833 Precision:0.791 Recall:0.849 F1:0.819 MCC:0.666.
+(tn, fp, fn, tp):  (69061, 15035, 10151, 56953)
+val Loss: 0.8283
+val Accuracy:0.636 Precision:0.554 Recall:0.916 F1:0.691 MCC:0.369.
+(tn, fp, fn, tp):  (3833, 5479, 624, 6816)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.4091
+train Accuracy:0.836 Precision:0.795 Recall:0.850 F1:0.822 MCC:0.672.
+(tn, fp, fn, tp):  (69395, 14701, 10062, 57042)
+val Loss: 0.6963
+val Accuracy:0.696 Precision:0.617 Recall:0.834 F1:0.709 MCC:0.426.
+(tn, fp, fn, tp):  (5459, 3853, 1238, 6202)
+Training complete in 33m 42s
+Best val MCC: 0.517480
+*********************************************************************
+starting 9th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.5401
+train Accuracy:0.763 Precision:0.708 Recall:0.795 F1:0.749 MCC:0.530.
+(tn, fp, fn, tp):  (62040, 22056, 13735, 53369)
+val Loss: 0.5840
+val Accuracy:0.722 Precision:0.630 Recall:0.909 F1:0.744 MCC:0.499.
+(tn, fp, fn, tp):  (5335, 3977, 677, 6763)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.5335
+train Accuracy:0.767 Precision:0.711 Recall:0.800 F1:0.753 MCC:0.537.
+(tn, fp, fn, tp):  (62260, 21836, 13430, 53674)
+val Loss: 0.6302
+val Accuracy:0.683 Precision:0.590 Recall:0.937 F1:0.724 MCC:0.454.
+(tn, fp, fn, tp):  (4467, 4845, 472, 6968)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.5320
+train Accuracy:0.767 Precision:0.710 Recall:0.804 F1:0.754 MCC:0.539.
+(tn, fp, fn, tp):  (62092, 22004, 13158, 53946)
+val Loss: 0.5495
+val Accuracy:0.769 Precision:0.744 Recall:0.730 F1:0.737 MCC:0.531.
+(tn, fp, fn, tp):  (7446, 1866, 2010, 5430)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.5345
+train Accuracy:0.766 Precision:0.709 Recall:0.801 F1:0.752 MCC:0.536.
+(tn, fp, fn, tp):  (62091, 22005, 13364, 53740)
+val Loss: 0.6615
+val Accuracy:0.659 Precision:0.570 Recall:0.943 F1:0.711 MCC:0.422.
+(tn, fp, fn, tp):  (4028, 5284, 427, 7013)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.5228
+train Accuracy:0.773 Precision:0.718 Recall:0.807 F1:0.760 MCC:0.550.
+(tn, fp, fn, tp):  (62786, 21310, 12937, 54167)
+val Loss: 0.5649
+val Accuracy:0.751 Precision:0.685 Recall:0.814 F1:0.744 MCC:0.513.
+(tn, fp, fn, tp):  (6530, 2782, 1381, 6059)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.5238
+train Accuracy:0.772 Precision:0.716 Recall:0.808 F1:0.759 MCC:0.548.
+(tn, fp, fn, tp):  (62567, 21529, 12893, 54211)
+val Loss: 0.5815
+val Accuracy:0.747 Precision:0.685 Recall:0.797 F1:0.737 MCC:0.501.
+(tn, fp, fn, tp):  (6589, 2723, 1514, 5926)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.5218
+train Accuracy:0.774 Precision:0.719 Recall:0.807 F1:0.760 MCC:0.551.
+(tn, fp, fn, tp):  (62879, 21217, 12942, 54162)
+val Loss: 0.5637
+val Accuracy:0.757 Precision:0.709 Recall:0.766 F1:0.737 MCC:0.513.
+(tn, fp, fn, tp):  (6978, 2334, 1740, 5700)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.5144
+train Accuracy:0.778 Precision:0.724 Recall:0.809 F1:0.764 MCC:0.559.
+(tn, fp, fn, tp):  (63408, 20688, 12837, 54267)
+val Loss: 0.5808
+val Accuracy:0.741 Precision:0.667 Recall:0.831 F1:0.740 MCC:0.499.
+(tn, fp, fn, tp):  (6225, 3087, 1257, 6183)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.5112
+train Accuracy:0.779 Precision:0.725 Recall:0.811 F1:0.765 MCC:0.562.
+(tn, fp, fn, tp):  (63446, 20650, 12697, 54407)
+val Loss: 0.5918
+val Accuracy:0.732 Precision:0.657 Recall:0.831 F1:0.734 MCC:0.485.
+(tn, fp, fn, tp):  (6082, 3230, 1256, 6184)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.5139
+train Accuracy:0.779 Precision:0.723 Recall:0.812 F1:0.765 MCC:0.561.
+(tn, fp, fn, tp):  (63246, 20850, 12609, 54495)
+val Loss: 0.5741
+val Accuracy:0.751 Precision:0.704 Recall:0.758 F1:0.730 MCC:0.501.
+(tn, fp, fn, tp):  (6943, 2369, 1797, 5643)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.5044
+train Accuracy:0.784 Precision:0.730 Recall:0.815 F1:0.770 MCC:0.570.
+(tn, fp, fn, tp):  (63833, 20263, 12446, 54658)
+val Loss: 0.5793
+val Accuracy:0.748 Precision:0.687 Recall:0.795 F1:0.737 MCC:0.502.
+(tn, fp, fn, tp):  (6617, 2695, 1528, 5912)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.5038
+train Accuracy:0.785 Precision:0.731 Recall:0.816 F1:0.771 MCC:0.573.
+(tn, fp, fn, tp):  (63934, 20162, 12355, 54749)
+val Loss: 0.5860
+val Accuracy:0.744 Precision:0.681 Recall:0.796 F1:0.734 MCC:0.495.
+(tn, fp, fn, tp):  (6532, 2780, 1516, 5924)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.4987
+train Accuracy:0.787 Precision:0.734 Recall:0.818 F1:0.774 MCC:0.577.
+(tn, fp, fn, tp):  (64181, 19915, 12219, 54885)
+val Loss: 0.5863
+val Accuracy:0.733 Precision:0.658 Recall:0.831 F1:0.735 MCC:0.487.
+(tn, fp, fn, tp):  (6106, 3206, 1260, 6180)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.4969
+train Accuracy:0.788 Precision:0.734 Recall:0.819 F1:0.774 MCC:0.578.
+(tn, fp, fn, tp):  (64132, 19964, 12134, 54970)
+val Loss: 0.5858
+val Accuracy:0.738 Precision:0.678 Recall:0.784 F1:0.727 MCC:0.483.
+(tn, fp, fn, tp):  (6536, 2776, 1608, 5832)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.4949
+train Accuracy:0.789 Precision:0.735 Recall:0.820 F1:0.775 MCC:0.580.
+(tn, fp, fn, tp):  (64269, 19827, 12083, 55021)
+val Loss: 0.6004
+val Accuracy:0.736 Precision:0.662 Recall:0.829 F1:0.736 MCC:0.491.
+(tn, fp, fn, tp):  (6168, 3144, 1273, 6167)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.4910
+train Accuracy:0.791 Precision:0.737 Recall:0.822 F1:0.777 MCC:0.585.
+(tn, fp, fn, tp):  (64462, 19634, 11964, 55140)
+val Loss: 0.6014
+val Accuracy:0.734 Precision:0.662 Recall:0.821 F1:0.733 MCC:0.485.
+(tn, fp, fn, tp):  (6187, 3125, 1330, 6110)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.4887
+train Accuracy:0.792 Precision:0.739 Recall:0.822 F1:0.779 MCC:0.587.
+(tn, fp, fn, tp):  (64630, 19466, 11927, 55177)
+val Loss: 0.5951
+val Accuracy:0.737 Precision:0.679 Recall:0.775 F1:0.724 MCC:0.479.
+(tn, fp, fn, tp):  (6591, 2721, 1677, 5763)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.4850
+train Accuracy:0.794 Precision:0.742 Recall:0.822 F1:0.780 MCC:0.590.
+(tn, fp, fn, tp):  (64932, 19164, 11961, 55143)
+val Loss: 0.6038
+val Accuracy:0.732 Precision:0.662 Recall:0.810 F1:0.728 MCC:0.478.
+(tn, fp, fn, tp):  (6228, 3084, 1413, 6027)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.4816
+train Accuracy:0.797 Precision:0.745 Recall:0.823 F1:0.782 MCC:0.595.
+(tn, fp, fn, tp):  (65212, 18884, 11861, 55243)
+val Loss: 0.6303
+val Accuracy:0.717 Precision:0.639 Recall:0.833 F1:0.723 MCC:0.460.
+(tn, fp, fn, tp):  (5805, 3507, 1240, 6200)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.4774
+train Accuracy:0.800 Precision:0.748 Recall:0.827 F1:0.786 MCC:0.601.
+(tn, fp, fn, tp):  (65368, 18728, 11578, 55526)
+val Loss: 0.5948
+val Accuracy:0.738 Precision:0.669 Recall:0.812 F1:0.733 MCC:0.489.
+(tn, fp, fn, tp):  (6319, 2993, 1401, 6039)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.4703
+train Accuracy:0.803 Precision:0.752 Recall:0.828 F1:0.789 MCC:0.607.
+(tn, fp, fn, tp):  (65803, 18293, 11510, 55594)
+val Loss: 0.6404
+val Accuracy:0.706 Precision:0.626 Recall:0.840 F1:0.717 MCC:0.444.
+(tn, fp, fn, tp):  (5571, 3741, 1188, 6252)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.4675
+train Accuracy:0.805 Precision:0.755 Recall:0.831 F1:0.791 MCC:0.612.
+(tn, fp, fn, tp):  (65978, 18118, 11320, 55784)
+val Loss: 0.6453
+val Accuracy:0.693 Precision:0.608 Recall:0.864 F1:0.714 MCC:0.432.
+(tn, fp, fn, tp):  (5174, 4138, 1012, 6428)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.4651
+train Accuracy:0.806 Precision:0.757 Recall:0.830 F1:0.792 MCC:0.614.
+(tn, fp, fn, tp):  (66266, 17830, 11436, 55668)
+val Loss: 0.6308
+val Accuracy:0.725 Precision:0.664 Recall:0.773 F1:0.714 MCC:0.457.
+(tn, fp, fn, tp):  (6400, 2912, 1691, 5749)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.4659
+train Accuracy:0.805 Precision:0.756 Recall:0.830 F1:0.791 MCC:0.612.
+(tn, fp, fn, tp):  (66098, 17998, 11440, 55664)
+val Loss: 0.6330
+val Accuracy:0.725 Precision:0.663 Recall:0.775 F1:0.715 MCC:0.458.
+(tn, fp, fn, tp):  (6384, 2928, 1675, 5765)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.4572
+train Accuracy:0.810 Precision:0.761 Recall:0.834 F1:0.796 MCC:0.621.
+(tn, fp, fn, tp):  (66488, 17608, 11109, 55995)
+val Loss: 0.6557
+val Accuracy:0.708 Precision:0.633 Recall:0.817 F1:0.713 MCC:0.441.
+(tn, fp, fn, tp):  (5791, 3521, 1363, 6077)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.4575
+train Accuracy:0.810 Precision:0.761 Recall:0.834 F1:0.796 MCC:0.621.
+(tn, fp, fn, tp):  (66523, 17573, 11136, 55968)
+val Loss: 0.6381
+val Accuracy:0.718 Precision:0.653 Recall:0.778 F1:0.710 MCC:0.445.
+(tn, fp, fn, tp):  (6236, 3076, 1653, 5787)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.4549
+train Accuracy:0.812 Precision:0.763 Recall:0.835 F1:0.797 MCC:0.624.
+(tn, fp, fn, tp):  (66658, 17438, 11060, 56044)
+val Loss: 0.6297
+val Accuracy:0.729 Precision:0.672 Recall:0.761 F1:0.714 MCC:0.462.
+(tn, fp, fn, tp):  (6549, 2763, 1775, 5665)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.4458
+train Accuracy:0.816 Precision:0.768 Recall:0.838 F1:0.802 MCC:0.632.
+(tn, fp, fn, tp):  (67119, 16977, 10872, 56232)
+val Loss: 0.6612
+val Accuracy:0.705 Precision:0.624 Recall:0.845 F1:0.718 MCC:0.445.
+(tn, fp, fn, tp):  (5530, 3782, 1156, 6284)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.4447
+train Accuracy:0.817 Precision:0.769 Recall:0.840 F1:0.803 MCC:0.635.
+(tn, fp, fn, tp):  (67144, 16952, 10735, 56369)
+val Loss: 0.6573
+val Accuracy:0.722 Precision:0.654 Recall:0.795 F1:0.717 MCC:0.457.
+(tn, fp, fn, tp):  (6178, 3134, 1526, 5914)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.4441
+train Accuracy:0.817 Precision:0.769 Recall:0.840 F1:0.803 MCC:0.634.
+(tn, fp, fn, tp):  (67152, 16944, 10762, 56342)
+val Loss: 0.6562
+val Accuracy:0.703 Precision:0.625 Recall:0.827 F1:0.712 MCC:0.435.
+(tn, fp, fn, tp):  (5624, 3688, 1289, 6151)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.4380
+train Accuracy:0.819 Precision:0.772 Recall:0.842 F1:0.805 MCC:0.639.
+(tn, fp, fn, tp):  (67363, 16733, 10607, 56497)
+val Loss: 0.6590
+val Accuracy:0.728 Precision:0.669 Recall:0.765 F1:0.714 MCC:0.460.
+(tn, fp, fn, tp):  (6504, 2808, 1752, 5688)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.4394
+train Accuracy:0.818 Precision:0.770 Recall:0.842 F1:0.805 MCC:0.638.
+(tn, fp, fn, tp):  (67255, 16841, 10603, 56501)
+val Loss: 0.7056
+val Accuracy:0.696 Precision:0.613 Recall:0.854 F1:0.714 MCC:0.433.
+(tn, fp, fn, tp):  (5303, 4009, 1089, 6351)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.4294
+train Accuracy:0.825 Precision:0.778 Recall:0.845 F1:0.810 MCC:0.649.
+(tn, fp, fn, tp):  (67955, 16141, 10394, 56710)
+val Loss: 0.7055
+val Accuracy:0.690 Precision:0.606 Recall:0.861 F1:0.711 MCC:0.426.
+(tn, fp, fn, tp):  (5147, 4165, 1033, 6407)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.4274
+train Accuracy:0.824 Precision:0.777 Recall:0.846 F1:0.810 MCC:0.649.
+(tn, fp, fn, tp):  (67846, 16250, 10329, 56775)
+val Loss: 0.6663
+val Accuracy:0.723 Precision:0.658 Recall:0.783 F1:0.715 MCC:0.455.
+(tn, fp, fn, tp):  (6282, 3030, 1616, 5824)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.4254
+train Accuracy:0.826 Precision:0.780 Recall:0.846 F1:0.812 MCC:0.652.
+(tn, fp, fn, tp):  (68036, 16060, 10317, 56787)
+val Loss: 0.6643
+val Accuracy:0.718 Precision:0.647 Recall:0.800 F1:0.716 MCC:0.451.
+(tn, fp, fn, tp):  (6065, 3247, 1485, 5955)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.4184
+train Accuracy:0.831 Precision:0.786 Recall:0.851 F1:0.817 MCC:0.662.
+(tn, fp, fn, tp):  (68513, 15583, 10003, 57101)
+val Loss: 0.6754
+val Accuracy:0.706 Precision:0.628 Recall:0.827 F1:0.714 MCC:0.439.
+(tn, fp, fn, tp):  (5666, 3646, 1285, 6155)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.4221
+train Accuracy:0.826 Precision:0.781 Recall:0.846 F1:0.812 MCC:0.653.
+(tn, fp, fn, tp):  (68163, 15933, 10302, 56802)
+val Loss: 0.6804
+val Accuracy:0.715 Precision:0.647 Recall:0.791 F1:0.712 MCC:0.445.
+(tn, fp, fn, tp):  (6100, 3212, 1558, 5882)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.4121
+train Accuracy:0.833 Precision:0.788 Recall:0.852 F1:0.819 MCC:0.666.
+(tn, fp, fn, tp):  (68733, 15363, 9905, 57199)
+val Loss: 0.7921
+val Accuracy:0.659 Precision:0.575 Recall:0.888 F1:0.698 MCC:0.389.
+(tn, fp, fn, tp):  (4432, 4880, 835, 6605)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.4135
+train Accuracy:0.831 Precision:0.787 Recall:0.851 F1:0.817 MCC:0.663.
+(tn, fp, fn, tp):  (68630, 15466, 10021, 57083)
+val Loss: 0.7001
+val Accuracy:0.686 Precision:0.604 Recall:0.854 F1:0.707 MCC:0.417.
+(tn, fp, fn, tp):  (5139, 4173, 1088, 6352)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.4088
+train Accuracy:0.834 Precision:0.789 Recall:0.853 F1:0.820 MCC:0.667.
+(tn, fp, fn, tp):  (68842, 15254, 9897, 57207)
+val Loss: 0.6909
+val Accuracy:0.725 Precision:0.680 Recall:0.721 F1:0.700 MCC:0.447.
+(tn, fp, fn, tp):  (6783, 2529, 2075, 5365)
+Training complete in 33m 47s
+Best val MCC: 0.530565
+*********************************************************************
+starting 10th fold cross-validation
+Not using andy learning rate scheduler.
+ 
+Epoch 1/40
+---------------
+train Loss: 0.5277
+train Accuracy:0.771 Precision:0.716 Recall:0.802 F1:0.757 MCC:0.546.
+(tn, fp, fn, tp):  (62793, 21303, 13266, 53838)
+val Loss: 0.6734
+val Accuracy:0.658 Precision:0.567 Recall:0.967 F1:0.715 MCC:0.437.
+(tn, fp, fn, tp):  (3823, 5489, 246, 7194)
+ 
+Epoch 2/40
+---------------
+train Loss: 0.5245
+train Accuracy:0.773 Precision:0.719 Recall:0.802 F1:0.758 MCC:0.549.
+(tn, fp, fn, tp):  (63087, 21009, 13286, 53818)
+val Loss: 0.6422
+val Accuracy:0.676 Precision:0.582 Recall:0.955 F1:0.723 MCC:0.455.
+(tn, fp, fn, tp):  (4211, 5101, 333, 7107)
+ 
+Epoch 3/40
+---------------
+train Loss: 0.5240
+train Accuracy:0.772 Precision:0.718 Recall:0.804 F1:0.758 MCC:0.548.
+(tn, fp, fn, tp):  (62880, 21216, 13184, 53920)
+val Loss: 0.5577
+val Accuracy:0.746 Precision:0.671 Recall:0.840 F1:0.746 MCC:0.512.
+(tn, fp, fn, tp):  (6253, 3059, 1189, 6251)
+ 
+Epoch 4/40
+---------------
+train Loss: 0.5231
+train Accuracy:0.775 Precision:0.721 Recall:0.803 F1:0.760 MCC:0.552.
+(tn, fp, fn, tp):  (63236, 20860, 13202, 53902)
+val Loss: 0.5849
+val Accuracy:0.733 Precision:0.642 Recall:0.904 F1:0.751 MCC:0.514.
+(tn, fp, fn, tp):  (5559, 3753, 714, 6726)
+ 
+Epoch 5/40
+---------------
+train Loss: 0.5148
+train Accuracy:0.780 Precision:0.727 Recall:0.807 F1:0.765 MCC:0.562.
+(tn, fp, fn, tp):  (63791, 20305, 12937, 54167)
+val Loss: 0.5623
+val Accuracy:0.748 Precision:0.670 Recall:0.851 F1:0.750 MCC:0.518.
+(tn, fp, fn, tp):  (6192, 3120, 1105, 6335)
+ 
+Epoch 6/40
+---------------
+train Loss: 0.5133
+train Accuracy:0.780 Precision:0.727 Recall:0.807 F1:0.765 MCC:0.562.
+(tn, fp, fn, tp):  (63781, 20315, 12939, 54165)
+val Loss: 0.5684
+val Accuracy:0.750 Precision:0.676 Recall:0.842 F1:0.749 MCC:0.518.
+(tn, fp, fn, tp):  (6305, 3007, 1179, 6261)
+ 
+Epoch 7/40
+---------------
+train Loss: 0.5125
+train Accuracy:0.780 Precision:0.727 Recall:0.807 F1:0.765 MCC:0.562.
+(tn, fp, fn, tp):  (63789, 20307, 12959, 54145)
+val Loss: 0.5638
+val Accuracy:0.748 Precision:0.703 Recall:0.749 F1:0.725 MCC:0.493.
+(tn, fp, fn, tp):  (6956, 2356, 1870, 5570)
+ 
+Epoch 8/40
+---------------
+train Loss: 0.5058
+train Accuracy:0.784 Precision:0.733 Recall:0.810 F1:0.769 MCC:0.570.
+(tn, fp, fn, tp):  (64255, 19841, 12759, 54345)
+val Loss: 0.5814
+val Accuracy:0.737 Precision:0.660 Recall:0.842 F1:0.740 MCC:0.496.
+(tn, fp, fn, tp):  (6079, 3233, 1176, 6264)
+ 
+Epoch 9/40
+---------------
+train Loss: 0.5012
+train Accuracy:0.787 Precision:0.735 Recall:0.812 F1:0.772 MCC:0.575.
+(tn, fp, fn, tp):  (64432, 19664, 12593, 54511)
+val Loss: 0.6359
+val Accuracy:0.701 Precision:0.607 Recall:0.926 F1:0.733 MCC:0.475.
+(tn, fp, fn, tp):  (4860, 4452, 554, 6886)
+ 
+Epoch 10/40
+---------------
+train Loss: 0.4984
+train Accuracy:0.789 Precision:0.738 Recall:0.813 F1:0.773 MCC:0.579.
+(tn, fp, fn, tp):  (64727, 19369, 12570, 54534)
+val Loss: 0.5795
+val Accuracy:0.737 Precision:0.656 Recall:0.857 F1:0.743 MCC:0.501.
+(tn, fp, fn, tp):  (5963, 3349, 1063, 6377)
+ 
+Epoch 11/40
+---------------
+train Loss: 0.4959
+train Accuracy:0.789 Precision:0.739 Recall:0.812 F1:0.774 MCC:0.580.
+(tn, fp, fn, tp):  (64800, 19296, 12582, 54522)
+val Loss: 0.5788
+val Accuracy:0.744 Precision:0.692 Recall:0.762 F1:0.725 MCC:0.488.
+(tn, fp, fn, tp):  (6790, 2522, 1772, 5668)
+ 
+Epoch 12/40
+---------------
+train Loss: 0.4957
+train Accuracy:0.790 Precision:0.739 Recall:0.815 F1:0.775 MCC:0.581.
+(tn, fp, fn, tp):  (64719, 19377, 12381, 54723)
+val Loss: 0.5961
+val Accuracy:0.726 Precision:0.651 Recall:0.823 F1:0.727 MCC:0.471.
+(tn, fp, fn, tp):  (6030, 3282, 1316, 6124)
+ 
+Epoch 13/40
+---------------
+train Loss: 0.4898
+train Accuracy:0.793 Precision:0.743 Recall:0.816 F1:0.778 MCC:0.587.
+(tn, fp, fn, tp):  (65161, 18935, 12352, 54752)
+val Loss: 0.6125
+val Accuracy:0.716 Precision:0.627 Recall:0.890 F1:0.736 MCC:0.481.
+(tn, fp, fn, tp):  (5373, 3939, 816, 6624)
+ 
+Epoch 14/40
+---------------
+train Loss: 0.4853
+train Accuracy:0.796 Precision:0.746 Recall:0.818 F1:0.780 MCC:0.592.
+(tn, fp, fn, tp):  (65394, 18702, 12195, 54909)
+val Loss: 0.5955
+val Accuracy:0.738 Precision:0.671 Recall:0.805 F1:0.732 MCC:0.487.
+(tn, fp, fn, tp):  (6368, 2944, 1448, 5992)
+ 
+Epoch 15/40
+---------------
+train Loss: 0.4862
+train Accuracy:0.795 Precision:0.745 Recall:0.818 F1:0.780 MCC:0.591.
+(tn, fp, fn, tp):  (65341, 18755, 12209, 54895)
+val Loss: 0.6300
+val Accuracy:0.711 Precision:0.620 Recall:0.903 F1:0.735 MCC:0.479.
+(tn, fp, fn, tp):  (5201, 4111, 725, 6715)
+ 
+Epoch 16/40
+---------------
+train Loss: 0.4801
+train Accuracy:0.798 Precision:0.749 Recall:0.821 F1:0.783 MCC:0.597.
+(tn, fp, fn, tp):  (65624, 18472, 12037, 55067)
+val Loss: 0.6138
+val Accuracy:0.724 Precision:0.654 Recall:0.802 F1:0.721 MCC:0.462.
+(tn, fp, fn, tp):  (6159, 3153, 1473, 5967)
+ 
+Epoch 17/40
+---------------
+train Loss: 0.4762
+train Accuracy:0.801 Precision:0.752 Recall:0.821 F1:0.785 MCC:0.602.
+(tn, fp, fn, tp):  (65952, 18144, 12006, 55098)
+val Loss: 0.6205
+val Accuracy:0.713 Precision:0.627 Recall:0.874 F1:0.730 MCC:0.469.
+(tn, fp, fn, tp):  (5440, 3872, 938, 6502)
+ 
+Epoch 18/40
+---------------
+train Loss: 0.4755
+train Accuracy:0.800 Precision:0.752 Recall:0.822 F1:0.785 MCC:0.601.
+(tn, fp, fn, tp):  (65870, 18226, 11962, 55142)
+val Loss: 0.6014
+val Accuracy:0.727 Precision:0.658 Recall:0.804 F1:0.724 MCC:0.469.
+(tn, fp, fn, tp):  (6203, 3109, 1457, 5983)
+ 
+Epoch 19/40
+---------------
+train Loss: 0.4662
+train Accuracy:0.806 Precision:0.758 Recall:0.827 F1:0.791 MCC:0.612.
+(tn, fp, fn, tp):  (66354, 17742, 11605, 55499)
+val Loss: 0.6831
+val Accuracy:0.665 Precision:0.577 Recall:0.919 F1:0.709 MCC:0.416.
+(tn, fp, fn, tp):  (4305, 5007, 605, 6835)
+ 
+Epoch 20/40
+---------------
+train Loss: 0.4659
+train Accuracy:0.806 Precision:0.759 Recall:0.827 F1:0.791 MCC:0.613.
+(tn, fp, fn, tp):  (66465, 17631, 11629, 55475)
+val Loss: 0.6967
+val Accuracy:0.683 Precision:0.591 Recall:0.930 F1:0.723 MCC:0.450.
+(tn, fp, fn, tp):  (4524, 4788, 523, 6917)
+ 
+Epoch 21/40
+---------------
+train Loss: 0.4652
+train Accuracy:0.806 Precision:0.758 Recall:0.828 F1:0.792 MCC:0.614.
+(tn, fp, fn, tp):  (66342, 17754, 11511, 55593)
+val Loss: 0.7011
+val Accuracy:0.675 Precision:0.585 Recall:0.924 F1:0.716 MCC:0.434.
+(tn, fp, fn, tp):  (4428, 4884, 567, 6873)
+ 
+Epoch 22/40
+---------------
+train Loss: 0.4639
+train Accuracy:0.806 Precision:0.758 Recall:0.826 F1:0.790 MCC:0.612.
+(tn, fp, fn, tp):  (66401, 17695, 11707, 55397)
+val Loss: 0.6766
+val Accuracy:0.690 Precision:0.600 Recall:0.908 F1:0.722 MCC:0.449.
+(tn, fp, fn, tp):  (4809, 4503, 687, 6753)
+ 
+Epoch 23/40
+---------------
+train Loss: 0.4580
+train Accuracy:0.811 Precision:0.764 Recall:0.831 F1:0.796 MCC:0.622.
+(tn, fp, fn, tp):  (66864, 17232, 11359, 55745)
+val Loss: 0.6179
+val Accuracy:0.723 Precision:0.651 Recall:0.812 F1:0.722 MCC:0.464.
+(tn, fp, fn, tp):  (6074, 3238, 1402, 6038)
+ 
+Epoch 24/40
+---------------
+train Loss: 0.4549
+train Accuracy:0.812 Precision:0.765 Recall:0.832 F1:0.797 MCC:0.625.
+(tn, fp, fn, tp):  (66952, 17144, 11257, 55847)
+val Loss: 0.6289
+val Accuracy:0.715 Precision:0.631 Recall:0.867 F1:0.730 MCC:0.470.
+(tn, fp, fn, tp):  (5535, 3777, 993, 6447)
+ 
+Epoch 25/40
+---------------
+train Loss: 0.4503
+train Accuracy:0.814 Precision:0.768 Recall:0.832 F1:0.798 MCC:0.627.
+(tn, fp, fn, tp):  (67223, 16873, 11298, 55806)
+val Loss: 0.6697
+val Accuracy:0.703 Precision:0.616 Recall:0.881 F1:0.725 MCC:0.456.
+(tn, fp, fn, tp):  (5219, 4093, 885, 6555)
+ 
+Epoch 26/40
+---------------
+train Loss: 0.4484
+train Accuracy:0.815 Precision:0.769 Recall:0.833 F1:0.800 MCC:0.630.
+(tn, fp, fn, tp):  (67319, 16777, 11174, 55930)
+val Loss: 0.7973
+val Accuracy:0.656 Precision:0.569 Recall:0.934 F1:0.707 MCC:0.412.
+(tn, fp, fn, tp):  (4045, 5267, 489, 6951)
+ 
+Epoch 27/40
+---------------
+train Loss: 0.4458
+train Accuracy:0.816 Precision:0.770 Recall:0.834 F1:0.801 MCC:0.631.
+(tn, fp, fn, tp):  (67338, 16758, 11117, 55987)
+val Loss: 0.6210
+val Accuracy:0.725 Precision:0.656 Recall:0.798 F1:0.720 MCC:0.462.
+(tn, fp, fn, tp):  (6200, 3112, 1503, 5937)
+ 
+Epoch 28/40
+---------------
+train Loss: 0.4374
+train Accuracy:0.821 Precision:0.776 Recall:0.838 F1:0.806 MCC:0.641.
+(tn, fp, fn, tp):  (67825, 16271, 10862, 56242)
+val Loss: 0.6981
+val Accuracy:0.684 Precision:0.595 Recall:0.906 F1:0.718 MCC:0.438.
+(tn, fp, fn, tp):  (4715, 4597, 697, 6743)
+ 
+Epoch 29/40
+---------------
+train Loss: 0.4377
+train Accuracy:0.820 Precision:0.775 Recall:0.837 F1:0.805 MCC:0.640.
+(tn, fp, fn, tp):  (67805, 16291, 10916, 56188)
+val Loss: 0.6826
+val Accuracy:0.699 Precision:0.611 Recall:0.889 F1:0.724 MCC:0.454.
+(tn, fp, fn, tp):  (5098, 4214, 825, 6615)
+ 
+Epoch 30/40
+---------------
+train Loss: 0.4332
+train Accuracy:0.824 Precision:0.779 Recall:0.842 F1:0.809 MCC:0.647.
+(tn, fp, fn, tp):  (68043, 16053, 10628, 56476)
+val Loss: 0.7501
+val Accuracy:0.644 Precision:0.561 Recall:0.913 F1:0.695 MCC:0.380.
+(tn, fp, fn, tp):  (3997, 5315, 646, 6794)
+ 
+Epoch 31/40
+---------------
+train Loss: 0.4306
+train Accuracy:0.825 Precision:0.781 Recall:0.841 F1:0.810 MCC:0.649.
+(tn, fp, fn, tp):  (68307, 15789, 10689, 56415)
+val Loss: 0.6933
+val Accuracy:0.681 Precision:0.593 Recall:0.904 F1:0.716 MCC:0.433.
+(tn, fp, fn, tp):  (4687, 4625, 713, 6727)
+ 
+Epoch 32/40
+---------------
+train Loss: 0.4267
+train Accuracy:0.826 Precision:0.783 Recall:0.843 F1:0.812 MCC:0.653.
+(tn, fp, fn, tp):  (68381, 15715, 10538, 56566)
+val Loss: 0.7795
+val Accuracy:0.645 Precision:0.561 Recall:0.913 F1:0.695 MCC:0.381.
+(tn, fp, fn, tp):  (4004, 5308, 644, 6796)
+ 
+Epoch 33/40
+---------------
+train Loss: 0.4245
+train Accuracy:0.828 Precision:0.785 Recall:0.844 F1:0.813 MCC:0.656.
+(tn, fp, fn, tp):  (68542, 15554, 10448, 56656)
+val Loss: 0.6969
+val Accuracy:0.691 Precision:0.602 Recall:0.897 F1:0.721 MCC:0.445.
+(tn, fp, fn, tp):  (4908, 4404, 765, 6675)
+ 
+Epoch 34/40
+---------------
+train Loss: 0.4222
+train Accuracy:0.828 Precision:0.785 Recall:0.843 F1:0.813 MCC:0.655.
+(tn, fp, fn, tp):  (68583, 15513, 10562, 56542)
+val Loss: 0.6545
+val Accuracy:0.716 Precision:0.642 Recall:0.814 F1:0.718 MCC:0.453.
+(tn, fp, fn, tp):  (5937, 3375, 1381, 6059)
+ 
+Epoch 35/40
+---------------
+train Loss: 0.4186
+train Accuracy:0.830 Precision:0.787 Recall:0.845 F1:0.815 MCC:0.659.
+(tn, fp, fn, tp):  (68759, 15337, 10407, 56697)
+val Loss: 0.6482
+val Accuracy:0.714 Precision:0.646 Recall:0.790 F1:0.711 MCC:0.442.
+(tn, fp, fn, tp):  (6084, 3228, 1562, 5878)
+ 
+Epoch 36/40
+---------------
+train Loss: 0.4104
+train Accuracy:0.834 Precision:0.793 Recall:0.847 F1:0.819 MCC:0.667.
+(tn, fp, fn, tp):  (69247, 14849, 10255, 56849)
+val Loss: 0.6945
+val Accuracy:0.697 Precision:0.612 Recall:0.869 F1:0.718 MCC:0.442.
+(tn, fp, fn, tp):  (5216, 4096, 975, 6465)
+ 
+Epoch 37/40
+---------------
+train Loss: 0.4059
+train Accuracy:0.837 Precision:0.795 Recall:0.853 F1:0.823 MCC:0.674.
+(tn, fp, fn, tp):  (69310, 14786, 9867, 57237)
+val Loss: 0.6790
+val Accuracy:0.709 Precision:0.632 Recall:0.825 F1:0.716 MCC:0.444.
+(tn, fp, fn, tp):  (5731, 3581, 1299, 6141)
+ 
+Epoch 38/40
+---------------
+train Loss: 0.4050
+train Accuracy:0.836 Precision:0.795 Recall:0.850 F1:0.822 MCC:0.672.
+(tn, fp, fn, tp):  (69370, 14726, 10040, 57064)
+val Loss: 0.8206
+val Accuracy:0.648 Precision:0.563 Recall:0.931 F1:0.702 MCC:0.398.
+(tn, fp, fn, tp):  (3933, 5379, 514, 6926)
+ 
+Epoch 39/40
+---------------
+train Loss: 0.4015
+train Accuracy:0.838 Precision:0.797 Recall:0.853 F1:0.824 MCC:0.676.
+(tn, fp, fn, tp):  (69530, 14566, 9861, 57243)
+val Loss: 0.6805
+val Accuracy:0.706 Precision:0.625 Recall:0.846 F1:0.719 MCC:0.447.
+(tn, fp, fn, tp):  (5541, 3771, 1149, 6291)
+ 
+Epoch 40/40
+---------------
+train Loss: 0.4014
+train Accuracy:0.838 Precision:0.798 Recall:0.852 F1:0.824 MCC:0.676.
+(tn, fp, fn, tp):  (69583, 14513, 9934, 57170)
+val Loss: 0.7649
+val Accuracy:0.668 Precision:0.583 Recall:0.883 F1:0.702 MCC:0.401.
+(tn, fp, fn, tp):  (4610, 4702, 867, 6573)
+Training complete in 33m 44s
+Best val MCC: 0.518315
+average accuracy over folds: 0.7444902101241643
+average precision over folds: 0.6760675376407925
+average recall over folds: 0.830994623655914
+average mcc over folds: 0.5099852582425853
