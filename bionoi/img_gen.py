@@ -55,7 +55,7 @@ def getArgs():
                         required=False,
                         help='color the voronoi cells according to {atom_type, residue_type, residue_num}')
     parser.add_argument('-imageType',
-                        default=".jpg",
+                        default=".png",
                         choices=[".jpg", ".png"],
                         required=False,
                         help='the type of image {.jpg, .png}')
@@ -287,6 +287,24 @@ def gen_48_heme_vs_nucleotide_cv(k):
 def gen_48_bionoi_autoencoder():
     gen_48(sourceFolder='../bae-data-mol2/',targetFolder='../bae-data-images/')
 
+# generate images for bionoi. The .mol2 files are divided into 5 folds and the homology (sequence identity) is reduced to less than 20%.
+def gen_48_homology_reduced():
+    gen_48(sourceFolder='../../data_homology_reduced/mols/control/fold_1/', targetFolder='../../data_homology_reduced/images/control/fold_1/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/control/fold_2/', targetFolder='../../data_homology_reduced/images/control/fold_2/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/control/fold_3/', targetFolder='../../data_homology_reduced/images/control/fold_3/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/control/fold_4/', targetFolder='../../data_homology_reduced/images/control/fold_4/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/control/fold_5/', targetFolder='../../data_homology_reduced/images/control/fold_5/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/nucleotide/fold_1/', targetFolder='../../data_homology_reduced/images/nucleotide/fold_1/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/nucleotide/fold_2/', targetFolder='../../data_homology_reduced/images/nucleotide/fold_2/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/nucleotide/fold_3/', targetFolder='../../data_homology_reduced/images/nucleotide/fold_3/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/nucleotide/fold_4/', targetFolder='../../data_homology_reduced/images/nucleotide/fold_4/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/nucleotide/fold_5/', targetFolder='../../data_homology_reduced/images/nucleotide/fold_5/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/heme/fold_1/', targetFolder='../../data_homology_reduced/images/heme/fold_1/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/heme/fold_2/', targetFolder='../../data_homology_reduced/images/heme/fold_2/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/heme/fold_3/', targetFolder='../../data_homology_reduced/images/heme/fold_3/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/heme/fold_4/', targetFolder='../../data_homology_reduced/images/heme/fold_4/')
+    gen_48(sourceFolder='../../data_homology_reduced/mols/heme/fold_5/', targetFolder='../../data_homology_reduced/images/heme/fold_5/')
+
 #-----------------------------------------------------------------------------------
 if __name__ == "__main__":
     args = getArgs()
@@ -306,5 +324,7 @@ if __name__ == "__main__":
         gen_48_heme_vs_nucleotide_cv(10)
     elif opMode == 'bionoi_autoencoder':
         gen_48_bionoi_autoencoder()
+    elif opMode == 'bionoi_homology_reduced':
+        gen_48_homology_reduced()
     else:
         print('error: invalid value of opMode.')
