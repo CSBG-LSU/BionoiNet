@@ -67,7 +67,6 @@ class BionoiTrainDataset(Dataset):
             if idx >= low and idx <up:
                 return i, sub_idx
             low = up  
-            i += 1
 
 class BionoiValDataset(Dataset):
     """
