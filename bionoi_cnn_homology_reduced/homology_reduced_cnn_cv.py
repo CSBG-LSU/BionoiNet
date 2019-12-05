@@ -3,13 +3,18 @@ A convolutional neural network (CNN) for the reduced homolgy dataset for binding
 """
 import argparse
 import os
-import torch
-from skimage import io, transform
 import numpy as np
-import matplotlib.pyplot as plt
+import torch
+import torch.nn as nn
+import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-from torchvision import transforms, utils
-
+import torchvision
+from torchvision import datasets, models, transforms, utils
+from skimage import io, transform
+import matplotlib.pyplot as plt
+import copy
+import time
+import sklearn.metrics as metrics
 
 def get_args():
     parser = argparse.ArgumentParser('python')
@@ -402,8 +407,8 @@ def gen_loaders(op, root_dir, training_folds, val_fold, batch_size, shuffle=True
     Args:
         op: operation mode, heme_vs_nucleotide, control_vs_heme or control_vs_nucleotide. 
         root_dir : folder containing all images.
-        folds: list of integers indicating the folds, e.g: [1,2,3,4]
-        fold: integer, which fold is used for validation, the other folds are used for training. e.g: 5
+        training_folds: list of integers indicating the folds, e.g: [1,2,3,4]
+        val_fold: integer, which fold is used for validation, the other folds are used for training. e.g: 5
         batch_size: integer, number of samples to send to CNN.
     """
     # dataset statistics
@@ -438,6 +443,18 @@ def gen_loaders(op, root_dir, training_folds, val_fold, batch_size, shuffle=True
 """
 Training helper function
 """
+def calc_metrics(label, out):
+    """
+    Both label and out should be numpy arrays containing 0s and 1s.
+    This is used for training/validating/testing.
+    """
+    acc = metrics.accuracy_score(label, out)
+    precision = metrics.precision_score(label,out)
+    recall = metrics.recall_score(label,out)
+    f1 = metrics.f1_score(label,out)
+    mcc = metrics.matthews_corrcoef(label, out)
+    return acc, precision, recall, f1, mcc
+
 def train_model(model, device, dataloaders, criterion, optimizer_dict, loss_fn_pos_weight, num_epochs):
     """
     The train_model function handles the training and validation of a given model.
@@ -629,7 +646,20 @@ if __name__ == "__main__":
         print('starting {}th fold cross-validation'.format(i+1))
         folds = [1, 2, 3, 4, 5]
         val_fold = i+1
-        training_folds = folds.remove(val_fold)
+        folds.remove(val_fold)
+        print(val_fold)
+        print(folds)
+
+        # create dataloaders
+        train_loader, val_loader = gen_loaders(op=op, 
+                                               root_dir=root_dir, 
+                                               training_folds=folds,
+                                               val_fold=val_fold, 
+                                               batch_size=batch_size,
+                                               shuffle=True,
+                                               num_workers=4)
+        dataloaders_dict = {"train": train_loader, "val": val_loader}
+
 
         # import the model and training configurations
         if op == 'control_vs_heme':
@@ -639,22 +669,12 @@ if __name__ == "__main__":
         elif op == 'heme_vs_nucleotide':
             net, loss_fn, optimizer_dict, num_epochs = heme_vs_nucleotide_config(device)
 
-        # create dataloaders
-        train_loader, val_loader = gen_loaders(op=op, 
-                                               root_dir=root_dir, 
-                                               training_folds=training_folds,
-                                               val_fold=val_fold, 
-                                               batch_size=batch_size,
-                                               shuffle=True,
-                                               num_workers=4)
-        dataloaders_dict = {"train": train_loader, "val": val_loader}
-
         # train the neural network
         trained_model, best_mcc_roc, train_acc_history, val_acc_history, train_loss_history, val_loss_history, train_mcc_history, val_mcc_history = train_model(net,
                                                         device,
                                                         dataloaders_dict,
                                                         loss_fn,
-                                                        optimizerDict,
+                                                        optimizer_dict,
                                                         loss_fn_pos_weight = loss_fn_pos_weight,
                                                         num_epochs = num_epochs
                                                         )
