@@ -1,0 +1,45 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    734523.qb3
+Username:  wshi6
+Group:     loniusers
+Date:      09-Dec-2019 16:03
+Node:      qb002 (1131)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb002
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb002 16:03:08 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 09-Dec-2019 16:03:08
+------------------------------------------------------
+------------------------------------------------------
+Running PBS epilogue script    - 09-Dec-2019 16:03:09
+------------------------------------------------------
+Checking node qb002 (MS)
+Checking node qb002 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 09-Dec-2019 16:03:11
+------------------------------------------------------
+Exit Status:     271
+Job ID:          734523.qb3
+Username:        wshi6
+Group:           loniusers
+Job Name:        bionoi_resnet18
+Session Id:      1130
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=72:00:00
+Resources Used:  cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue Used:      k40
+Account String:  loni_omics01
+Node:            qb002
+Process id:      1828
+------------------------------------------------------
