@@ -27,7 +27,10 @@ def get_args():
     parser.add_argument('-root_dir',
                         default='../../data_homology_reduced/images/',
                         required=False,
-                        help='directory to load data for 5-fold cross-validation.')                        
+                        help='directory to load data for 5-fold cross-validation.')   
+    parser.add_argument('-result_file_suffix',
+                        required=True,
+                        help='suffix to result file')                        
     parser.add_argument('-batch_size',
                         type=int,
                         default=256,
@@ -216,8 +219,8 @@ def control_vs_nucleotide_config(device):
 
     optimizer = optim.Adam(params_to_update, 
                            #lr=0.00001,
-                           #lr=0.001, 
-                           lr=0.001, 
+                           lr=0.003, 
+                           #lr=0.0005, 
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
                            weight_decay=0.0001,
@@ -231,7 +234,7 @@ def control_vs_nucleotide_config(device):
     learningRateDecay = False
 
     # number of epochs to train the Neural Network
-    num_epochs = 2
+    num_epochs = 8
 
     # learning rate schduler used to implement learning rate decay
     learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1,4], gamma=0.1)
@@ -492,7 +495,7 @@ def train_model(model, device, dataloaders, criterion, optimizer_dict, loss_fn_p
     if learningRateDecay:
         print('Using learning rate scheduler.')
     else:
-        print('Not using andy learning rate scheduler.')
+        print('Not using any learning rate scheduler.')
 
     train_loss_history = []
     train_acc_history = []
@@ -506,7 +509,7 @@ def train_model(model, device, dataloaders, criterion, optimizer_dict, loss_fn_p
     val_mcc_history = []
 
     best_model_wts = copy.deepcopy(model.state_dict())
-    best_mcc = 0.0
+    #best_mcc = 0.0
     best_loss = 100000 # an impossiblely large number
     for epoch in range(num_epochs):
         print(' ')
@@ -625,7 +628,7 @@ def train_model(model, device, dataloaders, criterion, optimizer_dict, loss_fn_p
 
     time_elapsed = time.time() - since
     print( 'Training complete in {:.0f}m {:.0f}s'.format(time_elapsed // 60, time_elapsed % 60))
-    print( 'Best val MCC: {:4f}'.format(best_mcc))
+   #print( 'Best val MCC: {:4f}'.format(best_mcc))
 
     # load best model weights
     model.load_state_dict(best_model_wts)
@@ -636,7 +639,7 @@ def train_model(model, device, dataloaders, criterion, optimizer_dict, loss_fn_p
                'train_mcc':train_mcc_history,
                'val_loss':val_loss_history,
                'val_acc':val_acc_history,
-               'val_precision':val_precision,
+               'val_precision':val_precision_history,
                'val_recall':val_recall_history,
                'val_mcc':val_mcc_history}
 
@@ -644,11 +647,39 @@ def train_model(model, device, dataloaders, criterion, optimizer_dict, loss_fn_p
 #------------------------------------------end of training helper function---------------------------------------
 
 
+def report_avg_metrics(best_val_loss_metrics_over_folds):
+    """
+    Report the averaged metrics over 5 folds when valication loss reaches minimum 
+    """
+    avg_loss = 0
+    avg_acc = 0
+    avg_precision = 0
+    avg_recall = 0
+    avg_mcc = 0 
+    for i in range(5):
+        dict = best_val_loss_metrics_over_folds[i]
+        avg_loss += dict['loss']
+        avg_acc += dict['acc']
+        avg_precision += dict['precision']
+        avg_recall += dict['recall']
+        avg_mcc += dict['mcc']
+    avg_loss = avg_loss/5
+    avg_acc = avg_acc/5
+    avg_precision = avg_precision /5
+    avg_recall = avg_recall/5
+    avg_mcc = avg_mcc/5
+    print('average loss: ', avg_loss)
+    print('average accuracy: ', avg_acc)
+    print('average precision: ', avg_precision)
+    print('average recall: ', avg_recall)
+    print('average mcc: ', avg_mcc)
+
 if __name__ == "__main__":
     torch.manual_seed(42)
     args = get_args()
     op = args.op    
     root_dir = args.root_dir
+    result_file_suffix = args.result_file_suffix
     batch_size = args.batch_size
     print('data directory:', root_dir)
     print('batch size: '+str(batch_size))
@@ -720,13 +751,15 @@ if __name__ == "__main__":
         history_over_folds.append(history)
     #----------------------------------end of training---------------------------------------
 
-    lists_to_save = [best_val_loss_metrics_over_folds, best_val_loss_roc_over_folds, history_over_folds]
-    print(lists_to_save)
-
-    #resultFile = './log/'+op+'_cv'+'.json'
-    #with open(resultFile, 'w') as fp:
-    #    json.dump(lists_to_save, fp)
-
-    # print results of the folds when validation loss reaches minimum.
-
+    dict_to_save = {'loss':best_val_loss_metrics_over_folds, 'roc':best_val_loss_roc_over_folds, 'history':history_over_folds}
+    result_file = './results/' + op + '_cv_' + result_file_suffix + '.json'
+    with open(result_file, 'w') as fp:
+        json.dump(dict_to_save, fp)
+    
+    # print results of the folds when validation loss reaches minimum.    
+    print('------------------------------------')
+    print('metrics for each fold when validation loss reaches minimum:')
+    print(best_val_loss_metrics_over_folds)
+    print('Averge metrics over 5 folds:')
+    report_avg_metrics(best_val_loss_metrics_over_folds)
     print('cross-validation finished, end of program')

@@ -1,0 +1,79 @@
+data directory: ../../data_homology_reduced/images/
+batch size: 256
+performing control_vs_nucleotide cross-validation task.
+Current device: cuda:0
+*********************************************************************
+starting 1th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_2', '../../data_homology_reduced/images/control/fold_3', '../../data_homology_reduced/images/control/fold_4', '../../data_homology_reduced/images/control/fold_5', '../../data_homology_reduced/images/nucleotide/fold_2', '../../data_homology_reduced/images/nucleotide/fold_3', '../../data_homology_reduced/images/nucleotide/fold_4', '../../data_homology_reduced/images/nucleotide/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18672, 18672, 18672, 18672, 14928, 14928, 14880, 14880]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [1]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_1', '../../data_homology_reduced/images/nucleotide/fold_1']
+folder classes:  [0, 1]
+lengths of the folders:  [18720, 14928]
+Model:  resnet18
+Feature extracting: False
+Using pretrained model: True
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0.0001
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/8
+---------------
+train Loss: 0.3461
+train Accuracy:0.866 Precision:0.836 Recall:0.868 F1:0.851 MCC:0.729.
+val Loss: 0.4908
+val Accuracy:0.827 Precision:0.761 Recall:0.888 F1:0.820 MCC:0.662.
+ 
+Epoch 2/8
+---------------
+train Loss: 0.2136
+train Accuracy:0.921 Precision:0.905 Recall:0.918 F1:0.911 MCC:0.839.
+val Loss: 0.4586
+val Accuracy:0.840 Precision:0.801 Recall:0.849 F1:0.825 MCC:0.678.
+ 
+Epoch 3/8
+---------------
+train Loss: 0.1438
+train Accuracy:0.949 Precision:0.938 Recall:0.947 F1:0.943 MCC:0.897.
+val Loss: 0.6264
+val Accuracy:0.838 Precision:0.828 Recall:0.801 F1:0.814 MCC:0.671.
+ 
+Epoch 4/8
+---------------
+train Loss: 0.1040
+train Accuracy:0.964 Precision:0.957 Recall:0.963 F1:0.960 MCC:0.928.
+val Loss: 0.6407
+val Accuracy:0.843 Precision:0.858 Recall:0.773 F1:0.813 MCC:0.681.
+ 
+Epoch 5/8
+---------------
+train Loss: 0.0750
+train Accuracy:0.974 Precision:0.969 Recall:0.973 F1:0.971 MCC:0.948.
+val Loss: 0.7799
+val Accuracy:0.827 Precision:0.879 Recall:0.709 F1:0.785 MCC:0.654.
+ 
+Epoch 6/8
+---------------
+train Loss: 0.0605
+train Accuracy:0.980 Precision:0.975 Recall:0.980 F1:0.977 MCC:0.959.
+val Loss: 0.7755
+val Accuracy:0.827 Precision:0.791 Recall:0.830 F1:0.810 MCC:0.652.
+ 
+Epoch 7/8
+---------------
