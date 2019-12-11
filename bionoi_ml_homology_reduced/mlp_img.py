@@ -63,7 +63,6 @@ class MLP(nn.Module):
         self.fc4 = nn.Linear(1024, 1024)
         self.fc5 = nn.Linear(1024, 1)
         self.relu = nn.LeakyReLU(0.1)
-        self.sigmoid = nn.Sigmoid()
         self.dropout = nn.Dropout(0.5)
 
     def flatten(self, x):
@@ -91,7 +90,6 @@ def make_model():
 Model configuration for 3 tasks.
 """
 def control_vs_heme_config(device):
-    # model name
     model_name = 'mlp'
     print('Model: ', model_name)
 
@@ -105,49 +103,7 @@ def control_vs_heme_config(device):
         net = nn.DataParallel(net)
     # send model to GPU
     net = net.to(device)
-
-    # loss function.
-    # calulating weight for loss function because number of control datapoints is much larger
-    # than heme datapoints. See docs for torch.nn.BCEWithLogitsLoss
-    loss_fn = nn.BCEWithLogitsLoss()
-
-    optimizer = optim.Adam(params_to_update, lr=0.0001, betas=(0.9, 0.999), eps=1e-08, weight_decay=0.005, amsgrad=False)
-    #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
-    print('optimizer:')
-    print(str(optimizer))
-    
-    # whether to decay the learning rate
-    learningRateDecay = True
-
-    # number of epochs to train the Neural Network
-    num_epochs = 4
-
-    # learning rate schduler used to implement learning rate decay
-    learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1], gamma=0.1)
-
-    # a dictionary contains optimizer, learning rate scheduler
-    # and whether to decay learning rate
-    optimizer_dict = {'optimizer': optimizer,
-                    'learningRateScheduler':learningRateScheduler,
-                    'learningRateDecay':learningRateDecay}
-
-    return net, loss_fn, optimizer_dict, num_epochs
-
-def control_vs_nucleotide_config(device):
-    # model name
-    model_name = 'mlp'
-    print('Model: ', model_name)
-
-    # initialize the model
-    net = make_model()
-    #print(str(net))
-    
-    # if there are multiple GPUs, split the batch to different GPUs
-    if torch.cuda.device_count() > 1:
-        print("Using "+str(torch.cuda.device_count())+" GPUs...")
-        net = nn.DataParallel(net)
-    # send model to GPU
-    net = net.to(device)
+    params_to_update = net.parameters()
 
     # loss function.
     # calulating weight for loss function because number of control datapoints is much larger
@@ -156,7 +112,7 @@ def control_vs_nucleotide_config(device):
 
     optimizer = optim.Adam(params_to_update, 
                            #lr=0.00001,
-                           lr=0.003, 
+                           lr=0.0003, 
                            #lr=0.0005, 
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
@@ -171,7 +127,59 @@ def control_vs_nucleotide_config(device):
     learningRateDecay = False
 
     # number of epochs to train the Neural Network
-    num_epochs = 8
+    num_epochs = 100
+
+    # learning rate schduler used to implement learning rate decay
+    learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1,4], gamma=0.1)
+    #print(learningRateScheduler)
+
+    # a dictionary contains optimizer, learning rate scheduler
+    # and whether to decay learning rate
+    optimizer_dict = {'optimizer': optimizer,
+                    'learningRateScheduler':learningRateScheduler,
+                    'learningRateDecay':learningRateDecay}
+
+    return net, loss_fn, optimizer_dict, num_epochs
+
+def control_vs_nucleotide_config(device):
+    model_name = 'mlp'
+    print('Model: ', model_name)
+
+    # initialize the model
+    net = make_model()
+    #print(str(net))
+    
+    # if there are multiple GPUs, split the batch to different GPUs
+    if torch.cuda.device_count() > 1:
+        print("Using "+str(torch.cuda.device_count())+" GPUs...")
+        net = nn.DataParallel(net)
+    # send model to GPU
+    net = net.to(device)
+    params_to_update = net.parameters()
+
+    # loss function.
+    # calulating weight for loss function because number of control datapoints is much larger
+    # than heme datapoints. See docs for torch.nn.BCEWithLogitsLoss
+    loss_fn = nn.BCEWithLogitsLoss()
+
+    optimizer = optim.Adam(params_to_update, 
+                           #lr=0.00001,
+                           lr=0.0003, 
+                           #lr=0.0005, 
+                           betas=(0.9, 0.999), 
+                           eps=1e-08, 
+                           weight_decay=0.0001,
+                           #weight_decay=0.01, 
+                           amsgrad=False)
+    #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
+    print('optimizer:')
+    print(str(optimizer))
+
+    # whether to decay the learning rate
+    learningRateDecay = False
+
+    # number of epochs to train the Neural Network
+    num_epochs = 100
 
     # learning rate schduler used to implement learning rate decay
     learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1,4], gamma=0.1)
@@ -186,7 +194,6 @@ def control_vs_nucleotide_config(device):
     return net, loss_fn, optimizer_dict, num_epochs
 
 def heme_vs_nucleotide_config(device):
-    # model name
     model_name = 'mlp'
     print('Model: ', model_name)
 
@@ -200,25 +207,34 @@ def heme_vs_nucleotide_config(device):
         net = nn.DataParallel(net)
     # send model to GPU
     net = net.to(device)
+    params_to_update = net.parameters()
 
     # loss function.
     # calulating weight for loss function because number of control datapoints is much larger
     # than heme datapoints. See docs for torch.nn.BCEWithLogitsLoss
     loss_fn = nn.BCEWithLogitsLoss()
 
-    optimizer = optim.Adam(params_to_update, lr=0.0001, betas=(0.9, 0.999), eps=1e-08, weight_decay=0.005, amsgrad=False)
+    optimizer = optim.Adam(params_to_update, 
+                           #lr=0.00001,
+                           lr=0.0003, 
+                           #lr=0.0005, 
+                           betas=(0.9, 0.999), 
+                           eps=1e-08, 
+                           weight_decay=0.0001,
+                           #weight_decay=0.01, 
+                           amsgrad=False)
+    #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
     print('optimizer:')
     print(str(optimizer))
-    #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
 
     # whether to decay the learning rate
-    learningRateDecay = True
+    learningRateDecay = False
 
     # number of epochs to train the Neural Network
-    num_epochs = 3
+    num_epochs = 100
 
     # learning rate schduler used to implement learning rate decay
-    learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1], gamma=0.1)
+    learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1,4], gamma=0.1)
     #print(learningRateScheduler)
 
     # a dictionary contains optimizer, learning rate scheduler
@@ -366,6 +382,7 @@ def gen_loaders(op, root_dir, training_folds, val_fold, batch_size, shuffle=True
     # transform to datasets        
     transform = transforms.Compose(
                                     [#transforms.Normalize((mean[0], mean[1], mean[2]), (std[0], std[1], std[2])),
+                                    transforms.ToPILImage(),
                                     transforms.Resize((64,64), interpolation=2),
                                     transforms.ToTensor()]
                                   )
@@ -667,7 +684,7 @@ if __name__ == "__main__":
     #----------------------------------end of training---------------------------------------
 
     dict_to_save = {'loss':best_val_loss_metrics_over_folds, 'roc':best_val_loss_roc_over_folds, 'history':history_over_folds}
-    result_file = './results/' + op + '_cv_' + result_file_suffix + '.json'
+    result_file = './mlp_img_result/' + op + '_cv_' + result_file_suffix + '.json'
     with open(result_file, 'w') as fp:
         json.dump(dict_to_save, fp)
     

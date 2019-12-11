@@ -219,7 +219,7 @@ def control_vs_nucleotide_config(device):
 
     optimizer = optim.Adam(params_to_update, 
                            #lr=0.00001,
-                           lr=0.003, 
+                           lr=0.0003, 
                            #lr=0.0005, 
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
