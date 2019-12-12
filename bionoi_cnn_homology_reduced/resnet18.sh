@@ -9,7 +9,7 @@
 module purge
 source activate pytorch
 cd /work/wshi6/deeplearning-data/BionoiNet-prj/BionoiNet/bionoi_cnn_homology_reduced/
-python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -batch_size 16 -result_file_suffix 13thrun > ./log/control_vs_nucleotide_res18_13th_run.log 2>&1
+python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -batch_size 16 -result_file_suffix 16thrun > ./log/control_vs_nucleotide_res18_16th_run.log 2>&1
 
 
 

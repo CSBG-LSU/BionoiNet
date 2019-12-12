@@ -9,8 +9,8 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 import torchvision
-from torchvision import datasets, models, transforms, utils
-from skimage import io, transform
+from torchvision import datasets, models, utils
+import pickle
 import matplotlib.pyplot as plt
 import copy
 import time
@@ -25,7 +25,7 @@ def get_args():
                         choices = ['control_vs_heme', 'control_vs_nucleotide', 'heme_vs_nucleotide'],
                         help="'control_vs_heme', 'control_vs_nucleotide', 'heme_vs_nucleotide'")
     parser.add_argument('-root_dir',
-                        default='../../data_homology_reduced/images/',
+                        default='../../data_homology_reduced/autoencoder_vectors/',
                         required=False,
                         help='directory to load data for 5-fold cross-validation.')   
     parser.add_argument('-result_file_suffix',
@@ -33,7 +33,7 @@ def get_args():
                         help='suffix to result file')                        
     parser.add_argument('-batch_size',
                         type=int,
-                        default=256,
+                        default=32,
                         required=False,
                         help='the batch size, normally 2^n.')
     parser.add_argument('-num_control',
@@ -53,15 +53,15 @@ def get_args():
 
 class MLP(nn.Module):
     """
-    model, MLP for binary classification
+    MLP for binary classification
     """
     def __init__(self, input_size):
         super(MLP, self).__init__()
-        self.fc1 = nn.Linear(input_size, 1024)
-        self.fc2 = nn.Linear(1024, 1024)
-        self.fc3 = nn.Linear(1024, 1024)
-        self.fc4 = nn.Linear(1024, 1024)
-        self.fc5 = nn.Linear(1024, 1)
+        self.fc1 = nn.Linear(input_size, 512)
+        self.fc2 = nn.Linear(512, 512)
+        self.fc3 = nn.Linear(512, 512)
+        self.fc4 = nn.Linear(512, 512)
+        self.fc5 = nn.Linear(512, 1)
         self.relu = nn.LeakyReLU(0.1)
         self.dropout = nn.Dropout(0.5)
 
@@ -72,6 +72,7 @@ class MLP(nn.Module):
     def forward(self, x):
         x = self.flatten(x)
         x = self.relu(self.fc1(x))
+        x = self.dropout(x)
         x = self.relu(self.fc2(x))
         x = self.dropout(x)
         x = self.relu(self.fc3(x))
@@ -83,7 +84,7 @@ class MLP(nn.Module):
 
 
 def make_model():
-    return MLP(12288)
+    return MLP(512)
 #-------------------------------------end of make_model-------------------------------------------
 
 """
@@ -111,12 +112,12 @@ def control_vs_heme_config(device):
     loss_fn = nn.BCEWithLogitsLoss()
 
     optimizer = optim.Adam(params_to_update, 
-                           #lr=0.00001,
-                           lr=0.0003, 
+                           lr=0.001,
+                           #lr=0.0003, 
                            #lr=0.0005, 
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
-                           weight_decay=0.0001,
+                           weight_decay=0.0005,
                            #weight_decay=0.01, 
                            amsgrad=False)
     #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
@@ -140,7 +141,6 @@ def control_vs_heme_config(device):
                     'learningRateDecay':learningRateDecay}
 
     return net, loss_fn, optimizer_dict, num_epochs
-
 
 def control_vs_nucleotide_config(device):
     model_name = 'mlp'
@@ -164,12 +164,12 @@ def control_vs_nucleotide_config(device):
     loss_fn = nn.BCEWithLogitsLoss()
 
     optimizer = optim.Adam(params_to_update, 
-                           #lr=0.00001,
-                           lr=0.0003, 
+                           lr=0.001,
+                           #lr=0.0003, 
                            #lr=0.0005, 
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
-                           weight_decay=0.0001,
+                           weight_decay=0.0005,
                            #weight_decay=0.01, 
                            amsgrad=False)
     #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
@@ -194,7 +194,6 @@ def control_vs_nucleotide_config(device):
 
     return net, loss_fn, optimizer_dict, num_epochs
 
-
 def heme_vs_nucleotide_config(device):
     model_name = 'mlp'
     print('Model: ', model_name)
@@ -217,12 +216,12 @@ def heme_vs_nucleotide_config(device):
     loss_fn = nn.BCEWithLogitsLoss()
 
     optimizer = optim.Adam(params_to_update, 
-                           #lr=0.00001,
-                           lr=0.0003, 
+                           lr=0.001,
+                           #lr=0.0003, 
                            #lr=0.0005, 
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
-                           weight_decay=0.0001,
+                           weight_decay=0.0005,
                            #weight_decay=0.01, 
                            amsgrad=False)
     #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
@@ -255,7 +254,7 @@ class BionoiDatasetCV(Dataset):
     """
     Dataset for bionoi, cam be used to load multiple folds for training or single fold for validation and testing
     """
-    def __init__(self, op, root_dir, folds, transform=None):
+    def __init__(self, op, root_dir, folds):
         """
         Args:
             op: operation mode, heme_vs_nucleotide, control_vs_heme or control_vs_nucleotide. 
@@ -266,7 +265,6 @@ class BionoiDatasetCV(Dataset):
         self.op = op
         self.root_dir = root_dir
         self.folds = folds
-        self.transform = transform
         print('--------------------------------------------------------')
         if len(folds) == 1:
             print('generating validation dataset...')
@@ -312,21 +310,17 @@ class BionoiDatasetCV(Dataset):
         #if torch.is_tensor(idx):
         #    idx = idx.tolist()
 
-        # get image directory
+        # get directory of file
         folder_idx, sub_idx = self.__locate_file(idx)
-        img_dir = self.list_of_files_list[folder_idx][sub_idx]
+        vec_dir = self.list_of_files_list[folder_idx][sub_idx]
         
-        # read image
-        image = io.imread(img_dir)
+        # read autoencoder vector
+        vector = self.__load_pkl(vec_dir)
 
         # get label 
         label = self.__get_class_int(folder_idx)
 
-        # apply transform to PIL image if applicable
-        if self.transform:
-            image = self.transform(image)
-
-        return image, label
+        return vector, label
 
     def __locate_file(self, idx):
         """
@@ -352,6 +346,17 @@ class BionoiDatasetCV(Dataset):
         Function to get the label of an image as integer
         """
         return self.folder_classes[folder_idx]
+
+
+    def __load_pkl(self, pkl):
+        """
+        load and unpack the pickle file.
+        """
+        f = open(pkl, 'rb')
+        dict = pickle.load(f)
+        f.close()
+        ft = np.array(dict['X'], dtype='f')
+        return ft
 
 
 def gen_loaders(op, root_dir, training_folds, val_fold, batch_size, shuffle=True, num_workers=1):
@@ -381,16 +386,8 @@ def gen_loaders(op, root_dir, training_folds, val_fold, batch_size, shuffle=True
         mean = mean_heme_vs_nucleotide
         std = std_heme_vs_nucleotide
 
-    # transform to datasets        
-    transform = transforms.Compose(
-                                    [#transforms.Normalize((mean[0], mean[1], mean[2]), (std[0], std[1], std[2])),
-                                    transforms.ToPILImage(),
-                                    transforms.Resize((64,64), interpolation=2),
-                                    transforms.ToTensor()]
-                                  )
-
-    training_set = BionoiDatasetCV(op=op, root_dir=root_dir, folds=training_folds, transform=transform)
-    val_set = BionoiDatasetCV(op=op, root_dir=root_dir, folds=[val_fold], transform=transform)
+    training_set = BionoiDatasetCV(op=op, root_dir=root_dir, folds=training_folds)
+    val_set = BionoiDatasetCV(op=op, root_dir=root_dir, folds=[val_fold])
     train_loader = torch.utils.data.DataLoader(training_set, batch_size=batch_size, shuffle=True, num_workers=num_workers)
     val_loader = torch.utils.data.DataLoader(val_set, batch_size=batch_size, shuffle=True, num_workers=num_workers)
 
@@ -658,7 +655,7 @@ if __name__ == "__main__":
                                                val_fold=val_fold, 
                                                batch_size=batch_size,
                                                shuffle=True,
-                                               num_workers=4)
+                                               num_workers=32)
         dataloaders_dict = {"train": train_loader, "val": val_loader}
 
 
@@ -687,7 +684,7 @@ if __name__ == "__main__":
     #----------------------------------end of training---------------------------------------
 
     dict_to_save = {'loss':best_val_loss_metrics_over_folds, 'roc':best_val_loss_roc_over_folds, 'history':history_over_folds}
-    result_file = './mlp_img_result/' + op + '_cv_' + result_file_suffix + '.json'
+    result_file = './mlp_autoencoder_vec_result/' + op + '_cv_' + result_file_suffix + '.json'
     with open(result_file, 'w') as fp:
         json.dump(dict_to_save, fp)
     

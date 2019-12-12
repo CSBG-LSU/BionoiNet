@@ -223,7 +223,7 @@ def control_vs_nucleotide_config(device):
                            #lr=0.0005, 
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
-                           weight_decay=0.0001,
+                           weight_decay=0.0002,
                            #weight_decay=0.01, 
                            amsgrad=False)
     #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
