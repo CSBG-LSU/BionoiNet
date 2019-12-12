@@ -124,3 +124,3536 @@ val Accuracy:0.766 Precision:0.502 Recall:0.658 F1:0.570 MCC:0.420.
  
 Epoch 14/100
 ---------------
+train Loss: 0.7055
+train Accuracy:0.754 Precision:0.486 Recall:0.840 F1:0.615 MCC:0.490.
+val Loss: 0.8752
+val Accuracy:0.753 Precision:0.482 Recall:0.701 F1:0.571 MCC:0.420.
+ 
+Epoch 15/100
+---------------
+train Loss: 0.6955
+train Accuracy:0.760 Precision:0.492 Recall:0.839 F1:0.621 MCC:0.497.
+val Loss: 0.8829
+val Accuracy:0.750 Precision:0.479 Recall:0.723 F1:0.576 MCC:0.427.
+ 
+Epoch 16/100
+---------------
+train Loss: 0.6915
+train Accuracy:0.760 Precision:0.493 Recall:0.847 F1:0.623 MCC:0.502.
+val Loss: 0.8602
+val Accuracy:0.718 Precision:0.443 Recall:0.780 F1:0.565 MCC:0.412.
+ 
+Epoch 17/100
+---------------
+train Loss: 0.6908
+train Accuracy:0.759 Precision:0.491 Recall:0.849 F1:0.622 MCC:0.500.
+val Loss: 0.8423
+val Accuracy:0.753 Precision:0.483 Recall:0.731 F1:0.582 MCC:0.434.
+ 
+Epoch 18/100
+---------------
+train Loss: 0.6769
+train Accuracy:0.767 Precision:0.501 Recall:0.854 F1:0.632 MCC:0.513.
+val Loss: 0.8507
+val Accuracy:0.709 Precision:0.437 Recall:0.815 F1:0.569 MCC:0.421.
+ 
+Epoch 19/100
+---------------
+train Loss: 0.6749
+train Accuracy:0.768 Precision:0.503 Recall:0.853 F1:0.632 MCC:0.515.
+val Loss: 0.9062
+val Accuracy:0.771 Precision:0.511 Recall:0.644 F1:0.569 MCC:0.422.
+ 
+Epoch 20/100
+---------------
+train Loss: 0.6676
+train Accuracy:0.775 Precision:0.511 Recall:0.853 F1:0.640 MCC:0.524.
+val Loss: 0.9038
+val Accuracy:0.719 Precision:0.445 Recall:0.793 F1:0.570 MCC:0.420.
+ 
+Epoch 21/100
+---------------
+train Loss: 0.6658
+train Accuracy:0.773 Precision:0.509 Recall:0.856 F1:0.639 MCC:0.523.
+val Loss: 0.8803
+val Accuracy:0.761 Precision:0.495 Recall:0.716 F1:0.585 MCC:0.439.
+ 
+Epoch 22/100
+---------------
+train Loss: 0.6668
+train Accuracy:0.774 Precision:0.511 Recall:0.857 F1:0.640 MCC:0.525.
+val Loss: 0.8633
+val Accuracy:0.746 Precision:0.474 Recall:0.756 F1:0.583 MCC:0.437.
+ 
+Epoch 23/100
+---------------
+train Loss: 0.6574
+train Accuracy:0.778 Precision:0.515 Recall:0.857 F1:0.643 MCC:0.530.
+val Loss: 0.9199
+val Accuracy:0.747 Precision:0.476 Recall:0.722 F1:0.574 MCC:0.423.
+ 
+Epoch 24/100
+---------------
+train Loss: 0.6507
+train Accuracy:0.781 Precision:0.520 Recall:0.861 F1:0.648 MCC:0.537.
+val Loss: 0.9063
+val Accuracy:0.757 Precision:0.489 Recall:0.734 F1:0.587 MCC:0.442.
+ 
+Epoch 25/100
+---------------
+train Loss: 0.6484
+train Accuracy:0.785 Precision:0.526 Recall:0.858 F1:0.652 MCC:0.542.
+val Loss: 0.8903
+val Accuracy:0.760 Precision:0.493 Recall:0.711 F1:0.582 MCC:0.435.
+ 
+Epoch 26/100
+---------------
+train Loss: 0.6507
+train Accuracy:0.785 Precision:0.525 Recall:0.860 F1:0.652 MCC:0.542.
+val Loss: 0.8769
+val Accuracy:0.731 Precision:0.458 Recall:0.798 F1:0.582 MCC:0.438.
+ 
+Epoch 27/100
+---------------
+train Loss: 0.6390
+train Accuracy:0.790 Precision:0.532 Recall:0.865 F1:0.659 MCC:0.551.
+val Loss: 0.9084
+val Accuracy:0.764 Precision:0.499 Recall:0.693 F1:0.580 MCC:0.433.
+ 
+Epoch 28/100
+---------------
+train Loss: 0.6366
+train Accuracy:0.791 Precision:0.534 Recall:0.860 F1:0.659 MCC:0.551.
+val Loss: 0.9135
+val Accuracy:0.733 Precision:0.462 Recall:0.803 F1:0.586 MCC:0.444.
+ 
+Epoch 29/100
+---------------
+train Loss: 0.6370
+train Accuracy:0.791 Precision:0.534 Recall:0.862 F1:0.659 MCC:0.552.
+val Loss: 0.9259
+val Accuracy:0.776 Precision:0.520 Recall:0.657 F1:0.580 MCC:0.436.
+ 
+Epoch 30/100
+---------------
+train Loss: 0.6230
+train Accuracy:0.798 Precision:0.544 Recall:0.864 F1:0.667 MCC:0.563.
+val Loss: 0.8619
+val Accuracy:0.742 Precision:0.471 Recall:0.771 F1:0.585 MCC:0.440.
+ 
+Epoch 31/100
+---------------
+train Loss: 0.6296
+train Accuracy:0.792 Precision:0.534 Recall:0.865 F1:0.661 MCC:0.554.
+val Loss: 0.9426
+val Accuracy:0.780 Precision:0.529 Recall:0.585 F1:0.556 MCC:0.411.
+ 
+Epoch 32/100
+---------------
+train Loss: 0.6260
+train Accuracy:0.793 Precision:0.536 Recall:0.869 F1:0.663 MCC:0.557.
+val Loss: 0.8832
+val Accuracy:0.770 Precision:0.508 Recall:0.682 F1:0.582 MCC:0.437.
+ 
+Epoch 33/100
+---------------
+train Loss: 0.6184
+train Accuracy:0.799 Precision:0.544 Recall:0.869 F1:0.669 MCC:0.566.
+val Loss: 0.8812
+val Accuracy:0.769 Precision:0.506 Recall:0.709 F1:0.590 MCC:0.447.
+ 
+Epoch 34/100
+---------------
+train Loss: 0.6165
+train Accuracy:0.798 Precision:0.543 Recall:0.868 F1:0.668 MCC:0.564.
+val Loss: 0.8980
+val Accuracy:0.766 Precision:0.502 Recall:0.725 F1:0.593 MCC:0.451.
+ 
+Epoch 35/100
+---------------
+train Loss: 0.6187
+train Accuracy:0.800 Precision:0.546 Recall:0.870 F1:0.671 MCC:0.568.
+val Loss: 0.9570
+val Accuracy:0.781 Precision:0.532 Recall:0.568 F1:0.549 MCC:0.405.
+ 
+Epoch 36/100
+---------------
+train Loss: 0.6124
+train Accuracy:0.803 Precision:0.551 Recall:0.866 F1:0.674 MCC:0.571.
+val Loss: 0.9336
+val Accuracy:0.762 Precision:0.497 Recall:0.727 F1:0.590 MCC:0.447.
+ 
+Epoch 37/100
+---------------
+train Loss: 0.6068
+train Accuracy:0.806 Precision:0.555 Recall:0.871 F1:0.678 MCC:0.578.
+val Loss: 0.9024
+val Accuracy:0.760 Precision:0.493 Recall:0.711 F1:0.583 MCC:0.436.
+ 
+Epoch 38/100
+---------------
+train Loss: 0.6056
+train Accuracy:0.804 Precision:0.552 Recall:0.874 F1:0.676 MCC:0.576.
+val Loss: 0.9948
+val Accuracy:0.773 Precision:0.513 Recall:0.668 F1:0.580 MCC:0.435.
+ 
+Epoch 39/100
+---------------
+train Loss: 0.6041
+train Accuracy:0.805 Precision:0.552 Recall:0.876 F1:0.678 MCC:0.578.
+val Loss: 1.0391
+val Accuracy:0.772 Precision:0.513 Recall:0.616 F1:0.560 MCC:0.411.
+ 
+Epoch 40/100
+---------------
+train Loss: 0.6015
+train Accuracy:0.808 Precision:0.557 Recall:0.875 F1:0.681 MCC:0.582.
+val Loss: 0.9187
+val Accuracy:0.762 Precision:0.497 Recall:0.736 F1:0.593 MCC:0.451.
+ 
+Epoch 41/100
+---------------
+train Loss: 0.5905
+train Accuracy:0.812 Precision:0.563 Recall:0.875 F1:0.686 MCC:0.588.
+val Loss: 0.8584
+val Accuracy:0.751 Precision:0.482 Recall:0.777 F1:0.595 MCC:0.454.
+ 
+Epoch 42/100
+---------------
+train Loss: 0.5930
+train Accuracy:0.810 Precision:0.560 Recall:0.877 F1:0.683 MCC:0.585.
+val Loss: 0.9478
+val Accuracy:0.783 Precision:0.533 Recall:0.650 F1:0.586 MCC:0.445.
+ 
+Epoch 43/100
+---------------
+train Loss: 0.5918
+train Accuracy:0.812 Precision:0.563 Recall:0.876 F1:0.686 MCC:0.588.
+val Loss: 1.0468
+val Accuracy:0.784 Precision:0.535 Recall:0.610 F1:0.570 MCC:0.428.
+ 
+Epoch 44/100
+---------------
+train Loss: 0.5818
+train Accuracy:0.815 Precision:0.569 Recall:0.878 F1:0.690 MCC:0.594.
+val Loss: 0.9442
+val Accuracy:0.768 Precision:0.505 Recall:0.701 F1:0.587 MCC:0.443.
+ 
+Epoch 45/100
+---------------
+train Loss: 0.5874
+train Accuracy:0.812 Precision:0.563 Recall:0.879 F1:0.687 MCC:0.590.
+val Loss: 1.1045
+val Accuracy:0.794 Precision:0.569 Recall:0.518 F1:0.543 MCC:0.411.
+ 
+Epoch 46/100
+---------------
+train Loss: 0.5789
+train Accuracy:0.816 Precision:0.570 Recall:0.877 F1:0.691 MCC:0.595.
+val Loss: 0.8842
+val Accuracy:0.750 Precision:0.481 Recall:0.775 F1:0.594 MCC:0.453.
+ 
+Epoch 47/100
+---------------
+train Loss: 0.5769
+train Accuracy:0.816 Precision:0.570 Recall:0.878 F1:0.692 MCC:0.596.
+val Loss: 1.0115
+val Accuracy:0.786 Precision:0.543 Recall:0.573 F1:0.558 MCC:0.417.
+ 
+Epoch 48/100
+---------------
+train Loss: 0.5800
+train Accuracy:0.813 Precision:0.565 Recall:0.880 F1:0.689 MCC:0.592.
+val Loss: 0.8843
+val Accuracy:0.726 Precision:0.454 Recall:0.799 F1:0.579 MCC:0.433.
+ 
+Epoch 49/100
+---------------
+train Loss: 0.5766
+train Accuracy:0.817 Precision:0.571 Recall:0.880 F1:0.693 MCC:0.598.
+val Loss: 1.0362
+val Accuracy:0.773 Precision:0.514 Recall:0.673 F1:0.583 MCC:0.438.
+ 
+Epoch 50/100
+---------------
+train Loss: 0.5698
+train Accuracy:0.819 Precision:0.574 Recall:0.884 F1:0.696 MCC:0.603.
+val Loss: 0.8747
+val Accuracy:0.744 Precision:0.474 Recall:0.789 F1:0.592 MCC:0.452.
+ 
+Epoch 51/100
+---------------
+train Loss: 0.5809
+train Accuracy:0.814 Precision:0.565 Recall:0.881 F1:0.689 MCC:0.593.
+val Loss: 0.9920
+val Accuracy:0.775 Precision:0.516 Recall:0.682 F1:0.587 MCC:0.444.
+ 
+Epoch 52/100
+---------------
+train Loss: 0.5672
+train Accuracy:0.822 Precision:0.578 Recall:0.882 F1:0.698 MCC:0.606.
+val Loss: 0.9835
+val Accuracy:0.764 Precision:0.499 Recall:0.704 F1:0.584 MCC:0.438.
+ 
+Epoch 53/100
+---------------
+train Loss: 0.5595
+train Accuracy:0.824 Precision:0.582 Recall:0.886 F1:0.702 MCC:0.611.
+val Loss: 0.9776
+val Accuracy:0.769 Precision:0.507 Recall:0.706 F1:0.590 MCC:0.448.
+ 
+Epoch 54/100
+---------------
+train Loss: 0.5622
+train Accuracy:0.822 Precision:0.579 Recall:0.886 F1:0.700 MCC:0.608.
+val Loss: 0.9683
+val Accuracy:0.779 Precision:0.525 Recall:0.647 F1:0.580 MCC:0.436.
+ 
+Epoch 55/100
+---------------
+train Loss: 0.5671
+train Accuracy:0.818 Precision:0.572 Recall:0.883 F1:0.695 MCC:0.601.
+val Loss: 1.0408
+val Accuracy:0.774 Precision:0.514 Recall:0.703 F1:0.594 MCC:0.453.
+ 
+Epoch 56/100
+---------------
+train Loss: 0.5535
+train Accuracy:0.825 Precision:0.584 Recall:0.886 F1:0.704 MCC:0.613.
+val Loss: 0.9577
+val Accuracy:0.773 Precision:0.514 Recall:0.643 F1:0.572 MCC:0.425.
+ 
+Epoch 57/100
+---------------
+train Loss: 0.5458
+train Accuracy:0.828 Precision:0.588 Recall:0.890 F1:0.708 MCC:0.619.
+val Loss: 1.1235
+val Accuracy:0.783 Precision:0.533 Recall:0.631 F1:0.578 MCC:0.436.
+ 
+Epoch 58/100
+---------------
+train Loss: 0.5599
+train Accuracy:0.821 Precision:0.576 Recall:0.888 F1:0.699 MCC:0.607.
+val Loss: 0.9404
+val Accuracy:0.745 Precision:0.475 Recall:0.797 F1:0.595 MCC:0.456.
+ 
+Epoch 59/100
+---------------
+train Loss: 0.5444
+train Accuracy:0.827 Precision:0.586 Recall:0.891 F1:0.707 MCC:0.618.
+val Loss: 0.9097
+val Accuracy:0.760 Precision:0.493 Recall:0.723 F1:0.587 MCC:0.441.
+ 
+Epoch 60/100
+---------------
+train Loss: 0.5440
+train Accuracy:0.827 Precision:0.586 Recall:0.892 F1:0.707 MCC:0.618.
+val Loss: 0.9165
+val Accuracy:0.770 Precision:0.507 Recall:0.701 F1:0.589 MCC:0.445.
+ 
+Epoch 61/100
+---------------
+train Loss: 0.5383
+train Accuracy:0.829 Precision:0.588 Recall:0.895 F1:0.710 MCC:0.622.
+val Loss: 0.8913
+val Accuracy:0.726 Precision:0.454 Recall:0.811 F1:0.582 MCC:0.438.
+ 
+Epoch 62/100
+---------------
+train Loss: 0.5400
+train Accuracy:0.829 Precision:0.589 Recall:0.893 F1:0.710 MCC:0.621.
+val Loss: 1.1555
+val Accuracy:0.788 Precision:0.550 Recall:0.551 F1:0.551 MCC:0.412.
+ 
+Epoch 63/100
+---------------
+train Loss: 0.5385
+train Accuracy:0.830 Precision:0.592 Recall:0.891 F1:0.711 MCC:0.623.
+val Loss: 0.8958
+val Accuracy:0.755 Precision:0.487 Recall:0.749 F1:0.590 MCC:0.447.
+ 
+Epoch 64/100
+---------------
+train Loss: 0.5332
+train Accuracy:0.832 Precision:0.594 Recall:0.897 F1:0.715 MCC:0.628.
+val Loss: 1.2824
+val Accuracy:0.792 Precision:0.569 Recall:0.480 F1:0.521 MCC:0.392.
+ 
+Epoch 65/100
+---------------
+train Loss: 0.5363
+train Accuracy:0.831 Precision:0.592 Recall:0.894 F1:0.713 MCC:0.625.
+val Loss: 1.0767
+val Accuracy:0.789 Precision:0.554 Recall:0.530 F1:0.542 MCC:0.405.
+ 
+Epoch 66/100
+---------------
+train Loss: 0.5240
+train Accuracy:0.838 Precision:0.604 Recall:0.895 F1:0.721 MCC:0.637.
+val Loss: 0.9928
+val Accuracy:0.778 Precision:0.522 Recall:0.653 F1:0.580 MCC:0.437.
+ 
+Epoch 67/100
+---------------
+train Loss: 0.5316
+train Accuracy:0.831 Precision:0.592 Recall:0.896 F1:0.713 MCC:0.626.
+val Loss: 1.1727
+val Accuracy:0.794 Precision:0.568 Recall:0.521 F1:0.544 MCC:0.412.
+ 
+Epoch 68/100
+---------------
+train Loss: 0.5176
+train Accuracy:0.839 Precision:0.605 Recall:0.897 F1:0.723 MCC:0.639.
+val Loss: 1.0238
+val Accuracy:0.784 Precision:0.534 Recall:0.632 F1:0.579 MCC:0.437.
+ 
+Epoch 69/100
+---------------
+train Loss: 0.5213
+train Accuracy:0.837 Precision:0.603 Recall:0.897 F1:0.721 MCC:0.637.
+val Loss: 0.9909
+val Accuracy:0.760 Precision:0.494 Recall:0.755 F1:0.597 MCC:0.457.
+ 
+Epoch 70/100
+---------------
+train Loss: 0.5145
+train Accuracy:0.838 Precision:0.603 Recall:0.901 F1:0.722 MCC:0.639.
+val Loss: 1.0420
+val Accuracy:0.775 Precision:0.518 Recall:0.670 F1:0.584 MCC:0.441.
+ 
+Epoch 71/100
+---------------
+train Loss: 0.5169
+train Accuracy:0.837 Precision:0.602 Recall:0.901 F1:0.722 MCC:0.638.
+val Loss: 1.1257
+val Accuracy:0.782 Precision:0.530 Recall:0.653 F1:0.585 MCC:0.444.
+ 
+Epoch 72/100
+---------------
+train Loss: 0.5224
+train Accuracy:0.834 Precision:0.597 Recall:0.898 F1:0.717 MCC:0.632.
+val Loss: 1.0683
+val Accuracy:0.766 Precision:0.502 Recall:0.741 F1:0.598 MCC:0.458.
+ 
+Epoch 73/100
+---------------
+train Loss: 0.5183
+train Accuracy:0.836 Precision:0.601 Recall:0.900 F1:0.721 MCC:0.636.
+val Loss: 1.0533
+val Accuracy:0.783 Precision:0.535 Recall:0.597 F1:0.564 MCC:0.422.
+ 
+Epoch 74/100
+---------------
+train Loss: 0.5140
+train Accuracy:0.838 Precision:0.603 Recall:0.901 F1:0.723 MCC:0.639.
+val Loss: 1.2148
+val Accuracy:0.787 Precision:0.548 Recall:0.546 F1:0.547 MCC:0.408.
+ 
+Epoch 75/100
+---------------
+train Loss: 0.5045
+train Accuracy:0.842 Precision:0.611 Recall:0.901 F1:0.728 MCC:0.646.
+val Loss: 0.9931
+val Accuracy:0.772 Precision:0.510 Recall:0.712 F1:0.594 MCC:0.453.
+ 
+Epoch 76/100
+---------------
+train Loss: 0.5095
+train Accuracy:0.840 Precision:0.606 Recall:0.902 F1:0.725 MCC:0.642.
+val Loss: 0.9815
+val Accuracy:0.738 Precision:0.467 Recall:0.798 F1:0.589 MCC:0.448.
+ 
+Epoch 77/100
+---------------
+train Loss: 0.5057
+train Accuracy:0.842 Precision:0.610 Recall:0.904 F1:0.728 MCC:0.647.
+val Loss: 1.1230
+val Accuracy:0.783 Precision:0.533 Recall:0.635 F1:0.580 MCC:0.438.
+ 
+Epoch 78/100
+---------------
+train Loss: 0.5001
+train Accuracy:0.844 Precision:0.613 Recall:0.905 F1:0.731 MCC:0.651.
+val Loss: 1.1481
+val Accuracy:0.794 Precision:0.564 Recall:0.545 F1:0.554 MCC:0.420.
+ 
+Epoch 79/100
+---------------
+train Loss: 0.5013
+train Accuracy:0.842 Precision:0.610 Recall:0.905 F1:0.729 MCC:0.647.
+val Loss: 1.1668
+val Accuracy:0.793 Precision:0.559 Recall:0.568 F1:0.563 MCC:0.428.
+ 
+Epoch 80/100
+---------------
+train Loss: 0.4991
+train Accuracy:0.845 Precision:0.615 Recall:0.904 F1:0.732 MCC:0.652.
+val Loss: 1.0638
+val Accuracy:0.784 Precision:0.533 Recall:0.658 F1:0.589 MCC:0.449.
+ 
+Epoch 81/100
+---------------
+train Loss: 0.5056
+train Accuracy:0.842 Precision:0.611 Recall:0.902 F1:0.728 MCC:0.646.
+val Loss: 1.0608
+val Accuracy:0.762 Precision:0.497 Recall:0.708 F1:0.584 MCC:0.438.
+ 
+Epoch 82/100
+---------------
+train Loss: 0.4888
+train Accuracy:0.850 Precision:0.623 Recall:0.905 F1:0.738 MCC:0.659.
+val Loss: 1.0946
+val Accuracy:0.784 Precision:0.537 Recall:0.611 F1:0.571 MCC:0.430.
+ 
+Epoch 83/100
+---------------
+train Loss: 0.4910
+train Accuracy:0.847 Precision:0.618 Recall:0.909 F1:0.736 MCC:0.657.
+val Loss: 1.1846
+val Accuracy:0.789 Precision:0.551 Recall:0.567 F1:0.559 MCC:0.421.
+ 
+Epoch 84/100
+---------------
+train Loss: 0.4874
+train Accuracy:0.847 Precision:0.618 Recall:0.910 F1:0.736 MCC:0.658.
+val Loss: 1.1006
+val Accuracy:0.778 Precision:0.522 Recall:0.676 F1:0.589 MCC:0.447.
+ 
+Epoch 85/100
+---------------
+train Loss: 0.4885
+train Accuracy:0.847 Precision:0.619 Recall:0.907 F1:0.736 MCC:0.656.
+val Loss: 1.1572
+val Accuracy:0.787 Precision:0.541 Recall:0.613 F1:0.575 MCC:0.435.
+ 
+Epoch 86/100
+---------------
+train Loss: 0.4958
+train Accuracy:0.842 Precision:0.610 Recall:0.905 F1:0.729 MCC:0.647.
+val Loss: 0.9651
+val Accuracy:0.730 Precision:0.457 Recall:0.798 F1:0.581 MCC:0.437.
+ 
+Epoch 87/100
+---------------
+train Loss: 0.4828
+train Accuracy:0.849 Precision:0.621 Recall:0.910 F1:0.738 MCC:0.660.
+val Loss: 1.2829
+val Accuracy:0.793 Precision:0.566 Recall:0.516 F1:0.540 MCC:0.408.
+ 
+Epoch 88/100
+---------------
+train Loss: 0.4890
+train Accuracy:0.848 Precision:0.619 Recall:0.907 F1:0.736 MCC:0.657.
+val Loss: 1.0801
+val Accuracy:0.754 Precision:0.485 Recall:0.761 F1:0.592 MCC:0.450.
+ 
+Epoch 89/100
+---------------
+train Loss: 0.4813
+train Accuracy:0.852 Precision:0.626 Recall:0.910 F1:0.742 MCC:0.665.
+val Loss: 1.2538
+val Accuracy:0.786 Precision:0.543 Recall:0.585 F1:0.563 MCC:0.423.
+ 
+Epoch 90/100
+---------------
+train Loss: 0.4838
+train Accuracy:0.848 Precision:0.620 Recall:0.908 F1:0.737 MCC:0.658.
+val Loss: 1.0222
+val Accuracy:0.775 Precision:0.517 Recall:0.682 F1:0.588 MCC:0.445.
+ 
+Epoch 91/100
+---------------
+train Loss: 0.4791
+train Accuracy:0.850 Precision:0.623 Recall:0.911 F1:0.740 MCC:0.663.
+val Loss: 1.0804
+val Accuracy:0.780 Precision:0.526 Recall:0.647 F1:0.580 MCC:0.438.
+ 
+Epoch 92/100
+---------------
+train Loss: 0.4804
+train Accuracy:0.851 Precision:0.624 Recall:0.910 F1:0.741 MCC:0.663.
+val Loss: 1.0271
+val Accuracy:0.732 Precision:0.460 Recall:0.813 F1:0.588 MCC:0.447.
+ 
+Epoch 93/100
+---------------
+train Loss: 0.4786
+train Accuracy:0.850 Precision:0.623 Recall:0.911 F1:0.740 MCC:0.663.
+val Loss: 1.0608
+val Accuracy:0.768 Precision:0.505 Recall:0.723 F1:0.595 MCC:0.453.
+ 
+Epoch 94/100
+---------------
+train Loss: 0.4758
+train Accuracy:0.851 Precision:0.625 Recall:0.913 F1:0.742 MCC:0.665.
+val Loss: 1.0602
+val Accuracy:0.777 Precision:0.519 Recall:0.699 F1:0.595 MCC:0.455.
+ 
+Epoch 95/100
+---------------
+train Loss: 0.4774
+train Accuracy:0.850 Precision:0.622 Recall:0.915 F1:0.740 MCC:0.664.
+val Loss: 1.1542
+val Accuracy:0.784 Precision:0.540 Recall:0.551 F1:0.546 MCC:0.404.
+ 
+Epoch 96/100
+---------------
+train Loss: 0.4699
+train Accuracy:0.853 Precision:0.629 Recall:0.915 F1:0.745 MCC:0.670.
+val Loss: 1.0630
+val Accuracy:0.771 Precision:0.509 Recall:0.700 F1:0.590 MCC:0.447.
+ 
+Epoch 97/100
+---------------
+train Loss: 0.4643
+train Accuracy:0.857 Precision:0.635 Recall:0.917 F1:0.750 MCC:0.676.
+val Loss: 1.0998
+val Accuracy:0.774 Precision:0.515 Recall:0.673 F1:0.583 MCC:0.439.
+ 
+Epoch 98/100
+---------------
+train Loss: 0.4669
+train Accuracy:0.854 Precision:0.630 Recall:0.915 F1:0.746 MCC:0.671.
+val Loss: 1.3272
+val Accuracy:0.788 Precision:0.545 Recall:0.600 F1:0.571 MCC:0.432.
+ 
+Epoch 99/100
+---------------
+train Loss: 0.4664
+train Accuracy:0.854 Precision:0.629 Recall:0.916 F1:0.746 MCC:0.670.
+val Loss: 1.1581
+val Accuracy:0.756 Precision:0.487 Recall:0.748 F1:0.590 MCC:0.447.
+ 
+Epoch 100/100
+---------------
+train Loss: 0.4626
+train Accuracy:0.856 Precision:0.632 Recall:0.919 F1:0.749 MCC:0.675.
+val Loss: 1.2818
+val Accuracy:0.783 Precision:0.538 Recall:0.545 F1:0.541 MCC:0.399.
+Training complete in 148m 28s
+*********************************************************************
+starting 2th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_1', '../../data_homology_reduced/images/control/fold_3', '../../data_homology_reduced/images/control/fold_4', '../../data_homology_reduced/images/control/fold_5', '../../data_homology_reduced/images/heme/fold_1', '../../data_homology_reduced/images/heme/fold_3', '../../data_homology_reduced/images/heme/fold_4', '../../data_homology_reduced/images/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [2]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_2', '../../data_homology_reduced/images/heme/fold_2']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+Model:  mlp
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0001
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/100
+---------------
+train Loss: 0.8437
+train Accuracy:0.693 Precision:0.417 Recall:0.780 F1:0.544 MCC:0.381.
+val Loss: 0.7938
+val Accuracy:0.722 Precision:0.447 Recall:0.787 F1:0.570 MCC:0.421.
+ 
+Epoch 2/100
+---------------
+train Loss: 0.8093
+train Accuracy:0.709 Precision:0.435 Recall:0.810 F1:0.566 MCC:0.417.
+val Loss: 0.7887
+val Accuracy:0.702 Precision:0.432 Recall:0.857 F1:0.574 MCC:0.435.
+ 
+Epoch 3/100
+---------------
+train Loss: 0.7982
+train Accuracy:0.717 Precision:0.443 Recall:0.810 F1:0.573 MCC:0.426.
+val Loss: 0.7869
+val Accuracy:0.708 Precision:0.436 Recall:0.839 F1:0.574 MCC:0.432.
+ 
+Epoch 4/100
+---------------
+train Loss: 0.7910
+train Accuracy:0.722 Precision:0.448 Recall:0.811 F1:0.577 MCC:0.433.
+val Loss: 0.7844
+val Accuracy:0.696 Precision:0.427 Recall:0.865 F1:0.572 MCC:0.432.
+ 
+Epoch 5/100
+---------------
+train Loss: 0.7865
+train Accuracy:0.724 Precision:0.451 Recall:0.805 F1:0.578 MCC:0.433.
+val Loss: 0.7848
+val Accuracy:0.739 Precision:0.467 Recall:0.786 F1:0.586 MCC:0.443.
+ 
+Epoch 6/100
+---------------
+train Loss: 0.7782
+train Accuracy:0.730 Precision:0.457 Recall:0.803 F1:0.583 MCC:0.440.
+val Loss: 0.7730
+val Accuracy:0.715 Precision:0.443 Recall:0.839 F1:0.579 MCC:0.440.
+ 
+Epoch 7/100
+---------------
+train Loss: 0.7679
+train Accuracy:0.736 Precision:0.463 Recall:0.803 F1:0.588 MCC:0.447.
+val Loss: 0.7817
+val Accuracy:0.768 Precision:0.504 Recall:0.711 F1:0.590 MCC:0.448.
+ 
+Epoch 8/100
+---------------
+train Loss: 0.7649
+train Accuracy:0.740 Precision:0.468 Recall:0.804 F1:0.592 MCC:0.453.
+val Loss: 0.7929
+val Accuracy:0.775 Precision:0.515 Recall:0.693 F1:0.591 MCC:0.450.
+ 
+Epoch 9/100
+---------------
+train Loss: 0.7547
+train Accuracy:0.747 Precision:0.476 Recall:0.802 F1:0.598 MCC:0.461.
+val Loss: 0.7775
+val Accuracy:0.729 Precision:0.456 Recall:0.804 F1:0.582 MCC:0.439.
+ 
+Epoch 10/100
+---------------
+train Loss: 0.7457
+train Accuracy:0.751 Precision:0.481 Recall:0.800 F1:0.601 MCC:0.466.
+val Loss: 0.7652
+val Accuracy:0.765 Precision:0.498 Recall:0.739 F1:0.595 MCC:0.455.
+ 
+Epoch 11/100
+---------------
+train Loss: 0.7439
+train Accuracy:0.752 Precision:0.483 Recall:0.802 F1:0.603 MCC:0.468.
+val Loss: 0.7537
+val Accuracy:0.718 Precision:0.447 Recall:0.868 F1:0.591 MCC:0.459.
+ 
+Epoch 12/100
+---------------
+train Loss: 0.7387
+train Accuracy:0.752 Precision:0.483 Recall:0.806 F1:0.604 MCC:0.471.
+val Loss: 0.7779
+val Accuracy:0.754 Precision:0.483 Recall:0.721 F1:0.579 MCC:0.431.
+ 
+Epoch 13/100
+---------------
+train Loss: 0.7317
+train Accuracy:0.760 Precision:0.493 Recall:0.808 F1:0.612 MCC:0.482.
+val Loss: 0.8353
+val Accuracy:0.774 Precision:0.517 Recall:0.530 F1:0.524 MCC:0.376.
+ 
+Epoch 14/100
+---------------
+train Loss: 0.7312
+train Accuracy:0.759 Precision:0.492 Recall:0.806 F1:0.611 MCC:0.480.
+val Loss: 0.7694
+val Accuracy:0.758 Precision:0.489 Recall:0.751 F1:0.592 MCC:0.451.
+ 
+Epoch 15/100
+---------------
+train Loss: 0.7247
+train Accuracy:0.763 Precision:0.496 Recall:0.809 F1:0.615 MCC:0.486.
+val Loss: 0.7770
+val Accuracy:0.720 Precision:0.447 Recall:0.835 F1:0.583 MCC:0.444.
+ 
+Epoch 16/100
+---------------
+train Loss: 0.7192
+train Accuracy:0.766 Precision:0.500 Recall:0.809 F1:0.618 MCC:0.491.
+val Loss: 0.7929
+val Accuracy:0.746 Precision:0.473 Recall:0.723 F1:0.572 MCC:0.421.
+ 
+Epoch 17/100
+---------------
+train Loss: 0.7177
+train Accuracy:0.766 Precision:0.501 Recall:0.812 F1:0.619 MCC:0.492.
+val Loss: 0.7568
+val Accuracy:0.733 Precision:0.460 Recall:0.823 F1:0.590 MCC:0.453.
+ 
+Epoch 18/100
+---------------
+train Loss: 0.7134
+train Accuracy:0.768 Precision:0.504 Recall:0.814 F1:0.623 MCC:0.497.
+val Loss: 0.7793
+val Accuracy:0.752 Precision:0.481 Recall:0.713 F1:0.574 MCC:0.425.
+ 
+Epoch 19/100
+---------------
+train Loss: 0.7074
+train Accuracy:0.769 Precision:0.505 Recall:0.815 F1:0.624 MCC:0.498.
+val Loss: 0.7750
+val Accuracy:0.693 Precision:0.426 Recall:0.896 F1:0.577 MCC:0.446.
+ 
+Epoch 20/100
+---------------
+train Loss: 0.7050
+train Accuracy:0.770 Precision:0.506 Recall:0.821 F1:0.626 MCC:0.502.
+val Loss: 0.7803
+val Accuracy:0.758 Precision:0.489 Recall:0.698 F1:0.575 MCC:0.426.
+ 
+Epoch 21/100
+---------------
+train Loss: 0.7022
+train Accuracy:0.769 Precision:0.505 Recall:0.821 F1:0.625 MCC:0.501.
+val Loss: 0.7506
+val Accuracy:0.739 Precision:0.468 Recall:0.826 F1:0.598 MCC:0.464.
+ 
+Epoch 22/100
+---------------
+train Loss: 0.6913
+train Accuracy:0.776 Precision:0.513 Recall:0.823 F1:0.632 MCC:0.511.
+val Loss: 0.7997
+val Accuracy:0.659 Precision:0.401 Recall:0.925 F1:0.560 MCC:0.428.
+ 
+Epoch 23/100
+---------------
+train Loss: 0.6944
+train Accuracy:0.775 Precision:0.513 Recall:0.827 F1:0.633 MCC:0.513.
+val Loss: 0.7660
+val Accuracy:0.723 Precision:0.450 Recall:0.826 F1:0.583 MCC:0.443.
+ 
+Epoch 24/100
+---------------
+train Loss: 0.6813
+train Accuracy:0.779 Precision:0.518 Recall:0.832 F1:0.638 MCC:0.519.
+val Loss: 0.7694
+val Accuracy:0.709 Precision:0.439 Recall:0.870 F1:0.583 MCC:0.449.
+ 
+Epoch 25/100
+---------------
+train Loss: 0.6780
+train Accuracy:0.781 Precision:0.521 Recall:0.831 F1:0.640 MCC:0.522.
+val Loss: 0.7877
+val Accuracy:0.757 Precision:0.488 Recall:0.739 F1:0.588 MCC:0.444.
+ 
+Epoch 26/100
+---------------
+train Loss: 0.6692
+train Accuracy:0.784 Precision:0.524 Recall:0.838 F1:0.645 MCC:0.529.
+val Loss: 0.7633
+val Accuracy:0.727 Precision:0.454 Recall:0.817 F1:0.583 MCC:0.443.
+ 
+Epoch 27/100
+---------------
+train Loss: 0.6762
+train Accuracy:0.781 Precision:0.521 Recall:0.837 F1:0.642 MCC:0.525.
+val Loss: 0.7907
+val Accuracy:0.659 Precision:0.401 Recall:0.923 F1:0.559 MCC:0.426.
+ 
+Epoch 28/100
+---------------
+train Loss: 0.6698
+train Accuracy:0.782 Precision:0.522 Recall:0.838 F1:0.644 MCC:0.528.
+val Loss: 0.7825
+val Accuracy:0.772 Precision:0.510 Recall:0.719 F1:0.597 MCC:0.457.
+ 
+Epoch 29/100
+---------------
+train Loss: 0.6648
+train Accuracy:0.787 Precision:0.529 Recall:0.837 F1:0.648 MCC:0.534.
+val Loss: 0.7724
+val Accuracy:0.713 Precision:0.441 Recall:0.840 F1:0.578 MCC:0.438.
+ 
+Epoch 30/100
+---------------
+train Loss: 0.6586
+train Accuracy:0.788 Precision:0.530 Recall:0.845 F1:0.651 MCC:0.538.
+val Loss: 0.7802
+val Accuracy:0.763 Precision:0.497 Recall:0.728 F1:0.590 MCC:0.448.
+ 
+Epoch 31/100
+---------------
+train Loss: 0.6509
+train Accuracy:0.791 Precision:0.535 Recall:0.842 F1:0.654 MCC:0.542.
+val Loss: 0.7924
+val Accuracy:0.685 Precision:0.419 Recall:0.894 F1:0.571 MCC:0.436.
+ 
+Epoch 32/100
+---------------
+train Loss: 0.6509
+train Accuracy:0.791 Precision:0.535 Recall:0.845 F1:0.655 MCC:0.544.
+val Loss: 0.7962
+val Accuracy:0.761 Precision:0.493 Recall:0.697 F1:0.577 MCC:0.429.
+ 
+Epoch 33/100
+---------------
+train Loss: 0.6481
+train Accuracy:0.792 Precision:0.536 Recall:0.849 F1:0.657 MCC:0.546.
+val Loss: 0.7973
+val Accuracy:0.749 Precision:0.477 Recall:0.728 F1:0.576 MCC:0.427.
+ 
+Epoch 34/100
+---------------
+train Loss: 0.6392
+train Accuracy:0.797 Precision:0.544 Recall:0.850 F1:0.663 MCC:0.555.
+val Loss: 0.7817
+val Accuracy:0.748 Precision:0.476 Recall:0.763 F1:0.586 MCC:0.443.
+ 
+Epoch 35/100
+---------------
+train Loss: 0.6424
+train Accuracy:0.794 Precision:0.539 Recall:0.851 F1:0.660 MCC:0.551.
+val Loss: 0.7566
+val Accuracy:0.725 Precision:0.452 Recall:0.820 F1:0.583 MCC:0.442.
+ 
+Epoch 36/100
+---------------
+train Loss: 0.6328
+train Accuracy:0.800 Precision:0.547 Recall:0.852 F1:0.666 MCC:0.559.
+val Loss: 0.8408
+val Accuracy:0.771 Precision:0.509 Recall:0.670 F1:0.578 MCC:0.433.
+ 
+Epoch 37/100
+---------------
+train Loss: 0.6288
+train Accuracy:0.799 Precision:0.546 Recall:0.856 F1:0.667 MCC:0.561.
+val Loss: 0.8081
+val Accuracy:0.726 Precision:0.453 Recall:0.815 F1:0.582 MCC:0.441.
+ 
+Epoch 38/100
+---------------
+train Loss: 0.6310
+train Accuracy:0.798 Precision:0.544 Recall:0.854 F1:0.665 MCC:0.558.
+val Loss: 0.9168
+val Accuracy:0.787 Precision:0.539 Recall:0.621 F1:0.577 MCC:0.437.
+ 
+Epoch 39/100
+---------------
+train Loss: 0.6251
+train Accuracy:0.801 Precision:0.548 Recall:0.856 F1:0.668 MCC:0.563.
+val Loss: 0.7863
+val Accuracy:0.692 Precision:0.422 Recall:0.858 F1:0.566 MCC:0.423.
+ 
+Epoch 40/100
+---------------
+train Loss: 0.6188
+train Accuracy:0.804 Precision:0.552 Recall:0.857 F1:0.672 MCC:0.567.
+val Loss: 0.7720
+val Accuracy:0.714 Precision:0.442 Recall:0.836 F1:0.578 MCC:0.437.
+ 
+Epoch 41/100
+---------------
+train Loss: 0.6161
+train Accuracy:0.806 Precision:0.556 Recall:0.858 F1:0.675 MCC:0.572.
+val Loss: 0.8123
+val Accuracy:0.741 Precision:0.467 Recall:0.756 F1:0.577 MCC:0.429.
+ 
+Epoch 42/100
+---------------
+train Loss: 0.6142
+train Accuracy:0.805 Precision:0.554 Recall:0.862 F1:0.674 MCC:0.571.
+val Loss: 0.9036
+val Accuracy:0.789 Precision:0.547 Recall:0.585 F1:0.565 MCC:0.427.
+ 
+Epoch 43/100
+---------------
+train Loss: 0.6138
+train Accuracy:0.806 Precision:0.556 Recall:0.860 F1:0.675 MCC:0.572.
+val Loss: 0.9163
+val Accuracy:0.783 Precision:0.534 Recall:0.577 F1:0.555 MCC:0.412.
+ 
+Epoch 44/100
+---------------
+train Loss: 0.6084
+train Accuracy:0.808 Precision:0.559 Recall:0.862 F1:0.678 MCC:0.576.
+val Loss: 0.8514
+val Accuracy:0.735 Precision:0.460 Recall:0.754 F1:0.572 MCC:0.421.
+ 
+Epoch 45/100
+---------------
+train Loss: 0.6022
+train Accuracy:0.813 Precision:0.567 Recall:0.861 F1:0.684 MCC:0.584.
+val Loss: 0.8618
+val Accuracy:0.681 Precision:0.414 Recall:0.871 F1:0.561 MCC:0.419.
+ 
+Epoch 46/100
+---------------
+train Loss: 0.5992
+train Accuracy:0.813 Precision:0.566 Recall:0.867 F1:0.684 MCC:0.585.
+val Loss: 0.8529
+val Accuracy:0.758 Precision:0.489 Recall:0.711 F1:0.579 MCC:0.432.
+ 
+Epoch 47/100
+---------------
+train Loss: 0.6017
+train Accuracy:0.812 Precision:0.565 Recall:0.866 F1:0.684 MCC:0.584.
+val Loss: 0.8034
+val Accuracy:0.682 Precision:0.416 Recall:0.883 F1:0.566 MCC:0.427.
+ 
+Epoch 48/100
+---------------
+train Loss: 0.5967
+train Accuracy:0.813 Precision:0.567 Recall:0.866 F1:0.685 MCC:0.586.
+val Loss: 0.8351
+val Accuracy:0.691 Precision:0.421 Recall:0.846 F1:0.562 MCC:0.416.
+ 
+Epoch 49/100
+---------------
+train Loss: 0.5910
+train Accuracy:0.815 Precision:0.570 Recall:0.869 F1:0.688 MCC:0.590.
+val Loss: 0.8025
+val Accuracy:0.727 Precision:0.452 Recall:0.783 F1:0.573 MCC:0.425.
+ 
+Epoch 50/100
+---------------
+train Loss: 0.6005
+train Accuracy:0.810 Precision:0.561 Recall:0.868 F1:0.681 MCC:0.581.
+val Loss: 0.8055
+val Accuracy:0.727 Precision:0.453 Recall:0.796 F1:0.577 MCC:0.432.
+ 
+Epoch 51/100
+---------------
+train Loss: 0.5917
+train Accuracy:0.816 Precision:0.570 Recall:0.867 F1:0.688 MCC:0.590.
+val Loss: 0.8384
+val Accuracy:0.763 Precision:0.496 Recall:0.711 F1:0.585 MCC:0.440.
+ 
+Epoch 52/100
+---------------
+train Loss: 0.5780
+train Accuracy:0.823 Precision:0.581 Recall:0.873 F1:0.698 MCC:0.603.
+val Loss: 0.9800
+val Accuracy:0.727 Precision:0.449 Recall:0.725 F1:0.554 MCC:0.395.
+ 
+Epoch 53/100
+---------------
+train Loss: 0.5905
+train Accuracy:0.816 Precision:0.571 Recall:0.868 F1:0.689 MCC:0.591.
+val Loss: 0.8834
+val Accuracy:0.731 Precision:0.454 Recall:0.741 F1:0.563 MCC:0.408.
+ 
+Epoch 54/100
+---------------
+train Loss: 0.5772
+train Accuracy:0.822 Precision:0.580 Recall:0.873 F1:0.697 MCC:0.603.
+val Loss: 0.8235
+val Accuracy:0.725 Precision:0.451 Recall:0.801 F1:0.577 MCC:0.432.
+ 
+Epoch 55/100
+---------------
+train Loss: 0.5788
+train Accuracy:0.820 Precision:0.577 Recall:0.871 F1:0.694 MCC:0.598.
+val Loss: 1.0347
+val Accuracy:0.788 Precision:0.548 Recall:0.547 F1:0.548 MCC:0.410.
+ 
+Epoch 56/100
+---------------
+train Loss: 0.5756
+train Accuracy:0.822 Precision:0.581 Recall:0.872 F1:0.697 MCC:0.602.
+val Loss: 0.8331
+val Accuracy:0.699 Precision:0.429 Recall:0.853 F1:0.571 MCC:0.429.
+ 
+Epoch 57/100
+---------------
+train Loss: 0.5736
+train Accuracy:0.822 Precision:0.580 Recall:0.876 F1:0.698 MCC:0.604.
+val Loss: 0.8817
+val Accuracy:0.721 Precision:0.445 Recall:0.771 F1:0.564 MCC:0.411.
+ 
+Epoch 58/100
+---------------
+train Loss: 0.5718
+train Accuracy:0.824 Precision:0.584 Recall:0.874 F1:0.700 MCC:0.606.
+val Loss: 0.9079
+val Accuracy:0.753 Precision:0.482 Recall:0.701 F1:0.571 MCC:0.420.
+ 
+Epoch 59/100
+---------------
+train Loss: 0.5689
+train Accuracy:0.824 Precision:0.583 Recall:0.876 F1:0.700 MCC:0.607.
+val Loss: 0.8591
+val Accuracy:0.705 Precision:0.432 Recall:0.821 F1:0.566 MCC:0.418.
+ 
+Epoch 60/100
+---------------
+train Loss: 0.5645
+train Accuracy:0.824 Precision:0.583 Recall:0.878 F1:0.701 MCC:0.608.
+val Loss: 0.8344
+val Accuracy:0.757 Precision:0.487 Recall:0.730 F1:0.585 MCC:0.439.
+ 
+Epoch 61/100
+---------------
+train Loss: 0.5632
+train Accuracy:0.827 Precision:0.589 Recall:0.876 F1:0.704 MCC:0.612.
+val Loss: 1.0589
+val Accuracy:0.769 Precision:0.507 Recall:0.584 F1:0.543 MCC:0.391.
+ 
+Epoch 62/100
+---------------
+train Loss: 0.5595
+train Accuracy:0.829 Precision:0.591 Recall:0.876 F1:0.706 MCC:0.614.
+val Loss: 0.8460
+val Accuracy:0.696 Precision:0.422 Recall:0.814 F1:0.556 MCC:0.403.
+ 
+Epoch 63/100
+---------------
+train Loss: 0.5586
+train Accuracy:0.830 Precision:0.593 Recall:0.876 F1:0.708 MCC:0.616.
+val Loss: 0.8873
+val Accuracy:0.732 Precision:0.456 Recall:0.742 F1:0.565 MCC:0.410.
+ 
+Epoch 64/100
+---------------
+train Loss: 0.5514
+train Accuracy:0.834 Precision:0.599 Recall:0.882 F1:0.713 MCC:0.624.
+val Loss: 0.9016
+val Accuracy:0.746 Precision:0.473 Recall:0.712 F1:0.568 MCC:0.416.
+ 
+Epoch 65/100
+---------------
+train Loss: 0.5572
+train Accuracy:0.831 Precision:0.594 Recall:0.881 F1:0.709 MCC:0.619.
+val Loss: 0.9503
+val Accuracy:0.767 Precision:0.503 Recall:0.631 F1:0.560 MCC:0.409.
+ 
+Epoch 66/100
+---------------
+train Loss: 0.5554
+train Accuracy:0.832 Precision:0.596 Recall:0.878 F1:0.710 MCC:0.620.
+val Loss: 0.9192
+val Accuracy:0.757 Precision:0.486 Recall:0.685 F1:0.569 MCC:0.417.
+ 
+Epoch 67/100
+---------------
+train Loss: 0.5468
+train Accuracy:0.834 Precision:0.600 Recall:0.879 F1:0.713 MCC:0.624.
+val Loss: 0.8394
+val Accuracy:0.717 Precision:0.443 Recall:0.806 F1:0.572 MCC:0.424.
+ 
+Epoch 68/100
+---------------
+train Loss: 0.5488
+train Accuracy:0.834 Precision:0.600 Recall:0.880 F1:0.714 MCC:0.625.
+val Loss: 0.9138
+val Accuracy:0.684 Precision:0.416 Recall:0.854 F1:0.559 MCC:0.413.
+ 
+Epoch 69/100
+---------------
+train Loss: 0.5494
+train Accuracy:0.833 Precision:0.597 Recall:0.883 F1:0.712 MCC:0.623.
+val Loss: 0.9346
+val Accuracy:0.761 Precision:0.493 Recall:0.635 F1:0.555 MCC:0.401.
+ 
+Epoch 70/100
+---------------
+train Loss: 0.5387
+train Accuracy:0.837 Precision:0.604 Recall:0.885 F1:0.718 MCC:0.631.
+val Loss: 1.0005
+val Accuracy:0.741 Precision:0.462 Recall:0.656 F1:0.543 MCC:0.380.
+ 
+Epoch 71/100
+---------------
+train Loss: 0.5409
+train Accuracy:0.835 Precision:0.601 Recall:0.888 F1:0.717 MCC:0.630.
+val Loss: 0.9565
+val Accuracy:0.748 Precision:0.474 Recall:0.702 F1:0.566 MCC:0.413.
+ 
+Epoch 72/100
+---------------
+train Loss: 0.5381
+train Accuracy:0.835 Precision:0.601 Recall:0.887 F1:0.717 MCC:0.630.
+val Loss: 0.9816
+val Accuracy:0.770 Precision:0.508 Recall:0.617 F1:0.557 MCC:0.407.
+ 
+Epoch 73/100
+---------------
+train Loss: 0.5307
+train Accuracy:0.840 Precision:0.609 Recall:0.890 F1:0.723 MCC:0.638.
+val Loss: 1.1177
+val Accuracy:0.773 Precision:0.515 Recall:0.570 F1:0.541 MCC:0.392.
+ 
+Epoch 74/100
+---------------
+train Loss: 0.5284
+train Accuracy:0.842 Precision:0.612 Recall:0.890 F1:0.725 MCC:0.641.
+val Loss: 0.9469
+val Accuracy:0.718 Precision:0.441 Recall:0.763 F1:0.559 MCC:0.403.
+ 
+Epoch 75/100
+---------------
+train Loss: 0.5328
+train Accuracy:0.839 Precision:0.607 Recall:0.887 F1:0.721 MCC:0.635.
+val Loss: 1.1857
+val Accuracy:0.786 Precision:0.547 Recall:0.508 F1:0.526 MCC:0.389.
+ 
+Epoch 76/100
+---------------
+train Loss: 0.5390
+train Accuracy:0.836 Precision:0.603 Recall:0.887 F1:0.718 MCC:0.631.
+val Loss: 0.8587
+val Accuracy:0.738 Precision:0.465 Recall:0.771 F1:0.580 MCC:0.434.
+ 
+Epoch 77/100
+---------------
+train Loss: 0.5339
+train Accuracy:0.838 Precision:0.605 Recall:0.889 F1:0.720 MCC:0.634.
+val Loss: 0.9677
+val Accuracy:0.749 Precision:0.475 Recall:0.687 F1:0.562 MCC:0.407.
+ 
+Epoch 78/100
+---------------
+train Loss: 0.5305
+train Accuracy:0.839 Precision:0.607 Recall:0.890 F1:0.722 MCC:0.637.
+val Loss: 0.9257
+val Accuracy:0.717 Precision:0.440 Recall:0.766 F1:0.559 MCC:0.403.
+ 
+Epoch 79/100
+---------------
+train Loss: 0.5245
+train Accuracy:0.841 Precision:0.611 Recall:0.888 F1:0.723 MCC:0.638.
+val Loss: 0.9899
+val Accuracy:0.751 Precision:0.478 Recall:0.684 F1:0.563 MCC:0.408.
+ 
+Epoch 80/100
+---------------
+train Loss: 0.5247
+train Accuracy:0.843 Precision:0.613 Recall:0.890 F1:0.726 MCC:0.642.
+val Loss: 0.9654
+val Accuracy:0.732 Precision:0.453 Recall:0.697 F1:0.549 MCC:0.388.
+ 
+Epoch 81/100
+---------------
+train Loss: 0.5256
+train Accuracy:0.839 Precision:0.607 Recall:0.892 F1:0.723 MCC:0.638.
+val Loss: 0.8488
+val Accuracy:0.695 Precision:0.422 Recall:0.815 F1:0.556 MCC:0.403.
+ 
+Epoch 82/100
+---------------
+train Loss: 0.5218
+train Accuracy:0.842 Precision:0.612 Recall:0.893 F1:0.726 MCC:0.643.
+val Loss: 1.0180
+val Accuracy:0.763 Precision:0.495 Recall:0.626 F1:0.553 MCC:0.399.
+ 
+Epoch 83/100
+---------------
+train Loss: 0.5221
+train Accuracy:0.842 Precision:0.612 Recall:0.891 F1:0.725 MCC:0.641.
+val Loss: 1.0973
+val Accuracy:0.749 Precision:0.474 Recall:0.645 F1:0.546 MCC:0.387.
+ 
+Epoch 84/100
+---------------
+train Loss: 0.5167
+train Accuracy:0.845 Precision:0.616 Recall:0.894 F1:0.730 MCC:0.647.
+val Loss: 0.9651
+val Accuracy:0.733 Precision:0.456 Recall:0.718 F1:0.557 MCC:0.400.
+ 
+Epoch 85/100
+---------------
+train Loss: 0.5180
+train Accuracy:0.843 Precision:0.613 Recall:0.894 F1:0.727 MCC:0.644.
+val Loss: 0.9467
+val Accuracy:0.729 Precision:0.451 Recall:0.711 F1:0.552 MCC:0.392.
+ 
+Epoch 86/100
+---------------
+train Loss: 0.5134
+train Accuracy:0.845 Precision:0.617 Recall:0.895 F1:0.730 MCC:0.648.
+val Loss: 1.0997
+val Accuracy:0.771 Precision:0.509 Recall:0.626 F1:0.561 MCC:0.413.
+ 
+Epoch 87/100
+---------------
+train Loss: 0.5065
+train Accuracy:0.849 Precision:0.624 Recall:0.895 F1:0.735 MCC:0.654.
+val Loss: 1.0661
+val Accuracy:0.759 Precision:0.489 Recall:0.622 F1:0.547 MCC:0.391.
+ 
+Epoch 88/100
+---------------
+train Loss: 0.5101
+train Accuracy:0.847 Precision:0.620 Recall:0.896 F1:0.733 MCC:0.651.
+val Loss: 1.0305
+val Accuracy:0.754 Precision:0.482 Recall:0.675 F1:0.563 MCC:0.409.
+ 
+Epoch 89/100
+---------------
+train Loss: 0.5059
+train Accuracy:0.848 Precision:0.622 Recall:0.898 F1:0.735 MCC:0.654.
+val Loss: 0.9528
+val Accuracy:0.748 Precision:0.474 Recall:0.686 F1:0.561 MCC:0.405.
+ 
+Epoch 90/100
+---------------
+train Loss: 0.5065
+train Accuracy:0.848 Precision:0.621 Recall:0.898 F1:0.734 MCC:0.654.
+val Loss: 1.0432
+val Accuracy:0.769 Precision:0.506 Recall:0.608 F1:0.552 MCC:0.401.
+ 
+Epoch 91/100
+---------------
+train Loss: 0.5033
+train Accuracy:0.850 Precision:0.625 Recall:0.899 F1:0.738 MCC:0.658.
+val Loss: 1.1491
+val Accuracy:0.741 Precision:0.462 Recall:0.642 F1:0.537 MCC:0.373.
+ 
+Epoch 92/100
+---------------
+train Loss: 0.5005
+train Accuracy:0.851 Precision:0.628 Recall:0.901 F1:0.740 MCC:0.661.
+val Loss: 1.0239
+val Accuracy:0.728 Precision:0.450 Recall:0.729 F1:0.556 MCC:0.398.
+ 
+Epoch 93/100
+---------------
+train Loss: 0.4981
+train Accuracy:0.853 Precision:0.630 Recall:0.899 F1:0.741 MCC:0.662.
+val Loss: 1.1137
+val Accuracy:0.756 Precision:0.484 Recall:0.645 F1:0.553 MCC:0.397.
+ 
+Epoch 94/100
+---------------
+train Loss: 0.4939
+train Accuracy:0.853 Precision:0.631 Recall:0.899 F1:0.741 MCC:0.662.
+val Loss: 1.0316
+val Accuracy:0.700 Precision:0.423 Recall:0.770 F1:0.546 MCC:0.385.
+ 
+Epoch 95/100
+---------------
+train Loss: 0.4963
+train Accuracy:0.853 Precision:0.630 Recall:0.899 F1:0.741 MCC:0.662.
+val Loss: 1.0117
+val Accuracy:0.702 Precision:0.425 Recall:0.779 F1:0.550 MCC:0.391.
+ 
+Epoch 96/100
+---------------
+train Loss: 0.4851
+train Accuracy:0.858 Precision:0.639 Recall:0.904 F1:0.749 MCC:0.673.
+val Loss: 0.9663
+val Accuracy:0.683 Precision:0.410 Recall:0.803 F1:0.543 MCC:0.382.
+ 
+Epoch 97/100
+---------------
+train Loss: 0.4956
+train Accuracy:0.852 Precision:0.629 Recall:0.903 F1:0.741 MCC:0.663.
+val Loss: 1.0017
+val Accuracy:0.733 Precision:0.457 Recall:0.749 F1:0.568 MCC:0.416.
+ 
+Epoch 98/100
+---------------
+train Loss: 0.4947
+train Accuracy:0.853 Precision:0.630 Recall:0.899 F1:0.741 MCC:0.662.
+val Loss: 1.0038
+val Accuracy:0.749 Precision:0.474 Recall:0.655 F1:0.550 MCC:0.391.
+ 
+Epoch 99/100
+---------------
+train Loss: 0.4863
+train Accuracy:0.856 Precision:0.635 Recall:0.905 F1:0.746 MCC:0.670.
+val Loss: 1.1897
+val Accuracy:0.736 Precision:0.455 Recall:0.648 F1:0.535 MCC:0.369.
+ 
+Epoch 100/100
+---------------
+train Loss: 0.4860
+train Accuracy:0.857 Precision:0.637 Recall:0.904 F1:0.747 MCC:0.671.
+val Loss: 1.0015
+val Accuracy:0.682 Precision:0.407 Recall:0.785 F1:0.536 MCC:0.371.
+Training complete in 143m 38s
+*********************************************************************
+starting 3th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_1', '../../data_homology_reduced/images/control/fold_2', '../../data_homology_reduced/images/control/fold_4', '../../data_homology_reduced/images/control/fold_5', '../../data_homology_reduced/images/heme/fold_1', '../../data_homology_reduced/images/heme/fold_2', '../../data_homology_reduced/images/heme/fold_4', '../../data_homology_reduced/images/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [3]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_3', '../../data_homology_reduced/images/heme/fold_3']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+Model:  mlp
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0001
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/100
+---------------
+train Loss: 0.8450
+train Accuracy:0.688 Precision:0.414 Recall:0.791 F1:0.543 MCC:0.381.
+val Loss: 0.7744
+val Accuracy:0.735 Precision:0.463 Recall:0.819 F1:0.592 MCC:0.454.
+ 
+Epoch 2/100
+---------------
+train Loss: 0.8103
+train Accuracy:0.704 Precision:0.431 Recall:0.826 F1:0.567 MCC:0.419.
+val Loss: 0.7769
+val Accuracy:0.730 Precision:0.459 Recall:0.842 F1:0.594 MCC:0.460.
+ 
+Epoch 3/100
+---------------
+train Loss: 0.8011
+train Accuracy:0.708 Precision:0.436 Recall:0.825 F1:0.570 MCC:0.424.
+val Loss: 0.7729
+val Accuracy:0.680 Precision:0.415 Recall:0.894 F1:0.567 MCC:0.431.
+ 
+Epoch 4/100
+---------------
+train Loss: 0.7909
+train Accuracy:0.713 Precision:0.441 Recall:0.824 F1:0.574 MCC:0.430.
+val Loss: 0.7501
+val Accuracy:0.746 Precision:0.476 Recall:0.828 F1:0.604 MCC:0.473.
+ 
+Epoch 5/100
+---------------
+train Loss: 0.7876
+train Accuracy:0.714 Precision:0.442 Recall:0.827 F1:0.576 MCC:0.433.
+val Loss: 0.7986
+val Accuracy:0.638 Precision:0.386 Recall:0.926 F1:0.545 MCC:0.406.
+ 
+Epoch 6/100
+---------------
+train Loss: 0.7784
+train Accuracy:0.718 Precision:0.446 Recall:0.828 F1:0.580 MCC:0.438.
+val Loss: 0.7775
+val Accuracy:0.714 Precision:0.442 Recall:0.843 F1:0.580 MCC:0.441.
+ 
+Epoch 7/100
+---------------
+train Loss: 0.7776
+train Accuracy:0.720 Precision:0.448 Recall:0.824 F1:0.580 MCC:0.438.
+val Loss: 0.7477
+val Accuracy:0.763 Precision:0.496 Recall:0.822 F1:0.619 MCC:0.492.
+ 
+Epoch 8/100
+---------------
+train Loss: 0.7670
+train Accuracy:0.725 Precision:0.453 Recall:0.829 F1:0.586 MCC:0.447.
+val Loss: 0.7568
+val Accuracy:0.738 Precision:0.467 Recall:0.835 F1:0.599 MCC:0.467.
+ 
+Epoch 9/100
+---------------
+train Loss: 0.7609
+train Accuracy:0.729 Precision:0.457 Recall:0.828 F1:0.589 MCC:0.452.
+val Loss: 0.7569
+val Accuracy:0.677 Precision:0.413 Recall:0.908 F1:0.568 MCC:0.436.
+ 
+Epoch 10/100
+---------------
+train Loss: 0.7550
+train Accuracy:0.730 Precision:0.459 Recall:0.835 F1:0.592 MCC:0.457.
+val Loss: 0.7441
+val Accuracy:0.676 Precision:0.413 Recall:0.912 F1:0.569 MCC:0.437.
+ 
+Epoch 11/100
+---------------
+train Loss: 0.7548
+train Accuracy:0.730 Precision:0.458 Recall:0.833 F1:0.591 MCC:0.455.
+val Loss: 0.7250
+val Accuracy:0.773 Precision:0.510 Recall:0.805 F1:0.625 MCC:0.499.
+ 
+Epoch 12/100
+---------------
+train Loss: 0.7472
+train Accuracy:0.736 Precision:0.465 Recall:0.836 F1:0.598 MCC:0.464.
+val Loss: 0.7403
+val Accuracy:0.709 Precision:0.440 Recall:0.878 F1:0.586 MCC:0.455.
+ 
+Epoch 13/100
+---------------
+train Loss: 0.7458
+train Accuracy:0.736 Precision:0.465 Recall:0.836 F1:0.598 MCC:0.465.
+val Loss: 0.7625
+val Accuracy:0.654 Precision:0.398 Recall:0.923 F1:0.556 MCC:0.421.
+ 
+Epoch 14/100
+---------------
+train Loss: 0.7414
+train Accuracy:0.740 Precision:0.470 Recall:0.834 F1:0.601 MCC:0.469.
+val Loss: 0.7169
+val Accuracy:0.740 Precision:0.470 Recall:0.854 F1:0.606 MCC:0.479.
+ 
+Epoch 15/100
+---------------
+train Loss: 0.7334
+train Accuracy:0.744 Precision:0.474 Recall:0.837 F1:0.605 MCC:0.475.
+val Loss: 0.7612
+val Accuracy:0.810 Precision:0.575 Recall:0.727 F1:0.642 MCC:0.522.
+ 
+Epoch 16/100
+---------------
+train Loss: 0.7324
+train Accuracy:0.747 Precision:0.478 Recall:0.835 F1:0.608 MCC:0.478.
+val Loss: 0.7377
+val Accuracy:0.718 Precision:0.448 Recall:0.878 F1:0.594 MCC:0.465.
+ 
+Epoch 17/100
+---------------
+train Loss: 0.7252
+train Accuracy:0.751 Precision:0.483 Recall:0.835 F1:0.612 MCC:0.484.
+val Loss: 0.7102
+val Accuracy:0.773 Precision:0.510 Recall:0.814 F1:0.627 MCC:0.503.
+ 
+Epoch 18/100
+---------------
+train Loss: 0.7198
+train Accuracy:0.753 Precision:0.485 Recall:0.842 F1:0.615 MCC:0.489.
+val Loss: 0.7140
+val Accuracy:0.772 Precision:0.509 Recall:0.815 F1:0.627 MCC:0.502.
+ 
+Epoch 19/100
+---------------
+train Loss: 0.7168
+train Accuracy:0.757 Precision:0.489 Recall:0.841 F1:0.618 MCC:0.494.
+val Loss: 0.7329
+val Accuracy:0.694 Precision:0.428 Recall:0.909 F1:0.582 MCC:0.455.
+ 
+Epoch 20/100
+---------------
+train Loss: 0.7122
+train Accuracy:0.758 Precision:0.491 Recall:0.841 F1:0.620 MCC:0.496.
+val Loss: 0.7269
+val Accuracy:0.792 Precision:0.539 Recall:0.785 F1:0.639 MCC:0.518.
+ 
+Epoch 21/100
+---------------
+train Loss: 0.7058
+train Accuracy:0.763 Precision:0.497 Recall:0.843 F1:0.625 MCC:0.504.
+val Loss: 0.7131
+val Accuracy:0.760 Precision:0.492 Recall:0.843 F1:0.622 MCC:0.499.
+ 
+Epoch 22/100
+---------------
+train Loss: 0.6982
+train Accuracy:0.767 Precision:0.502 Recall:0.844 F1:0.629 MCC:0.509.
+val Loss: 0.7244
+val Accuracy:0.716 Precision:0.446 Recall:0.888 F1:0.594 MCC:0.468.
+ 
+Epoch 23/100
+---------------
+train Loss: 0.6938
+train Accuracy:0.768 Precision:0.503 Recall:0.848 F1:0.632 MCC:0.513.
+val Loss: 0.7290
+val Accuracy:0.743 Precision:0.474 Recall:0.866 F1:0.612 MCC:0.489.
+ 
+Epoch 24/100
+---------------
+train Loss: 0.6925
+train Accuracy:0.769 Precision:0.504 Recall:0.849 F1:0.633 MCC:0.514.
+val Loss: 0.7917
+val Accuracy:0.659 Precision:0.402 Recall:0.929 F1:0.561 MCC:0.430.
+ 
+Epoch 25/100
+---------------
+train Loss: 0.6858
+train Accuracy:0.771 Precision:0.508 Recall:0.851 F1:0.636 MCC:0.519.
+val Loss: 0.7350
+val Accuracy:0.693 Precision:0.427 Recall:0.904 F1:0.580 MCC:0.451.
+ 
+Epoch 26/100
+---------------
+train Loss: 0.6861
+train Accuracy:0.773 Precision:0.510 Recall:0.850 F1:0.637 MCC:0.520.
+val Loss: 0.7293
+val Accuracy:0.722 Precision:0.452 Recall:0.885 F1:0.599 MCC:0.474.
+ 
+Epoch 27/100
+---------------
+train Loss: 0.6755
+train Accuracy:0.778 Precision:0.516 Recall:0.854 F1:0.643 MCC:0.529.
+val Loss: 0.7961
+val Accuracy:0.615 Precision:0.373 Recall:0.948 F1:0.536 MCC:0.398.
+ 
+Epoch 28/100
+---------------
+train Loss: 0.6763
+train Accuracy:0.775 Precision:0.512 Recall:0.857 F1:0.641 MCC:0.526.
+val Loss: 0.7486
+val Accuracy:0.824 Precision:0.607 Recall:0.706 F1:0.653 MCC:0.539.
+ 
+Epoch 29/100
+---------------
+train Loss: 0.6768
+train Accuracy:0.777 Precision:0.515 Recall:0.848 F1:0.641 MCC:0.526.
+val Loss: 0.7322
+val Accuracy:0.714 Precision:0.445 Recall:0.900 F1:0.595 MCC:0.472.
+ 
+Epoch 30/100
+---------------
+train Loss: 0.6659
+train Accuracy:0.781 Precision:0.520 Recall:0.857 F1:0.647 MCC:0.535.
+val Loss: 0.7383
+val Accuracy:0.712 Precision:0.443 Recall:0.887 F1:0.591 MCC:0.463.
+ 
+Epoch 31/100
+---------------
+train Loss: 0.6575
+train Accuracy:0.785 Precision:0.526 Recall:0.856 F1:0.651 MCC:0.540.
+val Loss: 0.7898
+val Accuracy:0.659 Precision:0.402 Recall:0.934 F1:0.562 MCC:0.432.
+ 
+Epoch 32/100
+---------------
+train Loss: 0.6628
+train Accuracy:0.782 Precision:0.521 Recall:0.858 F1:0.648 MCC:0.536.
+val Loss: 0.7382
+val Accuracy:0.790 Precision:0.536 Recall:0.789 F1:0.638 MCC:0.516.
+ 
+Epoch 33/100
+---------------
+train Loss: 0.6565
+train Accuracy:0.785 Precision:0.525 Recall:0.861 F1:0.652 MCC:0.542.
+val Loss: 0.7048
+val Accuracy:0.779 Precision:0.518 Recall:0.833 F1:0.639 MCC:0.521.
+ 
+Epoch 34/100
+---------------
+train Loss: 0.6498
+train Accuracy:0.786 Precision:0.527 Recall:0.861 F1:0.654 MCC:0.544.
+val Loss: 0.7768
+val Accuracy:0.824 Precision:0.606 Recall:0.705 F1:0.652 MCC:0.537.
+ 
+Epoch 35/100
+---------------
+train Loss: 0.6490
+train Accuracy:0.787 Precision:0.528 Recall:0.863 F1:0.655 MCC:0.546.
+val Loss: 0.7501
+val Accuracy:0.703 Precision:0.436 Recall:0.904 F1:0.588 MCC:0.463.
+ 
+Epoch 36/100
+---------------
+train Loss: 0.6477
+train Accuracy:0.788 Precision:0.529 Recall:0.863 F1:0.656 MCC:0.548.
+val Loss: 0.7133
+val Accuracy:0.784 Precision:0.526 Recall:0.810 F1:0.637 MCC:0.517.
+ 
+Epoch 37/100
+---------------
+train Loss: 0.6442
+train Accuracy:0.788 Precision:0.530 Recall:0.865 F1:0.657 MCC:0.549.
+val Loss: 0.7660
+val Accuracy:0.714 Precision:0.446 Recall:0.902 F1:0.597 MCC:0.474.
+ 
+Epoch 38/100
+---------------
+train Loss: 0.6388
+train Accuracy:0.791 Precision:0.534 Recall:0.865 F1:0.660 MCC:0.553.
+val Loss: 0.7924
+val Accuracy:0.668 Precision:0.409 Recall:0.933 F1:0.568 MCC:0.441.
+ 
+Epoch 39/100
+---------------
+train Loss: 0.6379
+train Accuracy:0.792 Precision:0.535 Recall:0.867 F1:0.661 MCC:0.555.
+val Loss: 0.7257
+val Accuracy:0.804 Precision:0.557 Recall:0.788 F1:0.653 MCC:0.537.
+ 
+Epoch 40/100
+---------------
+train Loss: 0.6362
+train Accuracy:0.791 Precision:0.534 Recall:0.868 F1:0.661 MCC:0.555.
+val Loss: 0.7255
+val Accuracy:0.759 Precision:0.491 Recall:0.851 F1:0.623 MCC:0.501.
+ 
+Epoch 41/100
+---------------
+train Loss: 0.6287
+train Accuracy:0.794 Precision:0.538 Recall:0.870 F1:0.665 MCC:0.560.
+val Loss: 0.7424
+val Accuracy:0.701 Precision:0.434 Recall:0.904 F1:0.586 MCC:0.460.
+ 
+Epoch 42/100
+---------------
+train Loss: 0.6292
+train Accuracy:0.794 Precision:0.538 Recall:0.870 F1:0.665 MCC:0.560.
+val Loss: 0.7423
+val Accuracy:0.776 Precision:0.513 Recall:0.820 F1:0.631 MCC:0.509.
+ 
+Epoch 43/100
+---------------
+train Loss: 0.6317
+train Accuracy:0.794 Precision:0.537 Recall:0.868 F1:0.664 MCC:0.558.
+val Loss: 0.7360
+val Accuracy:0.700 Precision:0.433 Recall:0.914 F1:0.588 MCC:0.464.
+ 
+Epoch 44/100
+---------------
+train Loss: 0.6245
+train Accuracy:0.797 Precision:0.542 Recall:0.871 F1:0.668 MCC:0.564.
+val Loss: 0.7120
+val Accuracy:0.785 Precision:0.526 Recall:0.822 F1:0.642 MCC:0.524.
+ 
+Epoch 45/100
+---------------
+train Loss: 0.6222
+train Accuracy:0.798 Precision:0.543 Recall:0.872 F1:0.669 MCC:0.565.
+val Loss: 0.7350
+val Accuracy:0.731 Precision:0.461 Recall:0.884 F1:0.606 MCC:0.484.
+ 
+Epoch 46/100
+---------------
+train Loss: 0.6168
+train Accuracy:0.800 Precision:0.545 Recall:0.875 F1:0.672 MCC:0.570.
+val Loss: 0.7196
+val Accuracy:0.764 Precision:0.498 Recall:0.860 F1:0.631 MCC:0.513.
+ 
+Epoch 47/100
+---------------
+train Loss: 0.6146
+train Accuracy:0.801 Precision:0.547 Recall:0.874 F1:0.673 MCC:0.571.
+val Loss: 0.7251
+val Accuracy:0.774 Precision:0.511 Recall:0.838 F1:0.635 MCC:0.517.
+ 
+Epoch 48/100
+---------------
+train Loss: 0.6065
+train Accuracy:0.802 Precision:0.549 Recall:0.880 F1:0.676 MCC:0.576.
+val Loss: 0.8108
+val Accuracy:0.787 Precision:0.531 Recall:0.789 F1:0.635 MCC:0.512.
+ 
+Epoch 49/100
+---------------
+train Loss: 0.6075
+train Accuracy:0.802 Precision:0.549 Recall:0.876 F1:0.675 MCC:0.574.
+val Loss: 0.7411
+val Accuracy:0.730 Precision:0.460 Recall:0.880 F1:0.604 MCC:0.480.
+ 
+Epoch 50/100
+---------------
+train Loss: 0.6082
+train Accuracy:0.801 Precision:0.548 Recall:0.875 F1:0.674 MCC:0.572.
+val Loss: 0.7645
+val Accuracy:0.704 Precision:0.436 Recall:0.900 F1:0.588 MCC:0.461.
+ 
+Epoch 51/100
+---------------
+train Loss: 0.6059
+train Accuracy:0.803 Precision:0.550 Recall:0.877 F1:0.676 MCC:0.576.
+val Loss: 0.7762
+val Accuracy:0.699 Precision:0.432 Recall:0.908 F1:0.585 MCC:0.460.
+ 
+Epoch 52/100
+---------------
+train Loss: 0.6007
+train Accuracy:0.806 Precision:0.554 Recall:0.879 F1:0.680 MCC:0.581.
+val Loss: 0.7723
+val Accuracy:0.780 Precision:0.519 Recall:0.808 F1:0.632 MCC:0.509.
+ 
+Epoch 53/100
+---------------
+train Loss: 0.5990
+train Accuracy:0.805 Precision:0.553 Recall:0.880 F1:0.679 MCC:0.580.
+val Loss: 0.7555
+val Accuracy:0.713 Precision:0.445 Recall:0.902 F1:0.596 MCC:0.473.
+ 
+Epoch 54/100
+---------------
+train Loss: 0.5946
+train Accuracy:0.807 Precision:0.556 Recall:0.877 F1:0.680 MCC:0.581.
+val Loss: 0.7494
+val Accuracy:0.773 Precision:0.509 Recall:0.831 F1:0.631 MCC:0.511.
+ 
+Epoch 55/100
+---------------
+train Loss: 0.5922
+train Accuracy:0.807 Precision:0.556 Recall:0.883 F1:0.683 MCC:0.585.
+val Loss: 0.7754
+val Accuracy:0.703 Precision:0.436 Recall:0.905 F1:0.588 MCC:0.463.
+ 
+Epoch 56/100
+---------------
+train Loss: 0.5915
+train Accuracy:0.808 Precision:0.557 Recall:0.883 F1:0.684 MCC:0.586.
+val Loss: 0.8051
+val Accuracy:0.661 Precision:0.403 Recall:0.926 F1:0.562 MCC:0.430.
+ 
+Epoch 57/100
+---------------
+train Loss: 0.5900
+train Accuracy:0.808 Precision:0.557 Recall:0.883 F1:0.683 MCC:0.586.
+val Loss: 0.7486
+val Accuracy:0.762 Precision:0.495 Recall:0.846 F1:0.625 MCC:0.503.
+ 
+Epoch 58/100
+---------------
+train Loss: 0.5843
+train Accuracy:0.812 Precision:0.562 Recall:0.886 F1:0.688 MCC:0.592.
+val Loss: 0.7562
+val Accuracy:0.775 Precision:0.513 Recall:0.827 F1:0.633 MCC:0.512.
+ 
+Epoch 59/100
+---------------
+train Loss: 0.5852
+train Accuracy:0.809 Precision:0.558 Recall:0.885 F1:0.685 MCC:0.588.
+val Loss: 0.7811
+val Accuracy:0.729 Precision:0.459 Recall:0.881 F1:0.604 MCC:0.480.
+ 
+Epoch 60/100
+---------------
+train Loss: 0.5859
+train Accuracy:0.811 Precision:0.561 Recall:0.887 F1:0.687 MCC:0.592.
+val Loss: 0.7481
+val Accuracy:0.754 Precision:0.486 Recall:0.860 F1:0.621 MCC:0.500.
+ 
+Epoch 61/100
+---------------
+train Loss: 0.5770
+train Accuracy:0.814 Precision:0.566 Recall:0.885 F1:0.691 MCC:0.596.
+val Loss: 0.9142
+val Accuracy:0.807 Precision:0.576 Recall:0.676 F1:0.622 MCC:0.497.
+ 
+Epoch 62/100
+---------------
+train Loss: 0.5809
+train Accuracy:0.812 Precision:0.564 Recall:0.885 F1:0.689 MCC:0.593.
+val Loss: 0.7305
+val Accuracy:0.771 Precision:0.507 Recall:0.834 F1:0.631 MCC:0.510.
+ 
+Epoch 63/100
+---------------
+train Loss: 0.5812
+train Accuracy:0.813 Precision:0.565 Recall:0.881 F1:0.688 MCC:0.592.
+val Loss: 0.7596
+val Accuracy:0.781 Precision:0.521 Recall:0.822 F1:0.638 MCC:0.518.
+ 
+Epoch 64/100
+---------------
+train Loss: 0.5659
+train Accuracy:0.820 Precision:0.575 Recall:0.888 F1:0.698 MCC:0.605.
+val Loss: 0.8720
+val Accuracy:0.801 Precision:0.557 Recall:0.739 F1:0.635 MCC:0.511.
+ 
+Epoch 65/100
+---------------
+train Loss: 0.5698
+train Accuracy:0.816 Precision:0.569 Recall:0.889 F1:0.694 MCC:0.600.
+val Loss: 0.7862
+val Accuracy:0.772 Precision:0.508 Recall:0.811 F1:0.625 MCC:0.500.
+ 
+Epoch 66/100
+---------------
+train Loss: 0.5691
+train Accuracy:0.817 Precision:0.570 Recall:0.888 F1:0.694 MCC:0.601.
+val Loss: 0.7578
+val Accuracy:0.736 Precision:0.466 Recall:0.869 F1:0.607 MCC:0.482.
+ 
+Epoch 67/100
+---------------
+train Loss: 0.5642
+train Accuracy:0.817 Precision:0.571 Recall:0.894 F1:0.697 MCC:0.604.
+val Loss: 0.8145
+val Accuracy:0.794 Precision:0.542 Recall:0.773 F1:0.637 MCC:0.514.
+ 
+Epoch 68/100
+---------------
+train Loss: 0.5658
+train Accuracy:0.818 Precision:0.572 Recall:0.891 F1:0.696 MCC:0.604.
+val Loss: 0.8230
+val Accuracy:0.785 Precision:0.527 Recall:0.795 F1:0.634 MCC:0.511.
+ 
+Epoch 69/100
+---------------
+train Loss: 0.5611
+train Accuracy:0.819 Precision:0.573 Recall:0.892 F1:0.698 MCC:0.606.
+val Loss: 0.8150
+val Accuracy:0.783 Precision:0.525 Recall:0.791 F1:0.631 MCC:0.507.
+ 
+Epoch 70/100
+---------------
+train Loss: 0.5617
+train Accuracy:0.818 Precision:0.573 Recall:0.890 F1:0.697 MCC:0.604.
+val Loss: 0.7883
+val Accuracy:0.781 Precision:0.521 Recall:0.807 F1:0.633 MCC:0.510.
+ 
+Epoch 71/100
+---------------
+train Loss: 0.5623
+train Accuracy:0.818 Precision:0.572 Recall:0.892 F1:0.697 MCC:0.605.
+val Loss: 0.7706
+val Accuracy:0.791 Precision:0.536 Recall:0.796 F1:0.641 MCC:0.520.
+ 
+Epoch 72/100
+---------------
+train Loss: 0.5532
+train Accuracy:0.822 Precision:0.578 Recall:0.894 F1:0.702 MCC:0.611.
+val Loss: 0.7307
+val Accuracy:0.776 Precision:0.514 Recall:0.842 F1:0.638 MCC:0.521.
+ 
+Epoch 73/100
+---------------
+train Loss: 0.5546
+train Accuracy:0.822 Precision:0.578 Recall:0.894 F1:0.702 MCC:0.612.
+val Loss: 0.8108
+val Accuracy:0.809 Precision:0.569 Recall:0.755 F1:0.649 MCC:0.531.
+ 
+Epoch 74/100
+---------------
+train Loss: 0.5521
+train Accuracy:0.824 Precision:0.581 Recall:0.893 F1:0.704 MCC:0.614.
+val Loss: 0.7791
+val Accuracy:0.751 Precision:0.483 Recall:0.854 F1:0.617 MCC:0.493.
+ 
+Epoch 75/100
+---------------
+train Loss: 0.5489
+train Accuracy:0.826 Precision:0.585 Recall:0.894 F1:0.707 MCC:0.618.
+val Loss: 0.8078
+val Accuracy:0.716 Precision:0.447 Recall:0.893 F1:0.595 MCC:0.471.
+ 
+Epoch 76/100
+---------------
+train Loss: 0.5396
+train Accuracy:0.829 Precision:0.589 Recall:0.900 F1:0.712 MCC:0.625.
+val Loss: 0.8102
+val Accuracy:0.782 Precision:0.522 Recall:0.807 F1:0.634 MCC:0.512.
+ 
+Epoch 77/100
+---------------
+train Loss: 0.5485
+train Accuracy:0.823 Precision:0.579 Recall:0.897 F1:0.704 MCC:0.614.
+val Loss: 0.8240
+val Accuracy:0.730 Precision:0.459 Recall:0.867 F1:0.601 MCC:0.473.
+ 
+Epoch 78/100
+---------------
+train Loss: 0.5470
+train Accuracy:0.823 Precision:0.579 Recall:0.898 F1:0.704 MCC:0.614.
+val Loss: 0.7877
+val Accuracy:0.758 Precision:0.491 Recall:0.832 F1:0.617 MCC:0.491.
+ 
+Epoch 79/100
+---------------
+train Loss: 0.5424
+train Accuracy:0.825 Precision:0.581 Recall:0.899 F1:0.706 MCC:0.617.
+val Loss: 0.7859
+val Accuracy:0.737 Precision:0.467 Recall:0.879 F1:0.610 MCC:0.488.
+ 
+Epoch 80/100
+---------------
+train Loss: 0.5356
+train Accuracy:0.830 Precision:0.590 Recall:0.903 F1:0.713 MCC:0.628.
+val Loss: 0.8242
+val Accuracy:0.787 Precision:0.530 Recall:0.794 F1:0.636 MCC:0.514.
+ 
+Epoch 81/100
+---------------
+train Loss: 0.5476
+train Accuracy:0.823 Precision:0.579 Recall:0.897 F1:0.703 MCC:0.614.
+val Loss: 0.8624
+val Accuracy:0.801 Precision:0.558 Recall:0.734 F1:0.634 MCC:0.510.
+ 
+Epoch 82/100
+---------------
+train Loss: 0.5402
+train Accuracy:0.827 Precision:0.586 Recall:0.897 F1:0.709 MCC:0.621.
+val Loss: 0.7589
+val Accuracy:0.760 Precision:0.493 Recall:0.840 F1:0.621 MCC:0.498.
+ 
+Epoch 83/100
+---------------
+train Loss: 0.5334
+train Accuracy:0.831 Precision:0.591 Recall:0.899 F1:0.713 MCC:0.627.
+val Loss: 0.9321
+val Accuracy:0.819 Precision:0.601 Recall:0.674 F1:0.635 MCC:0.516.
+ 
+Epoch 84/100
+---------------
+train Loss: 0.5285
+train Accuracy:0.831 Precision:0.592 Recall:0.900 F1:0.714 MCC:0.628.
+val Loss: 1.0608
+val Accuracy:0.811 Precision:0.582 Recall:0.679 F1:0.627 MCC:0.504.
+ 
+Epoch 85/100
+---------------
+train Loss: 0.5299
+train Accuracy:0.830 Precision:0.589 Recall:0.902 F1:0.713 MCC:0.626.
+val Loss: 0.8134
+val Accuracy:0.780 Precision:0.521 Recall:0.795 F1:0.629 MCC:0.505.
+ 
+Epoch 86/100
+---------------
+train Loss: 0.5265
+train Accuracy:0.832 Precision:0.594 Recall:0.903 F1:0.716 MCC:0.631.
+val Loss: 0.8577
+val Accuracy:0.799 Precision:0.554 Recall:0.726 F1:0.628 MCC:0.502.
+ 
+Epoch 87/100
+---------------
+train Loss: 0.5279
+train Accuracy:0.831 Precision:0.592 Recall:0.902 F1:0.715 MCC:0.629.
+val Loss: 0.8566
+val Accuracy:0.788 Precision:0.531 Recall:0.793 F1:0.636 MCC:0.514.
+ 
+Epoch 88/100
+---------------
+train Loss: 0.5304
+train Accuracy:0.829 Precision:0.588 Recall:0.902 F1:0.712 MCC:0.626.
+val Loss: 0.7888
+val Accuracy:0.753 Precision:0.484 Recall:0.850 F1:0.617 MCC:0.493.
+ 
+Epoch 89/100
+---------------
+train Loss: 0.5256
+train Accuracy:0.832 Precision:0.593 Recall:0.904 F1:0.717 MCC:0.632.
+val Loss: 0.7435
+val Accuracy:0.732 Precision:0.463 Recall:0.880 F1:0.607 MCC:0.484.
+ 
+Epoch 90/100
+---------------
+train Loss: 0.5243
+train Accuracy:0.835 Precision:0.598 Recall:0.903 F1:0.719 MCC:0.635.
+val Loss: 0.9546
+val Accuracy:0.804 Precision:0.562 Recall:0.739 F1:0.638 MCC:0.516.
+ 
+Epoch 91/100
+---------------
+train Loss: 0.5170
+train Accuracy:0.836 Precision:0.600 Recall:0.905 F1:0.722 MCC:0.638.
+val Loss: 0.7978
+val Accuracy:0.728 Precision:0.458 Recall:0.879 F1:0.602 MCC:0.478.
+ 
+Epoch 92/100
+---------------
+train Loss: 0.5163
+train Accuracy:0.836 Precision:0.600 Recall:0.907 F1:0.722 MCC:0.639.
+val Loss: 0.8490
+val Accuracy:0.795 Precision:0.544 Recall:0.754 F1:0.632 MCC:0.507.
+ 
+Epoch 93/100
+---------------
+train Loss: 0.5078
+train Accuracy:0.840 Precision:0.606 Recall:0.910 F1:0.727 MCC:0.646.
+val Loss: 0.8285
+val Accuracy:0.750 Precision:0.480 Recall:0.831 F1:0.609 MCC:0.479.
+ 
+Epoch 94/100
+---------------
+train Loss: 0.5119
+train Accuracy:0.837 Precision:0.601 Recall:0.906 F1:0.722 MCC:0.639.
+val Loss: 0.8164
+val Accuracy:0.741 Precision:0.471 Recall:0.854 F1:0.607 MCC:0.480.
+ 
+Epoch 95/100
+---------------
+train Loss: 0.5195
+train Accuracy:0.833 Precision:0.594 Recall:0.906 F1:0.718 MCC:0.633.
+val Loss: 0.8669
+val Accuracy:0.806 Precision:0.569 Recall:0.716 F1:0.634 MCC:0.511.
+ 
+Epoch 96/100
+---------------
+train Loss: 0.5102
+train Accuracy:0.839 Precision:0.604 Recall:0.909 F1:0.726 MCC:0.644.
+val Loss: 0.7848
+val Accuracy:0.748 Precision:0.479 Recall:0.852 F1:0.613 MCC:0.488.
+ 
+Epoch 97/100
+---------------
+train Loss: 0.5105
+train Accuracy:0.837 Precision:0.601 Recall:0.908 F1:0.724 MCC:0.641.
+val Loss: 0.9486
+val Accuracy:0.786 Precision:0.530 Recall:0.780 F1:0.631 MCC:0.506.
+ 
+Epoch 98/100
+---------------
+train Loss: 0.5091
+train Accuracy:0.836 Precision:0.599 Recall:0.911 F1:0.723 MCC:0.641.
+val Loss: 1.0323
+val Accuracy:0.823 Precision:0.624 Recall:0.613 F1:0.619 MCC:0.504.
+ 
+Epoch 99/100
+---------------
+train Loss: 0.5083
+train Accuracy:0.838 Precision:0.603 Recall:0.907 F1:0.724 MCC:0.642.
+val Loss: 0.8391
+val Accuracy:0.730 Precision:0.459 Recall:0.853 F1:0.597 MCC:0.466.
+ 
+Epoch 100/100
+---------------
+train Loss: 0.5021
+train Accuracy:0.841 Precision:0.607 Recall:0.911 F1:0.728 MCC:0.648.
+val Loss: 0.9550
+val Accuracy:0.803 Precision:0.563 Recall:0.719 F1:0.632 MCC:0.507.
+Training complete in 143m 33s
+*********************************************************************
+starting 4th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_1', '../../data_homology_reduced/images/control/fold_2', '../../data_homology_reduced/images/control/fold_3', '../../data_homology_reduced/images/control/fold_5', '../../data_homology_reduced/images/heme/fold_1', '../../data_homology_reduced/images/heme/fold_2', '../../data_homology_reduced/images/heme/fold_3', '../../data_homology_reduced/images/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [4]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_4', '../../data_homology_reduced/images/heme/fold_4']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+Model:  mlp
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0001
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/100
+---------------
+train Loss: 0.8432
+train Accuracy:0.696 Precision:0.421 Recall:0.785 F1:0.548 MCC:0.388.
+val Loss: 0.7707
+val Accuracy:0.677 Precision:0.412 Recall:0.884 F1:0.562 MCC:0.422.
+ 
+Epoch 2/100
+---------------
+train Loss: 0.8070
+train Accuracy:0.711 Precision:0.438 Recall:0.820 F1:0.571 MCC:0.425.
+val Loss: 0.8023
+val Accuracy:0.645 Precision:0.390 Recall:0.917 F1:0.547 MCC:0.407.
+ 
+Epoch 3/100
+---------------
+train Loss: 0.7962
+train Accuracy:0.722 Precision:0.448 Recall:0.814 F1:0.578 MCC:0.435.
+val Loss: 0.7818
+val Accuracy:0.761 Precision:0.493 Recall:0.733 F1:0.590 MCC:0.447.
+ 
+Epoch 4/100
+---------------
+train Loss: 0.7881
+train Accuracy:0.727 Precision:0.454 Recall:0.808 F1:0.581 MCC:0.439.
+val Loss: 0.7713
+val Accuracy:0.717 Precision:0.443 Recall:0.801 F1:0.570 MCC:0.422.
+ 
+Epoch 5/100
+---------------
+train Loss: 0.7766
+train Accuracy:0.734 Precision:0.462 Recall:0.815 F1:0.590 MCC:0.451.
+val Loss: 0.7934
+val Accuracy:0.774 Precision:0.513 Recall:0.683 F1:0.586 MCC:0.443.
+ 
+Epoch 6/100
+---------------
+train Loss: 0.7682
+train Accuracy:0.739 Precision:0.468 Recall:0.817 F1:0.595 MCC:0.459.
+val Loss: 0.7831
+val Accuracy:0.664 Precision:0.403 Recall:0.895 F1:0.555 MCC:0.414.
+ 
+Epoch 7/100
+---------------
+train Loss: 0.7616
+train Accuracy:0.743 Precision:0.472 Recall:0.819 F1:0.599 MCC:0.464.
+val Loss: 0.9197
+val Accuracy:0.770 Precision:0.510 Recall:0.478 F1:0.493 MCC:0.345.
+ 
+Epoch 8/100
+---------------
+train Loss: 0.7566
+train Accuracy:0.743 Precision:0.473 Recall:0.820 F1:0.600 MCC:0.465.
+val Loss: 0.8046
+val Accuracy:0.790 Precision:0.542 Recall:0.656 F1:0.593 MCC:0.457.
+ 
+Epoch 9/100
+---------------
+train Loss: 0.7553
+train Accuracy:0.742 Precision:0.471 Recall:0.823 F1:0.599 MCC:0.465.
+val Loss: 0.7681
+val Accuracy:0.727 Precision:0.451 Recall:0.773 F1:0.570 MCC:0.420.
+ 
+Epoch 10/100
+---------------
+train Loss: 0.7446
+train Accuracy:0.749 Precision:0.479 Recall:0.823 F1:0.606 MCC:0.475.
+val Loss: 0.7438
+val Accuracy:0.715 Precision:0.442 Recall:0.837 F1:0.579 MCC:0.438.
+ 
+Epoch 11/100
+---------------
+train Loss: 0.7406
+train Accuracy:0.749 Precision:0.479 Recall:0.823 F1:0.606 MCC:0.474.
+val Loss: 0.7575
+val Accuracy:0.715 Precision:0.442 Recall:0.827 F1:0.576 MCC:0.434.
+ 
+Epoch 12/100
+---------------
+train Loss: 0.7355
+train Accuracy:0.755 Precision:0.486 Recall:0.825 F1:0.612 MCC:0.483.
+val Loss: 0.8339
+val Accuracy:0.799 Precision:0.567 Recall:0.594 F1:0.580 MCC:0.448.
+ 
+Epoch 13/100
+---------------
+train Loss: 0.7390
+train Accuracy:0.752 Precision:0.483 Recall:0.818 F1:0.607 MCC:0.476.
+val Loss: 0.7782
+val Accuracy:0.683 Precision:0.417 Recall:0.879 F1:0.565 MCC:0.426.
+ 
+Epoch 14/100
+---------------
+train Loss: 0.7306
+train Accuracy:0.758 Precision:0.491 Recall:0.825 F1:0.616 MCC:0.488.
+val Loss: 0.7882
+val Accuracy:0.758 Precision:0.489 Recall:0.706 F1:0.578 MCC:0.430.
+ 
+Epoch 15/100
+---------------
+train Loss: 0.7261
+train Accuracy:0.758 Precision:0.491 Recall:0.825 F1:0.616 MCC:0.488.
+val Loss: 0.8406
+val Accuracy:0.750 Precision:0.474 Recall:0.624 F1:0.539 MCC:0.378.
+ 
+Epoch 16/100
+---------------
+train Loss: 0.7237
+train Accuracy:0.759 Precision:0.492 Recall:0.828 F1:0.617 MCC:0.491.
+val Loss: 0.8024
+val Accuracy:0.768 Precision:0.503 Recall:0.670 F1:0.575 MCC:0.428.
+ 
+Epoch 17/100
+---------------
+train Loss: 0.7178
+train Accuracy:0.761 Precision:0.494 Recall:0.830 F1:0.619 MCC:0.494.
+val Loss: 0.7967
+val Accuracy:0.674 Precision:0.409 Recall:0.885 F1:0.560 MCC:0.418.
+ 
+Epoch 18/100
+---------------
+train Loss: 0.7204
+train Accuracy:0.763 Precision:0.496 Recall:0.827 F1:0.620 MCC:0.495.
+val Loss: 0.7672
+val Accuracy:0.743 Precision:0.470 Recall:0.761 F1:0.581 MCC:0.435.
+ 
+Epoch 19/100
+---------------
+train Loss: 0.7136
+train Accuracy:0.766 Precision:0.501 Recall:0.830 F1:0.625 MCC:0.501.
+val Loss: 0.7614
+val Accuracy:0.734 Precision:0.461 Recall:0.800 F1:0.585 MCC:0.443.
+ 
+Epoch 20/100
+---------------
+train Loss: 0.7087
+train Accuracy:0.767 Precision:0.502 Recall:0.831 F1:0.626 MCC:0.503.
+val Loss: 0.7511
+val Accuracy:0.728 Precision:0.455 Recall:0.815 F1:0.584 MCC:0.443.
+ 
+Epoch 21/100
+---------------
+train Loss: 0.7066
+train Accuracy:0.766 Precision:0.500 Recall:0.836 F1:0.626 MCC:0.503.
+val Loss: 0.7639
+val Accuracy:0.739 Precision:0.466 Recall:0.777 F1:0.583 MCC:0.438.
+ 
+Epoch 22/100
+---------------
+train Loss: 0.7023
+train Accuracy:0.772 Precision:0.508 Recall:0.832 F1:0.631 MCC:0.510.
+val Loss: 0.7405
+val Accuracy:0.746 Precision:0.475 Recall:0.788 F1:0.593 MCC:0.453.
+ 
+Epoch 23/100
+---------------
+train Loss: 0.7014
+train Accuracy:0.770 Precision:0.506 Recall:0.837 F1:0.630 MCC:0.510.
+val Loss: 0.7474
+val Accuracy:0.711 Precision:0.439 Recall:0.842 F1:0.577 MCC:0.436.
+ 
+Epoch 24/100
+---------------
+train Loss: 0.6966
+train Accuracy:0.774 Precision:0.511 Recall:0.840 F1:0.635 MCC:0.516.
+val Loss: 0.7836
+val Accuracy:0.741 Precision:0.467 Recall:0.742 F1:0.573 MCC:0.423.
+ 
+Epoch 25/100
+---------------
+train Loss: 0.6934
+train Accuracy:0.774 Precision:0.511 Recall:0.839 F1:0.635 MCC:0.517.
+val Loss: 0.7921
+val Accuracy:0.775 Precision:0.515 Recall:0.678 F1:0.585 MCC:0.442.
+ 
+Epoch 26/100
+---------------
+train Loss: 0.6887
+train Accuracy:0.778 Precision:0.516 Recall:0.842 F1:0.640 MCC:0.523.
+val Loss: 0.7614
+val Accuracy:0.765 Precision:0.499 Recall:0.743 F1:0.597 MCC:0.457.
+ 
+Epoch 27/100
+---------------
+train Loss: 0.6908
+train Accuracy:0.774 Precision:0.512 Recall:0.837 F1:0.635 MCC:0.516.
+val Loss: 0.8541
+val Accuracy:0.790 Precision:0.547 Recall:0.604 F1:0.574 MCC:0.436.
+ 
+Epoch 28/100
+---------------
+train Loss: 0.6838
+train Accuracy:0.780 Precision:0.518 Recall:0.842 F1:0.642 MCC:0.525.
+val Loss: 0.7793
+val Accuracy:0.773 Precision:0.511 Recall:0.695 F1:0.589 MCC:0.447.
+ 
+Epoch 29/100
+---------------
+train Loss: 0.6787
+train Accuracy:0.780 Precision:0.520 Recall:0.840 F1:0.642 MCC:0.526.
+val Loss: 0.7344
+val Accuracy:0.763 Precision:0.497 Recall:0.783 F1:0.608 MCC:0.474.
+ 
+Epoch 30/100
+---------------
+train Loss: 0.6761
+train Accuracy:0.781 Precision:0.521 Recall:0.846 F1:0.645 MCC:0.530.
+val Loss: 0.7446
+val Accuracy:0.750 Precision:0.480 Recall:0.791 F1:0.597 MCC:0.460.
+ 
+Epoch 31/100
+---------------
+train Loss: 0.6751
+train Accuracy:0.783 Precision:0.524 Recall:0.838 F1:0.645 MCC:0.529.
+val Loss: 0.8411
+val Accuracy:0.795 Precision:0.560 Recall:0.574 F1:0.567 MCC:0.432.
+ 
+Epoch 32/100
+---------------
+train Loss: 0.6743
+train Accuracy:0.784 Precision:0.525 Recall:0.840 F1:0.646 MCC:0.531.
+val Loss: 0.8240
+val Accuracy:0.789 Precision:0.544 Recall:0.603 F1:0.572 MCC:0.434.
+ 
+Epoch 33/100
+---------------
+train Loss: 0.6689
+train Accuracy:0.786 Precision:0.527 Recall:0.849 F1:0.650 MCC:0.538.
+val Loss: 0.7715
+val Accuracy:0.785 Precision:0.530 Recall:0.703 F1:0.605 MCC:0.469.
+ 
+Epoch 34/100
+---------------
+train Loss: 0.6678
+train Accuracy:0.783 Precision:0.523 Recall:0.849 F1:0.648 MCC:0.534.
+val Loss: 0.7599
+val Accuracy:0.767 Precision:0.502 Recall:0.751 F1:0.602 MCC:0.465.
+ 
+Epoch 35/100
+---------------
+train Loss: 0.6727
+train Accuracy:0.781 Precision:0.520 Recall:0.847 F1:0.644 MCC:0.529.
+val Loss: 0.7592
+val Accuracy:0.779 Precision:0.521 Recall:0.715 F1:0.603 MCC:0.466.
+ 
+Epoch 36/100
+---------------
+train Loss: 0.6631
+train Accuracy:0.786 Precision:0.527 Recall:0.851 F1:0.651 MCC:0.539.
+val Loss: 0.7947
+val Accuracy:0.795 Precision:0.552 Recall:0.666 F1:0.603 MCC:0.471.
+ 
+Epoch 37/100
+---------------
+train Loss: 0.6574
+train Accuracy:0.787 Precision:0.529 Recall:0.853 F1:0.653 MCC:0.542.
+val Loss: 0.7684
+val Accuracy:0.786 Precision:0.532 Recall:0.706 F1:0.607 MCC:0.472.
+ 
+Epoch 38/100
+---------------
+train Loss: 0.6507
+train Accuracy:0.792 Precision:0.535 Recall:0.853 F1:0.658 MCC:0.548.
+val Loss: 0.7632
+val Accuracy:0.712 Precision:0.440 Recall:0.849 F1:0.580 MCC:0.441.
+ 
+Epoch 39/100
+---------------
+train Loss: 0.6568
+train Accuracy:0.786 Precision:0.526 Recall:0.854 F1:0.651 MCC:0.540.
+val Loss: 0.7329
+val Accuracy:0.741 Precision:0.470 Recall:0.840 F1:0.603 MCC:0.472.
+ 
+Epoch 40/100
+---------------
+train Loss: 0.6473
+train Accuracy:0.793 Precision:0.536 Recall:0.856 F1:0.660 MCC:0.551.
+val Loss: 0.7585
+val Accuracy:0.693 Precision:0.425 Recall:0.888 F1:0.575 MCC:0.442.
+ 
+Epoch 41/100
+---------------
+train Loss: 0.6481
+train Accuracy:0.791 Precision:0.533 Recall:0.857 F1:0.658 MCC:0.548.
+val Loss: 0.8086
+val Accuracy:0.784 Precision:0.531 Recall:0.679 F1:0.595 MCC:0.458.
+ 
+Epoch 42/100
+---------------
+train Loss: 0.6425
+train Accuracy:0.794 Precision:0.538 Recall:0.855 F1:0.660 MCC:0.552.
+val Loss: 0.7562
+val Accuracy:0.782 Precision:0.524 Recall:0.742 F1:0.614 MCC:0.482.
+ 
+Epoch 43/100
+---------------
+train Loss: 0.6453
+train Accuracy:0.793 Precision:0.536 Recall:0.857 F1:0.660 MCC:0.552.
+val Loss: 0.7667
+val Accuracy:0.747 Precision:0.476 Recall:0.801 F1:0.597 MCC:0.460.
+ 
+Epoch 44/100
+---------------
+train Loss: 0.6372
+train Accuracy:0.795 Precision:0.539 Recall:0.862 F1:0.663 MCC:0.556.
+val Loss: 0.7165
+val Accuracy:0.722 Precision:0.452 Recall:0.875 F1:0.596 MCC:0.468.
+ 
+Epoch 45/100
+---------------
+train Loss: 0.6389
+train Accuracy:0.795 Precision:0.539 Recall:0.859 F1:0.663 MCC:0.555.
+val Loss: 0.7759
+val Accuracy:0.757 Precision:0.488 Recall:0.752 F1:0.592 MCC:0.450.
+ 
+Epoch 46/100
+---------------
+train Loss: 0.6340
+train Accuracy:0.797 Precision:0.543 Recall:0.860 F1:0.665 MCC:0.559.
+val Loss: 0.7871
+val Accuracy:0.703 Precision:0.434 Recall:0.874 F1:0.580 MCC:0.446.
+ 
+Epoch 47/100
+---------------
+train Loss: 0.6320
+train Accuracy:0.798 Precision:0.544 Recall:0.861 F1:0.667 MCC:0.562.
+val Loss: 0.7318
+val Accuracy:0.732 Precision:0.461 Recall:0.841 F1:0.595 MCC:0.462.
+ 
+Epoch 48/100
+---------------
+train Loss: 0.6273
+train Accuracy:0.799 Precision:0.545 Recall:0.862 F1:0.668 MCC:0.563.
+val Loss: 0.7796
+val Accuracy:0.737 Precision:0.464 Recall:0.796 F1:0.586 MCC:0.445.
+ 
+Epoch 49/100
+---------------
+train Loss: 0.6216
+train Accuracy:0.801 Precision:0.548 Recall:0.865 F1:0.671 MCC:0.567.
+val Loss: 0.7389
+val Accuracy:0.728 Precision:0.457 Recall:0.846 F1:0.594 MCC:0.460.
+ 
+Epoch 50/100
+---------------
+train Loss: 0.6185
+train Accuracy:0.803 Precision:0.551 Recall:0.867 F1:0.674 MCC:0.571.
+val Loss: 0.8584
+val Accuracy:0.801 Precision:0.572 Recall:0.594 F1:0.582 MCC:0.452.
+ 
+Epoch 51/100
+---------------
+train Loss: 0.6211
+train Accuracy:0.799 Precision:0.544 Recall:0.867 F1:0.669 MCC:0.565.
+val Loss: 0.9179
+val Accuracy:0.801 Precision:0.577 Recall:0.562 F1:0.569 MCC:0.440.
+ 
+Epoch 52/100
+---------------
+train Loss: 0.6208
+train Accuracy:0.800 Precision:0.547 Recall:0.867 F1:0.671 MCC:0.567.
+val Loss: 0.7409
+val Accuracy:0.772 Precision:0.508 Recall:0.773 F1:0.613 MCC:0.481.
+ 
+Epoch 53/100
+---------------
+train Loss: 0.6169
+train Accuracy:0.800 Precision:0.546 Recall:0.868 F1:0.671 MCC:0.567.
+val Loss: 0.8262
+val Accuracy:0.785 Precision:0.533 Recall:0.670 F1:0.593 MCC:0.455.
+ 
+Epoch 54/100
+---------------
+train Loss: 0.6137
+train Accuracy:0.804 Precision:0.552 Recall:0.867 F1:0.675 MCC:0.573.
+val Loss: 0.7364
+val Accuracy:0.766 Precision:0.500 Recall:0.782 F1:0.610 MCC:0.477.
+ 
+Epoch 55/100
+---------------
+train Loss: 0.6084
+train Accuracy:0.802 Precision:0.550 Recall:0.871 F1:0.674 MCC:0.572.
+val Loss: 0.7793
+val Accuracy:0.793 Precision:0.545 Recall:0.698 F1:0.612 MCC:0.480.
+ 
+Epoch 56/100
+---------------
+train Loss: 0.6078
+train Accuracy:0.804 Precision:0.552 Recall:0.872 F1:0.676 MCC:0.575.
+val Loss: 0.8873
+val Accuracy:0.796 Precision:0.557 Recall:0.616 F1:0.585 MCC:0.451.
+ 
+Epoch 57/100
+---------------
+train Loss: 0.5982
+train Accuracy:0.810 Precision:0.560 Recall:0.872 F1:0.682 MCC:0.583.
+val Loss: 0.7951
+val Accuracy:0.761 Precision:0.494 Recall:0.762 F1:0.599 MCC:0.461.
+ 
+Epoch 58/100
+---------------
+train Loss: 0.5998
+train Accuracy:0.807 Precision:0.557 Recall:0.876 F1:0.681 MCC:0.581.
+val Loss: 0.8107
+val Accuracy:0.799 Precision:0.559 Recall:0.665 F1:0.607 MCC:0.477.
+ 
+Epoch 59/100
+---------------
+train Loss: 0.5949
+train Accuracy:0.810 Precision:0.561 Recall:0.878 F1:0.685 MCC:0.587.
+val Loss: 0.7779
+val Accuracy:0.738 Precision:0.466 Recall:0.815 F1:0.593 MCC:0.456.
+ 
+Epoch 60/100
+---------------
+train Loss: 0.5919
+train Accuracy:0.811 Precision:0.562 Recall:0.877 F1:0.685 MCC:0.587.
+val Loss: 0.8893
+val Accuracy:0.799 Precision:0.560 Recall:0.662 F1:0.607 MCC:0.477.
+ 
+Epoch 61/100
+---------------
+train Loss: 0.5972
+train Accuracy:0.807 Precision:0.557 Recall:0.876 F1:0.681 MCC:0.581.
+val Loss: 0.7717
+val Accuracy:0.765 Precision:0.499 Recall:0.775 F1:0.607 MCC:0.473.
+ 
+Epoch 62/100
+---------------
+train Loss: 0.5928
+train Accuracy:0.810 Precision:0.561 Recall:0.877 F1:0.684 MCC:0.586.
+val Loss: 0.8919
+val Accuracy:0.807 Precision:0.589 Recall:0.584 F1:0.586 MCC:0.460.
+ 
+Epoch 63/100
+---------------
+train Loss: 0.5861
+train Accuracy:0.812 Precision:0.564 Recall:0.878 F1:0.687 MCC:0.590.
+val Loss: 0.8062
+val Accuracy:0.770 Precision:0.506 Recall:0.759 F1:0.608 MCC:0.473.
+ 
+Epoch 64/100
+---------------
+train Loss: 0.5828
+train Accuracy:0.815 Precision:0.568 Recall:0.883 F1:0.692 MCC:0.597.
+val Loss: 0.8677
+val Accuracy:0.789 Precision:0.541 Recall:0.654 F1:0.592 MCC:0.455.
+ 
+Epoch 65/100
+---------------
+train Loss: 0.5888
+train Accuracy:0.811 Precision:0.562 Recall:0.877 F1:0.685 MCC:0.587.
+val Loss: 0.8667
+val Accuracy:0.782 Precision:0.527 Recall:0.684 F1:0.595 MCC:0.457.
+ 
+Epoch 66/100
+---------------
+train Loss: 0.5713
+train Accuracy:0.818 Precision:0.573 Recall:0.884 F1:0.695 MCC:0.601.
+val Loss: 0.7611
+val Accuracy:0.736 Precision:0.465 Recall:0.837 F1:0.598 MCC:0.465.
+ 
+Epoch 67/100
+---------------
+train Loss: 0.5787
+train Accuracy:0.815 Precision:0.568 Recall:0.882 F1:0.691 MCC:0.596.
+val Loss: 0.7690
+val Accuracy:0.755 Precision:0.485 Recall:0.791 F1:0.602 MCC:0.466.
+ 
+Epoch 68/100
+---------------
+train Loss: 0.5798
+train Accuracy:0.814 Precision:0.567 Recall:0.880 F1:0.690 MCC:0.594.
+val Loss: 0.8269
+val Accuracy:0.783 Precision:0.528 Recall:0.690 F1:0.598 MCC:0.460.
+ 
+Epoch 69/100
+---------------
+train Loss: 0.5749
+train Accuracy:0.818 Precision:0.572 Recall:0.883 F1:0.694 MCC:0.600.
+val Loss: 0.7897
+val Accuracy:0.756 Precision:0.488 Recall:0.806 F1:0.608 MCC:0.476.
+ 
+Epoch 70/100
+---------------
+train Loss: 0.5707
+train Accuracy:0.819 Precision:0.574 Recall:0.883 F1:0.695 MCC:0.601.
+val Loss: 0.8405
+val Accuracy:0.780 Precision:0.522 Recall:0.718 F1:0.605 MCC:0.469.
+ 
+Epoch 71/100
+---------------
+train Loss: 0.5662
+train Accuracy:0.821 Precision:0.578 Recall:0.887 F1:0.700 MCC:0.607.
+val Loss: 0.7784
+val Accuracy:0.711 Precision:0.441 Recall:0.868 F1:0.585 MCC:0.451.
+ 
+Epoch 72/100
+---------------
+train Loss: 0.5657
+train Accuracy:0.819 Precision:0.574 Recall:0.886 F1:0.697 MCC:0.603.
+val Loss: 0.7828
+val Accuracy:0.783 Precision:0.526 Recall:0.747 F1:0.617 MCC:0.486.
+ 
+Epoch 73/100
+---------------
+train Loss: 0.5637
+train Accuracy:0.821 Precision:0.576 Recall:0.887 F1:0.699 MCC:0.606.
+val Loss: 1.0659
+val Accuracy:0.811 Precision:0.617 Recall:0.506 F1:0.556 MCC:0.441.
+ 
+Epoch 74/100
+---------------
+train Loss: 0.5677
+train Accuracy:0.818 Precision:0.572 Recall:0.887 F1:0.695 MCC:0.602.
+val Loss: 0.7803
+val Accuracy:0.761 Precision:0.493 Recall:0.790 F1:0.607 MCC:0.474.
+ 
+Epoch 75/100
+---------------
+train Loss: 0.5619
+train Accuracy:0.820 Precision:0.575 Recall:0.888 F1:0.698 MCC:0.606.
+val Loss: 0.7551
+val Accuracy:0.732 Precision:0.461 Recall:0.841 F1:0.596 MCC:0.463.
+ 
+Epoch 76/100
+---------------
+train Loss: 0.5587
+train Accuracy:0.821 Precision:0.577 Recall:0.888 F1:0.700 MCC:0.608.
+val Loss: 0.7911
+val Accuracy:0.686 Precision:0.420 Recall:0.891 F1:0.571 MCC:0.436.
+ 
+Epoch 77/100
+---------------
+train Loss: 0.5695
+train Accuracy:0.817 Precision:0.571 Recall:0.886 F1:0.694 MCC:0.600.
+val Loss: 0.8163
+val Accuracy:0.772 Precision:0.509 Recall:0.729 F1:0.599 MCC:0.461.
+ 
+Epoch 78/100
+---------------
+train Loss: 0.5465
+train Accuracy:0.827 Precision:0.586 Recall:0.895 F1:0.708 MCC:0.619.
+val Loss: 0.8422
+val Accuracy:0.791 Precision:0.542 Recall:0.693 F1:0.608 MCC:0.475.
+ 
+Epoch 79/100
+---------------
+train Loss: 0.5535
+train Accuracy:0.824 Precision:0.582 Recall:0.891 F1:0.704 MCC:0.614.
+val Loss: 0.9242
+val Accuracy:0.792 Precision:0.546 Recall:0.664 F1:0.599 MCC:0.465.
+ 
+Epoch 80/100
+---------------
+train Loss: 0.5471
+train Accuracy:0.829 Precision:0.589 Recall:0.891 F1:0.709 MCC:0.620.
+val Loss: 0.7992
+val Accuracy:0.790 Precision:0.539 Recall:0.715 F1:0.615 MCC:0.483.
+ 
+Epoch 81/100
+---------------
+train Loss: 0.5515
+train Accuracy:0.826 Precision:0.584 Recall:0.890 F1:0.705 MCC:0.615.
+val Loss: 0.7785
+val Accuracy:0.725 Precision:0.453 Recall:0.843 F1:0.589 MCC:0.454.
+ 
+Epoch 82/100
+---------------
+train Loss: 0.5457
+train Accuracy:0.827 Precision:0.587 Recall:0.892 F1:0.708 MCC:0.619.
+val Loss: 0.9697
+val Accuracy:0.792 Precision:0.546 Recall:0.651 F1:0.594 MCC:0.459.
+ 
+Epoch 83/100
+---------------
+train Loss: 0.5449
+train Accuracy:0.826 Precision:0.585 Recall:0.893 F1:0.707 MCC:0.618.
+val Loss: 0.8250
+val Accuracy:0.793 Precision:0.544 Recall:0.712 F1:0.617 MCC:0.487.
+ 
+Epoch 84/100
+---------------
+train Loss: 0.5413
+train Accuracy:0.828 Precision:0.588 Recall:0.897 F1:0.710 MCC:0.622.
+val Loss: 0.8475
+val Accuracy:0.779 Precision:0.521 Recall:0.723 F1:0.605 MCC:0.469.
+ 
+Epoch 85/100
+---------------
+train Loss: 0.5488
+train Accuracy:0.823 Precision:0.580 Recall:0.892 F1:0.703 MCC:0.613.
+val Loss: 0.7724
+val Accuracy:0.737 Precision:0.466 Recall:0.837 F1:0.599 MCC:0.467.
+ 
+Epoch 86/100
+---------------
+train Loss: 0.5365
+train Accuracy:0.830 Precision:0.591 Recall:0.897 F1:0.713 MCC:0.625.
+val Loss: 0.8980
+val Accuracy:0.767 Precision:0.502 Recall:0.735 F1:0.596 MCC:0.457.
+ 
+Epoch 87/100
+---------------
+train Loss: 0.5385
+train Accuracy:0.828 Precision:0.587 Recall:0.898 F1:0.710 MCC:0.623.
+val Loss: 0.8091
+val Accuracy:0.755 Precision:0.486 Recall:0.805 F1:0.606 MCC:0.473.
+ 
+Epoch 88/100
+---------------
+train Loss: 0.5274
+train Accuracy:0.832 Precision:0.593 Recall:0.900 F1:0.715 MCC:0.629.
+val Loss: 0.8712
+val Accuracy:0.782 Precision:0.524 Recall:0.742 F1:0.614 MCC:0.482.
+ 
+Epoch 89/100
+---------------
+train Loss: 0.5274
+train Accuracy:0.833 Precision:0.595 Recall:0.898 F1:0.716 MCC:0.630.
+val Loss: 0.7941
+val Accuracy:0.684 Precision:0.418 Recall:0.897 F1:0.571 MCC:0.437.
+ 
+Epoch 90/100
+---------------
+train Loss: 0.5314
+train Accuracy:0.830 Precision:0.590 Recall:0.900 F1:0.712 MCC:0.626.
+val Loss: 0.8681
+val Accuracy:0.787 Precision:0.533 Recall:0.742 F1:0.620 MCC:0.491.
+ 
+Epoch 91/100
+---------------
+train Loss: 0.5300
+train Accuracy:0.831 Precision:0.592 Recall:0.901 F1:0.715 MCC:0.629.
+val Loss: 0.9842
+val Accuracy:0.782 Precision:0.526 Recall:0.696 F1:0.599 MCC:0.462.
+ 
+Epoch 92/100
+---------------
+train Loss: 0.5337
+train Accuracy:0.830 Precision:0.590 Recall:0.899 F1:0.712 MCC:0.625.
+val Loss: 0.9128
+val Accuracy:0.785 Precision:0.530 Recall:0.720 F1:0.611 MCC:0.477.
+ 
+Epoch 93/100
+---------------
+train Loss: 0.5157
+train Accuracy:0.837 Precision:0.602 Recall:0.904 F1:0.723 MCC:0.639.
+val Loss: 0.9068
+val Accuracy:0.780 Precision:0.523 Recall:0.705 F1:0.600 MCC:0.463.
+ 
+Epoch 94/100
+---------------
+train Loss: 0.5206
+train Accuracy:0.834 Precision:0.597 Recall:0.902 F1:0.719 MCC:0.634.
+val Loss: 0.9094
+val Accuracy:0.771 Precision:0.507 Recall:0.740 F1:0.602 MCC:0.464.
+ 
+Epoch 95/100
+---------------
+train Loss: 0.5238
+train Accuracy:0.833 Precision:0.595 Recall:0.902 F1:0.717 MCC:0.632.
+val Loss: 0.8341
+val Accuracy:0.744 Precision:0.472 Recall:0.794 F1:0.592 MCC:0.453.
+ 
+Epoch 96/100
+---------------
+train Loss: 0.5094
+train Accuracy:0.838 Precision:0.603 Recall:0.906 F1:0.724 MCC:0.641.
+val Loss: 0.8484
+val Accuracy:0.775 Precision:0.514 Recall:0.724 F1:0.601 MCC:0.464.
+ 
+Epoch 97/100
+---------------
+train Loss: 0.5200
+train Accuracy:0.834 Precision:0.597 Recall:0.903 F1:0.719 MCC:0.634.
+val Loss: 0.8712
+val Accuracy:0.754 Precision:0.484 Recall:0.765 F1:0.593 MCC:0.452.
+ 
+Epoch 98/100
+---------------
+train Loss: 0.5059
+train Accuracy:0.841 Precision:0.607 Recall:0.908 F1:0.728 MCC:0.647.
+val Loss: 1.0417
+val Accuracy:0.781 Precision:0.526 Recall:0.656 F1:0.584 MCC:0.442.
+ 
+Epoch 99/100
+---------------
+train Loss: 0.5079
+train Accuracy:0.840 Precision:0.606 Recall:0.908 F1:0.727 MCC:0.645.
+val Loss: 0.8825
+val Accuracy:0.781 Precision:0.523 Recall:0.738 F1:0.612 MCC:0.479.
+ 
+Epoch 100/100
+---------------
+train Loss: 0.5077
+train Accuracy:0.838 Precision:0.603 Recall:0.908 F1:0.725 MCC:0.642.
+val Loss: 0.9493
+val Accuracy:0.770 Precision:0.506 Recall:0.688 F1:0.583 MCC:0.439.
+Training complete in 144m 16s
+*********************************************************************
+starting 5th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 4]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_1', '../../data_homology_reduced/images/control/fold_2', '../../data_homology_reduced/images/control/fold_3', '../../data_homology_reduced/images/control/fold_4', '../../data_homology_reduced/images/heme/fold_1', '../../data_homology_reduced/images/heme/fold_2', '../../data_homology_reduced/images/heme/fold_3', '../../data_homology_reduced/images/heme/fold_4']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/control/fold_5', '../../data_homology_reduced/images/heme/fold_5']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+Model:  mlp
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0001
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/100
+---------------
+train Loss: 0.8418
+train Accuracy:0.696 Precision:0.420 Recall:0.779 F1:0.546 MCC:0.384.
+val Loss: 0.7810
+val Accuracy:0.713 Precision:0.442 Recall:0.873 F1:0.587 MCC:0.456.
+ 
+Epoch 2/100
+---------------
+train Loss: 0.8102
+train Accuracy:0.707 Precision:0.434 Recall:0.810 F1:0.565 MCC:0.415.
+val Loss: 0.7809
+val Accuracy:0.694 Precision:0.428 Recall:0.900 F1:0.580 MCC:0.450.
+ 
+Epoch 3/100
+---------------
+train Loss: 0.8055
+train Accuracy:0.712 Precision:0.438 Recall:0.809 F1:0.568 MCC:0.420.
+val Loss: 0.7541
+val Accuracy:0.726 Precision:0.456 Recall:0.870 F1:0.598 MCC:0.471.
+ 
+Epoch 4/100
+---------------
+train Loss: 0.7926
+train Accuracy:0.718 Precision:0.444 Recall:0.806 F1:0.573 MCC:0.426.
+val Loss: 0.7718
+val Accuracy:0.687 Precision:0.421 Recall:0.903 F1:0.575 MCC:0.444.
+ 
+Epoch 5/100
+---------------
+train Loss: 0.7856
+train Accuracy:0.719 Precision:0.445 Recall:0.814 F1:0.576 MCC:0.431.
+val Loss: 0.7646
+val Accuracy:0.716 Precision:0.446 Recall:0.884 F1:0.593 MCC:0.465.
+ 
+Epoch 6/100
+---------------
+train Loss: 0.7811
+train Accuracy:0.722 Precision:0.449 Recall:0.816 F1:0.579 MCC:0.437.
+val Loss: 0.7401
+val Accuracy:0.729 Precision:0.458 Recall:0.864 F1:0.599 MCC:0.471.
+ 
+Epoch 7/100
+---------------
+train Loss: 0.7744
+train Accuracy:0.727 Precision:0.454 Recall:0.815 F1:0.583 MCC:0.441.
+val Loss: 0.7658
+val Accuracy:0.794 Precision:0.548 Recall:0.695 F1:0.613 MCC:0.482.
+ 
+Epoch 8/100
+---------------
+train Loss: 0.7679
+train Accuracy:0.732 Precision:0.460 Recall:0.815 F1:0.588 MCC:0.449.
+val Loss: 0.8058
+val Accuracy:0.662 Precision:0.403 Recall:0.917 F1:0.560 MCC:0.425.
+ 
+Epoch 9/100
+---------------
+train Loss: 0.7612
+train Accuracy:0.731 Precision:0.458 Recall:0.822 F1:0.589 MCC:0.450.
+val Loss: 0.7371
+val Accuracy:0.746 Precision:0.476 Recall:0.824 F1:0.603 MCC:0.471.
+ 
+Epoch 10/100
+---------------
+train Loss: 0.7525
+train Accuracy:0.742 Precision:0.471 Recall:0.813 F1:0.596 MCC:0.460.
+val Loss: 0.7432
+val Accuracy:0.774 Precision:0.512 Recall:0.777 F1:0.617 MCC:0.487.
+ 
+Epoch 11/100
+---------------
+train Loss: 0.7498
+train Accuracy:0.739 Precision:0.468 Recall:0.821 F1:0.596 MCC:0.460.
+val Loss: 0.7327
+val Accuracy:0.761 Precision:0.494 Recall:0.809 F1:0.613 MCC:0.484.
+ 
+Epoch 12/100
+---------------
+train Loss: 0.7444
+train Accuracy:0.741 Precision:0.470 Recall:0.821 F1:0.598 MCC:0.463.
+val Loss: 0.7431
+val Accuracy:0.691 Precision:0.424 Recall:0.898 F1:0.576 MCC:0.445.
+ 
+Epoch 13/100
+---------------
+train Loss: 0.7382
+train Accuracy:0.741 Precision:0.471 Recall:0.826 F1:0.600 MCC:0.466.
+val Loss: 0.7582
+val Accuracy:0.737 Precision:0.466 Recall:0.843 F1:0.600 MCC:0.469.
+ 
+Epoch 14/100
+---------------
+train Loss: 0.7336
+train Accuracy:0.744 Precision:0.474 Recall:0.827 F1:0.602 MCC:0.470.
+val Loss: 0.7557
+val Accuracy:0.760 Precision:0.492 Recall:0.802 F1:0.610 MCC:0.479.
+ 
+Epoch 15/100
+---------------
+train Loss: 0.7315
+train Accuracy:0.746 Precision:0.476 Recall:0.829 F1:0.605 MCC:0.473.
+val Loss: 0.7474
+val Accuracy:0.777 Precision:0.516 Recall:0.754 F1:0.613 MCC:0.480.
+ 
+Epoch 16/100
+---------------
+train Loss: 0.7259
+train Accuracy:0.749 Precision:0.480 Recall:0.834 F1:0.609 MCC:0.480.
+val Loss: 0.7499
+val Accuracy:0.676 Precision:0.413 Recall:0.912 F1:0.569 MCC:0.437.
+ 
+Epoch 17/100
+---------------
+train Loss: 0.7210
+train Accuracy:0.751 Precision:0.482 Recall:0.833 F1:0.611 MCC:0.483.
+val Loss: 0.7464
+val Accuracy:0.732 Precision:0.461 Recall:0.841 F1:0.596 MCC:0.463.
+ 
+Epoch 18/100
+---------------
+train Loss: 0.7178
+train Accuracy:0.754 Precision:0.486 Recall:0.833 F1:0.614 MCC:0.486.
+val Loss: 0.7361
+val Accuracy:0.761 Precision:0.494 Recall:0.808 F1:0.613 MCC:0.483.
+ 
+Epoch 19/100
+---------------
+train Loss: 0.7103
+train Accuracy:0.758 Precision:0.491 Recall:0.840 F1:0.619 MCC:0.495.
+val Loss: 0.7340
+val Accuracy:0.772 Precision:0.509 Recall:0.780 F1:0.616 MCC:0.485.
+ 
+Epoch 20/100
+---------------
+train Loss: 0.7074
+train Accuracy:0.759 Precision:0.492 Recall:0.838 F1:0.620 MCC:0.496.
+val Loss: 0.7333
+val Accuracy:0.756 Precision:0.487 Recall:0.814 F1:0.610 MCC:0.479.
+ 
+Epoch 21/100
+---------------
+train Loss: 0.7046
+train Accuracy:0.762 Precision:0.495 Recall:0.837 F1:0.622 MCC:0.499.
+val Loss: 0.7700
+val Accuracy:0.793 Precision:0.546 Recall:0.707 F1:0.616 MCC:0.485.
+ 
+Epoch 22/100
+---------------
+train Loss: 0.6984
+train Accuracy:0.767 Precision:0.502 Recall:0.837 F1:0.627 MCC:0.506.
+val Loss: 0.7617
+val Accuracy:0.770 Precision:0.505 Recall:0.777 F1:0.612 MCC:0.480.
+ 
+Epoch 23/100
+---------------
+train Loss: 0.6931
+train Accuracy:0.766 Precision:0.501 Recall:0.845 F1:0.629 MCC:0.509.
+val Loss: 0.7528
+val Accuracy:0.748 Precision:0.478 Recall:0.823 F1:0.605 MCC:0.473.
+ 
+Epoch 24/100
+---------------
+train Loss: 0.6890
+train Accuracy:0.772 Precision:0.508 Recall:0.840 F1:0.633 MCC:0.514.
+val Loss: 0.7518
+val Accuracy:0.742 Precision:0.471 Recall:0.828 F1:0.600 MCC:0.468.
+ 
+Epoch 25/100
+---------------
+train Loss: 0.6836
+train Accuracy:0.772 Precision:0.509 Recall:0.848 F1:0.636 MCC:0.518.
+val Loss: 0.8434
+val Accuracy:0.805 Precision:0.577 Recall:0.632 F1:0.603 MCC:0.475.
+ 
+Epoch 26/100
+---------------
+train Loss: 0.6891
+train Accuracy:0.770 Precision:0.506 Recall:0.841 F1:0.632 MCC:0.512.
+val Loss: 0.7615
+val Accuracy:0.764 Precision:0.498 Recall:0.795 F1:0.612 MCC:0.481.
+ 
+Epoch 27/100
+---------------
+train Loss: 0.6743
+train Accuracy:0.778 Precision:0.516 Recall:0.848 F1:0.641 MCC:0.526.
+val Loss: 0.7856
+val Accuracy:0.756 Precision:0.488 Recall:0.816 F1:0.610 MCC:0.480.
+ 
+Epoch 28/100
+---------------
+train Loss: 0.6742
+train Accuracy:0.777 Precision:0.515 Recall:0.854 F1:0.643 MCC:0.528.
+val Loss: 0.7547
+val Accuracy:0.761 Precision:0.494 Recall:0.813 F1:0.615 MCC:0.486.
+ 
+Epoch 29/100
+---------------
+train Loss: 0.6705
+train Accuracy:0.779 Precision:0.518 Recall:0.850 F1:0.644 MCC:0.529.
+val Loss: 0.7749
+val Accuracy:0.771 Precision:0.507 Recall:0.775 F1:0.613 MCC:0.481.
+ 
+Epoch 30/100
+---------------
+train Loss: 0.6655
+train Accuracy:0.777 Precision:0.515 Recall:0.858 F1:0.644 MCC:0.530.
+val Loss: 0.7569
+val Accuracy:0.770 Precision:0.506 Recall:0.779 F1:0.613 MCC:0.481.
+ 
+Epoch 31/100
+---------------
+train Loss: 0.6603
+train Accuracy:0.783 Precision:0.523 Recall:0.856 F1:0.649 MCC:0.537.
+val Loss: 0.7524
+val Accuracy:0.739 Precision:0.469 Recall:0.840 F1:0.602 MCC:0.471.
+ 
+Epoch 32/100
+---------------
+train Loss: 0.6614
+train Accuracy:0.785 Precision:0.525 Recall:0.857 F1:0.651 MCC:0.540.
+val Loss: 0.7994
+val Accuracy:0.783 Precision:0.525 Recall:0.762 F1:0.622 MCC:0.493.
+ 
+Epoch 33/100
+---------------
+train Loss: 0.6531
+train Accuracy:0.785 Precision:0.526 Recall:0.863 F1:0.654 MCC:0.544.
+val Loss: 0.8563
+val Accuracy:0.797 Precision:0.552 Recall:0.711 F1:0.621 MCC:0.493.
+ 
+Epoch 34/100
+---------------
+train Loss: 0.6522
+train Accuracy:0.784 Precision:0.524 Recall:0.867 F1:0.653 MCC:0.544.
+val Loss: 0.7450
+val Accuracy:0.766 Precision:0.500 Recall:0.804 F1:0.616 MCC:0.488.
+ 
+Epoch 35/100
+---------------
+train Loss: 0.6459
+train Accuracy:0.790 Precision:0.532 Recall:0.865 F1:0.659 MCC:0.551.
+val Loss: 0.9309
+val Accuracy:0.801 Precision:0.563 Recall:0.677 F1:0.615 MCC:0.486.
+ 
+Epoch 36/100
+---------------
+train Loss: 0.6447
+train Accuracy:0.791 Precision:0.534 Recall:0.865 F1:0.660 MCC:0.553.
+val Loss: 0.7674
+val Accuracy:0.788 Precision:0.533 Recall:0.748 F1:0.622 MCC:0.494.
+ 
+Epoch 37/100
+---------------
+train Loss: 0.6428
+train Accuracy:0.792 Precision:0.535 Recall:0.869 F1:0.662 MCC:0.556.
+val Loss: 0.7922
+val Accuracy:0.775 Precision:0.513 Recall:0.777 F1:0.618 MCC:0.488.
+ 
+Epoch 38/100
+---------------
+train Loss: 0.6426
+train Accuracy:0.791 Precision:0.533 Recall:0.864 F1:0.659 MCC:0.552.
+val Loss: 0.7446
+val Accuracy:0.737 Precision:0.466 Recall:0.843 F1:0.600 MCC:0.469.
+ 
+Epoch 39/100
+---------------
+train Loss: 0.6301
+train Accuracy:0.796 Precision:0.541 Recall:0.871 F1:0.667 MCC:0.563.
+val Loss: 0.8147
+val Accuracy:0.795 Precision:0.547 Recall:0.719 F1:0.621 MCC:0.492.
+ 
+Epoch 40/100
+---------------
+train Loss: 0.6321
+train Accuracy:0.793 Precision:0.536 Recall:0.872 F1:0.664 MCC:0.559.
+val Loss: 0.8536
+val Accuracy:0.794 Precision:0.548 Recall:0.680 F1:0.607 MCC:0.474.
+ 
+Epoch 41/100
+---------------
+train Loss: 0.6334
+train Accuracy:0.793 Precision:0.537 Recall:0.870 F1:0.664 MCC:0.559.
+val Loss: 0.7867
+val Accuracy:0.725 Precision:0.454 Recall:0.856 F1:0.593 MCC:0.461.
+ 
+Epoch 42/100
+---------------
+train Loss: 0.6265
+train Accuracy:0.797 Precision:0.542 Recall:0.874 F1:0.669 MCC:0.566.
+val Loss: 0.8083
+val Accuracy:0.792 Precision:0.541 Recall:0.739 F1:0.624 MCC:0.497.
+ 
+Epoch 43/100
+---------------
+train Loss: 0.6268
+train Accuracy:0.796 Precision:0.540 Recall:0.872 F1:0.667 MCC:0.563.
+val Loss: 0.8461
+val Accuracy:0.790 Precision:0.538 Recall:0.739 F1:0.623 MCC:0.495.
+ 
+Epoch 44/100
+---------------
+train Loss: 0.6208
+train Accuracy:0.799 Precision:0.544 Recall:0.874 F1:0.671 MCC:0.568.
+val Loss: 0.7521
+val Accuracy:0.728 Precision:0.457 Recall:0.850 F1:0.594 MCC:0.462.
+ 
+Epoch 45/100
+---------------
+train Loss: 0.6214
+train Accuracy:0.800 Precision:0.545 Recall:0.872 F1:0.671 MCC:0.568.
+val Loss: 0.8072
+val Accuracy:0.782 Precision:0.524 Recall:0.749 F1:0.617 MCC:0.485.
+ 
+Epoch 46/100
+---------------
+train Loss: 0.6202
+train Accuracy:0.798 Precision:0.543 Recall:0.876 F1:0.671 MCC:0.568.
+val Loss: 0.7518
+val Accuracy:0.749 Precision:0.479 Recall:0.832 F1:0.608 MCC:0.479.
+ 
+Epoch 47/100
+---------------
+train Loss: 0.6085
+train Accuracy:0.804 Precision:0.551 Recall:0.878 F1:0.677 MCC:0.577.
+val Loss: 0.8640
+val Accuracy:0.784 Precision:0.527 Recall:0.752 F1:0.620 MCC:0.490.
+ 
+Epoch 48/100
+---------------
+train Loss: 0.6117
+train Accuracy:0.804 Precision:0.551 Recall:0.878 F1:0.677 MCC:0.577.
+val Loss: 0.9584
+val Accuracy:0.804 Precision:0.574 Recall:0.625 F1:0.598 MCC:0.470.
+ 
+Epoch 49/100
+---------------
+train Loss: 0.6058
+train Accuracy:0.805 Precision:0.553 Recall:0.879 F1:0.679 MCC:0.579.
+val Loss: 0.8351
+val Accuracy:0.788 Precision:0.534 Recall:0.741 F1:0.621 MCC:0.491.
+ 
+Epoch 50/100
+---------------
+train Loss: 0.6043
+train Accuracy:0.805 Precision:0.553 Recall:0.878 F1:0.679 MCC:0.580.
+val Loss: 0.8213
+val Accuracy:0.770 Precision:0.506 Recall:0.784 F1:0.615 MCC:0.485.
+ 
+Epoch 51/100
+---------------
+train Loss: 0.6049
+train Accuracy:0.805 Precision:0.552 Recall:0.879 F1:0.678 MCC:0.579.
+val Loss: 0.8454
+val Accuracy:0.768 Precision:0.504 Recall:0.777 F1:0.611 MCC:0.479.
+ 
+Epoch 52/100
+---------------
+train Loss: 0.5991
+train Accuracy:0.807 Precision:0.556 Recall:0.885 F1:0.683 MCC:0.585.
+val Loss: 0.8230
+val Accuracy:0.790 Precision:0.538 Recall:0.735 F1:0.621 MCC:0.491.
+ 
+Epoch 53/100
+---------------
+train Loss: 0.6032
+train Accuracy:0.805 Precision:0.553 Recall:0.882 F1:0.679 MCC:0.581.
+val Loss: 0.8592
+val Accuracy:0.793 Precision:0.542 Recall:0.732 F1:0.623 MCC:0.495.
+ 
+Epoch 54/100
+---------------
+train Loss: 0.5972
+train Accuracy:0.809 Precision:0.559 Recall:0.886 F1:0.686 MCC:0.589.
+val Loss: 0.8172
+val Accuracy:0.771 Precision:0.508 Recall:0.777 F1:0.614 MCC:0.483.
+ 
+Epoch 55/100
+---------------
+train Loss: 0.5976
+train Accuracy:0.809 Precision:0.559 Recall:0.883 F1:0.685 MCC:0.588.
+val Loss: 0.7688
+val Accuracy:0.758 Precision:0.490 Recall:0.820 F1:0.613 MCC:0.485.
+ 
+Epoch 56/100
+---------------
+train Loss: 0.5971
+train Accuracy:0.808 Precision:0.557 Recall:0.885 F1:0.684 MCC:0.587.
+val Loss: 0.9065
+val Accuracy:0.801 Precision:0.562 Recall:0.692 F1:0.620 MCC:0.493.
+ 
+Epoch 57/100
+---------------
+train Loss: 0.5905
+train Accuracy:0.813 Precision:0.565 Recall:0.884 F1:0.689 MCC:0.594.
+val Loss: 0.8137
+val Accuracy:0.770 Precision:0.506 Recall:0.781 F1:0.614 MCC:0.483.
+ 
+Epoch 58/100
+---------------
+train Loss: 0.5889
+train Accuracy:0.811 Precision:0.562 Recall:0.887 F1:0.688 MCC:0.593.
+val Loss: 0.9078
+val Accuracy:0.786 Precision:0.532 Recall:0.743 F1:0.620 MCC:0.490.
+ 
+Epoch 59/100
+---------------
+train Loss: 0.5871
+train Accuracy:0.811 Precision:0.562 Recall:0.886 F1:0.688 MCC:0.592.
+val Loss: 0.8328
+val Accuracy:0.750 Precision:0.481 Recall:0.818 F1:0.606 MCC:0.474.
+ 
+Epoch 60/100
+---------------
+train Loss: 0.5879
+train Accuracy:0.813 Precision:0.565 Recall:0.886 F1:0.690 MCC:0.595.
+val Loss: 0.9724
+val Accuracy:0.809 Precision:0.588 Recall:0.621 F1:0.604 MCC:0.479.
+ 
+Epoch 61/100
+---------------
+train Loss: 0.5789
+train Accuracy:0.816 Precision:0.569 Recall:0.887 F1:0.693 MCC:0.599.
+val Loss: 1.0037
+val Accuracy:0.806 Precision:0.576 Recall:0.642 F1:0.607 MCC:0.480.
+ 
+Epoch 62/100
+---------------
+train Loss: 0.5739
+train Accuracy:0.818 Precision:0.572 Recall:0.890 F1:0.697 MCC:0.604.
+val Loss: 0.9179
+val Accuracy:0.803 Precision:0.566 Recall:0.676 F1:0.616 MCC:0.488.
+ 
+Epoch 63/100
+---------------
+train Loss: 0.5781
+train Accuracy:0.814 Precision:0.566 Recall:0.889 F1:0.692 MCC:0.597.
+val Loss: 0.8614
+val Accuracy:0.662 Precision:0.402 Recall:0.904 F1:0.556 MCC:0.417.
+ 
+Epoch 64/100
+---------------
+train Loss: 0.5734
+train Accuracy:0.817 Precision:0.570 Recall:0.893 F1:0.695 MCC:0.603.
+val Loss: 0.9172
+val Accuracy:0.793 Precision:0.544 Recall:0.711 F1:0.617 MCC:0.486.
+ 
+Epoch 65/100
+---------------
+train Loss: 0.5771
+train Accuracy:0.816 Precision:0.568 Recall:0.890 F1:0.693 MCC:0.600.
+val Loss: 0.8651
+val Accuracy:0.780 Precision:0.520 Recall:0.769 F1:0.621 MCC:0.491.
+ 
+Epoch 66/100
+---------------
+train Loss: 0.5681
+train Accuracy:0.821 Precision:0.576 Recall:0.892 F1:0.700 MCC:0.609.
+val Loss: 0.9075
+val Accuracy:0.794 Precision:0.545 Recall:0.717 F1:0.619 MCC:0.490.
+ 
+Epoch 67/100
+---------------
+train Loss: 0.5646
+train Accuracy:0.820 Precision:0.575 Recall:0.891 F1:0.699 MCC:0.607.
+val Loss: 0.8278
+val Accuracy:0.756 Precision:0.488 Recall:0.809 F1:0.609 MCC:0.477.
+ 
+Epoch 68/100
+---------------
+train Loss: 0.5666
+train Accuracy:0.819 Precision:0.574 Recall:0.896 F1:0.699 MCC:0.609.
+val Loss: 0.8167
+val Accuracy:0.776 Precision:0.514 Recall:0.785 F1:0.621 MCC:0.492.
+ 
+Epoch 69/100
+---------------
+train Loss: 0.5665
+train Accuracy:0.819 Precision:0.574 Recall:0.891 F1:0.698 MCC:0.606.
+val Loss: 0.9269
+val Accuracy:0.765 Precision:0.498 Recall:0.772 F1:0.606 MCC:0.470.
+ 
+Epoch 70/100
+---------------
+train Loss: 0.5597
+train Accuracy:0.823 Precision:0.580 Recall:0.894 F1:0.704 MCC:0.614.
+val Loss: 0.8516
+val Accuracy:0.762 Precision:0.495 Recall:0.778 F1:0.605 MCC:0.470.
+ 
+Epoch 71/100
+---------------
+train Loss: 0.5597
+train Accuracy:0.822 Precision:0.578 Recall:0.895 F1:0.702 MCC:0.612.
+val Loss: 0.8369
+val Accuracy:0.766 Precision:0.500 Recall:0.787 F1:0.612 MCC:0.480.
+ 
+Epoch 72/100
+---------------
+train Loss: 0.5611
+train Accuracy:0.821 Precision:0.577 Recall:0.895 F1:0.702 MCC:0.611.
+val Loss: 0.8468
+val Accuracy:0.769 Precision:0.504 Recall:0.784 F1:0.614 MCC:0.483.
+ 
+Epoch 73/100
+---------------
+train Loss: 0.5499
+train Accuracy:0.825 Precision:0.582 Recall:0.898 F1:0.706 MCC:0.618.
+val Loss: 0.8439
+val Accuracy:0.691 Precision:0.423 Recall:0.872 F1:0.569 MCC:0.430.
+ 
+Epoch 74/100
+---------------
+train Loss: 0.5493
+train Accuracy:0.826 Precision:0.584 Recall:0.897 F1:0.707 MCC:0.618.
+val Loss: 0.8201
+val Accuracy:0.741 Precision:0.470 Recall:0.821 F1:0.598 MCC:0.463.
+ 
+Epoch 75/100
+---------------
+train Loss: 0.5543
+train Accuracy:0.823 Precision:0.579 Recall:0.896 F1:0.703 MCC:0.613.
+val Loss: 0.7991
+val Accuracy:0.730 Precision:0.459 Recall:0.841 F1:0.593 MCC:0.459.
+ 
+Epoch 76/100
+---------------
+train Loss: 0.5534
+train Accuracy:0.824 Precision:0.580 Recall:0.897 F1:0.705 MCC:0.615.
+val Loss: 0.8593
+val Accuracy:0.747 Precision:0.477 Recall:0.818 F1:0.603 MCC:0.470.
+ 
+Epoch 77/100
+---------------
+train Loss: 0.5438
+train Accuracy:0.826 Precision:0.584 Recall:0.899 F1:0.709 MCC:0.621.
+val Loss: 0.8644
+val Accuracy:0.733 Precision:0.461 Recall:0.836 F1:0.594 MCC:0.460.
+ 
+Epoch 78/100
+---------------
+train Loss: 0.5428
+train Accuracy:0.829 Precision:0.588 Recall:0.900 F1:0.711 MCC:0.624.
+val Loss: 0.8684
+val Accuracy:0.760 Precision:0.492 Recall:0.787 F1:0.606 MCC:0.471.
+ 
+Epoch 79/100
+---------------
+train Loss: 0.5396
+train Accuracy:0.830 Precision:0.591 Recall:0.901 F1:0.714 MCC:0.627.
+val Loss: 0.9484
+val Accuracy:0.785 Precision:0.531 Recall:0.714 F1:0.609 MCC:0.475.
+ 
+Epoch 80/100
+---------------
+train Loss: 0.5492
+train Accuracy:0.826 Precision:0.585 Recall:0.899 F1:0.708 MCC:0.620.
+val Loss: 0.8427
+val Accuracy:0.779 Precision:0.519 Recall:0.767 F1:0.619 MCC:0.489.
+ 
+Epoch 81/100
+---------------
+train Loss: 0.5423
+train Accuracy:0.829 Precision:0.589 Recall:0.897 F1:0.711 MCC:0.623.
+val Loss: 0.9693
+val Accuracy:0.806 Precision:0.572 Recall:0.678 F1:0.620 MCC:0.494.
+ 
+Epoch 82/100
+---------------
+train Loss: 0.5359
+train Accuracy:0.830 Precision:0.589 Recall:0.903 F1:0.713 MCC:0.627.
+val Loss: 1.0657
+val Accuracy:0.810 Precision:0.589 Recall:0.619 F1:0.604 MCC:0.479.
+ 
+Epoch 83/100
+---------------
+train Loss: 0.5347
+train Accuracy:0.831 Precision:0.592 Recall:0.901 F1:0.715 MCC:0.629.
+val Loss: 1.0370
+val Accuracy:0.809 Precision:0.591 Recall:0.602 F1:0.597 MCC:0.472.
+ 
+Epoch 84/100
+---------------
+train Loss: 0.5356
+train Accuracy:0.829 Precision:0.588 Recall:0.903 F1:0.712 MCC:0.625.
+val Loss: 0.9664
+val Accuracy:0.805 Precision:0.577 Recall:0.628 F1:0.601 MCC:0.473.
+ 
+Epoch 85/100
+---------------
+train Loss: 0.5339
+train Accuracy:0.829 Precision:0.588 Recall:0.904 F1:0.713 MCC:0.627.
+val Loss: 0.9067
+val Accuracy:0.704 Precision:0.434 Recall:0.868 F1:0.579 MCC:0.443.
+ 
+Epoch 86/100
+---------------
+train Loss: 0.5243
+train Accuracy:0.835 Precision:0.598 Recall:0.906 F1:0.721 MCC:0.637.
+val Loss: 0.8318
+val Accuracy:0.771 Precision:0.507 Recall:0.785 F1:0.616 MCC:0.486.
+ 
+Epoch 87/100
+---------------
+train Loss: 0.5280
+train Accuracy:0.833 Precision:0.595 Recall:0.905 F1:0.718 MCC:0.633.
+val Loss: 0.8338
+val Accuracy:0.749 Precision:0.479 Recall:0.813 F1:0.603 MCC:0.469.
+ 
+Epoch 88/100
+---------------
+train Loss: 0.5280
+train Accuracy:0.832 Precision:0.593 Recall:0.906 F1:0.717 MCC:0.632.
+val Loss: 0.9424
+val Accuracy:0.791 Precision:0.541 Recall:0.712 F1:0.615 MCC:0.483.
+ 
+Epoch 89/100
+---------------
+train Loss: 0.5204
+train Accuracy:0.838 Precision:0.604 Recall:0.904 F1:0.724 MCC:0.641.
+val Loss: 0.8465
+val Accuracy:0.690 Precision:0.423 Recall:0.881 F1:0.571 MCC:0.434.
+ 
+Epoch 90/100
+---------------
+train Loss: 0.5174
+train Accuracy:0.836 Precision:0.599 Recall:0.906 F1:0.721 MCC:0.638.
+val Loss: 0.8981
+val Accuracy:0.763 Precision:0.496 Recall:0.777 F1:0.606 MCC:0.471.
+ 
+Epoch 91/100
+---------------
+train Loss: 0.5177
+train Accuracy:0.838 Precision:0.602 Recall:0.908 F1:0.724 MCC:0.642.
+val Loss: 0.8981
+val Accuracy:0.771 Precision:0.508 Recall:0.767 F1:0.611 MCC:0.478.
+ 
+Epoch 92/100
+---------------
+train Loss: 0.5173
+train Accuracy:0.839 Precision:0.605 Recall:0.905 F1:0.725 MCC:0.642.
+val Loss: 0.8243
+val Accuracy:0.731 Precision:0.459 Recall:0.838 F1:0.593 MCC:0.459.
+ 
+Epoch 93/100
+---------------
+train Loss: 0.5100
+train Accuracy:0.843 Precision:0.611 Recall:0.909 F1:0.730 MCC:0.650.
+val Loss: 0.8441
+val Accuracy:0.742 Precision:0.471 Recall:0.813 F1:0.597 MCC:0.461.
+ 
+Epoch 94/100
+---------------
+train Loss: 0.5157
+train Accuracy:0.838 Precision:0.603 Recall:0.909 F1:0.725 MCC:0.643.
+val Loss: 1.0451
+val Accuracy:0.806 Precision:0.579 Recall:0.629 F1:0.603 MCC:0.476.
+ 
+Epoch 95/100
+---------------
+train Loss: 0.5167
+train Accuracy:0.838 Precision:0.602 Recall:0.906 F1:0.723 MCC:0.641.
+val Loss: 0.7861
+val Accuracy:0.755 Precision:0.486 Recall:0.793 F1:0.603 MCC:0.468.
+ 
+Epoch 96/100
+---------------
+train Loss: 0.5191
+train Accuracy:0.838 Precision:0.602 Recall:0.907 F1:0.724 MCC:0.642.
+val Loss: 0.8604
+val Accuracy:0.776 Precision:0.515 Recall:0.762 F1:0.614 MCC:0.482.
+ 
+Epoch 97/100
+---------------
+train Loss: 0.5092
+train Accuracy:0.840 Precision:0.605 Recall:0.908 F1:0.726 MCC:0.645.
+val Loss: 0.9466
+val Accuracy:0.734 Precision:0.462 Recall:0.818 F1:0.590 MCC:0.453.
+ 
+Epoch 98/100
+---------------
+train Loss: 0.5083
+train Accuracy:0.840 Precision:0.606 Recall:0.908 F1:0.727 MCC:0.646.
+val Loss: 0.8555
+val Accuracy:0.739 Precision:0.467 Recall:0.814 F1:0.594 MCC:0.457.
+ 
+Epoch 99/100
+---------------
+train Loss: 0.5060
+train Accuracy:0.843 Precision:0.611 Recall:0.910 F1:0.731 MCC:0.651.
+val Loss: 0.9167
+val Accuracy:0.772 Precision:0.510 Recall:0.745 F1:0.605 MCC:0.469.
+ 
+Epoch 100/100
+---------------
+train Loss: 0.4967
+train Accuracy:0.846 Precision:0.615 Recall:0.913 F1:0.735 MCC:0.657.
+val Loss: 0.9239
+val Accuracy:0.775 Precision:0.514 Recall:0.744 F1:0.608 MCC:0.473.
+Training complete in 143m 39s
+------------------------------------
+metrics for each fold when validation loss reaches minimum:
+[{'loss': 0.8320496206190072, 'acc': 0.7310866013071895, 'precision': 0.45752038814906576, 'recall': 0.7694444444444445, 'mcc': 0.4239446593580775}, {'loss': 0.7505786698947116, 'acc': 0.7394603018372703, 'precision': 0.4682012104375434, 'recall': 0.8261554621848739, 'mcc': 0.46366238491400513}, {'loss': 0.704801928652866, 'acc': 0.7791584645669292, 'precision': 0.5177891415515178, 'recall': 0.8331582633053222, 'mcc': 0.5206969695008975}, {'loss': 0.7164836086313243, 'acc': 0.7219078083989501, 'precision': 0.4516945323090827, 'recall': 0.875, 'mcc': 0.46795047307341525}, {'loss': 0.7327072071278189, 'acc': 0.7610728346456693, 'precision': 0.49390504704875965, 'recall': 0.8086484593837535, 'mcc': 0.48356267634118943}]
+Averge metrics over 5 folds:
+average loss:  0.7473242069851456
+average accuracy:  0.7465372021512018
+average precision:  0.47782206389919385
+average recall:  0.8224813258636787
+average mcc:  0.47196343263751694
+cross-validation finished, end of program
