@@ -33,7 +33,7 @@ def get_args():
                         help='suffix to result file')                        
     parser.add_argument('-batch_size',
                         type=int,
-                        default=256,
+                        default=32,
                         required=False,
                         help='the batch size, normally 2^n.')
     parser.add_argument('-num_control',
@@ -107,7 +107,7 @@ def control_vs_heme_config(device):
     # model name
     modelName = 'resnet18'
     print('Model: ', modelName)
-
+    
     # if true, only train the fully connected layers
     featureExtracting = False
     print('Feature extracting: '+str(featureExtracting))
@@ -149,19 +149,28 @@ def control_vs_heme_config(device):
     # than heme datapoints. See docs for torch.nn.BCEWithLogitsLoss
     loss_fn = nn.BCEWithLogitsLoss()
 
-    optimizer = optim.Adam(params_to_update, lr=0.0001, betas=(0.9, 0.999), eps=1e-08, weight_decay=0.005, amsgrad=False)
+    optimizer = optim.Adam(params_to_update, 
+                           #lr=0.00001,
+                           lr=0.0003, 
+                           #lr=0.0005, 
+                           betas=(0.9, 0.999), 
+                           eps=1e-08, 
+                           weight_decay=0.0001,
+                           #weight_decay=0.01, 
+                           amsgrad=False)
     #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
     print('optimizer:')
     print(str(optimizer))
-    
+
     # whether to decay the learning rate
-    learningRateDecay = True
+    learningRateDecay = False
 
     # number of epochs to train the Neural Network
-    num_epochs = 4
+    num_epochs = 8
 
     # learning rate schduler used to implement learning rate decay
-    learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1], gamma=0.1)
+    learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1,4], gamma=0.1)
+    #print(learningRateScheduler)
 
     # a dictionary contains optimizer, learning rate scheduler
     # and whether to decay learning rate
@@ -223,7 +232,7 @@ def control_vs_nucleotide_config(device):
                            #lr=0.0005, 
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
-                           weight_decay=0.0002,
+                           weight_decay=0.0001,
                            #weight_decay=0.01, 
                            amsgrad=False)
     #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
@@ -252,7 +261,7 @@ def heme_vs_nucleotide_config(device):
     # model name
     modelName = 'resnet18'
     print('Model: ', modelName)
-
+    
     # if true, only train the fully connected layers
     featureExtracting = False
     print('Feature extracting: '+str(featureExtracting))
@@ -294,19 +303,27 @@ def heme_vs_nucleotide_config(device):
     # than heme datapoints. See docs for torch.nn.BCEWithLogitsLoss
     loss_fn = nn.BCEWithLogitsLoss()
 
-    optimizer = optim.Adam(params_to_update, lr=0.0001, betas=(0.9, 0.999), eps=1e-08, weight_decay=0.005, amsgrad=False)
+    optimizer = optim.Adam(params_to_update, 
+                           #lr=0.00001,
+                           lr=0.0003, 
+                           #lr=0.0005, 
+                           betas=(0.9, 0.999), 
+                           eps=1e-08, 
+                           weight_decay=0.0001,
+                           #weight_decay=0.01, 
+                           amsgrad=False)
+    #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
     print('optimizer:')
     print(str(optimizer))
-    #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
 
     # whether to decay the learning rate
-    learningRateDecay = True
+    learningRateDecay = False
 
     # number of epochs to train the Neural Network
-    num_epochs = 3
+    num_epochs = 8
 
     # learning rate schduler used to implement learning rate decay
-    learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1], gamma=0.1)
+    learningRateScheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1,4], gamma=0.1)
     #print(learningRateScheduler)
 
     # a dictionary contains optimizer, learning rate scheduler

@@ -3,44 +3,43 @@ Running PBS prologue script
 --------------------------------------
 User and Job Data:
 --------------------------------------
-Job ID:    736070.qb3
+Job ID:    736321.qb3
 Username:  wshi6
 Group:     loniusers
-Date:      12-Dec-2019 10:41
-Node:      qb002 (34709)
+Date:      13-Dec-2019 16:13
+Node:      qb195 (82024)
 --------------------------------------
 PBS has allocated the following nodes:
 
-qb002
+qb195
 
 A total of 20 processors on 1 nodes allocated
 ---------------------------------------------
 Check nodes and clean them of stray processes
 ---------------------------------------------
-Checking node qb002 10:41:17 
+Checking node qb195 16:13:04 
 Done clearing all the allocated nodes
 ------------------------------------------------------
-Concluding PBS prologue script - 12-Dec-2019 10:41:17
+Concluding PBS prologue script - 13-Dec-2019 16:13:04
 ------------------------------------------------------
 ------------------------------------------------------
-Running PBS epilogue script    - 13-Dec-2019 04:31:05
+Running PBS epilogue script    - 13-Dec-2019 16:38:24
 ------------------------------------------------------
-Checking node qb002 (MS)
-Checking node qb002 ok
+Checking node qb195 (MS)
+Checking node qb195 ok
 ------------------------------------------------------
-Concluding PBS epilogue script - 13-Dec-2019 04:31:07
+Concluding PBS epilogue script - 13-Dec-2019 16:38:26
 ------------------------------------------------------
 Exit Status:     0
-Job ID:          736070.qb3
+Job ID:          736321.qb3
 Username:        wshi6
 Group:           loniusers
-Job Name:        bionoi_resnet18
-Session Id:      34708
+Job Name:        bionoi_autoencoder_rf
+Session Id:      82023
 Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=72:00:00
-Resources Used:  cput=25:59:28,mem=14374240kb,vmem=872714824kb,walltime=17:49:50
-Queue Used:      k40
+Resources Used:  cput=02:58:17,mem=1177588kb,vmem=12718392kb,walltime=00:25:22
+Queue Used:      workq
 Account String:  loni_omics01
-Node:            qb002
-Process id:      16258
-Last status:     13-Dec-2019:04:05 PBS_job=736070.qb3 user=wshi6 allocation=loni_omics01 queue=k40 total_load=0.30 cpu_hours=18.38 wall_hours=16.45 unused_nodes=0 total_nodes=1 ppn=20 avg_load=0.30 avg_cpu=193% avg_mem=14039mb avg_vmem=850263mb top_proc=wshi6:python:qb002:166G:2.9G:18.3hr:113% toppm=wshi6:python:qb002:170390M:2952M gpupeak=171 node_processes=8 avg_avail_mem=121442mb min_avail_mem=121442mb reverified_avg_load=0.20
+Node:            qb195
+Process id:      83561
 ------------------------------------------------------

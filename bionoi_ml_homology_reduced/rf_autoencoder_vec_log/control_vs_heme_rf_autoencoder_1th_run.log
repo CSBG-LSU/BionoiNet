@@ -1,0 +1,171 @@
+data directory: ../../data_homology_reduced/autoencoder_vectors/
+*********************************************************************
+starting 1th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18672, 18672, 18672, 18672, 5712, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [1]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1']
+folder classes:  [0, 1]
+lengths of the folders:  [18720, 5760]
+number of data:  97536
+loading data...
+Loading data takes 8m 57s
+number of data:  24480
+loading data...
+Loading data takes 2m 57s
+training the random forest...
+training finished.
+training accuracy: 0.812869094488189
+number of correct validation predictions: 18555
+validation accuracy: 0.7579656862745098
+validation precision: 0.48866913885455293
+validation recall: 0.6177083333333333
+validation mcc: 0.38864668248632117
+validation f1: 0.5456636760984587
+validation confusion matrix: [[14997  3723]
+ [ 2202  3558]]
+*********************************************************************
+starting 2th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [2]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+number of data:  97632
+loading data...
+Loading data takes 0m 32s
+number of data:  24384
+loading data...
+Loading data takes 0m 8s
+training the random forest...
+training finished.
+training accuracy: 0.815060635857096
+number of correct validation predictions: 17887
+validation accuracy: 0.7335547900262467
+validation precision: 0.4536654468185574
+validation recall: 0.6727941176470589
+validation mcc: 0.3779810635319294
+validation f1: 0.5419163787633082
+validation confusion matrix: [[14044  4628]
+ [ 1869  3843]]
+*********************************************************************
+starting 3th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [3]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+number of data:  97632
+loading data...
+Loading data takes 0m 30s
+number of data:  24384
+loading data...
+Loading data takes 0m 7s
+training the random forest...
+training finished.
+training accuracy: 0.8109636184857424
+number of correct validation predictions: 18507
+validation accuracy: 0.7589812992125984
+validation precision: 0.4911547121260856
+validation recall: 0.8019957983193278
+validation mcc: 0.4774038713943633
+validation f1: 0.609216038300419
+validation confusion matrix: [[13926  4746]
+ [ 1131  4581]]
+*********************************************************************
+starting 4th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [4]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+number of data:  97632
+loading data...
+Loading data takes 0m 30s
+number of data:  24384
+loading data...
+Loading data takes 0m 7s
+training the random forest...
+training finished.
+training accuracy: 0.8075323664372337
+number of correct validation predictions: 18600
+validation accuracy: 0.7627952755905512
+validation precision: 0.49571836346336823
+validation recall: 0.7296918767507002
+validation mcc: 0.44786140218693815
+validation f1: 0.5903682719546741
+validation confusion matrix: [[14432  4240]
+ [ 1544  4168]]
+*********************************************************************
+starting 5th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 4]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+number of data:  97632
+loading data...
+Loading data takes 0m 32s
+number of data:  24384
+loading data...
+Loading data takes 0m 8s
+training the random forest...
+training finished.
+training accuracy: 0.8110045886594559
+number of correct validation predictions: 18405
+validation accuracy: 0.7547982283464567
+validation precision: 0.4846002999192525
+validation recall: 0.7354691876750701
+validation mcc: 0.43902316958394155
+validation f1: 0.5842430985327863
+validation confusion matrix: [[14204  4468]
+ [ 1511  4201]]
+--------------------------------------------------
+average accuracy:  0.7536190558900724
+average precision:  0.48276159223636333
+average recall:  0.711531862745098
+average mcc:  0.42618323783669876

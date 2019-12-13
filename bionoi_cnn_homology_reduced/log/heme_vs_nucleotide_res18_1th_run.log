@@ -1,0 +1,159 @@
+data directory: ../../data_homology_reduced/images/
+batch size: 32
+performing heme_vs_nucleotide cross-validation task.
+Current device: cuda:0
+*********************************************************************
+starting 1th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [2, 3, 4, 5]
+class name to integer map:  {'heme': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/heme/fold_2', '../../data_homology_reduced/images/heme/fold_3', '../../data_homology_reduced/images/heme/fold_4', '../../data_homology_reduced/images/heme/fold_5', '../../data_homology_reduced/images/nucleotide/fold_2', '../../data_homology_reduced/images/nucleotide/fold_3', '../../data_homology_reduced/images/nucleotide/fold_4', '../../data_homology_reduced/images/nucleotide/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [5712, 5712, 5712, 5712, 14928, 14928, 14880, 14880]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [1]
+class name to integer map:  {'heme': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/heme/fold_1', '../../data_homology_reduced/images/nucleotide/fold_1']
+folder classes:  [0, 1]
+lengths of the folders:  [5760, 14928]
+Model:  resnet18
+Feature extracting: False
+Using pretrained model: True
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0001
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/8
+---------------
+train Loss: 0.0733
+train Accuracy:0.951 Precision:0.980 Recall:0.952 F1:0.966 MCC:0.882.
+val Loss: 0.1518
+val Accuracy:0.912 Precision:0.934 Recall:0.945 F1:0.939 MCC:0.778.
+ 
+Epoch 2/8
+---------------
+train Loss: 0.0436
+train Accuracy:0.971 Precision:0.988 Recall:0.971 F1:0.980 MCC:0.928.
+val Loss: 0.2152
+val Accuracy:0.919 Precision:0.927 Recall:0.964 F1:0.945 MCC:0.795.
+ 
+Epoch 3/8
+---------------
+train Loss: 0.0290
+train Accuracy:0.981 Precision:0.993 Recall:0.980 F1:0.986 MCC:0.952.
+val Loss: 0.3586
+val Accuracy:0.891 Precision:0.870 Recall:0.999 F1:0.930 MCC:0.726.
+ 
+Epoch 4/8
+---------------
+train Loss: 0.0232
+train Accuracy:0.985 Precision:0.994 Recall:0.985 F1:0.989 MCC:0.962.
+val Loss: 0.3217
+val Accuracy:0.936 Precision:0.929 Recall:0.986 F1:0.957 MCC:0.838.
+ 
+Epoch 5/8
+---------------
+train Loss: 0.0186
+train Accuracy:0.988 Precision:0.996 Recall:0.988 F1:0.992 MCC:0.971.
+val Loss: 0.3457
+val Accuracy:0.923 Precision:0.915 Recall:0.984 F1:0.948 MCC:0.804.
+ 
+Epoch 6/8
+---------------
+train Loss: 0.0155
+train Accuracy:0.990 Precision:0.996 Recall:0.990 F1:0.993 MCC:0.975.
+val Loss: 0.3785
+val Accuracy:0.921 Precision:0.919 Recall:0.977 F1:0.947 MCC:0.800.
+ 
+Epoch 7/8
+---------------
+train Loss: 0.0134
+train Accuracy:0.991 Precision:0.997 Recall:0.991 F1:0.994 MCC:0.979.
+val Loss: 0.4073
+val Accuracy:0.932 Precision:0.926 Recall:0.984 F1:0.954 MCC:0.827.
+ 
+Epoch 8/8
+---------------
+train Loss: 0.0121
+train Accuracy:0.992 Precision:0.997 Recall:0.992 F1:0.995 MCC:0.981.
+val Loss: 0.3300
+val Accuracy:0.931 Precision:0.928 Recall:0.981 F1:0.954 MCC:0.826.
+Training complete in 132m 44s
+*********************************************************************
+starting 2th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 3, 4, 5]
+class name to integer map:  {'heme': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/heme/fold_1', '../../data_homology_reduced/images/heme/fold_3', '../../data_homology_reduced/images/heme/fold_4', '../../data_homology_reduced/images/heme/fold_5', '../../data_homology_reduced/images/nucleotide/fold_1', '../../data_homology_reduced/images/nucleotide/fold_3', '../../data_homology_reduced/images/nucleotide/fold_4', '../../data_homology_reduced/images/nucleotide/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [5760, 5712, 5712, 5712, 14928, 14928, 14880, 14880]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [2]
+class name to integer map:  {'heme': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/images/heme/fold_2', '../../data_homology_reduced/images/nucleotide/fold_2']
+folder classes:  [0, 1]
+lengths of the folders:  [5712, 14928]
+Model:  resnet18
+Feature extracting: False
+Using pretrained model: True
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0001
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/8
+---------------
+train Loss: 0.0895
+train Accuracy:0.938 Precision:0.973 Recall:0.940 F1:0.956 MCC:0.850.
+val Loss: 0.0772
+val Accuracy:0.915 Precision:0.994 Recall:0.888 F1:0.938 MCC:0.818.
+ 
+Epoch 2/8
+---------------
+train Loss: 0.0484
+train Accuracy:0.967 Precision:0.987 Recall:0.968 F1:0.977 MCC:0.920.
+val Loss: 0.0553
+val Accuracy:0.955 Precision:0.989 Recall:0.949 F1:0.968 MCC:0.894.
+ 
+Epoch 3/8
+---------------
+train Loss: 0.0341
+train Accuracy:0.977 Precision:0.991 Recall:0.976 F1:0.984 MCC:0.943.
+val Loss: 0.0676
+val Accuracy:0.967 Precision:0.983 Recall:0.971 F1:0.977 MCC:0.918.
+ 
+Epoch 4/8
+---------------
+train Loss: 0.0257
+train Accuracy:0.983 Precision:0.993 Recall:0.983 F1:0.988 MCC:0.957.
+val Loss: 0.0719
+val Accuracy:0.966 Precision:0.983 Recall:0.969 F1:0.976 MCC:0.916.
+ 
+Epoch 5/8
+---------------
+train Loss: 0.0208
+train Accuracy:0.986 Precision:0.995 Recall:0.986 F1:0.990 MCC:0.966.
+val Loss: 0.0787
+val Accuracy:0.957 Precision:0.984 Recall:0.957 F1:0.970 MCC:0.897.
+ 
+Epoch 6/8
+---------------

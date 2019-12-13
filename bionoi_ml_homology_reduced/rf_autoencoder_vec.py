@@ -9,11 +9,15 @@ import copy
 import time
 import sklearn.metrics as metrics
 import json
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import roc_curve
+from sklearn.metrics import matthews_corrcoef, precision_score, recall_score
+from sklearn.metrics import f1_score, confusion_matrix
 
 def get_args():
     parser = argparse.ArgumentParser('python')
     parser.add_argument('-op',
-                        default='heme_vs_nucleotide',
+                        default='control_vs_nucleotide',
                         required=False,
                         choices = ['control_vs_heme', 'control_vs_nucleotide', 'heme_vs_nucleotide'],
                         help="'control_vs_heme', 'control_vs_nucleotide', 'heme_vs_nucleotide'")
@@ -154,11 +158,24 @@ def load_data_to_memory(dataset):
     """
     m = len(dataset) # number of data
     print('number of data: ', m)
-    data = np.empty([m, 512])# allocate memory
+    data = np.empty([m, 512]) # allocate memory for feature matrix
+    labels = np.empty([m]) # allocate memory for labels
+    since = time.time()
     print('loading data...')
     for i in range(m):
-        print(dataset[i])
-        break 
+        #data[i] = dataset[i] # put each element of dataset as a row in the data matrix
+        row, label = dataset[i]
+        data[i] = row
+        labels[i] = label
+        #print('row:',row)
+        #print('label:',label)
+        #print(data)
+        #print(labels)
+        #break 
+    time_elapsed = time.time() - since
+    print( 'Loading data takes {:.0f}m {:.0f}s'.format(time_elapsed // 60, time_elapsed % 60))
+    return data, labels
+
 
 def calc_metrics(label, out):
     """
@@ -173,28 +190,24 @@ def calc_metrics(label, out):
     return acc, precision, recall, f1, mcc
 
 
-def report_avg_metrics(best_val_loss_metrics_over_folds):
+def report_avg_metrics(val_metrics_over_folds):
     """
     Report the averaged metrics over 5 folds when valication loss reaches minimum 
     """
-    avg_loss = 0
     avg_acc = 0
     avg_precision = 0
     avg_recall = 0
     avg_mcc = 0 
     for i in range(5):
-        dict = best_val_loss_metrics_over_folds[i]
-        avg_loss += dict['loss']
+        dict = val_metrics_over_folds[i]
         avg_acc += dict['acc']
         avg_precision += dict['precision']
         avg_recall += dict['recall']
         avg_mcc += dict['mcc']
-    avg_loss = avg_loss/5
     avg_acc = avg_acc/5
     avg_precision = avg_precision /5
     avg_recall = avg_recall/5
     avg_mcc = avg_mcc/5
-    print('average loss: ', avg_loss)
     print('average accuracy: ', avg_acc)
     print('average precision: ', avg_precision)
     print('average recall: ', avg_recall)
@@ -206,92 +219,94 @@ if __name__ == "__main__":
     op = args.op    
     root_dir = args.root_dir
     result_file_suffix = args.result_file_suffix
-    batch_size = args.batch_size
     print('data directory:', root_dir)
-    print('batch size: '+str(batch_size))
     num_control = args.num_control
     num_heme = args.num_heme
     num_nucleotide = args.num_nucleotide
 
-    # calculate positive weight for loss function
     if op == 'control_vs_heme':
-        print('performing control_vs_heme cross-validation task.')
-        loss_fn_pos_weight = num_control/num_heme
+        classes = ('control','heme')
+        class_weight = {0:22944, 1:74784}
     elif op == 'control_vs_nucleotide':
-        print('performing control_vs_nucleotide cross-validation task.')
-        loss_fn_pos_weight = num_control/num_nucleotide
+        classes = ('control','nucleotide')
+        class_weight = {0:59664, 1:74784}
     elif op == 'heme_vs_nucleotide':
-        print('performing heme_vs_nucleotide cross-validation task.')
-        loss_fn_pos_weight = num_heme/num_nucleotide 
+        classes = ('0-heme','1-nucleotide')
+        class_weight = {0:59664, 1:22944}
 
-    for i in range(5):
-        print('*********************************************************************')
-        print('starting {}th fold cross-validation'.format(i+1))
-        folds = [1, 2, 3, 4, 5]
-        val_fold = i+1
-        folds.remove(val_fold)
-        
-        training_set = BionoiDatasetCV(op, root_dir, folds)
-        val_set = BionoiDatasetCV(op, root_dir, val_fold)
-        #print(training_set[0])
-        load_data_to_memory(val_set)
-        break
-
-
-    """
-    # lists of the results of 5 folds, each element of the list is a list containing the
-    # corresponding result of 1 fold
-    history_over_folds=[]
-    best_val_loss_metrics_over_folds=[]
-    best_val_loss_roc_over_folds=[]
-
-    # perfrom 5-fold cross-validation
-    for i in range(5):
-        print('*********************************************************************')
-        print('starting {}th fold cross-validation'.format(i+1))
-        folds = [1, 2, 3, 4, 5]
-        val_fold = i+1
-        folds.remove(val_fold)
-
-
-        # import the model and training configurations
-        if op == 'control_vs_heme':
-            net, loss_fn, optimizer_dict, num_epochs = control_vs_heme_config(device)
-        elif op == 'control_vs_nucleotide':
-            net, loss_fn, optimizer_dict, num_epochs = control_vs_nucleotide_config(device)
-        elif op == 'heme_vs_nucleotide':
-            net, loss_fn, optimizer_dict, num_epochs = heme_vs_nucleotide_config(device)
-        
-        
-        # train the neural network
-        trained_model, best_val_loss_roc, best_val_loss_metrics, history = train_model(net,
-                                                        device,
-                                                        dataloaders_dict,
-                                                        loss_fn,
-                                                        optimizer_dict,
-                                                        loss_fn_pos_weight = loss_fn_pos_weight,
-                                                        num_epochs = num_epochs
-                                                        )
-
-        # put the histories into the lists
-        best_val_loss_roc_over_folds.append(best_val_loss_roc)
-        best_val_loss_metrics_over_folds.append(best_val_loss_metrics)
-        history_over_folds.append(history)
-        
-        break
-    #----------------------------------end of training---------------------------------------
-
+    val_metrics_over_folds=[]
+    val_roc_over_folds=[]
     
-    dict_to_save = {'loss':best_val_loss_metrics_over_folds, 'roc':best_val_loss_roc_over_folds, 'history':history_over_folds}
-    result_file = './mlp_autoencoder_vec_result/' + op + '_cv_' + result_file_suffix + '.json'
+    for i in range(5):
+        print('*********************************************************************')
+        print('starting {}th fold cross-validation'.format(i+1))
+        folds = [1, 2, 3, 4, 5]
+        val_fold = i+1
+        folds.remove(val_fold)
+        
+        train_set = BionoiDatasetCV(op, root_dir, folds)
+        val_set = BionoiDatasetCV(op, root_dir, [val_fold])
+        #print(training_set[0])
+        X_train, y_train = load_data_to_memory(train_set)
+        X_val, y_val = load_data_to_memory(val_set)
+        
+        # random forest model
+        rf = RandomForestClassifier(n_estimators=1000,
+                                    max_depth=None,
+                                    min_samples_split = 0.001,
+                                    min_samples_leaf = 0.001,
+                                    random_state=42,
+                                    max_features = "auto",
+                                    criterion = "gini",
+                                    class_weight = class_weight,
+                                    n_jobs = -1)
+
+        # train the rf on the training data
+        print('training the random forest...')
+        rf.fit(X_train, y_train)
+        print('training finished.')
+
+        # training performance
+        train_acc = rf.score(X_train, y_train)
+        print('training accuracy:', train_acc)
+
+        # validation performance
+        predictions = rf.predict(X_val)
+        num_correct = np.sum(predictions == y_val)
+        print('number of correct validation predictions:',num_correct)
+        
+        val_acc = rf.score(X_val, y_val)
+        print('validation accuracy:', val_acc)
+
+        val_precision = precision_score(y_val,predictions)      
+        print('validation precision:', val_precision)
+
+        val_recall = recall_score(y_val,predictions)       
+        print('validation recall:', val_recall)
+
+        val_mcc = matthews_corrcoef(y_val, predictions)
+        print('validation mcc:', val_mcc)
+
+        val_f1 = f1_score(y_val, predictions)
+        print('validation f1:', val_f1)        
+        
+        val_cm = confusion_matrix(y_val, predictions)
+        print('validation confusion matrix:', val_cm)
+
+        val_prob = rf.predict_proba(X_val) # output probabilities for val data
+        fpr, tpr, thresholds = roc_curve(y_val, val_prob[:, 1])
+        fpr = fpr.tolist()
+        tpr = tpr.tolist()
+        thresholds = thresholds.tolist()
+        val_roc = {'fpr':fpr, 'tpr':tpr, 'thresholds':thresholds}
+        val_metrics = {'acc': val_acc, 'precision': val_precision, 'recall': val_recall, 'mcc': val_mcc}
+        val_metrics_over_folds.append(val_metrics)
+        val_roc_over_folds.append(val_roc)
+
+    print('--------------------------------------------------')
+    report_avg_metrics(val_metrics_over_folds)
+
+    dict_to_save = {'metrics':val_metrics_over_folds, 'roc':val_roc_over_folds}
+    result_file = './rf_autoencoder_vec_result/' + op + '_cv_' + result_file_suffix + '.json'
     with open(result_file, 'w') as fp:
         json.dump(dict_to_save, fp)
-    
-    # print results of the folds when validation loss reaches minimum.    
-    print('------------------------------------')
-    print('metrics for each fold when validation loss reaches minimum:')
-    print(best_val_loss_metrics_over_folds)
-    print('Averge metrics over 5 folds:')
-    report_avg_metrics(best_val_loss_metrics_over_folds)
-    print('cross-validation finished, end of program')
-    """
