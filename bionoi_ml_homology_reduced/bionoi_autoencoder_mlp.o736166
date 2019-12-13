@@ -1,0 +1,46 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    736166.qb3
+Username:  wshi6
+Group:     loniusers
+Date:      12-Dec-2019 15:46
+Node:      qb099 (74680)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb099
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb099 15:46:36 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 12-Dec-2019 15:46:36
+------------------------------------------------------
+------------------------------------------------------
+Running PBS epilogue script    - 12-Dec-2019 21:26:27
+------------------------------------------------------
+Checking node qb099 (MS)
+Checking node qb099 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 12-Dec-2019 21:26:29
+------------------------------------------------------
+Exit Status:     0
+Job ID:          736166.qb3
+Username:        wshi6
+Group:           loniusers
+Job Name:        bionoi_autoencoder_mlp
+Session Id:      74679
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=72:00:00
+Resources Used:  cput=13:30:51,mem=69612216kb,vmem=3162953884kb,walltime=05:39:53
+Queue Used:      workq
+Account String:  loni_omics01
+Node:            qb099
+Process id:      83224
+Last status:     12-Dec-2019:21:05 PBS_job=736166.qb3 user=wshi6 allocation=loni_omics01 queue=workq total_load=4.71 cpu_hours=5.83 wall_hours=4.43 unused_nodes=0 total_nodes=1 ppn=20 avg_load=4.71 avg_cpu=297% avg_mem=67700mb avg_vmem=3088912mb top_proc=wshi6:python:qb099:91.4G:2.1G:5.8hr:111% toppm=wshi6:python:qb099:93616M:2183M gpupeak=86 node_processes=36 avg_avail_mem=57980mb min_avail_mem=57980mb reverified_avg_load=2.92
+------------------------------------------------------
