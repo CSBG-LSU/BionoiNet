@@ -253,13 +253,18 @@ if __name__ == "__main__":
         # random forest model
         rf = RandomForestClassifier(n_estimators=1000,
                                     max_depth=None,
-                                    min_samples_split = 0.001,
-                                    min_samples_leaf = 0.001,
+                                    min_samples_split = 0.0005,
+                                    min_samples_leaf = 0.0002,
                                     random_state=42,
-                                    max_features = "auto",
+                                    #max_features = "auto",
+                                    max_features = "log2",
                                     criterion = "gini",
+                                    #oob_score = True,
                                     class_weight = class_weight,
                                     n_jobs = -1)
+
+        print('Model:')
+        print(rf)
 
         # train the rf on the training data
         print('training the random forest...')

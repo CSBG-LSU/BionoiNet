@@ -1,0 +1,211 @@
+data directory: ../../data_homology_reduced/autoencoder_vectors/
+*********************************************************************
+starting 1th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18672, 18672, 18672, 18672, 5712, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [1]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1']
+folder classes:  [0, 1]
+lengths of the folders:  [18720, 5760]
+number of data:  97536
+loading data...
+Loading data takes 12m 59s
+number of data:  24480
+loading data...
+Loading data takes 3m 8s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 22944, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0003,
+                       min_samples_split=0.001, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.8748462106299213
+number of correct validation predictions: 19000
+validation accuracy: 0.7761437908496732
+validation precision: 0.5224863475746868
+validation recall: 0.5647569444444445
+validation mcc: 0.3954080169071739
+validation f1: 0.5427999332554647
+validation confusion matrix: [[15747  2973]
+ [ 2507  3253]]
+*********************************************************************
+starting 2th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [2]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+number of data:  97632
+loading data...
+Loading data takes 0m 31s
+number of data:  24384
+loading data...
+Loading data takes 0m 8s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 22944, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0003,
+                       min_samples_split=0.001, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.8718862667977713
+number of correct validation predictions: 18388
+validation accuracy: 0.7541010498687664
+validation precision: 0.48063812380692666
+validation recall: 0.6171218487394958
+validation mcc: 0.3815399274513136
+validation f1: 0.5403955235321172
+validation confusion matrix: [[14863  3809]
+ [ 2187  3525]]
+*********************************************************************
+starting 3th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [3]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+number of data:  97632
+loading data...
+Loading data takes 0m 31s
+number of data:  24384
+loading data...
+Loading data takes 0m 8s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 22944, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0003,
+                       min_samples_split=0.001, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.8730027040314651
+number of correct validation predictions: 19349
+validation accuracy: 0.7935121391076115
+validation precision: 0.5422017204837302
+validation recall: 0.7613795518207283
+validation mcc: 0.5090706777106987
+validation f1: 0.6333648874972693
+validation confusion matrix: [[15000  3672]
+ [ 1363  4349]]
+*********************************************************************
+starting 4th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [4]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+number of data:  97632
+loading data...
+Loading data takes 0m 30s
+number of data:  24384
+loading data...
+Loading data takes 0m 7s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 22944, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0003,
+                       min_samples_split=0.001, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.8730641592920354
+number of correct validation predictions: 19133
+validation accuracy: 0.7846538713910761
+validation precision: 0.5319916724496877
+validation recall: 0.6710434173669467
+validation mcc: 0.4552712604982492
+validation f1: 0.5934814585430053
+validation confusion matrix: [[15300  3372]
+ [ 1879  3833]]
+*********************************************************************
+starting 5th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 4]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/heme/fold_1', '../../data_homology_reduced/autoencoder_vectors/heme/fold_2', '../../data_homology_reduced/autoencoder_vectors/heme/fold_3', '../../data_homology_reduced/autoencoder_vectors/heme/fold_4']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/heme/fold_5']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+number of data:  97632
+loading data...
+Loading data takes 0m 30s
+number of data:  24384
+loading data...
+Loading data takes 0m 7s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 22944, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0003,
+                       min_samples_split=0.001, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.8738835627663061
+number of correct validation predictions: 19101
+validation accuracy: 0.7833415354330708
+validation precision: 0.5284595993100704
+validation recall: 0.6973039215686274
+validation mcc: 0.46463009168323816
+validation f1: 0.6012529247490378
+validation confusion matrix: [[15118  3554]
+ [ 1729  3983]]
+--------------------------------------------------
+average accuracy:  0.7783504773300396
+average precision:  0.5211554927250204
+average recall:  0.6623211367880486
+average mcc:  0.4411839948501347

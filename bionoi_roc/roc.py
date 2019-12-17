@@ -51,6 +51,7 @@ def ror_plot(result_dir, model_name, color, dashes, title):
     mean_tpr = np.mean(tprs, axis=0)
     mean_tpr[-1] = 1.0
     mean_auc = auc(mean_fpr, mean_tpr)
+    print('Averaged AUC for {}: {}'.format(model_name, mean_auc))
     std_auc = np.std(aucs)
     plt.plot(mean_fpr, mean_tpr, dashes=dashes, color=color, label=model_name, lw=2, alpha=.8)
 
@@ -66,15 +67,15 @@ if __name__ == "__main__":
 
     if op == 'control_vs_heme':
         title = '(b)'
-        cnn_dir = '../bionoi_cnn_homology_reduced/results/control_vs_heme_cv_1thrun.json'
+        cnn_dir = '../bionoi_cnn_homology_reduced/results/control_vs_heme_cv_9thrun.json'
         mlp_img_dir = '../bionoi_ml_homology_reduced/mlp_img_result/control_vs_heme_cv_1th_run.json'
         mlp_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/mlp_autoencoder_vec_result/control_vs_heme_cv_1th_run.json'
-        rf_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/rf_autoencoder_vec_result/control_vs_heme_cv_1th_run.json'
+        rf_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/rf_autoencoder_vec_result/control_vs_heme_cv_3th_run.json'
     elif op == 'control_vs_nucleotide':
         cnn_dir = '../bionoi_cnn_homology_reduced/results/control_vs_nucleotide_cv_12thrun.json'
         mlp_img_dir = '../bionoi_ml_homology_reduced/mlp_img_result/control_vs_nucleotide_cv_1th_run.json'
         mlp_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/mlp_autoencoder_vec_result/control_vs_nucleotide_cv_1th_run.json'
-        rf_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/rf_autoencoder_vec_result/control_vs_nucleotide_cv_1th_run.json'
+        rf_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/rf_autoencoder_vec_result/control_vs_nucleotide_cv_3th_run.json'
         title = '(a)'
 
     dirs = [cnn_dir, mlp_img_dir, mlp_autoencoder_vec_dir, rf_autoencoder_vec_dir]
