@@ -1,0 +1,211 @@
+data directory: ../../data_homology_reduced/autoencoder_vectors/
+*********************************************************************
+starting 1th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_2', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_3', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_4', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18672, 18672, 18672, 18672, 14928, 14928, 14880, 14880]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [1]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_1']
+folder classes:  [0, 1]
+lengths of the folders:  [18720, 14928]
+number of data:  134304
+loading data...
+Loading data takes 8m 42s
+number of data:  33648
+loading data...
+Loading data takes 0m 56s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 59664, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='log2',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0002,
+                       min_samples_split=0.0005, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.9142616750059567
+number of correct validation predictions: 23931
+validation accuracy: 0.7112161198288159
+validation precision: 0.6681510164569215
+validation recall: 0.6935289389067524
+validation mcc: 0.41748578483286913
+validation f1: 0.6806034907800018
+validation confusion matrix: [[13578  5142]
+ [ 4575 10353]]
+*********************************************************************
+starting 2th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 3, 4, 5]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_1', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_3', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_4', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 14928, 14928, 14880, 14880]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [2]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_2']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 14928]
+number of data:  134352
+loading data...
+Loading data takes 0m 40s
+number of data:  33600
+loading data...
+Loading data takes 0m 10s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 59664, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='log2',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0002,
+                       min_samples_split=0.0005, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.9153045730618078
+number of correct validation predictions: 24115
+validation accuracy: 0.7177083333333333
+validation precision: 0.6760690949084557
+validation recall: 0.70002679528403
+validation mcc: 0.4305597129619893
+validation f1: 0.687839394438045
+validation confusion matrix: [[13665  5007]
+ [ 4478 10450]]
+*********************************************************************
+starting 3th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 4, 5]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_1', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_2', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_4', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 14928, 14928, 14880, 14880]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [3]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_3']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 14928]
+number of data:  134352
+loading data...
+Loading data takes 0m 41s
+number of data:  33600
+loading data...
+Loading data takes 0m 10s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 59664, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='log2',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0002,
+                       min_samples_split=0.0005, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.9237971894724306
+number of correct validation predictions: 25272
+validation accuracy: 0.7521428571428571
+validation precision: 0.6927570093457944
+validation recall: 0.7944801714898178
+validation mcc: 0.5096740767782725
+validation f1: 0.7401397903145283
+validation confusion matrix: [[13412  5260]
+ [ 3068 11860]]
+*********************************************************************
+starting 4th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 5]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_1', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_2', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_3', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 14928, 14928, 14928, 14880]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [4]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_4']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 14880]
+number of data:  134400
+loading data...
+Loading data takes 0m 42s
+number of data:  33552
+loading data...
+Loading data takes 0m 10s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 59664, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='log2',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0002,
+                       min_samples_split=0.0005, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.9135416666666667
+number of correct validation predictions: 24096
+validation accuracy: 0.7181688125894135
+validation precision: 0.668447204968944
+validation recall: 0.723252688172043
+validation mcc: 0.43492104021530914
+validation f1: 0.694770819883796
+validation confusion matrix: [[13334  5338]
+ [ 4118 10762]]
+*********************************************************************
+starting 5th fold cross-validation
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 4]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_1', '../../data_homology_reduced/autoencoder_vectors/control/fold_2', '../../data_homology_reduced/autoencoder_vectors/control/fold_3', '../../data_homology_reduced/autoencoder_vectors/control/fold_4', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_1', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_2', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_3', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_4']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 14928, 14928, 14928, 14880]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [5]
+class name to integer map:  {'control': 0, 'nucleotide': 1}
+getting training data from following folders:  ['../../data_homology_reduced/autoencoder_vectors/control/fold_5', '../../data_homology_reduced/autoencoder_vectors/nucleotide/fold_5']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 14880]
+number of data:  134400
+loading data...
+Loading data takes 0m 40s
+number of data:  33552
+loading data...
+Loading data takes 0m 10s
+Model:
+RandomForestClassifier(bootstrap=True, class_weight={0: 59664, 1: 74784},
+                       criterion='gini', max_depth=None, max_features='log2',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=0.0002,
+                       min_samples_split=0.0005, min_weight_fraction_leaf=0.0,
+                       n_estimators=1000, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+training the random forest...
+training finished.
+training accuracy: 0.9244717261904762
+number of correct validation predictions: 24301
+validation accuracy: 0.7242787315212208
+validation precision: 0.6734668721109399
+validation recall: 0.7343413978494624
+validation mcc: 0.4479556640752454
+validation f1: 0.7025880083587849
+validation confusion matrix: [[13374  5298]
+ [ 3953 10927]]
+--------------------------------------------------
+average accuracy:  0.7247029708831281
+average precision:  0.6757782395582111
+average recall:  0.729125998340421
+average mcc:  0.4481192557727371

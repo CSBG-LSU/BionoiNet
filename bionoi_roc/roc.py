@@ -70,12 +70,12 @@ if __name__ == "__main__":
         cnn_dir = '../bionoi_cnn_homology_reduced/results/control_vs_heme_cv_9thrun.json'
         mlp_img_dir = '../bionoi_ml_homology_reduced/mlp_img_result/control_vs_heme_cv_1th_run.json'
         mlp_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/mlp_autoencoder_vec_result/control_vs_heme_cv_1th_run.json'
-        rf_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/rf_autoencoder_vec_result/control_vs_heme_cv_3th_run.json'
+        rf_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/rf_autoencoder_vec_result/control_vs_heme_cv_6th_run.json'
     elif op == 'control_vs_nucleotide':
         cnn_dir = '../bionoi_cnn_homology_reduced/results/control_vs_nucleotide_cv_12thrun.json'
         mlp_img_dir = '../bionoi_ml_homology_reduced/mlp_img_result/control_vs_nucleotide_cv_1th_run.json'
         mlp_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/mlp_autoencoder_vec_result/control_vs_nucleotide_cv_1th_run.json'
-        rf_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/rf_autoencoder_vec_result/control_vs_nucleotide_cv_3th_run.json'
+        rf_autoencoder_vec_dir = '../bionoi_ml_homology_reduced/rf_autoencoder_vec_result/control_vs_nucleotide_cv_6th_run.json'
         title = '(a)'
 
     dirs = [cnn_dir, mlp_img_dir, mlp_autoencoder_vec_dir, rf_autoencoder_vec_dir]

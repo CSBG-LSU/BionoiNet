@@ -256,10 +256,11 @@ if __name__ == "__main__":
                                     min_samples_split = 0.0005,
                                     min_samples_leaf = 0.0002,
                                     random_state=42,
-                                    #max_features = "auto",
-                                    max_features = "log2",
-                                    criterion = "gini",
-                                    #oob_score = True,
+                                    max_features = "auto",
+                                    #max_features = "log2",
+                                    #criterion = "gini",
+                                    criterion = "entropy",
+                                    oob_score = True,
                                     class_weight = class_weight,
                                     n_jobs = -1)
 
