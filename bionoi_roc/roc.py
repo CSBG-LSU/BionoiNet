@@ -98,8 +98,8 @@ if __name__ == "__main__":
     plt.title(title)
     plt.legend(loc="lower right")
 
-    #if op == 'control_vs_heme':
-    #    plt.savefig('./b.png', bbox_inches = 'tight', dpi=600)
-    #elif op == 'control_vs_nucleotide':
-    #    plt.savefig('./a.png', bbox_inches = 'tight', dpi=600)
+    if op == 'control_vs_heme':
+        plt.savefig('./b.png', bbox_inches = 'tight', dpi=600)
+    elif op == 'control_vs_nucleotide':
+        plt.savefig('./a.png', bbox_inches = 'tight', dpi=600)
     plt.show()
