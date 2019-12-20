@@ -30,7 +30,7 @@ python img_gen.py -opMode control_vs_nucleotide
 Note that the source folder of .mol2 files and target folder of images need to be modified in the function ```gen_48_homology_reduced()```   
 3. Train the convolutional neural network (CNN) at ```/bionoi_cnn_homology_reduced``` for cross-validation:    
 ```
-python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -batch_size 32 -result_file_suffix 1thrun
+python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -root_dir img_dir -batch_size 32 -result_file_suffix 1thrun
 ```
 4. Grab a cup of coffee and wait for results.
 
