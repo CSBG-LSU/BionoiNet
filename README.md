@@ -17,6 +17,8 @@ conda env create -f environment.yml
 * bionoi: a software that transforms ligand-binding sites (.mol2 files) into Voronoi diagrams.
 * bionoi_cnn_homology_reduced: a convolutional neural network (CNN) trained on the Voronoi representations of ligand-binding sites for classification.
 * bionoi_ml_homology_reduced: machine learning baselinies to classifiy binding sites.
+* bionoi_roc: code to plot roc curves for classification.
+* dependency: dependency python packages.
 * homology_reduced_folds: files containing folds such that the sequence identity between train and validation is less than 20%.
 
 ## Cite our work
