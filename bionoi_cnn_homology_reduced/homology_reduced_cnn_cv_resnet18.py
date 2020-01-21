@@ -150,12 +150,10 @@ def control_vs_heme_config(device):
     loss_fn = nn.BCEWithLogitsLoss()
 
     optimizer = optim.Adam(params_to_update, 
-                           #lr=0.001,
                            lr=0.0003,  
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
-                           weight_decay=0.0002,
-                           #weight_decay=0.01, 
+                           weight_decay=0.0003,
                            amsgrad=False)
     #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
     print('optimizer:')
@@ -303,13 +301,10 @@ def heme_vs_nucleotide_config(device):
     loss_fn = nn.BCEWithLogitsLoss()
 
     optimizer = optim.Adam(params_to_update, 
-                           #lr=0.001,
-                           #lr=0.0003, 
-                           #lr=0.0005, 
+                           lr=0.0003, 
                            betas=(0.9, 0.999), 
                            eps=1e-08, 
                            weight_decay=0.0001,
-                           #weight_decay=0.01, 
                            amsgrad=False)
     #optimizer = optim.SGD(params_to_update, lr=0.0005, weight_decay=0.01, momentum=0)
     print('optimizer:')
