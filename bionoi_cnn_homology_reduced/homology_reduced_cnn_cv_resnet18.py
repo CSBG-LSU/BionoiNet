@@ -351,7 +351,7 @@ class BionoiDatasetCV(Dataset):
         print('--------------------------------------------------------')
         if len(folds) == 1:
             print('generating validation dataset...')
-        else:
+        elif len(folds) == 4:
             print('generating training dataset...')
         print('folds: ', self.folds)
         
@@ -446,21 +446,22 @@ def gen_loaders(op, root_dir, training_folds, val_fold, batch_size, shuffle=True
         batch_size: integer, number of samples to send to CNN.
     """
     # dataset statistics
-    mean_control_vs_heme = [0.6008, 0.4180, 0.6341]
-    std_control_vs_heme = [0.2367, 0.1869, 0.2585]
-    mean_control_vs_nucleotide = [0.5836, 0.4339, 0.6608]
-    std_control_vs_nucleotide = [0.2413, 0.2006, 0.2537]
-    mean_heme_vs_nucleotide = [0.6030, 0.4381, 0.6430]
-    std_heme_vs_nucleotide = [0.2378, 0.1899, 0.2494]
-    if op == 'control_vs_heme':
-        mean = mean_control_vs_heme
-        std = std_control_vs_heme
-    elif op == 'control_vs_nucleotide':
-        mean = mean_control_vs_nucleotide
-        std = std_control_vs_nucleotide
-    elif op == 'heme_vs_nucleotide':
-        mean = mean_heme_vs_nucleotide
-        std = std_heme_vs_nucleotide
+    #mean_control_vs_heme = [0.6008, 0.4180, 0.6341]
+    #std_control_vs_heme = [0.2367, 0.1869, 0.2585]
+    #mean_control_vs_nucleotide = [0.5836, 0.4339, 0.6608]
+    #std_control_vs_nucleotide = [0.2413, 0.2006, 0.2537]
+    #mean_heme_vs_nucleotide = [0.6030, 0.4381, 0.6430]
+    #std_heme_vs_nucleotide = [0.2378, 0.1899, 0.2494]
+    #if op == 'control_vs_heme':
+    #    mean = mean_control_vs_heme
+    #    std = std_control_vs_heme
+    #elif op == 'control_vs_nucleotide':
+    #    mean = mean_control_vs_nucleotide
+    #    std = std_control_vs_nucleotide
+    #elif op == 'heme_vs_nucleotide':
+    #    mean = mean_heme_vs_nucleotide
+    #    std = std_heme_vs_nucleotide
+    mean, std = dataset_statistics(root_dir, op)
 
     # transform to datasets        
     transform = transforms.Compose([transforms.ToTensor(),
@@ -472,6 +473,34 @@ def gen_loaders(op, root_dir, training_folds, val_fold, batch_size, shuffle=True
     val_loader = torch.utils.data.DataLoader(val_set, batch_size=batch_size, shuffle=True, num_workers=num_workers)
 
     return train_loader, val_loader
+
+
+def dataset_statistics(data_dir, op):
+    """
+    Generate mean and standard deviation of the dataset to normalize before feeding to CNN.
+    """
+    print('-------------------------------------------------------')
+    print('Getting statistics for dataset...')
+    batch_size = 32
+    transform = transforms.Compose([transforms.ToTensor()])
+    dataset = BionoiDatasetCV(op=op, root_dir=data_dir, folds=[1,2,3,4,5], transform=transform)
+    dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=False, num_workers=16)
+    mean = 0
+    std = 0
+    for images, _ in dataloader:
+        batch_samples = images.size(0) # batch size (the last batch can have smaller size!)
+        images = images.view(batch_samples, images.size(1), -1)
+        mean += images.mean(2).sum(0)
+        std += images.std(2).sum(0)
+
+    mean /= len(dataloader.dataset)
+    std /= len(dataloader.dataset)
+    mean = mean.tolist()
+    std = std.tolist()
+    print('mean of the dataset: ', mean)
+    print('standard deviation of the dataset: ', std)
+    print('-------------------------------------------------------')
+    return mean, std
 #----------------------------end of dataloader generation-------------------------------------
 
 """

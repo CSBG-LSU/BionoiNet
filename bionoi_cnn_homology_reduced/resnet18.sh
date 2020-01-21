@@ -9,8 +9,8 @@
 module purge
 source activate pytorch
 cd /work/wshi6/deeplearning-data/bionoi_prj/BionoiNet/bionoi_cnn_homology_reduced/
-python homology_reduced_cnn_cv_resnet18.py -op control_vs_heme -root_dir ../../bionoi_output/residue_type/ -result_file_suffix residue_type_11 > ./log/control_vs_heme_res18_residue_type_run_11.log 2>&1
-python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -root_dir ../../bionoi_output/residue_type/ -result_file_suffix residue_type_11 > ./log/control_vs_nucleotide_res18_residue_type_run_11.log 2>&1
+python homology_reduced_cnn_cv_resnet18.py -op control_vs_heme -root_dir ../../bionoi_output/residue_type/ -result_file_suffix residue_type > ./log/control_vs_heme_res18_residue_type.log 2>&1
+#python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -root_dir ../../bionoi_output/residue_type/ -result_file_suffix residue_type > ./log/control_vs_nucleotide_res18_residue_type.log 2>&1
 
 
 
