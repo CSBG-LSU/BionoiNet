@@ -22,19 +22,33 @@ conda env create -f environment.yml
 * homology_reduced_folds: files containing folds such that the sequence identity between train and validation is less than 20%.
 
 ## Usage
-1. Unzip the .mol2 files located at ```/homology_reduced_folds/mols.zip```, and the location of the data folder is ```data_dir```.
-2. Run Bionoi at ```/bionoi/img_gen.py``` to transform .mol2 files to images, and location of the image folder is ```img_dir```:   
+1. Unzip the .mol2 files located at ```/homology_reduced_folds/mols.zip```.
+2. Download this repository and put it where you extrac the .mol2 files. The layout of the project should be like following:   
 ```
-python img_gen.py -opMode control_vs_nucleotide
-```   
-Note that the source folder of .mol2 files and target folder of images need to be modified in the function:    
+    .
+    ├── BionoiNet
+    └── homology_reduced_mols      
+        ├── control
+            ├── fold_1   
+            ├── fold_2
+            ├── ...
+            └── fold_5
+        ├── heme
+            ├── fold_1   
+            ├── fold_2
+            ├── ...
+            └── fold_5
+        ├── nucleotide
+            ├── fold_1   
+            ├── fold_2
+            ├── ...
+            └── fold_5
 ```
-gen_48_homology_reduced()
-```   
+2. Run Bionoi at ```/bionoi/img_gen.sh``` to transform .mol2 files to images. 
 3. Train the convolutional neural network (CNN) at ```/bionoi_cnn_homology_reduced``` for cross-validation:    
 ```
 python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -root_dir img_dir -batch_size 32 -result_file_suffix 1thrun
 ```
 4. Grab a cup of coffee and wait for results.
 
-## Cite our work
+## Citation
