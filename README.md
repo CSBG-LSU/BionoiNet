@@ -45,7 +45,7 @@ conda env create -f environment.yml
             └── fold_5
 ```
 2. Run Bionoi by executing ```/bionoi/img_gen.sh``` to transform .mol2 files to images. 
-3. Train the convolutional neural network (CNN) at ```/bionoi_cnn_homology_reduced``` for cross-validation:    
+3. Train the convolutional neural network (CNN) at ```/bionoi_cnn_homology_reduced/``` for cross-validation:    
 ```
 python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -root_dir ../../bionoi_output/ -batch_size 32 -result_file_suffix 1st
 ```
