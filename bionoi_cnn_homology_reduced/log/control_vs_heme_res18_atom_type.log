@@ -1,0 +1,504 @@
+data directory: ../../bionoi_output/atom_type/
+batch size: 32
+performing control_vs_heme cross-validation task.
+Current device: cuda:0
+*********************************************************************
+starting 1th fold cross-validation
+-------------------------------------------------------
+Getting statistics for dataset...
+--------------------------------------------------------
+folds:  [1, 2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_1', '../../bionoi_output/atom_type/heme/fold_2', '../../bionoi_output/atom_type/heme/fold_3', '../../bionoi_output/atom_type/heme/fold_4', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 18672, 5760, 5712, 5712, 5712, 5712]
+mean of the dataset:  [0.4465937316417694, 0.5452571511268616, 0.41942933201789856]
+standard deviation of the dataset:  [0.2156015783548355, 0.17621198296546936, 0.20789910852909088]
+-------------------------------------------------------
+--------------------------------------------------------
+generating training dataset...
+folds:  [2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_2', '../../bionoi_output/atom_type/heme/fold_3', '../../bionoi_output/atom_type/heme/fold_4', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18672, 18672, 18672, 18672, 5712, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [1]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/heme/fold_1']
+folder classes:  [0, 1]
+lengths of the folders:  [18720, 5760]
+Model:  resnet18
+Feature extracting: False
+Using pretrained model: True
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0003
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/8
+---------------
+train Loss: 0.3879
+train Accuracy:0.899 Precision:0.730 Recall:0.905 F1:0.808 MCC:0.748.
+val Loss: 0.8308
+val Accuracy:0.862 Precision:0.687 Recall:0.755 F1:0.720 MCC:0.629.
+ 
+Epoch 2/8
+---------------
+train Loss: 0.2312
+train Accuracy:0.941 Precision:0.829 Recall:0.942 F1:0.882 MCC:0.846.
+val Loss: 0.7280
+val Accuracy:0.863 Precision:0.676 Recall:0.801 F1:0.733 MCC:0.646.
+ 
+Epoch 3/8
+---------------
+train Loss: 0.1479
+train Accuracy:0.964 Precision:0.890 Recall:0.965 F1:0.926 MCC:0.904.
+val Loss: 0.8579
+val Accuracy:0.865 Precision:0.681 Recall:0.803 F1:0.737 MCC:0.652.
+ 
+Epoch 4/8
+---------------
+train Loss: 0.1040
+train Accuracy:0.975 Precision:0.922 Recall:0.976 F1:0.948 MCC:0.933.
+val Loss: 1.1004
+val Accuracy:0.863 Precision:0.715 Recall:0.697 F1:0.706 MCC:0.617.
+ 
+Epoch 5/8
+---------------
+train Loss: 0.0813
+train Accuracy:0.980 Precision:0.938 Recall:0.981 F1:0.959 MCC:0.946.
+val Loss: 1.1729
+val Accuracy:0.879 Precision:0.794 Recall:0.657 F1:0.719 MCC:0.647.
+ 
+Epoch 6/8
+---------------
+train Loss: 0.0734
+train Accuracy:0.982 Precision:0.942 Recall:0.983 F1:0.962 MCC:0.951.
+val Loss: 1.2067
+val Accuracy:0.896 Precision:0.849 Recall:0.677 F1:0.753 MCC:0.695.
+ 
+Epoch 7/8
+---------------
+train Loss: 0.0601
+train Accuracy:0.985 Precision:0.953 Recall:0.986 F1:0.969 MCC:0.960.
+val Loss: 1.4774
+val Accuracy:0.887 Precision:0.836 Recall:0.644 F1:0.728 MCC:0.667.
+ 
+Epoch 8/8
+---------------
+train Loss: 0.0542
+train Accuracy:0.987 Precision:0.958 Recall:0.988 F1:0.973 MCC:0.964.
+val Loss: 1.2363
+val Accuracy:0.890 Precision:0.769 Recall:0.760 F1:0.764 MCC:0.693.
+Training complete in 167m 43s
+*********************************************************************
+starting 2th fold cross-validation
+-------------------------------------------------------
+Getting statistics for dataset...
+--------------------------------------------------------
+folds:  [1, 2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_1', '../../bionoi_output/atom_type/heme/fold_2', '../../bionoi_output/atom_type/heme/fold_3', '../../bionoi_output/atom_type/heme/fold_4', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 18672, 5760, 5712, 5712, 5712, 5712]
+mean of the dataset:  [0.4465937316417694, 0.5452571511268616, 0.41942933201789856]
+standard deviation of the dataset:  [0.2156015783548355, 0.17621198296546936, 0.20789910852909088]
+-------------------------------------------------------
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_1', '../../bionoi_output/atom_type/heme/fold_3', '../../bionoi_output/atom_type/heme/fold_4', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [2]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/heme/fold_2']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+Model:  resnet18
+Feature extracting: False
+Using pretrained model: True
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0003
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/8
+---------------
+train Loss: 0.4360
+train Accuracy:0.886 Precision:0.704 Recall:0.888 F1:0.785 MCC:0.718.
+val Loss: 0.6530
+val Accuracy:0.745 Precision:0.478 Recall:0.977 F1:0.642 MCC:0.552.
+ 
+Epoch 2/8
+---------------
+train Loss: 0.2702
+train Accuracy:0.930 Precision:0.800 Recall:0.935 F1:0.862 MCC:0.820.
+val Loss: 0.4000
+val Accuracy:0.912 Precision:0.771 Recall:0.890 F1:0.826 MCC:0.771.
+ 
+Epoch 3/8
+---------------
+train Loss: 0.1783
+train Accuracy:0.955 Precision:0.864 Recall:0.959 F1:0.909 MCC:0.881.
+val Loss: 1.1611
+val Accuracy:0.885 Precision:0.797 Recall:0.682 F1:0.735 MCC:0.665.
+ 
+Epoch 4/8
+---------------
+train Loss: 0.1229
+train Accuracy:0.969 Precision:0.903 Recall:0.972 F1:0.936 MCC:0.917.
+val Loss: 0.5418
+val Accuracy:0.920 Precision:0.817 Recall:0.851 F1:0.833 MCC:0.781.
+ 
+Epoch 5/8
+---------------
+train Loss: 0.0983
+train Accuracy:0.976 Precision:0.923 Recall:0.978 F1:0.950 MCC:0.934.
+val Loss: 0.9794
+val Accuracy:0.908 Precision:0.874 Recall:0.712 F1:0.785 MCC:0.733.
+ 
+Epoch 6/8
+---------------
+train Loss: 0.0802
+train Accuracy:0.980 Precision:0.937 Recall:0.982 F1:0.959 MCC:0.946.
+val Loss: 0.7782
+val Accuracy:0.923 Precision:0.898 Recall:0.759 F1:0.823 MCC:0.779.
+ 
+Epoch 7/8
+---------------
+train Loss: 0.0713
+train Accuracy:0.982 Precision:0.943 Recall:0.984 F1:0.963 MCC:0.951.
+val Loss: 0.5981
+val Accuracy:0.928 Precision:0.838 Recall:0.858 F1:0.848 MCC:0.801.
+ 
+Epoch 8/8
+---------------
+train Loss: 0.0639
+train Accuracy:0.985 Precision:0.950 Recall:0.986 F1:0.968 MCC:0.958.
+val Loss: 0.5449
+val Accuracy:0.912 Precision:0.762 Recall:0.907 F1:0.828 MCC:0.775.
+Training complete in 167m 43s
+*********************************************************************
+starting 3th fold cross-validation
+-------------------------------------------------------
+Getting statistics for dataset...
+--------------------------------------------------------
+folds:  [1, 2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_1', '../../bionoi_output/atom_type/heme/fold_2', '../../bionoi_output/atom_type/heme/fold_3', '../../bionoi_output/atom_type/heme/fold_4', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 18672, 5760, 5712, 5712, 5712, 5712]
+mean of the dataset:  [0.4465937316417694, 0.5452571511268616, 0.41942933201789856]
+standard deviation of the dataset:  [0.2156015783548355, 0.17621198296546936, 0.20789910852909088]
+-------------------------------------------------------
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_1', '../../bionoi_output/atom_type/heme/fold_2', '../../bionoi_output/atom_type/heme/fold_4', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [3]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/heme/fold_3']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+Model:  resnet18
+Feature extracting: False
+Using pretrained model: True
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0003
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/8
+---------------
+train Loss: 0.4522
+train Accuracy:0.877 Precision:0.684 Recall:0.885 F1:0.772 MCC:0.700.
+val Loss: 0.4411
+val Accuracy:0.897 Precision:0.718 Recall:0.924 F1:0.808 MCC:0.751.
+ 
+Epoch 2/8
+---------------
+train Loss: 0.2776
+train Accuracy:0.927 Precision:0.793 Recall:0.930 F1:0.856 MCC:0.812.
+val Loss: 0.5554
+val Accuracy:0.880 Precision:0.676 Recall:0.937 F1:0.785 MCC:0.723.
+ 
+Epoch 3/8
+---------------
+train Loss: 0.1803
+train Accuracy:0.953 Precision:0.860 Recall:0.957 F1:0.906 MCC:0.877.
+val Loss: 0.5124
+val Accuracy:0.924 Precision:0.794 Recall:0.915 F1:0.850 MCC:0.803.
+ 
+Epoch 4/8
+---------------
+train Loss: 0.1260
+train Accuracy:0.968 Precision:0.901 Recall:0.969 F1:0.934 MCC:0.913.
+val Loss: 0.5743
+val Accuracy:0.884 Precision:0.684 Recall:0.940 F1:0.792 MCC:0.731.
+ 
+Epoch 5/8
+---------------
+train Loss: 0.0961
+train Accuracy:0.977 Precision:0.927 Recall:0.979 F1:0.952 MCC:0.938.
+val Loss: 0.4558
+val Accuracy:0.948 Precision:0.872 Recall:0.910 F1:0.891 MCC:0.857.
+ 
+Epoch 6/8
+---------------
+train Loss: 0.0794
+train Accuracy:0.981 Precision:0.938 Recall:0.982 F1:0.960 MCC:0.947.
+val Loss: 0.5169
+val Accuracy:0.907 Precision:0.741 Recall:0.926 F1:0.823 MCC:0.769.
+ 
+Epoch 7/8
+---------------
+train Loss: 0.0708
+train Accuracy:0.983 Precision:0.945 Recall:0.984 F1:0.964 MCC:0.953.
+val Loss: 0.5808
+val Accuracy:0.907 Precision:0.738 Recall:0.936 F1:0.825 MCC:0.773.
+ 
+Epoch 8/8
+---------------
+train Loss: 0.0623
+train Accuracy:0.985 Precision:0.952 Recall:0.985 F1:0.969 MCC:0.959.
+val Loss: 0.5497
+val Accuracy:0.931 Precision:0.816 Recall:0.913 F1:0.862 MCC:0.818.
+Training complete in 167m 30s
+*********************************************************************
+starting 4th fold cross-validation
+-------------------------------------------------------
+Getting statistics for dataset...
+--------------------------------------------------------
+folds:  [1, 2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_1', '../../bionoi_output/atom_type/heme/fold_2', '../../bionoi_output/atom_type/heme/fold_3', '../../bionoi_output/atom_type/heme/fold_4', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 18672, 5760, 5712, 5712, 5712, 5712]
+mean of the dataset:  [0.4465937316417694, 0.5452571511268616, 0.41942933201789856]
+standard deviation of the dataset:  [0.2156015783548355, 0.17621198296546936, 0.20789910852909088]
+-------------------------------------------------------
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_1', '../../bionoi_output/atom_type/heme/fold_2', '../../bionoi_output/atom_type/heme/fold_3', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [4]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/heme/fold_4']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+Model:  resnet18
+Feature extracting: False
+Using pretrained model: True
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0003
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/8
+---------------
+train Loss: 0.4482
+train Accuracy:0.880 Precision:0.691 Recall:0.885 F1:0.776 MCC:0.706.
+val Loss: 1.0631
+val Accuracy:0.868 Precision:0.745 Recall:0.665 F1:0.703 MCC:0.620.
+ 
+Epoch 2/8
+---------------
+train Loss: 0.2729
+train Accuracy:0.929 Precision:0.797 Recall:0.934 F1:0.860 MCC:0.817.
+val Loss: 0.4289
+val Accuracy:0.887 Precision:0.692 Recall:0.934 F1:0.795 MCC:0.735.
+ 
+Epoch 3/8
+---------------
+train Loss: 0.1774
+train Accuracy:0.955 Precision:0.862 Recall:0.960 F1:0.908 MCC:0.880.
+val Loss: 0.7417
+val Accuracy:0.906 Precision:0.914 Recall:0.659 F1:0.766 MCC:0.724.
+ 
+Epoch 4/8
+---------------
+train Loss: 0.1285
+train Accuracy:0.968 Precision:0.900 Recall:0.972 F1:0.935 MCC:0.915.
+val Loss: 0.4051
+val Accuracy:0.922 Precision:0.777 Recall:0.937 F1:0.850 MCC:0.805.
+ 
+Epoch 5/8
+---------------
+train Loss: 0.0997
+train Accuracy:0.975 Precision:0.921 Recall:0.978 F1:0.949 MCC:0.933.
+val Loss: 0.4811
+val Accuracy:0.931 Precision:0.872 Recall:0.827 F1:0.849 MCC:0.805.
+ 
+Epoch 6/8
+---------------
+train Loss: 0.0840
+train Accuracy:0.979 Precision:0.934 Recall:0.981 F1:0.957 MCC:0.944.
+val Loss: 1.3906
+val Accuracy:0.871 Precision:0.877 Recall:0.524 F1:0.656 MCC:0.613.
+ 
+Epoch 7/8
+---------------
+train Loss: 0.0720
+train Accuracy:0.983 Precision:0.944 Recall:0.985 F1:0.964 MCC:0.953.
+val Loss: 0.5131
+val Accuracy:0.940 Precision:0.897 Recall:0.841 F1:0.868 MCC:0.830.
+ 
+Epoch 8/8
+---------------
+train Loss: 0.0642
+train Accuracy:0.984 Precision:0.949 Recall:0.987 F1:0.967 MCC:0.958.
+val Loss: 0.4463
+val Accuracy:0.943 Precision:0.847 Recall:0.921 F1:0.883 MCC:0.846.
+Training complete in 167m 33s
+*********************************************************************
+starting 5th fold cross-validation
+-------------------------------------------------------
+Getting statistics for dataset...
+--------------------------------------------------------
+folds:  [1, 2, 3, 4, 5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_1', '../../bionoi_output/atom_type/heme/fold_2', '../../bionoi_output/atom_type/heme/fold_3', '../../bionoi_output/atom_type/heme/fold_4', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 18672, 5760, 5712, 5712, 5712, 5712]
+mean of the dataset:  [0.4465937316417694, 0.5452571511268616, 0.41942933201789856]
+standard deviation of the dataset:  [0.2156015783548355, 0.17621198296546936, 0.20789910852909088]
+-------------------------------------------------------
+--------------------------------------------------------
+generating training dataset...
+folds:  [1, 2, 3, 4]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_1', '../../bionoi_output/atom_type/control/fold_2', '../../bionoi_output/atom_type/control/fold_3', '../../bionoi_output/atom_type/control/fold_4', '../../bionoi_output/atom_type/heme/fold_1', '../../bionoi_output/atom_type/heme/fold_2', '../../bionoi_output/atom_type/heme/fold_3', '../../bionoi_output/atom_type/heme/fold_4']
+folder classes:  [0, 0, 0, 0, 1, 1, 1, 1]
+lengths of the folders:  [18720, 18672, 18672, 18672, 5760, 5712, 5712, 5712]
+--------------------------------------------------------
+generating validation dataset...
+folds:  [5]
+class name to integer map:  {'control': 0, 'heme': 1}
+getting training data from following folders:  ['../../bionoi_output/atom_type/control/fold_5', '../../bionoi_output/atom_type/heme/fold_5']
+folder classes:  [0, 1]
+lengths of the folders:  [18672, 5712]
+Model:  resnet18
+Feature extracting: False
+Using pretrained model: True
+Using 2 GPUs...
+optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0.0003
+)
+Not using any learning rate scheduler.
+ 
+Epoch 1/8
+---------------
+train Loss: 0.4290
+train Accuracy:0.887 Precision:0.707 Recall:0.888 F1:0.787 MCC:0.721.
+val Loss: 0.4614
+val Accuracy:0.905 Precision:0.772 Recall:0.843 F1:0.806 MCC:0.744.
+ 
+Epoch 2/8
+---------------
+train Loss: 0.2569
+train Accuracy:0.933 Precision:0.810 Recall:0.937 F1:0.868 MCC:0.828.
+val Loss: 0.4531
+val Accuracy:0.883 Precision:0.690 Recall:0.912 F1:0.786 MCC:0.721.
+ 
+Epoch 3/8
+---------------
+train Loss: 0.1659
+train Accuracy:0.957 Precision:0.870 Recall:0.961 F1:0.913 MCC:0.887.
+val Loss: 0.5247
+val Accuracy:0.919 Precision:0.838 Recall:0.808 F1:0.823 MCC:0.770.
+ 
+Epoch 4/8
+---------------
+train Loss: 0.1173
+train Accuracy:0.970 Precision:0.908 Recall:0.973 F1:0.939 MCC:0.921.
+val Loss: 0.5378
+val Accuracy:0.902 Precision:0.750 Recall:0.873 F1:0.807 MCC:0.745.
+ 
+Epoch 5/8
+---------------
+train Loss: 0.0926
+train Accuracy:0.977 Precision:0.928 Recall:0.979 F1:0.953 MCC:0.938.
+val Loss: 0.8317
+val Accuracy:0.918 Precision:0.890 Recall:0.740 F1:0.808 MCC:0.761.
+ 
+Epoch 6/8
+---------------
+train Loss: 0.0782
+train Accuracy:0.981 Precision:0.940 Recall:0.982 F1:0.961 MCC:0.949.
+val Loss: 0.6540
+val Accuracy:0.886 Precision:0.698 Recall:0.904 F1:0.788 MCC:0.723.
+ 
+Epoch 7/8
+---------------
+train Loss: 0.0700
+train Accuracy:0.983 Precision:0.946 Recall:0.984 F1:0.965 MCC:0.954.
+val Loss: 0.7342
+val Accuracy:0.920 Precision:0.834 Recall:0.821 F1:0.828 MCC:0.775.
+ 
+Epoch 8/8
+---------------
+train Loss: 0.0619
+train Accuracy:0.985 Precision:0.952 Recall:0.985 F1:0.968 MCC:0.959.
+val Loss: 0.8186
+val Accuracy:0.904 Precision:0.780 Recall:0.825 F1:0.802 MCC:0.739.
+Training complete in 167m 35s
+------------------------------------
+metrics for each fold when validation loss reaches minimum:
+[{'loss': 0.7279653237974332, 'acc': 0.8627859477124183, 'precision': 0.6757944062088154, 'recall': 0.8012152777777778, 'mcc': 0.6459328110492271}, {'loss': 0.4000077341876318, 'acc': 0.9121965223097113, 'precision': 0.7706533272699712, 'recall': 0.8900560224089635, 'mcc': 0.7713068524311929}, {'loss': 0.44112638537613114, 'acc': 0.8973507217847769, 'precision': 0.7184479237576583, 'recall': 0.9238445378151261, 'mcc': 0.7506032435117791}, {'loss': 0.4050880149874611, 'acc': 0.9224491469816273, 'precision': 0.7774872912127814, 'recall': 0.9371498599439776, 'mcc': 0.8045421262192763}, {'loss': 0.4531075490975943, 'acc': 0.8833661417322834, 'precision': 0.6898332009531374, 'recall': 0.9122899159663865, 'mcc': 0.7206554714901946}]
+Averge metrics over 5 folds:
+average loss:  0.4854590014892503
+average accuracy:  0.8956296961041634
+average precision:  0.7264432298804727
+average recall:  0.8929111227824462
+average mcc:  0.738608100940334
+cross-validation finished, end of program
