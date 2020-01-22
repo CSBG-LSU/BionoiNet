@@ -11,10 +11,10 @@ source activate pytorch
 cd /work/wshi6/deeplearning-data/bionoi_prj/bionoi
 
 colorby="residue_type"
-mol_folder="../homology_reduced_mols"/*/*
-pop_folder="../pop_folder/"
-profile_folder="../profile_folder/"
-output_folder="../bionoi_output/${colorby}/"
+mol_folder="../../homology_reduced_mols"/*/*
+pop_folder="../../pop_folder/"
+profile_folder="../../profile_folder/"
+output_folder="../../bionoi_output/${colorby}/"
 
 
 img_gen_folder(){
