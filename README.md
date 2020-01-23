@@ -38,7 +38,7 @@ conda env create -f environment.yml
             ├── fold_2
             ├── ...
             └── fold_5
-        ├── nucleotide
+        └── nucleotide
             ├── fold_1   
             ├── fold_2
             ├── ...
