@@ -1,0 +1,17 @@
+roc plots for control_vs_nucleotide
+Averaged AUC for Binding Probability: 0.9158292385180157
+Averaged AUC for Blended: 0.9068620478546834
+Averaged AUC for Center Distance: 0.8567831715837627
+Averaged AUC for Charge: 0.8987194111184102
+Averaged AUC for Hydrophobicity: 0.9179496203259299
+Averaged AUC for SASA: 0.8576417814524598
+Averaged AUC for Sequence Entropy: 0.865554136776261
+
+roc plots for control_vs_heme
+Averaged AUC for Binding Probability: 0.9365433395580455
+Averaged AUC for Blended: 0.948347073677956
+Averaged AUC for Center Distance: 0.9384665692876478
+Averaged AUC for Charge: 0.9316459205736167
+Averaged AUC for Hydrophobicity: 0.9524818298531534
+Averaged AUC for SASA: 0.9342988356958944
+Averaged AUC for Sequence Entropy: 0.9189257272774429

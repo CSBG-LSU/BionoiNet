@@ -88,6 +88,7 @@ if __name__ == "__main__":
         sasa_dir = '../bionoi_cnn_homology_reduced/results/control_vs_nucleotide_cv_sasa.json'
         seq_entropy_dir = '../bionoi_cnn_homology_reduced/results/control_vs_nucleotide_cv_seq_entropy.json' 
 
+    """
     dirs = [atom_type_dir, binding_prob_dir, blended_dir, center_dist_dir, charge_dir, hydrophobicity_dir,residue_type_dir,sasa_dir,seq_entropy_dir]
     model_names = ['Atom Type', 'Binding Probability', 'Blended', 'Center Distance', 'Charge', 'Hydrophobicity', 'Residue Type', 'SASA', 'Sequence Entropy']
     colors = ['b', 'g', 'r', 'dodgerblue', 'darkviolet', 'orange', 'lime', 'black', 'brown']
@@ -100,6 +101,18 @@ if __name__ == "__main__":
                    [2,1],
                    [3,1],
                    [3,1,1,1]]
+    """
+    dirs = [binding_prob_dir, blended_dir, center_dist_dir, charge_dir, hydrophobicity_dir,sasa_dir,seq_entropy_dir]
+    model_names = ['Binding Probability', 'Blended', 'Center Distance', 'Charge', 'Hydrophobicity', 'SASA', 'Sequence Entropy']
+    colors = ['b', 'g', 'r', 'dodgerblue', 'darkviolet', 'orange', 'lime']
+    dashes_list = ['', 
+                   [6, 1, 1, 1], 
+                   [6, 1, 1, 1, 1, 1], 
+                   [6, 1, 1, 1, 1, 1, 1, 1], 
+                   [6, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                   [6, 2],
+                   [2,1]]
+    
     fig=plt.figure(figsize=(10, 10))
     plt.tight_layout()
     
