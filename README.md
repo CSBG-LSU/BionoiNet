@@ -23,7 +23,7 @@ conda env create -f environment.yml
 
 ## Usage
 1. Unzip the .mol2 files located at ```/homology_reduced_folds/mols.zip```.
-2. Download this repository and put it where you extrac the .mol2 files. The layout of the project should be like following:   
+2. Download this repository and put it where you extract the .mol2 files. The layout of the project should be like following:   
 ```
     .
     ├── BionoiNet
