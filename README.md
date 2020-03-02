@@ -15,7 +15,7 @@ conda env create -f environment.yml
 
 ## Folders
 * bionoi: a software that transforms ligand-binding sites (.mol2 files) into Voronoi diagrams.
-* bionoi_autoencoder: autoencoder that trained on Bionoi images in a supervised manner. The trained autoencoder can be used to produce latent space vectors of Bionoi images for machine learning applications.
+* bionoi_autoencoder: autoencoder that trained on Bionoi images in an un-supervised manner. The trained autoencoder can be used to produce latent space vectors of Bionoi images for machine learning applications.
 * bionoi_cnn_homology_reduced: a convolutional neural network (CNN) trained on the Voronoi representations of ligand-binding sites for classification.
 * bionoi_ml_homology_reduced: machine learning baselinies to classifiy binding sites.
 * bionoi_roc: code to plot roc curves for classification.
