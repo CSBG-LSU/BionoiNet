@@ -53,3 +53,4 @@ python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -root_dir .
 4. Grab a cup of coffee and wait for results.
 
 ## Citation
+Shi, Wentao, et al. "BionoiNet: Ligand-binding site classification with off-the-shelf deep neural network." *Bioinformatics* (2020).
