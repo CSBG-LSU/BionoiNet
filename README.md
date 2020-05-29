@@ -49,7 +49,7 @@ conda env create -f environment.yml
 ```
 python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -root_dir ../../bionoi_output/residue_type/ -batch_size 32 -result_file_suffix 1st
 ```
-4. Grab a cup of coffee and wait for results.
+5. Grab a cup of coffee and wait for results.
 
 ## Citation
 Shi, Wentao, et al. "BionoiNet: Ligand-binding site classification with off-the-shelf deep neural network." *Bioinformatics* (2020).
