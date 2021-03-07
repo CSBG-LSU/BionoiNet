@@ -22,7 +22,7 @@ To install the dependcy Python packages, use Conda:
 conda env create -f environment.yml
 ```
 
-## Usage
+## Generate images for example binding site
 1. Example image colored by atom type.
    ```
    python bionoi.py -colorby atom_type
@@ -95,10 +95,9 @@ conda env create -f environment.yml
    <p align="center">
    <img width="200" height="200" src="example_output/5iunE00_blended_XOY+_r0_OO.png">
    </p>
-10. To generate images for your own binding sites, you need to write a simple bash script to specify the path of .mol2 file, pop file (for sasa) and profile file (for sequence entropy) for each binding site. The ```img_gen.sh``` is a straightforward example to do that.
 
+## Generate Images for your own dataset
+To generate images for your own binding sites, you need to write a simple bash script to specify the path of .mol2 file, pop file (for sasa) and profile file (for sequence entropy) for each binding site. The ```img_gen.sh``` is a straightforward example to do that.
 
-## Contributors:
-Rajiv Gandhi Govindaraj, Jeffrey Lemoine, Limeng Pu, Ye Fang, Wentao Shi, Joseph Feinstein and Michal Brylinski.
-
-## Citation:
+## Citation
+Shi W, Lemoine JM, Shawky MA, Singha M, Pu L, Yang S, Ramanujam J, Brylinski M. (2020) BionoiNet: Ligand-binding site classification with off-the-shelf deep neural network. Bioinformatics 36 (10): 3077-3083.
