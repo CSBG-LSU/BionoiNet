@@ -788,7 +788,6 @@ def img_gen(args):
     out_folder = args.out
 
     if not os.path.exists(out_folder):
-    if not os.path.exists(out_folder):
         os.makedirs(out_folder)
 
     # Alias args
