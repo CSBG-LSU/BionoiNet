@@ -1,5 +1,4 @@
 # BionoiNet
-## Description
 BionoiNet is a deep learning-based framework for ligand-binding site classification. It transforms 3-d structures of ligand-binding sites into 2-d images, and then these images are processed by a deep neural network (DNN) to generate classification results. The pipeline of BionoiNet is shown below:
 
 ![](https://github.com/CSBG-LSU/BionoiNet/blob/master/figures/BionoiNet.PNG)
