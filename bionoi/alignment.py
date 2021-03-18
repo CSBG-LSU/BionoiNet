@@ -70,9 +70,14 @@ def align_by_axis(sorted_vectors, *axes):
     bases = {**bases, **tmp}
 
     # Align the first principal axes
-    rot1 = vrrotvec(np.array(bases[axes[0]]), sorted_vectors[:, 0])  # return rotation axis and rotation angle
-    rmat1 = vrrotvec2mat(rot1)                # return rotation matrix (from principal axis to [1,0,0])
-    pa1 = np.matmul(rmat1.T, sorted_vectors)  # then, apply the rotation
+    # return rotation axis and rotation angle
+    rot1 = vrrotvec(np.array(bases[axes[0]]), sorted_vectors[:, 0])
+
+    # return rotation matrix (from principal axis to [1,0,0])
+    rmat1 = vrrotvec2mat(rot1)
+
+    # then, apply the rotation
+    pa1 = np.matmul(rmat1.T, sorted_vectors)
 
     # Align the second principal axes
     rot2 = vrrotvec(np.array(bases[axes[1]]), pa1[:, 1])
@@ -91,6 +96,7 @@ def align_by_axis(sorted_vectors, *axes):
 
 def align(sorted_vectors, proj_direction):
     transformation_matrix = None
+
     if proj_direction == 1:
         transformation_matrix = xoy_positive_proj(sorted_vectors)
     elif proj_direction == 2:
@@ -103,105 +109,144 @@ def align(sorted_vectors, proj_direction):
         transformation_matrix = zox_positive_proj(sorted_vectors)
     elif proj_direction == 6:
         transformation_matrix = zox_negative_proj(sorted_vectors)
+
     return transformation_matrix
 
 
 def xoy_positive_proj(sorted_vectors):
-    # Align the first principal axes to the X-axes      #-------------------------------------------
-    rx = vrrotvec(np.array([1, 0, 0]), sorted_vectors[:, 0])  # return rotation axis and rotation angle
-    mx = vrrotvec2mat(rx)                           # return rotation matrix (from principal axis to [1,0,0])
-    pa1 = np.matmul(mx.T, sorted_vectors)           # then, apply the rotation
+    # Align the first principal axes to the X-axes
+    # return rotation axis and rotation angle
+    rx = vrrotvec(np.array([1, 0, 0]), sorted_vectors[:, 0])
+    # return rotation matrix (from principal axis to [1,0,0])
+    mx = vrrotvec2mat(rx)
+    # then, apply the rotation
+    pa1 = np.matmul(mx.T, sorted_vectors)
 
     # Align the second principal axes to the Y-axes
-    ry = vrrotvec(np.array([0, 1, 0]), pa1[:, 1])   # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
-    my = vrrotvec2mat(ry)                           # we can rotate to get (0,1,0) result directly
-    transformation_matrix = np.matmul(my.T, mx.T)   # We get the total transformation matrix
+    # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
+    ry = vrrotvec(np.array([0, 1, 0]), pa1[:, 1])
+    # we can rotate to get (0,1,0) result directly
+    my = vrrotvec2mat(ry)
+    # We get the total transformation matrix
+    transformation_matrix = np.matmul(my.T, mx.T)
 
     return transformation_matrix
 
 
 def xoy_negative_proj(sorted_vectors):
-    # Align the first principal axes to the X-axes      #-------------------------------------------
-    rx = vrrotvec(np.array([1, 0, 0]), sorted_vectors[:, 0])  # return rotation axis and rotation angle
-    mx = vrrotvec2mat(rx)                           # return rotation matrix (from principal axis to [1,0,0])
-    pa1 = np.matmul(mx.T, sorted_vectors)           # then, apply the rotation
+    # Align the first principal axes to the X-axes
+    # return rotation axis and rotation angle
+    rx = vrrotvec(np.array([1, 0, 0]), sorted_vectors[:, 0])
+    # return rotation matrix (from principal axis to [1,0,0])
+    mx = vrrotvec2mat(rx)
+    # then, apply the rotation
+    pa1 = np.matmul(mx.T, sorted_vectors)
 
     # Align the second principal axes to the Y-axes
-    ry = vrrotvec(np.array([0, 1, 0]), pa1[:, 1])   # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
+    # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
+    ry = vrrotvec(np.array([0, 1, 0]), pa1[:, 1])
     my = vrrotvec2mat(ry)
     pa2 = np.matmul(my.T, mx.T)
     # Align the second principal axes to the Z-negative-direction
-    rz = vrrotvec(np.array([0, 0, -1]), pa2[:, 2])  # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
+    # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
+    rz = vrrotvec(np.array([0, 0, -1]), pa2[:, 2])
     mz = vrrotvec2mat(rz)
     # we can rotate to get (0,1,0) result directly
-    transformation_matrix = np.matmul(mz.T, my.T)   # We get the total transformation matrix
+    # We get the total transformation matrix
+    transformation_matrix = np.matmul(mz.T, my.T)
 
     return transformation_matrix
 
 
 def yoz_positive_proj(sorted_vectors):
-    # Align the first principal axes to the y-axes      #-------------------------------------------
-    rx = vrrotvec(np.array([0, 1, 0]), sorted_vectors[:, 0])  # return rotation axis and rotation angle
-    mx = vrrotvec2mat(rx)                           # return rotation matrix (from principal axis to [0,1,0])
-    pa1 = np.matmul(mx.T, sorted_vectors)           # then, apply the rotation
+    # Align the first principal axes to the y-axes
+    # return rotation axis and rotation angle
+    rx = vrrotvec(np.array([0, 1, 0]), sorted_vectors[:, 0])
+    # return rotation matrix (from principal axis to [0,1,0])
+    mx = vrrotvec2mat(rx)
+    # then, apply the rotation
+    pa1 = np.matmul(mx.T, sorted_vectors)
 
     # Align the second principal axes to the z-axes
-    ry = vrrotvec(np.array([0, 0, 1]), pa1[:, 1])   # As principal axes are orthogonal and (0,1,0)(0,0,1)are orthogonal
-    my = vrrotvec2mat(ry)                           # we can rotate to get (0,0,1) result directly
-    transformation_matrix = np.matmul(my.T, mx.T)   # We get the total transformation matrix
+    # As principal axes are orthogonal and (0,1,0)(0,0,1)are orthogonal
+    ry = vrrotvec(np.array([0, 0, 1]), pa1[:, 1])
+    # we can rotate to get (0,0,1) result directly
+    my = vrrotvec2mat(ry)
+    # We get the total transformation matrix
+    transformation_matrix = np.matmul(my.T, mx.T)
 
     return transformation_matrix
 
 
 def yoz_negative_proj(sorted_vectors):
-    # Align the first principal axes to the y-axes      #-------------------------------------------
-    rx = vrrotvec(np.array([0, 1, 0]), sorted_vectors[:, 0])  # return rotation axis and rotation angle
-    mx = vrrotvec2mat(rx)                           # return rotation matrix (from principal axis to [0,1,0])
-    pa1 = np.matmul(mx.T, sorted_vectors)           # then, apply the rotation
+    # Align the first principal axes to the y-axes
+    # return rotation axis and rotation angle
+    rx = vrrotvec(np.array([0, 1, 0]), sorted_vectors[:, 0])
+    # return rotation matrix (from principal axis to [0,1,0])
+    mx = vrrotvec2mat(rx)
+    # then, apply the rotation
+    pa1 = np.matmul(mx.T, sorted_vectors)
 
     # Align the second principal axes to the z-axes
-    ry = vrrotvec(np.array([0, 0, 1]), pa1[:, 1])   # As principal axes are orthogonal and (0,1,0)(0,0,1)are orthogonal
-    my = vrrotvec2mat(ry)                           # we can rotate to get (0,0,1) result directly
+    # As principal axes are orthogonal and (0,1,0)(0,0,1)are orthogonal
+    ry = vrrotvec(np.array([0, 0, 1]), pa1[:, 1])
+    # we can rotate to get (0,0,1) result directly
+    my = vrrotvec2mat(ry)
     pa2 = np.matmul(my.T, mx.T)
 
     # Align the second principal axes to the Z-negative-direction
-    rz = vrrotvec(np.array([-1, 0, 0]), pa2[:, 2])  # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
+    # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
+    rz = vrrotvec(np.array([-1, 0, 0]), pa2[:, 2])
     mz = vrrotvec2mat(rz)
     # we can rotate to get (0,1,0) result directly
-    transformation_matrix = np.matmul(mz.T, my.T)  # We get the total transformation matrix
+    # We get the total transformation matrix
+    transformation_matrix = np.matmul(mz.T, my.T)
 
     return transformation_matrix
 
 
 def zox_positive_proj(sorted_vectors):
-    # Align the first principal axes to the z-axes      #-------------------------------------------
-    rx = vrrotvec(np.array([0, 0, 1]), sorted_vectors[:, 0])  # return rotation axis and rotation angle
-    mx = vrrotvec2mat(rx)                           # return rotation matrix (from principal axis to [0,1,0])
-    pa1 = np.matmul(mx.T, sorted_vectors)           # then, apply the rotation
+    # Align the first principal axes to the z-axes
+    # return rotation axis and rotation angle
+    rx = vrrotvec(np.array([0, 0, 1]), sorted_vectors[:, 0])
+    # return rotation matrix (from principal axis to [0,1,0])
+    mx = vrrotvec2mat(rx)
+    # then, apply the rotation
+    pa1 = np.matmul(mx.T, sorted_vectors)
 
     # Align the second principal axes to the x-axes
-    ry = vrrotvec(np.array([1, 0, 0]), pa1[:, 1])   # As principal axes are orthogonal and (0,1,0)(0,0,1)are orthogonal
-    my = vrrotvec2mat(ry)                           # we can rotate to get (0,0,1) result directly
-    transformation_matrix = np.matmul(my.T, mx.T)   # We get the total transformation matrix
+    # As principal axes are orthogonal and (0,1,0)(0,0,1)are orthogonal
+    ry = vrrotvec(np.array([1, 0, 0]), pa1[:, 1])
+    # we can rotate to get (0,0,1) result directly
+    my = vrrotvec2mat(ry)
+    # We get the total transformation matrix
+    transformation_matrix = np.matmul(my.T, mx.T)
 
     return transformation_matrix
 
 
 def zox_negative_proj(sorted_vectors):
-    # Align the first principal axes to the z-axes      #-------------------------------------------
-    rx = vrrotvec(np.array([0, 0, 1]), sorted_vectors[:, 0])  # return rotation axis and rotation angle
-    mx = vrrotvec2mat(rx)  # return rotation matrix (from principal axis to [0,1,0])
-    pa1 = np.matmul(mx.T, sorted_vectors)  # then, apply the rotation
+    # Align the first principal axes to the z-axes
+    # return rotation axis and rotation angle
+    rx = vrrotvec(np.array([0, 0, 1]), sorted_vectors[:, 0])
+    # return rotation matrix (from principal axis to [0,1,0])
+    mx = vrrotvec2mat(rx)
+    # then, apply the rotation
+    pa1 = np.matmul(mx.T, sorted_vectors)  
 
     # Align the second principal axes to the x-axes
-    ry = vrrotvec(np.array([1, 0, 0]), pa1[:, 1])   # As principal axes are orthogonal and (0,1,0)(0,0,1)are orthogonal
-    my = vrrotvec2mat(ry)                           # we can rotate to get (0,0,1) result directly
+    # As principal axes are orthogonal and (0,1,0)(0,0,1)are orthogonal
+    ry = vrrotvec(np.array([1, 0, 0]), pa1[:, 1])
+    # we can rotate to get (0,0,1) result directly
+    my = vrrotvec2mat(ry)
     pa2 = np.matmul(my.T, mx.T)
 
     # Align the second principal axes to the Z-negative-direction
-    rz = vrrotvec(np.array([0, -1, 0]), pa2[:, 2])  # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
+    # As principal axes are orthogonal and (1,0,0) (0,1,0)are orthogonal
+    rz = vrrotvec(np.array([0, -1, 0]), pa2[:, 2])
     mz = vrrotvec2mat(rz)
     # we can rotate to get (0,1,0) result directly
-    transformation_matrix = np.matmul(mz.T, my.T)  # We get the total transformation matrix
+    # We get the total transformation matrix
+    transformation_matrix = np.matmul(mz.T, my.T)
 
     return transformation_matrix

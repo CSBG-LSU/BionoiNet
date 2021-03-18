@@ -1,21 +1,9 @@
-#!/bin/bash
-#PBS -q workq
-#PBS -l nodes=1:ppn=20
-#PBS -l walltime=72:00:00
-#PBS -N bionoi_residue_type
-#PBS -A loni_omics01
-#PBS -j oe
-
-module purge
-source activate pytorch
-cd /work/wshi6/deeplearning-data/bionoi_prj/bionoi
 
 colorby="residue_type"
 mol_folder="../../homology_reduced_mols"/*/*
 pop_folder="../../pop_folder/"
 profile_folder="../../profile_folder/"
 output_folder="../../bionoi_output/${colorby}/"
-
 
 img_gen_folder(){
     local mol_folder=$1
@@ -86,14 +74,3 @@ do
     echo
     img_gen_folder "$input_files" "$pop_dir" "$profile_dir" "$output_dir" "$colorby"
 done
-
-
-
-
-
-
-
-
-
-
-
