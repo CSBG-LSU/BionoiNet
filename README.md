@@ -50,4 +50,8 @@ python homology_reduced_cnn_cv_resnet18.py -op control_vs_nucleotide -root_dir .
 5. Grab a cup of coffee and wait for results.
 
 ## Citation
-Shi, Wentao, et al. "BionoiNet: Ligand-binding site classification with off-the-shelf deep neural network." *Bioinformatics* (2020).
+If you find this work useful, please cite our papers in your work :)   
+
+Shi W, Lemoine JM, Shawky MA, Singha M, Pu L, Yang S, Ramanujam J, Brylinski M. (2020) BionoiNet: Ligand-binding site classification with off-the-shelf deep neural network. Bioinformatics 36 (10): 3077-3083.   
+
+Feinstein J, Shi W, Ramanujam J, Brylinski M. Bionoi: A Voronoi Diagram-Based Representation of Ligand-Binding Sites in Proteins for Machine Learning Applications. Methods Mol Biol. 2021;2266:299-312. doi: 10.1007/978-1-0716-1209-5_17. PMID: 33759134.   
