@@ -99,8 +99,14 @@ conda env create -f environment.yml
 ## Generate Images for your own dataset
 To generate images for your own binding sites, you need to write a simple bash script to specify the path of .mol2 file, pop file (for sasa) and profile file (for sequence entropy) for each binding site. The ```img_gen.sh``` is a straightforward example to do that.
 
+## Citation
+If you find this work useful, please cite our papers: )
+```
+Shi W, Lemoine JM, Shawky MA, Singha M, Pu L, Yang S, Ramanujam J, Brylinski M. (2020) BionoiNet: Ligand-binding site classification with off-the-shelf deep neural network. Bioinformatics 36 (10): 3077-3083.
+```
+```
+Feinstein J, Shi W, Ramanujam J, Brylinski M. Bionoi: A Voronoi Diagram-Based Representation of Ligand-Binding Sites in Proteins for Machine Learning Applications. Methods Mol Biol. 2021;2266:299-312. doi: 10.1007/978-1-0716-1209-5_17. PMID: 33759134.
+```
+
 ## Contributors
 Wentao Shi, Jeffrey Lemoine, Joseph Feinstein, Rajiv Gandhi Govindaraj, Limeng Pu, Ye Fang, and Michal Brylinski.
-
-## Citation
-Shi W, Lemoine JM, Shawky MA, Singha M, Pu L, Yang S, Ramanujam J, Brylinski M. (2020) BionoiNet: Ligand-binding site classification with off-the-shelf deep neural network. Bioinformatics 36 (10): 3077-3083.
